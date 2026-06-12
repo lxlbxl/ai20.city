@@ -7,7 +7,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "vite",
-    "build": "vite build",
+    "build": "python generate_locations.py && python generate_sitemap.py && vite build",
     "preview": "vite preview"
   },
   "keywords": [],
