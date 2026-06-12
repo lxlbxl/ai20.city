@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,400&family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+    --color-alabaster: #f4f1ea;
+    --color-obsidian: #050505;
+    --color-orange: #ff3300;
+
+    --font-serif-display: 'Cormorant Garamond', serif;
+    --font-sans-tech: 'Space Grotesk', sans-serif;
+}
+
+@layer base {
+    body {
+        background-color: var(--color-alabaster);
+        color: var(--color-obsidian);
+        font-family: var(--font-sans-tech);
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: var(--font-serif-display);
+    }
+}
+
+@layer utilities {
+    .noise-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        pointer-events: none;
+        z-index: 50;
+        opacity: 0.04;
+        background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+    }
+
+    .font-serif-display {
+        font-family: var(--font-serif-display);
+    }
+
+    .font-sans-tech {
+        font-family: var(--font-sans-tech);
+    }
+}

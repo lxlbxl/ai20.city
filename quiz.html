@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Primary Meta Tags -->
+    <title>AI Readiness Assessment (Free 2-Min) | ai20</title>
+    <meta name="title" content="AI Readiness Assessment (Free 2-Min) | ai20">
+    <meta name="description"
+        content="Take our 2-minute AI Readiness Assessment to discover your organization's highest-impact AI opportunities. Get a personalized roadmap instantly.">
+    <meta name="keywords"
+        content="AI Assessment, AI Readiness Quiz, Enterprise AI Roadmap, Free AI Consultation, AI Strategy Tool">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://ai20.city/quiz.html">
+    <meta property="og:title" content="AI Readiness Assessment (Free 2-Min) | ai20">
+    <meta property="og:description"
+        content="Discover your organization's highest-impact AI opportunities. Get a personalized roadmap.">
+    <meta property="og:image" content="https://ai20.city/assets/og-quiz.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://ai20.city/quiz.html">
+    <meta property="twitter:title" content="AI Readiness Assessment (Free 2-Min) | ai20">
+    <meta property="twitter:description"
+        content="Discover your organization's highest-impact AI opportunities. Get a personalized roadmap.">
+    <meta property="twitter:image" content="https://ai20.city/assets/og-quiz.jpg">
+
+    <!-- Canonical -->
+    <link rel="canonical" href="https://ai20.city/quiz.html">
+
+    <!-- Geo Tags -->
+    <meta name="geo.region" content="DE-BE">
+    <meta name="geo.placename" content="Berlin">
+    <meta name="geo.position" content="52.5200;13.4050">
+    <meta name="ICBM" content="52.5200, 13.4050">
+
+    <!-- Schema.org JSON-LD -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "ai20 AI Readiness Assessment",
+      "url": "https://ai20.city/quiz.html",
+      "applicationCategory": "BusinessApplication",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "EUR"
+      },
+      "provider": {
+        "@type": "ProfessionalService",
+        "name": "ai20",
+        "image": "https://ai20.city/assets/logo.png"
+      }
+    }
+    </script>
+</head>
+
+<body class="bg-alabaster text-obsidian overflow-x-hidden min-h-screen flex flex-col">
+    <div id="header-placeholder"></div>
+
+    <main class="flex-grow flex items-center justify-center pt-32 pb-20 px-6">
+        <div
+            class="max-w-2xl w-full border border-[#050505]/10 p-8 md:p-12 relative overflow-hidden bg-white/50 backdrop-blur-sm">
+            <!-- Progress Bar -->
+            <div class="absolute top-0 left-0 w-full h-1 bg-[#050505]/10">
+                <div class="h-full bg-[#ff3300] transition-all duration-500" id="progress-bar" style="width: 0%"></div>
+            </div>
+
+            <div id="quiz-container">
+                <!-- Step 1: Introduction -->
+                <div class="step" data-step="1">
+                    <span class="text-[#ff3300] font-sans-tech text-xs uppercase tracking-widest block mb-4">Free
+                        Assessment</span>
+                    <h1 class="font-serif-display text-4xl md:text-5xl italic mb-6">Discover Your AI Potential.</h1>
+                    <p class="font-sans-tech text-sm opacity-70 mb-8 leading-relaxed">
+                        This 2-minute assessment will identify your highest-impact AI opportunities and generate a
+                        personalized implementation roadmap.
+                    </p>
+                    <div class="flex flex-col gap-4 p-6 border border-[#050505]/10 mb-8">
+                        <div class="flex items-center gap-4">
+                            <div
+                                class="w-8 h-8 bg-[#ff3300] text-white flex items-center justify-center font-bold text-sm">
+                                1</div>
+                            <span class="font-sans-tech text-sm">Identify your biggest bottlenecks</span>
+                        </div>
+                        <div class="flex items-center gap-4">
+                            <div
+                                class="w-8 h-8 bg-[#ff3300] text-white flex items-center justify-center font-bold text-sm">
+                                2</div>
+                            <span class="font-sans-tech text-sm">Get matched with the right AI solutions</span>
+                        </div>
+                        <div class="flex items-center gap-4">
+                            <div
+                                class="w-8 h-8 bg-[#ff3300] text-white flex items-center justify-center font-bold text-sm">
+                                3</div>
+                            <span class="font-sans-tech text-sm">Receive your personalized roadmap</span>
+                        </div>
+                    </div>
+                    <button
+                        class="next-btn px-8 py-3 bg-[#050505] text-[#f4f1ea] text-xs uppercase tracking-widest hover:bg-[#ff3300] transition-colors w-full">
+                        Start Assessment
+                    </button>
+                </div>
+
+                <!-- Step 2: Business Information -->
+                <div class="step hidden" data-step="2">
+                    <span class="text-[#ff3300] font-sans-tech text-xs uppercase tracking-widest block mb-4">Step 1 of
+                        4</span>
+                    <h2 class="font-serif-display text-3xl italic mb-8">Tell us about your business.</h2>
+
+                    <div class="space-y-6">
+                        <div>
+                            <label class="block font-sans-tech text-[10px] uppercase tracking-widest mb-2">Industry
+                                *</label>
+                            <select name="industry" required
+                                class="w-full bg-[#f4f1ea] p-4 border border-[#050505]/20 font-sans-tech text-sm outline-none focus:border-[#ff3300]">
+                                <option value="">Select your industry...</option>
+                                <option value="Healthcare">Healthcare & Medical</option>
+                                <option value="Legal">Legal Services</option>
+                                <option value="Financial">Financial Services & Accounting</option>
+                                <option value="Real Estate">Real Estate & Property</option>
+                                <option value="E-commerce">E-commerce & Retail</option>
+                                <option value="Manufacturing">Manufacturing & Logistics</option>
+                                <option value="Professional Services">Professional Services</option>
+                                <option value="Technology">SaaS & Technology</option>
+                                <option value="Other">Other</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label class="block font-sans-tech text-[10px] uppercase tracking-widest mb-2">Location
+                                *</label>
+                            <select name="location" required
+                                class="w-full bg-[#f4f1ea] p-4 border border-[#050505]/20 font-sans-tech text-sm outline-none focus:border-[#ff3300]">
+                                <option value="">Select your country...</option>
+                                <option value="UK">United Kingdom</option>
+                                <option value="Germany">Germany</option>
+                                <option value="France">France</option>
+                                <option value="Netherlands">Netherlands</option>
+                                <option value="Spain">Spain</option>
+                                <option value="Italy">Italy</option>
+                                <option value="Switzerland">Switzerland</option>
+                                <option value="Ireland">Ireland</option>
+                                <option value="Other EU">Other EU Country</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label class="block font-sans-tech text-[10px] uppercase tracking-widest mb-2">Company Size
+                                *</label>
+                            <div class="grid grid-cols-2 md:grid-cols-3 gap-3">
+                                <label
+                                    class="flex items-center justify-center p-4 border border-[#050505]/20 cursor-pointer hover:border-[#ff3300] transition-colors has-[:checked]:bg-[#050505] has-[:checked]:text-white">
+                                    <input type="radio" name="size" value="1-10" class="sr-only">
+                                    <span class="font-sans-tech text-sm">1-10</span>
+                                </label>
+                                <label
+                                    class="flex items-center justify-center p-4 border border-[#050505]/20 cursor-pointer hover:border-[#ff3300] transition-colors has-[:checked]:bg-[#050505] has-[:checked]:text-white">
+                                    <input type="radio" name="size" value="11-50" class="sr-only">
+                                    <span class="font-sans-tech text-sm">11-50</span>
+                                </label>
+                                <label
+                                    class="flex items-center justify-center p-4 border border-[#050505]/20 cursor-pointer hover:border-[#ff3300] transition-colors has-[:checked]:bg-[#050505] has-[:checked]:text-white">
+                                    <input type="radio" name="size" value="51-200" class="sr-only">
+                                    <span class="font-sans-tech text-sm">51-200</span>
+                                </label>
+                                <label
+                                    class="flex items-center justify-center p-4 border border-[#050505]/20 cursor-pointer hover:border-[#ff3300] transition-colors has-[:checked]:bg-[#050505] has-[:checked]:text-white">
+                                    <input type="radio" name="size" value="201-500" class="sr-only">
+                                    <span class="font-sans-tech text-sm">201-500</span>
+                                </label>
+                                <label
+                                    class="flex items-center justify-center p-4 border border-[#050505]/20 cursor-pointer hover:border-[#ff3300] transition-colors has-[:checked]:bg-[#050505] has-[:checked]:text-white">
+                                    <input type="radio" name="size" value="500+" class="sr-only">
+                                    <span class="font-sans-tech text-sm">500+</span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="flex gap-4 mt-8">
+                        <button
+                            class="prev-btn px-6 py-3 border border-[#050505] text-xs uppercase tracking-widest hover:bg-[#050505] hover:text-[#f4f1ea] transition-colors">Back</button>
+                        <button
+                            class="next-btn flex-1 px-8 py-3 bg-[#050505] text-[#f4f1ea] text-xs uppercase tracking-widest hover:bg-[#ff3300] transition-colors">Continue</button>
+                    </div>
+                </div>
+
+                <!-- Step 3: Challenges & Goals -->
+                <div class="step hidden" data-step="3">
+                    <span class="text-[#ff3300] font-sans-tech text-xs uppercase tracking-widest block mb-4">Step 2 of
+                        4</span>
+                    <h2 class="font-serif-display text-3xl italic mb-8">What are your biggest challenges?</h2>
+
+                    <div class="space-y-6">
+                        <div>
+                            <label class="block font-sans-tech text-[10px] uppercase tracking-widest mb-4">Select all
+                                that apply *</label>
+                            <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
+                                <label
+                                    class="flex items-center gap-3 p-4 border border-[#050505]/20 cursor-pointer hover:border-[#ff3300] transition-colors has-[:checked]:bg-[#ff3300]/10 has-[:checked]:border-[#ff3300]">
+                                    <input type="checkbox" name="challenges" value="costs"
+                                        class="accent-[#ff3300] w-4 h-4">
+                                    <span class="font-sans-tech text-sm">Reduce operating costs</span>
+                                </label>
+                                <label
+                                    class="flex items-center gap-3 p-4 border border-[#050505]/20 cursor-pointer hover:border-[#ff3300] transition-colors has-[:checked]:bg-[#ff3300]/10 has-[:checked]:border-[#ff3300]">
+                                    <input type="checkbox" name="challenges" value="revenue"
+                                        class="accent-[#ff3300] w-4 h-4">
+                                    <span class="font-sans-tech text-sm">Increase revenue</span>
+                                </label>
+                                <label
+                                    class="flex items-center gap-3 p-4 border border-[#050505]/20 cursor-pointer hover:border-[#ff3300] transition-colors has-[:checked]:bg-[#ff3300]/10 has-[:checked]:border-[#ff3300]">
+                                    <input type="checkbox" name="challenges" value="efficiency"
+                                        class="accent-[#ff3300] w-4 h-4">
+                                    <span class="font-sans-tech text-sm">Improve efficiency</span>
+                                </label>
+                                <label
+                                    class="flex items-center gap-3 p-4 border border-[#050505]/20 cursor-pointer hover:border-[#ff3300] transition-colors has-[:checked]:bg-[#ff3300]/10 has-[:checked]:border-[#ff3300]">
+                                    <input type="checkbox" name="challenges" value="cx"
+                                        class="accent-[#ff3300] w-4 h-4">
+                                    <span class="font-sans-tech text-sm">Better customer experience</span>
+                                </label>
+                                <label
+                                    class="flex items-center gap-3 p-4 border border-[#050505]/20 cursor-pointer hover:border-[#ff3300] transition-colors has-[:checked]:bg-[#ff3300]/10 has-[:checked]:border-[#ff3300]">
+                                    <input type="checkbox" name="challenges" value="scaling"
+                                        class="accent-[#ff3300] w-4 h-4">
+                                    <span class="font-sans-tech text-sm">Scale without hiring</span>
+                                </label>
+                                <label
+                                    class="flex items-center gap-3 p-4 border border-[#050505]/20 cursor-pointer hover:border-[#ff3300] transition-colors has-[:checked]:bg-[#ff3300]/10 has-[:checked]:border-[#ff3300]">
+                                    <input type="checkbox" name="challenges" value="competitive"
+                                        class="accent-[#ff3300] w-4 h-4">
+                                    <span class="font-sans-tech text-sm">Stay competitive</span>
+                                </label>
+                            </div>
+                        </div>
+
+                        <div>
+                            <label class="block font-sans-tech text-[10px] uppercase tracking-widest mb-2">Are you
+                                currently using AI?</label>
+                            <div class="grid grid-cols-3 gap-3">
+                                <label
+                                    class="flex items-center justify-center p-4 border border-[#050505]/20 cursor-pointer hover:border-[#ff3300] transition-colors has-[:checked]:bg-[#050505] has-[:checked]:text-white">
+                                    <input type="radio" name="aiUsage" value="no" class="sr-only">
+                                    <span class="font-sans-tech text-sm">Not yet</span>
+                                </label>
+                                <label
+                                    class="flex items-center justify-center p-4 border border-[#050505]/20 cursor-pointer hover:border-[#ff3300] transition-colors has-[:checked]:bg-[#050505] has-[:checked]:text-white">
+                                    <input type="radio" name="aiUsage" value="partially" class="sr-only">
+                                    <span class="font-sans-tech text-sm">Partially</span>
+                                </label>
+                                <label
+                                    class="flex items-center justify-center p-4 border border-[#050505]/20 cursor-pointer hover:border-[#ff3300] transition-colors has-[:checked]:bg-[#050505] has-[:checked]:text-white">
+                                    <input type="radio" name="aiUsage" value="yes" class="sr-only">
+                                    <span class="font-sans-tech text-sm">Yes</span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="flex gap-4 mt-8">
+                        <button
+                            class="prev-btn px-6 py-3 border border-[#050505] text-xs uppercase tracking-widest hover:bg-[#050505] hover:text-[#f4f1ea] transition-colors">Back</button>
+                        <button
+                            class="next-btn flex-1 px-8 py-3 bg-[#050505] text-[#f4f1ea] text-xs uppercase tracking-widest hover:bg-[#ff3300] transition-colors">Continue</button>
+                    </div>
+                </div>
+
+                <!-- Step 4: Timeline & Budget -->
+                <div class="step hidden" data-step="4">
+                    <span class="text-[#ff3300] font-sans-tech text-xs uppercase tracking-widest block mb-4">Step 3 of
+                        4</span>
+                    <h2 class="font-serif-display text-3xl italic mb-8">Timeline & Investment</h2>
+
+                    <div class="space-y-6">
+                        <div>
+                            <label class="block font-sans-tech text-[10px] uppercase tracking-widest mb-4">When do you
+                                want to start?</label>
+                            <div class="grid grid-cols-2 md:grid-cols-4 gap-3">
+                                <label
+                                    class="flex items-center justify-center p-4 border border-[#050505]/20 cursor-pointer hover:border-[#ff3300] transition-colors has-[:checked]:bg-[#050505] has-[:checked]:text-white">
+                                    <input type="radio" name="timeline" value="immediate" class="sr-only">
+                                    <span class="font-sans-tech text-xs text-center">Immediately</span>
+                                </label>
+                                <label
+                                    class="flex items-center justify-center p-4 border border-[#050505]/20 cursor-pointer hover:border-[#ff3300] transition-colors has-[:checked]:bg-[#050505] has-[:checked]:text-white">
+                                    <input type="radio" name="timeline" value="1-3months" class="sr-only">
+                                    <span class="font-sans-tech text-xs text-center">1-3 months</span>
+                                </label>
+                                <label
+                                    class="flex items-center justify-center p-4 border border-[#050505]/20 cursor-pointer hover:border-[#ff3300] transition-colors has-[:checked]:bg-[#050505] has-[:checked]:text-white">
+                                    <input type="radio" name="timeline" value="3-6months" class="sr-only">
+                                    <span class="font-sans-tech text-xs text-center">3-6 months</span>
+                                </label>
+                                <label
+                                    class="flex items-center justify-center p-4 border border-[#050505]/20 cursor-pointer hover:border-[#ff3300] transition-colors has-[:checked]:bg-[#050505] has-[:checked]:text-white">
+                                    <input type="radio" name="timeline" value="exploring" class="sr-only">
+                                    <span class="font-sans-tech text-xs text-center">Exploring</span>
+                                </label>
+                            </div>
+                        </div>
+
+                        <div>
+                            <label class="block font-sans-tech text-[10px] uppercase tracking-widest mb-4">Monthly
+                                budget range</label>
+                            <div class="grid grid-cols-2 md:grid-cols-3 gap-3">
+                                <label
+                                    class="flex items-center justify-center p-4 border border-[#050505]/20 cursor-pointer hover:border-[#ff3300] transition-colors has-[:checked]:bg-[#050505] has-[:checked]:text-white">
+                                    <input type="radio" name="budget" value="<5k" class="sr-only">
+                                    <span class="font-sans-tech text-sm">&lt;€5k</span>
+                                </label>
+                                <label
+                                    class="flex items-center justify-center p-4 border border-[#050505]/20 cursor-pointer hover:border-[#ff3300] transition-colors has-[:checked]:bg-[#050505] has-[:checked]:text-white">
+                                    <input type="radio" name="budget" value="5-10k" class="sr-only">
+                                    <span class="font-sans-tech text-sm">€5-10k</span>
+                                </label>
+                                <label
+                                    class="flex items-center justify-center p-4 border border-[#050505]/20 cursor-pointer hover:border-[#ff3300] transition-colors has-[:checked]:bg-[#050505] has-[:checked]:text-white">
+                                    <input type="radio" name="budget" value="10-25k" class="sr-only">
+                                    <span class="font-sans-tech text-sm">€10-25k</span>
+                                </label>
+                                <label
+                                    class="flex items-center justify-center p-4 border border-[#050505]/20 cursor-pointer hover:border-[#ff3300] transition-colors has-[:checked]:bg-[#050505] has-[:checked]:text-white">
+                                    <input type="radio" name="budget" value="25-50k" class="sr-only">
+                                    <span class="font-sans-tech text-sm">€25-50k</span>
+                                </label>
+                                <label
+                                    class="flex items-center justify-center p-4 border border-[#050505]/20 cursor-pointer hover:border-[#ff3300] transition-colors has-[:checked]:bg-[#050505] has-[:checked]:text-white">
+                                    <input type="radio" name="budget" value="50k+" class="sr-only">
+                                    <span class="font-sans-tech text-sm">€50k+</span>
+                                </label>
+                                <label
+                                    class="flex items-center justify-center p-4 border border-[#050505]/20 cursor-pointer hover:border-[#ff3300] transition-colors has-[:checked]:bg-[#050505] has-[:checked]:text-white">
+                                    <input type="radio" name="budget" value="unsure" class="sr-only">
+                                    <span class="font-sans-tech text-sm">Not sure</span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="flex gap-4 mt-8">
+                        <button
+                            class="prev-btn px-6 py-3 border border-[#050505] text-xs uppercase tracking-widest hover:bg-[#050505] hover:text-[#f4f1ea] transition-colors">Back</button>
+                        <button
+                            class="next-btn flex-1 px-8 py-3 bg-[#050505] text-[#f4f1ea] text-xs uppercase tracking-widest hover:bg-[#ff3300] transition-colors">Continue</button>
+                    </div>
+                </div>
+
+                <!-- Step 5: Contact Capture -->
+                <div class="step hidden" data-step="5">
+                    <span class="text-[#ff3300] font-sans-tech text-xs uppercase tracking-widest block mb-4">Final
+                        Step</span>
+                    <h2 class="font-serif-display text-3xl italic mb-4">Get Your Personalized Roadmap</h2>
+                    <p class="font-sans-tech text-sm opacity-70 mb-8">
+                        Enter your details below and we'll send your custom AI implementation strategy within 24 hours.
+                    </p>
+
+                    <!-- Urgency Banner -->
+                    <div class="bg-[#ff3300] text-white p-4 mb-6 text-center">
+                        <span class="font-sans-tech text-[10px] uppercase tracking-widest">Limited Time</span>
+                        <p class="font-serif-display text-xl italic">50% Off Setup Fees - Valid for 24 Hours</p>
+                    </div>
+
+                    <div class="space-y-4">
+                        <div class="grid grid-cols-2 gap-4">
+                            <div>
+                                <label class="block font-sans-tech text-[10px] uppercase tracking-widest mb-2">First
+                                    Name *</label>
+                                <input type="text" name="firstName" required
+                                    class="w-full bg-[#f4f1ea] p-4 border border-[#050505]/20 font-sans-tech text-sm outline-none focus:border-[#ff3300]">
+                            </div>
+                            <div>
+                                <label class="block font-sans-tech text-[10px] uppercase tracking-widest mb-2">Last Name
+                                    *</label>
+                                <input type="text" name="lastName" required
+                                    class="w-full bg-[#f4f1ea] p-4 border border-[#050505]/20 font-sans-tech text-sm outline-none focus:border-[#ff3300]">
+                            </div>
+                        </div>
+                        <div>
+                            <label class="block font-sans-tech text-[10px] uppercase tracking-widest mb-2">Work Email
+                                *</label>
+                            <input type="email" name="email" required
+                                class="w-full bg-[#f4f1ea] p-4 border border-[#050505]/20 font-sans-tech text-sm outline-none focus:border-[#ff3300]">
+                        </div>
+                        <div>
+                            <label class="block font-sans-tech text-[10px] uppercase tracking-widest mb-2">Phone
+                                (Optional)</label>
+                            <input type="tel" name="phone"
+                                class="w-full bg-[#f4f1ea] p-4 border border-[#050505]/20 font-sans-tech text-sm outline-none focus:border-[#ff3300]">
+                        </div>
+                        <div>
+                            <label class="block font-sans-tech text-[10px] uppercase tracking-widest mb-2">Company
+                                Name</label>
+                            <input type="text" name="company"
+                                class="w-full bg-[#f4f1ea] p-4 border border-[#050505]/20 font-sans-tech text-sm outline-none focus:border-[#ff3300]">
+                        </div>
+
+                        <label class="flex items-start gap-3 cursor-pointer mt-4">
+                            <input type="checkbox" name="consent" required class="accent-[#ff3300] w-4 h-4 mt-1">
+                            <span class="font-sans-tech text-xs opacity-70">I agree to receive my personalized AI
+                                roadmap and occasional insights. No spam.</span>
+                        </label>
+                    </div>
+
+                    <div class="flex gap-4 mt-8">
+                        <button
+                            class="prev-btn px-6 py-3 border border-[#050505] text-xs uppercase tracking-widest hover:bg-[#050505] hover:text-[#f4f1ea] transition-colors">Back</button>
+                        <button
+                            class="submit-btn flex-1 px-8 py-3 bg-[#ff3300] text-white text-xs uppercase tracking-widest hover:bg-[#050505] transition-colors">
+                            Get My Roadmap
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div id="footer-placeholder"></div>
+    <script type="module" src="./src/js/quiz.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Live UK Homecare AI Demo | ai20 Local</title>
+<meta content="Experience our AI Homecare Caller Live. Fill the form and get a call in seconds. Test the future of patient intake and sales." name="description"/>
+<!-- Open Graph -->
+<meta content="Live UK Homecare AI Demo | ai20 Local" property="og:title"/>
+<meta content="Experience our AI Homecare Caller Live. Fill the form and get a call in seconds. Test the future of patient intake and sales." property="og:description"/>
+<meta content="website" property="og:type"/>
+<!-- Fonts -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,400&amp;family=Space+Grotesk:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<!-- Tailwind CSS (CDN for standalone usage) -->
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        alabaster: '#f4f1ea',
+                        obsidian: '#050505',
+                        orange: '#ff3300',
+                    },
+                    fontFamily: {
+                        'serif-display': ['"Cormorant Garamond"', 'serif'],
+                        'sans-tech': ['"Space Grotesk"', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+<!-- Icons -->
+<script src="https://unpkg.com/lucide@latest"></script>
+<style>
+        body {
+            background-color: #f4f1ea;
+            color: #050505;
+        }
+
+        /* Custom Select Icon */
+        select.form-input {
+            -webkit-appearance: none;
+               -moz-appearance: none;
+                    appearance: none;
+            background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
+            background-repeat: no-repeat;
+            background-position: right 1rem center;
+            background-size: 1em;
+        }
+    </style>
+<link href="https://ai20.city/locations/uk/healthcare/homecare-demo.html" rel="canonical"/>
+  </head>
+<body class="bg-alabaster text-obsidian overflow-x-hidden relative min-h-screen flex flex-col font-sans-tech">
+<!-- Navigation -->
+<nav class="fixed top-0 left-0 w-full z-[100] px-6 md:px-12 py-6 transition-all duration-500 flex justify-between items-center bg-[#f4f1ea]/90 backdrop-blur-sm" id="main-nav">
+<a class="flex items-center gap-3 group cursor-pointer z-[101]" href="../../../index.html">
+<div class="w-3 h-3 bg-orange rotate-45 group-hover:rotate-0 transition-transform duration-500"></div>
+<span class="font-serif-display text-2xl md:text-3xl tracking-tight font-medium italic text-obsidian">ai20.</span>
+</a>
+<div class="hidden md:flex gap-10 font-sans-tech text-xs tracking-[0.2em] uppercase font-medium">
+<a class="hover:text-orange transition-colors" href="../../../services.html">Expertise</a>
+<a class="hover:text-orange transition-colors" href="../../../offers.html">Offers</a>
+<a class="hover:text-orange transition-colors" href="../../../locations.html">Markets</a>
+<a class="hover:text-orange transition-colors" href="../../../case-studies.html">Case Studies</a>
+<a class="hover:text-orange transition-colors" href="../../../about.html">About</a>
+</div>
+<div class="flex items-center gap-6 z-[101]">
+<a class="hidden md:block px-6 py-2 bg-orange text-white text-[10px] uppercase tracking-widest hover:bg-obsidian transition-colors duration-300" href="#demo-form">
+                Try Live Demo
+            </a>
+<button class="md:hidden flex items-center gap-2 group relative z-50 text-obsidian" id="mobile-menu-btn">
+<span class="font-sans-tech text-[10px] uppercase tracking-widest font-bold transition-colors duration-300" id="menu-text">Menu</span>
+<div class="flex flex-col gap-1.5 w-8">
+<div class="w-full h-0.5 bg-current transition-all duration-300 origin-center" id="hamburger-top">
+</div>
+<div class="w-full h-0.5 bg-current transition-all duration-300 origin-center" id="hamburger-bottom"></div>
+</div>
+</button>
+</div>
+</nav>
+<!-- Mobile Menu Overlay -->
+<div class="fixed inset-0 bg-obsidian text-alabaster z-[90] translate-x-full transition-transform duration-500 ease-[cubic-bezier(0.76,0,0.24,1)] flex flex-col justify-center px-6 md:px-12" id="mobile-menu">
+<div class="grid grid-cols-1 w-full max-w-7xl mx-auto gap-8">
+<div class="flex flex-col gap-2" id="mobile-links">
+<a class="mobile-link block font-serif-display text-5xl md:text-7xl opacity-0 translate-x-[-20px] transition-all duration-500 hover:text-orange hover:italic" href="../../../services.html">Expertise</a>
+<a class="mobile-link block font-serif-display text-5xl md:text-7xl opacity-0 translate-x-[-20px] transition-all duration-500 delay-[50ms] hover:text-orange hover:italic" href="../../../offers.html">Offers</a>
+<a class="mobile-link block font-serif-display text-5xl md:text-7xl opacity-0 translate-x-[-20px] transition-all duration-500 delay-[100ms] hover:text-orange hover:italic" href="../../../locations.html">Markets</a>
+<a class="mobile-link block font-serif-display text-5xl md:text-7xl opacity-0 translate-x-[-20px] transition-all duration-500 delay-[150ms] hover:text-orange hover:italic" href="../../../case-studies.html">Case
+                    Studies</a>
+<a class="mobile-link block font-serif-display text-5xl md:text-7xl opacity-0 translate-x-[-20px] transition-all duration-500 delay-[200ms] hover:text-orange hover:italic" href="../../../about.html">About</a>
+<a class="mobile-link block font-serif-display text-5xl md:text-7xl opacity-0 translate-x-[-20px] transition-all duration-500 delay-[250ms] hover:text-orange hover:italic" href="../../../contact.html">Contact</a>
+</div>
+</div>
+</div>
+<main class="max-w-[1400px] mx-auto px-6 md:px-12 py-20 mt-16">
+<div class="mb-16 text-center">
+<a class="text-orange font-sans-tech text-xs uppercase tracking-widest hover:underline mb-4 block" href="../../../locations/uk.html">← Back
+                to UK</a>
+<span class="inline-block border border-obsidian px-3 py-1 rounded-full text-obsidian font-sans-tech text-[10px] uppercase tracking-[0.2em] mb-6">
+                Live Technology Demo
+            </span>
+<h1 class="font-serif-display text-5xl md:text-7xl italic mb-8">
+                Experience AI Homecare <br/>
+<span class="text-orange">Calling Live</span>.
+            </h1>
+<p class="text-xl opacity-70 max-w-2xl mx-auto leading-relaxed font-sans-tech">
+                Don't just take our word for it. Fill out the form below and <strong>your phone will ring in
+                    seconds</strong>. Talk to our AI agent just like a real potential client.
+            </p>
+</div>
+<!-- Benefits / Sales Triggers -->
+<div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-24">
+<div class="p-8 bg-white border border-obsidian/10 hover:border-orange transition-colors">
+<div class="w-10 h-10 bg-orange/10 flex items-center justify-center mb-4 rounded-full text-orange">
+<i class="w-5 h-5" data-lucide="zap"></i>
+</div>
+<h3 class="font-bold mb-2">Instant Speed</h3>
+<p class="text-sm opacity-70">Experience the speed yourself. The AI calls immediately after submission.
+                </p>
+</div>
+<div class="p-8 bg-white border border-obsidian/10 hover:border-orange transition-colors">
+<div class="w-10 h-10 bg-orange/10 flex items-center justify-center mb-4 rounded-full text-orange">
+<i class="w-5 h-5" data-lucide="mic"></i>
+</div>
+<h3 class="font-bold mb-2">Human-Like Voice</h3>
+<p class="text-sm opacity-70">Listen to the latency and tone. It sounds and feels human.</p>
+</div>
+<div class="p-8 bg-white border border-obsidian/10 hover:border-orange transition-colors">
+<div class="w-10 h-10 bg-orange/10 flex items-center justify-center mb-4 rounded-full text-orange">
+<i class="w-5 h-5" data-lucide="brain-circuit"></i>
+</div>
+<h3 class="font-bold mb-2">Smart Interaction</h3>
+<p class="text-sm opacity-70">Ask it questions. Interrupt it. See how it handles real conversation.</p>
+</div>
+<div class="p-8 bg-white border border-obsidian/10 hover:border-orange transition-colors">
+<div class="w-10 h-10 bg-orange/10 flex items-center justify-center mb-4 rounded-full text-orange">
+<i class="w-5 h-5" data-lucide="phone-outgoing"></i>
+</div>
+<h3 class="font-bold mb-2">Scalable</h3>
+<p class="text-sm opacity-70">Imagine this agent making 10,000 calls a day for your business.</p>
+</div>
+</div>
+<!-- Demo Form Section -->
+<div class="max-w-3xl mx-auto bg-white border border-obsidian/10 p-8 md:p-12 shadow-2xl relative overflow-hidden" id="demo-form">
+<!-- Decor element -->
+<div class="absolute top-0 right-0 w-32 h-32 bg-orange/5 rounded-bl-full pointer-events-none"></div>
+<h2 class="font-serif-display text-4xl italic mb-4 text-center">Try the Live Demo</h2>
+<p class="text-center opacity-70 mb-8">Enter your details below to receive a live call from our AI Homecare
+                Agent immediately.</p>
+<form id="ukHomecareForm" onsubmit="handleSubmit(event)">
+<div class="grid md:grid-cols-2 gap-6">
+<div class="form-group pb-6">
+<label class="block text-xs uppercase tracking-widest opacity-70 mb-2" for="Name">Name *</label>
+<input class="w-full p-4 bg-white border border-obsidian/10 focus:outline-none focus:border-orange transition-colors" id="Name" name="Name" placeholder="Your Name" required="" type="text"/>
+</div>
+<div class="form-group pb-6">
+<label class="block text-xs uppercase tracking-widest opacity-70 mb-2" for="Phone Number">Phone
+                            Number *</label>
+<input class="w-full p-4 bg-white border border-obsidian/10 focus:outline-none focus:border-orange transition-colors" id="Phone Number" name="Phone Number" placeholder="+44 7..." required="" type="tel"/>
+<p class="text-[10px] opacity-50 mt-1 uppercase tracking-wider">Must be a valid phone number to
+                            receive the call.</p>
+</div>
+</div>
+<div class="grid md:grid-cols-2 gap-6">
+<div class="form-group pb-6">
+<label class="block text-xs uppercase tracking-widest opacity-70 mb-2" for="Email">Email
+                            *</label>
+<input class="w-full p-4 bg-white border border-obsidian/10 focus:outline-none focus:border-orange transition-colors" id="Email" name="Email" placeholder="name@company.com" required="" type="email"/>
+</div>
+<div class="form-group pb-6">
+<label class="block text-xs uppercase tracking-widest opacity-70 mb-2" for="Company Name">Company Name *</label>
+<input class="w-full p-4 bg-white border border-obsidian/10 focus:outline-none focus:border-orange transition-colors" id="Company Name" name="Company Name" placeholder="Homecare Ltd" required="" type="text"/>
+</div>
+</div>
+<div class="grid md:grid-cols-2 gap-6">
+<div class="form-group pb-6">
+<label class="block text-xs uppercase tracking-widest opacity-70 mb-2" for="Role">Role *</label>
+<input class="w-full p-4 bg-white border border-obsidian/10 focus:outline-none focus:border-orange transition-colors" id="Role" name="Role" placeholder="e.g. Director" required="" type="text"/>
+</div>
+<div class="form-group pb-6">
+<label class="block text-xs uppercase tracking-widest opacity-70 mb-2" for="Company Size">Company Size *</label>
+<select class="w-full p-4 bg-white border border-obsidian/10 focus:outline-none focus:border-orange transition-colors form-input" id="Company Size" name="Company Size" required="">
+<option disabled="" selected="" value="">Select size</option>
+<option value="1">1</option>
+<option value="2-10">2-10</option>
+<option value="11-50">11-50</option>
+<option value="51-100">51-100</option>
+<option value="101+">101+</option>
+</select>
+</div>
+</div>
+<div class="form-group pb-6">
+<label class="block text-xs uppercase tracking-widest opacity-70 mb-2" for="Request">Message
+                        (Optional)</label>
+<textarea class="w-full p-4 bg-white border border-obsidian/10 focus:outline-none focus:border-orange transition-colors" id="Request" name="Request" placeholder="Any specific topic you want the AI to discuss? (Optional)" rows="3"></textarea>
+</div>
+<div class="bg-alabaster p-4 rounded mb-6 text-xs text-center opacity-70">
+                    ⚠️ By clicking below, you consent to receiving an immediate automated AI voice call to the number
+                    provided above.
+                </div>
+<button class="w-full bg-orange text-white py-4 text-xs uppercase tracking-widest hover:bg-obsidian transition-colors shadow-lg hover:shadow-xl transform hover:-translate-y-1 mt-2 cursor-pointer" id="submitBtn" type="submit">
+                    Call Me Now
+                </button>
+<p class="text-center mt-4 text-sm font-medium hidden" id="formStatus"></p>
+</form>
+</div>
+</main>
+<footer class="bg-alabaster border-t border-obsidian/10 pt-24 pb-12 px-6 md:px-12 mt-auto">
+<div class="max-w-[1400px] mx-auto">
+<div class="flex flex-col lg:flex-row justify-between items-start gap-16 mb-24">
+<div class="w-full lg:w-1/3">
+<h3 class="font-serif-display text-4xl italic mb-6">ai20.</h3>
+<p class="font-sans-tech text-sm leading-relaxed max-w-xs opacity-70">
+                        Architecting the future of European enterprise through applied artificial intelligence and
+                        strategic governance.
+                    </p>
+</div>
+<div class="grid grid-cols-2 md:grid-cols-4 gap-12 w-full lg:w-2/3">
+<div class="flex flex-col gap-6">
+<span class="font-sans-tech text-[10px] uppercase tracking-widest border-b border-obsidian pb-2 w-fit">Expertise</span>
+<a class="font-serif-display text-xl italic hover:text-orange transition-colors" href="../../../services.html">All
+                            Services</a>
+<a class="font-serif-display text-xl italic hover:text-orange transition-colors" href="../../../case-studies.html">Case
+                            Studies</a>
+<a class="font-serif-display text-xl italic hover:text-orange transition-colors" href="../../../locations.html">Markets</a>
+</div>
+<div class="flex flex-col gap-6">
+<span class="font-sans-tech text-[10px] uppercase tracking-widest border-b border-obsidian pb-2 w-fit">Company</span>
+<a class="font-serif-display text-xl italic hover:text-orange transition-colors" href="../../../about.html">About</a>
+<a class="font-serif-display text-xl italic hover:text-orange transition-colors" href="../../../contact.html">Contact</a>
+<a class="font-serif-display text-xl italic hover:text-orange transition-colors" href="../../../quiz.html">Assessment</a>
+</div>
+<div class="flex flex-col gap-6">
+<span class="font-sans-tech text-[10px] uppercase tracking-widest border-b border-obsidian pb-2 w-fit">Legal</span>
+<a class="font-serif-display text-xl italic hover:text-orange transition-colors" href="../../../contact.html">Privacy</a>
+<a class="font-serif-display text-xl italic hover:text-orange transition-colors" href="../../../contact.html">Terms</a>
+<a class="font-serif-display text-xl italic hover:text-orange transition-colors" href="../../../contact.html">Compliance</a>
+</div>
+<div class="flex flex-col gap-6">
+<span class="font-sans-tech text-[10px] uppercase tracking-widest border-b border-obsidian pb-2 w-fit">Social</span>
+<a class="font-serif-display text-xl italic hover:text-orange transition-colors" href="https://linkedin.com" target="_blank">LinkedIn</a>
+<a class="font-serif-display text-xl italic hover:text-orange transition-colors" href="https://twitter.com" target="_blank">Twitter/X</a>
+</div>
+</div>
+</div>
+<div class="flex flex-col md:flex-row justify-between items-end border-t border-obsidian/10 pt-8 font-sans-tech text-[10px] uppercase tracking-widest opacity-40">
+<div class="flex flex-col gap-1">
+<p>© 2026 ai20.</p>
+<p>Made in Berlin.</p>
+</div>
+<p class="mt-4 md:mt-0">All Rights Reserved.</p>
+</div>
+</div>
+</footer>
+<script>
+        // Initialize Icons
+        lucide.createIcons();
+
+        // Mobile Menu Logic
+        const mobileBtn = document.getElementById('mobile-menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+        const menuText = document.getElementById('menu-text');
+        const topBar = document.getElementById('hamburger-top');
+        const bottomBar = document.getElementById('hamburger-bottom');
+        const mobileLinks = document.querySelectorAll('.mobile-link');
+
+        if (mobileBtn && mobileMenu) {
+            mobileBtn.addEventListener('click', () => {
+                // In this design, remove class to open (translate-x-full hides it)
+                const isOpen = mobileMenu.classList.toggle('translate-x-full');
+                const isMenuOpen = !mobileMenu.classList.contains('translate-x-full');
+
+                // Button Styling
+                if (isMenuOpen) {
+                    mobileBtn.classList.remove('text-obsidian');
+                    mobileBtn.classList.add('text-alabaster');
+                    menuText.textContent = 'Close';
+
+                    // Animate X
+                    topBar.classList.add('rotate-45', 'translate-y-[3px]');
+                    bottomBar.classList.add('-rotate-45', '-translate-y-[3px]');
+
+                    // Animate Items In
+                    mobileLinks.forEach(link => {
+                        link.classList.remove('opacity-0', 'translate-x-[-20px]');
+                    });
+                } else {
+                    mobileBtn.classList.remove('text-alabaster');
+                    mobileBtn.classList.add('text-obsidian');
+                    menuText.textContent = 'Menu';
+
+                    // Animate Sandwich
+                    topBar.classList.remove('rotate-45', 'translate-y-[3px]');
+                    bottomBar.classList.remove('-rotate-45', '-translate-y-[3px]');
+
+                    // Reset Items
+                    mobileLinks.forEach(link => {
+                        link.classList.add('opacity-0', 'translate-x-[-20px]');
+                    });
+                }
+            });
+        }
+
+        // Form Submittion Logic
+        async function handleSubmit(event) {
+            event.preventDefault();
+            const form = event.target;
+            const btn = document.getElementById('submitBtn');
+            const status = document.getElementById('formStatus');
+
+            btn.disabled = true;
+            btn.innerText = "Calling your phone...";
+            status.classList.add('hidden');
+            status.innerText = "";
+            status.classList.remove('text-green-600', 'text-red-600');
+
+            const formData = new FormData(form);
+            const data = {};
+            formData.forEach((value, key) => {
+                data[key] = value;
+            });
+
+            if (!data['Request']) {
+                data['Request'] = "Demo Call";
+            }
+
+            const webhookUrl = "https://n8n.ai20.city/webhook/uk-homecare-demo";
+
+            try {
+                const response = await fetch(webhookUrl, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify(data)
+                });
+
+                if (response.ok) {
+                    status.innerText = "Initiating Call... Please answer your phone!";
+                    status.classList.add('text-green-600');
+                    status.classList.remove('hidden');
+
+                    btn.innerText = "Call Initiated";
+
+                    setTimeout(() => {
+                        form.reset();
+                        btn.disabled = false;
+                        btn.innerText = "Call Me Again";
+                    }, 5000);
+                } else {
+                    throw new Error('Network response was not ok');
+                }
+            } catch (error) {
+                console.error('Error:', error);
+                status.innerText = "There was an error triggering the call. Please try again.";
+                status.classList.add('text-red-600');
+                status.classList.remove('hidden');
+                btn.disabled = false;
+                btn.innerText = "Call Me Now";
+            }
+        }
+    </script>
+</body>
+</html>

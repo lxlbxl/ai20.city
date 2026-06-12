@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<script>
+        window.onerror = function (msg, url, line, col, error) {
+            document.body.innerHTML += '<div style="color:red; padding:20px; background:white; position:fixed; top:0; left:0; z-index:9999; border:2px solid red;">' +
+                '<strong>Critical Error:</strong><br>' + msg + '<br>' +
+                'URL: ' + url + '<br>' +
+                'Line: ' + line +
+                '</div>';
+        };
+    </script>
+<title>Admin Portal | ai20</title>
+<link href="https://ai20.city/admin.html" rel="canonical"/>
+    <script type="module" crossorigin src="./assets/admin.js"></script>
+    <link rel="modulepreload" crossorigin href="./assets/style.js">
+    <link rel="stylesheet" crossorigin href="./assets/style.css">
+  </head>
+<body class="bg-gray-50 text-gray-900">
+<div id="root"></div>
+</body>
+</html>
