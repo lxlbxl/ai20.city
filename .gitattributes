@@ -1,0 +1,6 @@
+# Force LF for anything that runs as a script on the Linux VPS. Without this,
+# a Windows checkout with core.autocrlf=true can silently introduce CRLF line
+# endings, which breaks the shebang line on Linux ("bad interpreter" errors).
+deploy/**/*.sh   text eol=lf
+deploy/**/*.conf text eol=lf
+*.sh             text eol=lf

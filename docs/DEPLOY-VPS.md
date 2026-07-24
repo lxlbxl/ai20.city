@@ -1,5 +1,15 @@
 # Deployment Fix — nginx VPS (three hosts)
 
+> **Use `deploy/README.md` to actually do this.** It is the fixed, copy-paste
+> sequence — this file is the narrative background for why each step exists.
+> `deploy/` also has the ready-to-drop-in nginx configs (`deploy/nginx/*.conf`,
+> Tier C 301 and HTTPS redirect already baked in), a one-command build+publish
+> script (`deploy/deploy.sh`), and a post-deploy check (`deploy/verify.sh`)
+> that proves the live site is actually correct rather than just "the files
+> are on disk". This repo has no SSH key, CI/CD pipeline, or deploy credential
+> for the VPS, so none of this can be executed from here — it has to be run
+> by whoever has server access.
+
 **Context for the deploy agent.** The site is served by nginx/1.24.0 (Ubuntu) on
 the VPS at `173.212.207.108`. The current deployment is a *single* build with no
 `REGION` env var, so it defaulted to `eu` and the EU site is being served at the
