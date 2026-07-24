@@ -255,6 +255,18 @@ function coreGridHtml(cfg) {
     }).join('\n');
 }
 
+
+/* Favicon + touch icons. Injected here rather than added to each template so
+ * the ~250 generated location/service pages get them too. Absolute paths: each
+ * region is served from its own domain root. */
+const ICON_LINKS = [
+    '  <link rel="icon" href="/favicon.ico" sizes="any">',
+    '  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">',
+    '  <link rel="apple-touch-icon" href="/apple-touch-icon.png">',
+    '  <link rel="manifest" href="/site.webmanifest">',
+    '  <meta name="theme-color" content="#ff3300">',
+].join(String.fromCharCode(10));
+
 function hreflangCluster(pagePath) {
     const links = Object.values(regionsData.regions).map(
         (r) => `  <link rel="alternate" hreflang="${r.hreflang}" href="https://${r.host}${pagePath}">`
@@ -351,6 +363,11 @@ export default function regionPlugin() {
                 // 2. Host rewrite for canonical / OG / schema (skip the neutral apex chooser).
                 if (!/region-select\.html$/.test((ctx && ctx.filename) || '')) {
                     out = out.split('https://ai20.city').join(cfg.origin);
+                }
+
+                // 2b. Favicon / touch icons on every page.
+                if (!out.includes('rel="icon"') && out.includes('</head>')) {
+                    out = out.replace('</head>', ICON_LINKS + String.fromCharCode(10) + '</head>');
                 }
 
                 // 3. hreflang cluster. Skipped for /locations/ - the two regions run
