@@ -1,87 +1,749 @@
 {
   "eu": [
-    { "city": "London", "country": "UK", "status": "Active Hub", "slug": "london" },
-    { "city": "Manchester", "country": "UK", "status": "Active Hub", "slug": "manchester" },
-    { "city": "Birmingham", "country": "UK", "status": "Active Hub", "slug": "birmingham" },
-    { "city": "Edinburgh", "country": "UK", "status": "Active Hub", "slug": "edinburgh" },
-    { "city": "Leeds", "country": "UK", "status": "Expansion", "slug": "leeds" },
-    { "city": "Berlin", "country": "Germany", "status": "HQ", "slug": "berlin" },
-    { "city": "Munich", "country": "Germany", "status": "Active Hub", "slug": "munich" },
-    { "city": "Hamburg", "country": "Germany", "status": "Active Hub", "slug": "hamburg" },
-    { "city": "Frankfurt", "country": "Germany", "status": "Active Hub", "slug": "frankfurt" },
-    { "city": "Cologne", "country": "Germany", "status": "Expansion", "slug": "cologne" },
-    { "city": "Paris", "country": "France", "status": "Active Hub", "slug": "paris" },
-    { "city": "Lyon", "country": "France", "status": "Expansion", "slug": "lyon" },
-    { "city": "Marseille", "country": "France", "status": "Expansion", "slug": "marseille" },
-    { "city": "Amsterdam", "country": "Netherlands", "status": "Active Hub", "slug": "amsterdam" },
-    { "city": "Rotterdam", "country": "Netherlands", "status": "Expansion", "slug": "rotterdam" },
-    { "city": "The Hague", "country": "Netherlands", "status": "Expansion", "slug": "the-hague" },
-    { "city": "Madrid", "country": "Spain", "status": "Active Hub", "slug": "madrid" },
-    { "city": "Barcelona", "country": "Spain", "status": "Active Hub", "slug": "barcelona" },
-    { "city": "Valencia", "country": "Spain", "status": "Expansion", "slug": "valencia" },
-    { "city": "Milan", "country": "Italy", "status": "Active Hub", "slug": "milan" },
-    { "city": "Rome", "country": "Italy", "status": "Expansion", "slug": "rome" },
-    { "city": "Stockholm", "country": "Sweden", "status": "Expansion", "slug": "stockholm" },
-    { "city": "Copenhagen", "country": "Denmark", "status": "Expansion", "slug": "copenhagen" },
-    { "city": "Helsinki", "country": "Finland", "status": "Expansion", "slug": "helsinki" },
-    { "city": "Oslo", "country": "Norway", "status": "Expansion", "slug": "oslo" },
-    { "city": "Zurich", "country": "Switzerland", "status": "Active Hub", "slug": "zurich" },
-    { "city": "Geneva", "country": "Switzerland", "status": "Expansion", "slug": "geneva" },
-    { "city": "Vienna", "country": "Austria", "status": "Expansion", "slug": "vienna" },
-    { "city": "Brussels", "country": "Belgium", "status": "Expansion", "slug": "brussels" },
-    { "city": "Dublin", "country": "Ireland", "status": "Active Hub", "slug": "dublin" },
-    { "city": "Warsaw", "country": "Poland", "status": "Expansion", "slug": "warsaw" },
-    { "city": "Tallinn", "country": "Estonia", "status": "Digital Hub", "slug": "tallinn" },
-    { "city": "Vilnius", "country": "Lithuania", "status": "Tech Hub", "slug": "vilnius" },
-    { "city": "Riga", "country": "Latvia", "status": "Expansion", "slug": "riga" },
-    { "city": "Prague", "country": "Czech Republic", "status": "Expansion", "slug": "prague" },
-    { "city": "Lisbon", "country": "Portugal", "status": "Expansion", "slug": "lisbon" },
-    { "city": "Cambridge", "country": "UK", "status": "Innovation Lab", "slug": "cambridge" },
-    { "city": "Oxford", "country": "UK", "status": "Research Hub", "slug": "oxford" },
-    { "city": "Luxembourg", "country": "Luxembourg", "status": "Finance Hub", "slug": "luxembourg" },
-    { "city": "Malta", "country": "Malta", "status": "iGaming Hub", "slug": "malta" },
-    { "city": "Reykjavik", "country": "Iceland", "status": "Expansion", "slug": "reykjavik" }
+    {
+      "city": "London",
+      "country": "UK",
+      "status": "Active Hub",
+      "slug": "london",
+      "currency": "£",
+      "currencyCode": "GBP",
+      "language": "en"
+    },
+    {
+      "city": "Manchester",
+      "country": "UK",
+      "status": "Active Hub",
+      "slug": "manchester",
+      "currency": "£",
+      "currencyCode": "GBP",
+      "language": "en"
+    },
+    {
+      "city": "Birmingham",
+      "country": "UK",
+      "status": "Active Hub",
+      "slug": "birmingham",
+      "currency": "£",
+      "currencyCode": "GBP",
+      "language": "en"
+    },
+    {
+      "city": "Edinburgh",
+      "country": "UK",
+      "status": "Active Hub",
+      "slug": "edinburgh",
+      "currency": "£",
+      "currencyCode": "GBP",
+      "language": "en"
+    },
+    {
+      "city": "Leeds",
+      "country": "UK",
+      "status": "Expansion",
+      "slug": "leeds",
+      "currency": "£",
+      "currencyCode": "GBP",
+      "language": "en"
+    },
+    {
+      "city": "Berlin",
+      "country": "Germany",
+      "status": "HQ",
+      "slug": "berlin",
+      "currency": "€",
+      "currencyCode": "EUR",
+      "language": "de"
+    },
+    {
+      "city": "Munich",
+      "country": "Germany",
+      "status": "Active Hub",
+      "slug": "munich",
+      "currency": "€",
+      "currencyCode": "EUR",
+      "language": "de",
+      "localName": "München"
+    },
+    {
+      "city": "Hamburg",
+      "country": "Germany",
+      "status": "Active Hub",
+      "slug": "hamburg",
+      "currency": "€",
+      "currencyCode": "EUR",
+      "language": "de"
+    },
+    {
+      "city": "Frankfurt",
+      "country": "Germany",
+      "status": "Active Hub",
+      "slug": "frankfurt",
+      "currency": "€",
+      "currencyCode": "EUR",
+      "language": "de"
+    },
+    {
+      "city": "Cologne",
+      "country": "Germany",
+      "status": "Expansion",
+      "slug": "cologne",
+      "currency": "€",
+      "currencyCode": "EUR",
+      "language": "de",
+      "localName": "Köln"
+    },
+    {
+      "city": "Paris",
+      "country": "France",
+      "status": "Active Hub",
+      "slug": "paris",
+      "currency": "€",
+      "currencyCode": "EUR",
+      "language": "fr"
+    },
+    {
+      "city": "Lyon",
+      "country": "France",
+      "status": "Expansion",
+      "slug": "lyon",
+      "currency": "€",
+      "currencyCode": "EUR",
+      "language": "fr"
+    },
+    {
+      "city": "Marseille",
+      "country": "France",
+      "status": "Expansion",
+      "slug": "marseille",
+      "currency": "€",
+      "currencyCode": "EUR",
+      "language": "fr"
+    },
+    {
+      "city": "Amsterdam",
+      "country": "Netherlands",
+      "status": "Active Hub",
+      "slug": "amsterdam",
+      "currency": "€",
+      "currencyCode": "EUR",
+      "language": "nl"
+    },
+    {
+      "city": "Rotterdam",
+      "country": "Netherlands",
+      "status": "Expansion",
+      "slug": "rotterdam",
+      "currency": "€",
+      "currencyCode": "EUR",
+      "language": "nl"
+    },
+    {
+      "city": "The Hague",
+      "country": "Netherlands",
+      "status": "Expansion",
+      "slug": "the-hague",
+      "currency": "€",
+      "currencyCode": "EUR",
+      "language": "nl",
+      "localName": "Den Haag"
+    },
+    {
+      "city": "Madrid",
+      "country": "Spain",
+      "status": "Active Hub",
+      "slug": "madrid",
+      "currency": "€",
+      "currencyCode": "EUR",
+      "language": "es"
+    },
+    {
+      "city": "Barcelona",
+      "country": "Spain",
+      "status": "Active Hub",
+      "slug": "barcelona",
+      "currency": "€",
+      "currencyCode": "EUR",
+      "language": "es"
+    },
+    {
+      "city": "Valencia",
+      "country": "Spain",
+      "status": "Expansion",
+      "slug": "valencia",
+      "currency": "€",
+      "currencyCode": "EUR",
+      "language": "es"
+    },
+    {
+      "city": "Milan",
+      "country": "Italy",
+      "status": "Active Hub",
+      "slug": "milan",
+      "currency": "€",
+      "currencyCode": "EUR",
+      "language": "it",
+      "localName": "Milano"
+    },
+    {
+      "city": "Rome",
+      "country": "Italy",
+      "status": "Expansion",
+      "slug": "rome",
+      "currency": "€",
+      "currencyCode": "EUR",
+      "language": "it",
+      "localName": "Roma"
+    },
+    {
+      "city": "Stockholm",
+      "country": "Sweden",
+      "status": "Expansion",
+      "slug": "stockholm",
+      "currency": "kr ",
+      "currencyCode": "SEK",
+      "language": "sv"
+    },
+    {
+      "city": "Copenhagen",
+      "country": "Denmark",
+      "status": "Expansion",
+      "slug": "copenhagen",
+      "currency": "kr ",
+      "currencyCode": "DKK",
+      "language": "da",
+      "localName": "København"
+    },
+    {
+      "city": "Helsinki",
+      "country": "Finland",
+      "status": "Expansion",
+      "slug": "helsinki",
+      "currency": "€",
+      "currencyCode": "EUR",
+      "language": "fi"
+    },
+    {
+      "city": "Oslo",
+      "country": "Norway",
+      "status": "Expansion",
+      "slug": "oslo",
+      "currency": "kr ",
+      "currencyCode": "NOK",
+      "language": "no"
+    },
+    {
+      "city": "Zurich",
+      "country": "Switzerland",
+      "status": "Active Hub",
+      "slug": "zurich",
+      "currency": "CHF ",
+      "currencyCode": "CHF",
+      "language": "de",
+      "localName": "Zürich"
+    },
+    {
+      "city": "Geneva",
+      "country": "Switzerland",
+      "status": "Expansion",
+      "slug": "geneva",
+      "currency": "CHF ",
+      "currencyCode": "CHF",
+      "language": "fr",
+      "localName": "Genève"
+    },
+    {
+      "city": "Vienna",
+      "country": "Austria",
+      "status": "Expansion",
+      "slug": "vienna",
+      "currency": "€",
+      "currencyCode": "EUR",
+      "language": "de",
+      "localName": "Wien"
+    },
+    {
+      "city": "Brussels",
+      "country": "Belgium",
+      "status": "Expansion",
+      "slug": "brussels",
+      "currency": "€",
+      "currencyCode": "EUR",
+      "language": "fr",
+      "localName": "Bruxelles"
+    },
+    {
+      "city": "Dublin",
+      "country": "Ireland",
+      "status": "Active Hub",
+      "slug": "dublin",
+      "currency": "€",
+      "currencyCode": "EUR",
+      "language": "en"
+    },
+    {
+      "city": "Warsaw",
+      "country": "Poland",
+      "status": "Expansion",
+      "slug": "warsaw",
+      "currency": "zł ",
+      "currencyCode": "PLN",
+      "language": "pl",
+      "localName": "Warszawa"
+    },
+    {
+      "city": "Tallinn",
+      "country": "Estonia",
+      "status": "Digital Hub",
+      "slug": "tallinn",
+      "currency": "€",
+      "currencyCode": "EUR",
+      "language": "et"
+    },
+    {
+      "city": "Vilnius",
+      "country": "Lithuania",
+      "status": "Tech Hub",
+      "slug": "vilnius",
+      "currency": "€",
+      "currencyCode": "EUR",
+      "language": "lt"
+    },
+    {
+      "city": "Riga",
+      "country": "Latvia",
+      "status": "Expansion",
+      "slug": "riga",
+      "currency": "€",
+      "currencyCode": "EUR",
+      "language": "lv"
+    },
+    {
+      "city": "Prague",
+      "country": "Czech Republic",
+      "status": "Expansion",
+      "slug": "prague",
+      "currency": "Kč ",
+      "currencyCode": "CZK",
+      "language": "cs",
+      "localName": "Praha"
+    },
+    {
+      "city": "Lisbon",
+      "country": "Portugal",
+      "status": "Expansion",
+      "slug": "lisbon",
+      "currency": "€",
+      "currencyCode": "EUR",
+      "language": "pt",
+      "localName": "Lisboa"
+    },
+    {
+      "city": "Cambridge",
+      "country": "UK",
+      "status": "Innovation Lab",
+      "slug": "cambridge",
+      "currency": "£",
+      "currencyCode": "GBP",
+      "language": "en"
+    },
+    {
+      "city": "Oxford",
+      "country": "UK",
+      "status": "Research Hub",
+      "slug": "oxford",
+      "currency": "£",
+      "currencyCode": "GBP",
+      "language": "en"
+    },
+    {
+      "city": "Luxembourg",
+      "country": "Luxembourg",
+      "status": "Finance Hub",
+      "slug": "luxembourg",
+      "currency": "€",
+      "currencyCode": "EUR",
+      "language": "fr"
+    },
+    {
+      "city": "Malta",
+      "country": "Malta",
+      "status": "iGaming Hub",
+      "slug": "malta",
+      "currency": "€",
+      "currencyCode": "EUR",
+      "language": "en"
+    },
+    {
+      "city": "Reykjavik",
+      "country": "Iceland",
+      "status": "Expansion",
+      "slug": "reykjavik",
+      "currency": "kr ",
+      "currencyCode": "ISK",
+      "language": "is",
+      "localName": "Reykjavík"
+    }
   ],
   "us": [
-    { "city": "New York", "country": "NY", "status": "Active Hub", "slug": "new-york" },
-    { "city": "Los Angeles", "country": "CA", "status": "Active Hub", "slug": "los-angeles" },
-    { "city": "Chicago", "country": "IL", "status": "Active Hub", "slug": "chicago" },
-    { "city": "Houston", "country": "TX", "status": "Active Hub", "slug": "houston" },
-    { "city": "Dallas", "country": "TX", "status": "Active Hub", "slug": "dallas" },
-    { "city": "Fort Worth", "country": "TX", "status": "Expansion", "slug": "fort-worth" },
-    { "city": "Austin", "country": "TX", "status": "HQ", "slug": "austin" },
-    { "city": "San Antonio", "country": "TX", "status": "Expansion", "slug": "san-antonio" },
-    { "city": "Phoenix", "country": "AZ", "status": "Active Hub", "slug": "phoenix" },
-    { "city": "San Diego", "country": "CA", "status": "Active Hub", "slug": "san-diego" },
-    { "city": "San Francisco", "country": "CA", "status": "Active Hub", "slug": "san-francisco" },
-    { "city": "San Jose", "country": "CA", "status": "Expansion", "slug": "san-jose" },
-    { "city": "Seattle", "country": "WA", "status": "Active Hub", "slug": "seattle" },
-    { "city": "Denver", "country": "CO", "status": "Active Hub", "slug": "denver" },
-    { "city": "Boston", "country": "MA", "status": "Active Hub", "slug": "boston" },
-    { "city": "Atlanta", "country": "GA", "status": "Active Hub", "slug": "atlanta" },
-    { "city": "Miami", "country": "FL", "status": "Active Hub", "slug": "miami" },
-    { "city": "Tampa", "country": "FL", "status": "Expansion", "slug": "tampa" },
-    { "city": "Orlando", "country": "FL", "status": "Expansion", "slug": "orlando" },
-    { "city": "Jacksonville", "country": "FL", "status": "Expansion", "slug": "jacksonville" },
-    { "city": "Charlotte", "country": "NC", "status": "Active Hub", "slug": "charlotte" },
-    { "city": "Raleigh", "country": "NC", "status": "Expansion", "slug": "raleigh" },
-    { "city": "Nashville", "country": "TN", "status": "Active Hub", "slug": "nashville" },
-    { "city": "Memphis", "country": "TN", "status": "Expansion", "slug": "memphis" },
-    { "city": "Philadelphia", "country": "PA", "status": "Active Hub", "slug": "philadelphia" },
-    { "city": "Pittsburgh", "country": "PA", "status": "Expansion", "slug": "pittsburgh" },
-    { "city": "Washington", "country": "DC", "status": "Active Hub", "slug": "washington-dc" },
-    { "city": "Minneapolis", "country": "MN", "status": "Active Hub", "slug": "minneapolis" },
-    { "city": "Detroit", "country": "MI", "status": "Expansion", "slug": "detroit" },
-    { "city": "Columbus", "country": "OH", "status": "Expansion", "slug": "columbus" },
-    { "city": "Cleveland", "country": "OH", "status": "Expansion", "slug": "cleveland" },
-    { "city": "Indianapolis", "country": "IN", "status": "Expansion", "slug": "indianapolis" },
-    { "city": "Kansas City", "country": "MO", "status": "Expansion", "slug": "kansas-city" },
-    { "city": "St. Louis", "country": "MO", "status": "Expansion", "slug": "st-louis" },
-    { "city": "Las Vegas", "country": "NV", "status": "Active Hub", "slug": "las-vegas" },
-    { "city": "Salt Lake City", "country": "UT", "status": "Expansion", "slug": "salt-lake-city" },
-    { "city": "Portland", "country": "OR", "status": "Active Hub", "slug": "portland" },
-    { "city": "Sacramento", "country": "CA", "status": "Expansion", "slug": "sacramento" },
-    { "city": "Scottsdale", "country": "AZ", "status": "Expansion", "slug": "scottsdale" },
-    { "city": "Charleston", "country": "SC", "status": "Expansion", "slug": "charleston" }
+    {
+      "city": "New York",
+      "country": "NY",
+      "status": "Active Hub",
+      "slug": "new-york",
+      "currency": "$",
+      "currencyCode": "USD",
+      "language": "en"
+    },
+    {
+      "city": "Los Angeles",
+      "country": "CA",
+      "status": "Active Hub",
+      "slug": "los-angeles",
+      "currency": "$",
+      "currencyCode": "USD",
+      "language": "en"
+    },
+    {
+      "city": "Chicago",
+      "country": "IL",
+      "status": "Active Hub",
+      "slug": "chicago",
+      "currency": "$",
+      "currencyCode": "USD",
+      "language": "en"
+    },
+    {
+      "city": "Houston",
+      "country": "TX",
+      "status": "Active Hub",
+      "slug": "houston",
+      "currency": "$",
+      "currencyCode": "USD",
+      "language": "en"
+    },
+    {
+      "city": "Dallas",
+      "country": "TX",
+      "status": "Active Hub",
+      "slug": "dallas",
+      "currency": "$",
+      "currencyCode": "USD",
+      "language": "en"
+    },
+    {
+      "city": "Fort Worth",
+      "country": "TX",
+      "status": "Expansion",
+      "slug": "fort-worth",
+      "currency": "$",
+      "currencyCode": "USD",
+      "language": "en"
+    },
+    {
+      "city": "Austin",
+      "country": "TX",
+      "status": "HQ",
+      "slug": "austin",
+      "currency": "$",
+      "currencyCode": "USD",
+      "language": "en"
+    },
+    {
+      "city": "San Antonio",
+      "country": "TX",
+      "status": "Expansion",
+      "slug": "san-antonio",
+      "currency": "$",
+      "currencyCode": "USD",
+      "language": "en"
+    },
+    {
+      "city": "Phoenix",
+      "country": "AZ",
+      "status": "Active Hub",
+      "slug": "phoenix",
+      "currency": "$",
+      "currencyCode": "USD",
+      "language": "en"
+    },
+    {
+      "city": "San Diego",
+      "country": "CA",
+      "status": "Active Hub",
+      "slug": "san-diego",
+      "currency": "$",
+      "currencyCode": "USD",
+      "language": "en"
+    },
+    {
+      "city": "San Francisco",
+      "country": "CA",
+      "status": "Active Hub",
+      "slug": "san-francisco",
+      "currency": "$",
+      "currencyCode": "USD",
+      "language": "en"
+    },
+    {
+      "city": "San Jose",
+      "country": "CA",
+      "status": "Expansion",
+      "slug": "san-jose",
+      "currency": "$",
+      "currencyCode": "USD",
+      "language": "en"
+    },
+    {
+      "city": "Seattle",
+      "country": "WA",
+      "status": "Active Hub",
+      "slug": "seattle",
+      "currency": "$",
+      "currencyCode": "USD",
+      "language": "en"
+    },
+    {
+      "city": "Denver",
+      "country": "CO",
+      "status": "Active Hub",
+      "slug": "denver",
+      "currency": "$",
+      "currencyCode": "USD",
+      "language": "en"
+    },
+    {
+      "city": "Boston",
+      "country": "MA",
+      "status": "Active Hub",
+      "slug": "boston",
+      "currency": "$",
+      "currencyCode": "USD",
+      "language": "en"
+    },
+    {
+      "city": "Atlanta",
+      "country": "GA",
+      "status": "Active Hub",
+      "slug": "atlanta",
+      "currency": "$",
+      "currencyCode": "USD",
+      "language": "en"
+    },
+    {
+      "city": "Miami",
+      "country": "FL",
+      "status": "Active Hub",
+      "slug": "miami",
+      "currency": "$",
+      "currencyCode": "USD",
+      "language": "en"
+    },
+    {
+      "city": "Tampa",
+      "country": "FL",
+      "status": "Expansion",
+      "slug": "tampa",
+      "currency": "$",
+      "currencyCode": "USD",
+      "language": "en"
+    },
+    {
+      "city": "Orlando",
+      "country": "FL",
+      "status": "Expansion",
+      "slug": "orlando",
+      "currency": "$",
+      "currencyCode": "USD",
+      "language": "en"
+    },
+    {
+      "city": "Jacksonville",
+      "country": "FL",
+      "status": "Expansion",
+      "slug": "jacksonville",
+      "currency": "$",
+      "currencyCode": "USD",
+      "language": "en"
+    },
+    {
+      "city": "Charlotte",
+      "country": "NC",
+      "status": "Active Hub",
+      "slug": "charlotte",
+      "currency": "$",
+      "currencyCode": "USD",
+      "language": "en"
+    },
+    {
+      "city": "Raleigh",
+      "country": "NC",
+      "status": "Expansion",
+      "slug": "raleigh",
+      "currency": "$",
+      "currencyCode": "USD",
+      "language": "en"
+    },
+    {
+      "city": "Nashville",
+      "country": "TN",
+      "status": "Active Hub",
+      "slug": "nashville",
+      "currency": "$",
+      "currencyCode": "USD",
+      "language": "en"
+    },
+    {
+      "city": "Memphis",
+      "country": "TN",
+      "status": "Expansion",
+      "slug": "memphis",
+      "currency": "$",
+      "currencyCode": "USD",
+      "language": "en"
+    },
+    {
+      "city": "Philadelphia",
+      "country": "PA",
+      "status": "Active Hub",
+      "slug": "philadelphia",
+      "currency": "$",
+      "currencyCode": "USD",
+      "language": "en"
+    },
+    {
+      "city": "Pittsburgh",
+      "country": "PA",
+      "status": "Expansion",
+      "slug": "pittsburgh",
+      "currency": "$",
+      "currencyCode": "USD",
+      "language": "en"
+    },
+    {
+      "city": "Washington",
+      "country": "DC",
+      "status": "Active Hub",
+      "slug": "washington-dc",
+      "currency": "$",
+      "currencyCode": "USD",
+      "language": "en"
+    },
+    {
+      "city": "Minneapolis",
+      "country": "MN",
+      "status": "Active Hub",
+      "slug": "minneapolis",
+      "currency": "$",
+      "currencyCode": "USD",
+      "language": "en"
+    },
+    {
+      "city": "Detroit",
+      "country": "MI",
+      "status": "Expansion",
+      "slug": "detroit",
+      "currency": "$",
+      "currencyCode": "USD",
+      "language": "en"
+    },
+    {
+      "city": "Columbus",
+      "country": "OH",
+      "status": "Expansion",
+      "slug": "columbus",
+      "currency": "$",
+      "currencyCode": "USD",
+      "language": "en"
+    },
+    {
+      "city": "Cleveland",
+      "country": "OH",
+      "status": "Expansion",
+      "slug": "cleveland",
+      "currency": "$",
+      "currencyCode": "USD",
+      "language": "en"
+    },
+    {
+      "city": "Indianapolis",
+      "country": "IN",
+      "status": "Expansion",
+      "slug": "indianapolis",
+      "currency": "$",
+      "currencyCode": "USD",
+      "language": "en"
+    },
+    {
+      "city": "Kansas City",
+      "country": "MO",
+      "status": "Expansion",
+      "slug": "kansas-city",
+      "currency": "$",
+      "currencyCode": "USD",
+      "language": "en"
+    },
+    {
+      "city": "St. Louis",
+      "country": "MO",
+      "status": "Expansion",
+      "slug": "st-louis",
+      "currency": "$",
+      "currencyCode": "USD",
+      "language": "en"
+    },
+    {
+      "city": "Las Vegas",
+      "country": "NV",
+      "status": "Active Hub",
+      "slug": "las-vegas",
+      "currency": "$",
+      "currencyCode": "USD",
+      "language": "en"
+    },
+    {
+      "city": "Salt Lake City",
+      "country": "UT",
+      "status": "Expansion",
+      "slug": "salt-lake-city",
+      "currency": "$",
+      "currencyCode": "USD",
+      "language": "en"
+    },
+    {
+      "city": "Portland",
+      "country": "OR",
+      "status": "Active Hub",
+      "slug": "portland",
+      "currency": "$",
+      "currencyCode": "USD",
+      "language": "en"
+    },
+    {
+      "city": "Sacramento",
+      "country": "CA",
+      "status": "Expansion",
+      "slug": "sacramento",
+      "currency": "$",
+      "currencyCode": "USD",
+      "language": "en"
+    },
+    {
+      "city": "Scottsdale",
+      "country": "AZ",
+      "status": "Expansion",
+      "slug": "scottsdale",
+      "currency": "$",
+      "currencyCode": "USD",
+      "language": "en"
+    },
+    {
+      "city": "Charleston",
+      "country": "SC",
+      "status": "Expansion",
+      "slug": "charleston",
+      "currency": "$",
+      "currencyCode": "USD",
+      "language": "en"
+    }
   ]
 }

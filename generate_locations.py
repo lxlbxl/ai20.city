@@ -3,7 +3,10 @@ import os
 import json
 import shutil
 import region_config as rc
-from local_data import LOCAL_NICHES, LOCAL_OFFERS
+from local_data import LOCAL_OFFERS
+
+# Niches are region-aware (src/data/niches.json).
+LOCAL_NICHES = rc.niches()
 
 # --- CONFIGURATION & DATA ---
 
@@ -449,7 +452,7 @@ def local_market_section(city, niche, data):
     if salary:
         blocks.append(
             f'<div class="p-6 border border-[#050505]/10 bg-white">'
-            f'<span class="block font-serif-display text-4xl italic text-[#ff3300]">{rc.REGION_CFG["currency"]}{salary:,}</span>'
+            f'<span class="block font-serif-display text-4xl italic text-[#ff3300]">{rc.fmt_local(city["slug"], salary)}</span>'
             f'<p class="text-xs uppercase tracking-widest opacity-60 mt-1">Local cost of the role AI replaces</p></div>'
         )
 
@@ -457,7 +460,7 @@ def local_market_section(city, niche, data):
     if ticket:
         blocks.append(
             f'<div class="p-6 border border-[#050505]/10 bg-white">'
-            f'<span class="block font-serif-display text-4xl italic text-[#ff3300]">{rc.REGION_CFG["currency"]}{ticket:,}</span>'
+            f'<span class="block font-serif-display text-4xl italic text-[#ff3300]">{rc.fmt_local(city["slug"], ticket)}</span>'
             f'<p class="text-xs uppercase tracking-widest opacity-60 mt-1">Typical job value - one recovered call</p></div>'
         )
 
@@ -495,6 +498,45 @@ def local_market_section(city, niche, data):
                 {source_html}
             </section>
     """
+
+
+
+def local_language_block(city, niche, copy):
+    """Primary-language section for a bilingual city x niche page.
+
+    Bilingual on ONE url: the local language leads (and sets <html lang>), the
+    English content follows in its own lang="en" block. Keeping the two clearly
+    delimited is what stops search engines mis-detecting the page language.
+    """
+    if not copy:
+        return ""
+    lang = copy["_lang"]
+    pains = "".join(
+        f'<li class="flex items-start gap-3 text-sm"><span class="text-[#ff3300] mt-1">✕</span>'
+        f'<span class="opacity-80">{esc_html(p)}</span></li>'
+        for p in copy.get("pains", [])
+    )
+    return f"""
+        <section lang="{lang}" class="mb-24">
+            <h1 class="font-serif-display text-5xl md:text-7xl italic mb-8">{esc_html(copy.get('h1',''))}</h1>
+            <p class="text-xl opacity-75 max-w-3xl leading-relaxed mb-10">{esc_html(copy.get('lede',''))}</p>
+            <ul class="space-y-3 mb-12 max-w-2xl">{pains}</ul>
+            <div class="bg-[#050505] text-[#f4f1ea] p-10 md:p-16">
+                <h2 class="font-serif-display text-3xl md:text-4xl italic mb-4">{esc_html(copy.get('cta_heading',''))}</h2>
+                <p class="opacity-70 mb-8 max-w-xl">{esc_html(copy.get('cta_body',''))}</p>
+                <button onclick="window.AI20Quiz.open({{ 'city': '{city['city']}', 'niche': '{niche.get('flow','default')}', 'source': 'niche_page_local' }})" class="bg-[#ff3300] text-white px-8 py-4 text-xs uppercase tracking-widest hover:bg-white hover:text-[#050505] transition-colors">
+                    {esc_html(copy.get('cta_button','Start'))}
+                </button>
+            </div>
+        </section>
+        <div class="border-t border-[#050505]/10 pt-6 mb-12">
+            <span class="font-sans-tech text-[10px] uppercase tracking-[0.2em] opacity-40">In English</span>
+        </div>
+"""
+
+
+def esc_html(t):
+    return (str(t).replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;"))
 
 
 # --- GENERATORS ---
@@ -746,6 +788,8 @@ def generate_local_pages(city):
         
         root_path = "../../../"
 
+        local_copy = rc.niche_copy(city["slug"], niche_slug)
+        page_lang = local_copy.get("_lang", "en")
         local_data = rc.local_market(city["slug"], niche_slug)
         indexable = rc.is_indexable(city["slug"], niche_slug)
         # Pages without verified local data must not be indexed - this is what
@@ -756,15 +800,16 @@ def generate_local_pages(city):
         
         niche_content = f"""
         <main class="max-w-[1400px] mx-auto px-6 md:px-12 py-20">
-            <div class="mb-16 text-center">
+            {local_language_block(city, niche, local_copy)}
+            <div class="mb-16 text-center" lang="en">
                 <a href="{root_path}locations/{city['slug']}.html" class="text-[#ff3300] font-sans-tech text-xs uppercase tracking-widest hover:underline mb-4 block">← Back to {city['city']}</a>
                 <span class="inline-block border border-[#050505] px-3 py-1 rounded-full text-[#050505] font-sans-tech text-[10px] uppercase tracking-[0.2em] mb-6">
                     AI for {niche['category']}
                 </span>
-                <h1 class="font-serif-display text-5xl md:text-7xl italic mb-8">
+                <{'h2' if local_copy else 'h1'} class="font-serif-display text-5xl md:text-7xl italic mb-8">
                     Artificial Intelligence for <br/>
                     <span class="text-[#ff3300]">{niche['name']} in {city['city']}</span>.
-                </h1>
+                </{'h2' if local_copy else 'h1'}>
                 <p class="text-xl opacity-70 max-w-2xl mx-auto leading-relaxed">
                     Local {niche['name'].lower()} businesses in {city['city']} are automating operations to cut costs and dominate the market. Don't get left behind.
                 </p>
@@ -811,7 +856,7 @@ def generate_local_pages(city):
                 <p class="text-lg opacity-70 mb-12 max-w-xl mx-auto">
                     We are looking for 3 partners in {city['city']} to deploy our full AI stack at a preferential rate in exchange for a case study.
                 </p>
-                <button onclick="window.AI20Quiz.open({{ 'city': '{city['city']}', 'niche': '{niche['name']}', 'source': 'niche_page' }})" class="bg-[#ff3300] text-white px-8 py-4 text-xs uppercase tracking-widest hover:bg-white hover:text-[#050505] transition-colors">
+                <button onclick="window.AI20Quiz.open({{ 'city': '{city['city']}', 'niche': '{niche.get('flow','default')}', 'industry': '{niche['name']}', 'source': 'niche_page' }})" class="bg-[#ff3300] text-white px-8 py-4 text-xs uppercase tracking-widest hover:bg-white hover:text-[#050505] transition-colors">
                     Apply for Beta Access
                 </button>
             </div>
@@ -824,6 +869,11 @@ def generate_local_pages(city):
             root_path=root_path,
             schema=head_extra
         ) + NAV_TEMPLATE.format(root_path=root_path) + niche_content + FOOTER_TEMPLATE.format(root_path=root_path)
+
+        # Bilingual pages declare the LOCAL language as primary; the English
+        # block carries its own lang="en".
+        if page_lang != "en":
+            full_html = full_html.replace('<html lang="en">', f'<html lang="{page_lang}">', 1)
 
         with open(f"{niche_dir}/index.html", "w", encoding="utf-8") as f:
             f.write(full_html)
@@ -897,11 +947,15 @@ def generate_locations():
         </main>
         """
         
+        # City hubs were 188 words and ~99% identical across cities while still
+        # being indexed. They now follow the same evidence rule as niche pages.
+        hub_robots = "" if rc.city_has_local_data(slug) else '<meta name="robots" content="noindex,follow">'
+
         full_html = HEAD_TEMPLATE.format(
             title=f"AI Agency {city['city']} | ai20",
             description=f"Leading AI Agency in {city['city']}, {city['country']}. Enterprise-grade automation and AI implementation.",
             root_path=root_path,
-            schema=f'<script type="application/ld+json">{json.dumps(schema)}</script>'
+            schema=hub_robots + f'<script type="application/ld+json">{json.dumps(schema)}</script>'
         ) + NAV_TEMPLATE.format(root_path=root_path) + content + FOOTER_TEMPLATE.format(root_path=root_path)
         
         with open(f"locations/{slug}.html", "w", encoding="utf-8") as f:

@@ -22,6 +22,8 @@ REGIONS_DATA = _load("regions.json")
 CITIES_DATA = _load("cities.json")
 OFFERS_DATA = _load("offers.json")
 LOCAL_MARKETS = _load("local-markets.json")
+NICHES_DATA = _load("niches.json")
+NICHE_COPY = _load("niche-copy.json")
 
 REGION = os.environ.get("REGION", REGIONS_DATA.get("default", "eu")).lower()
 if REGION not in REGIONS_DATA["regions"]:
@@ -143,3 +145,84 @@ def is_indexable(city_slug, niche_id):
 def city_meta(city_slug):
     region = LOCAL_MARKETS.get(REGION) or {}
     return region.get(city_slug) or {}
+
+
+def city_currency(city_slug):
+    """Local currency symbol for a city.
+
+    The EU build spans 23 countries, so local cost figures must not all be
+    shown in EUR. Offer pricing stays in the region currency; only researched
+    local-market figures use the city's own currency.
+    """
+    for c in cities():
+        if c["slug"] == city_slug:
+            return c.get("currency") or REGION_CFG["currency"]
+    return REGION_CFG["currency"]
+
+
+def fmt_local(city_slug, amount):
+    """Format a researched local figure in that city's own currency."""
+    if amount in (None, ""):
+        return ""
+    return f"{city_currency(city_slug)}{amount:,}"
+
+
+def city_has_local_data(city_slug):
+    """True if ANY niche in this city carries verified local data.
+
+    City hub pages were 188 words and ~99% identical across cities, yet still
+    indexed. They now follow the same rule as the niche pages: no verified
+    local data, no indexing.
+    """
+    region = LOCAL_MARKETS.get(REGION) or {}
+    niches = (region.get(city_slug) or {}).get("niches") or {}
+    return any(is_indexable(city_slug, n) for n in niches)
+
+
+def niches():
+    """City x niche set for the active region.
+
+    The two regions sell to different buyers: US leads with home-services
+    trades, EU with regulated professional practices. A shared list produced
+    410 EU pages for roofing and pest control while the EU site positions
+    itself around healthcare, legal and finance.
+    """
+    return NICHES_DATA.get(REGION) or NICHES_DATA.get("us") or []
+
+
+def city_language(city_slug):
+    """Primary language for a city's pages ('en' when none/unsupported)."""
+    for c in cities():
+        if c["slug"] == city_slug:
+            return c.get("language") or "en"
+    return "en"
+
+
+def city_display_name(city_slug, local=False):
+    """City name; the local exonym (München, Genève) when rendering local copy."""
+    for c in cities():
+        if c["slug"] == city_slug:
+            return (c.get("localName") or c["city"]) if local else c["city"]
+    return city_slug
+
+
+def niche_copy(city_slug, niche_id):
+    """Local-language copy block for a city x niche, or {} if unavailable.
+
+    Returns {} for English cities and for languages we have not authored yet -
+    those pages render English-only, which is the intended degradation.
+    """
+    lang = city_language(city_slug)
+    if lang == "en":
+        return {}
+    block = (NICHE_COPY.get(lang) or {}).get(niche_id)
+    if not block:
+        return {}
+    city = city_display_name(city_slug, local=True)
+    out = {"_lang": lang, "_langName": (NICHE_COPY[lang].get("_meta") or {}).get("name", lang)}
+    for k, v in block.items():
+        if isinstance(v, str):
+            out[k] = v.replace("{city}", city)
+        elif isinstance(v, list):
+            out[k] = [x.replace("{city}", city) for x in v]
+    return out

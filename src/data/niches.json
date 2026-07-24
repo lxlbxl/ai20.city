@@ -1,0 +1,215 @@
+{
+  "_readme": "Local niches per region. US ids are keys in local-markets.json - do not rename them.",
+  "eu": [
+    {
+      "id": "dental-practices",
+      "name": "Dental Practices",
+      "category": "Healthcare",
+      "vertical": "healthcare",
+      "flow": "healthcare",
+      "pain_points": [
+        "No-shows and late cancellations",
+        "Reception overload at peak hours",
+        "GDPR-safe patient records"
+      ],
+      "description": "Private dental and orthodontic practices."
+    },
+    {
+      "id": "medical-clinics",
+      "name": "Medical Clinics",
+      "category": "Healthcare",
+      "vertical": "healthcare",
+      "flow": "healthcare",
+      "pain_points": [
+        "Appointment triage",
+        "Multilingual patient intake",
+        "Patient data compliance"
+      ],
+      "description": "Private clinics, specialists, and allied health."
+    },
+    {
+      "id": "law-firm",
+      "name": "Law Firms",
+      "category": "Legal",
+      "vertical": "legal",
+      "flow": "legal",
+      "pain_points": [
+        "Non-billable research hours",
+        "Client intake bottlenecks",
+        "Privilege and data residency"
+      ],
+      "description": "Commercial, litigation, and private-client practices."
+    },
+    {
+      "id": "accounting",
+      "name": "Accounting Firms",
+      "category": "Finance",
+      "vertical": "finance",
+      "flow": "finance",
+      "pain_points": [
+        "Year-end capacity crunch",
+        "Manual document intake",
+        "Chasing client records"
+      ],
+      "description": "Accountancy, audit, and bookkeeping practices."
+    },
+    {
+      "id": "ecommerce",
+      "name": "E-commerce",
+      "category": "E-commerce",
+      "vertical": "ecommerce",
+      "flow": "ecommerce",
+      "pain_points": [
+        "Multilingual customer support",
+        "Cart abandonment",
+        "Cross-border returns"
+      ],
+      "description": "Online retailers and D2C brands."
+    },
+    {
+      "id": "real-estate",
+      "name": "Real Estate",
+      "category": "Real Estate",
+      "vertical": "real-estate",
+      "flow": "real-estate",
+      "pain_points": [
+        "Slow response to enquiries",
+        "Viewing coordination",
+        "Multilingual listings"
+      ],
+      "description": "Estate agencies and property managers."
+    }
+  ],
+  "us": [
+    {
+      "id": "plumbing",
+      "name": "Plumbing",
+      "category": "Home Services",
+      "pain_points": [
+        "Missed emergency calls",
+        "Scheduling conflicts",
+        "Price haggling"
+      ],
+      "description": "Residential and commercial plumbing services.",
+      "flow": "plumbing",
+      "vertical": "home-services"
+    },
+    {
+      "id": "hvac",
+      "name": "HVAC",
+      "category": "Home Services",
+      "pain_points": [
+        "Seasonal demand spikes",
+        "Technician dispatching",
+        "Service agreements"
+      ],
+      "description": "Heating, ventilation, and air conditioning experts.",
+      "flow": "hvac",
+      "vertical": "home-services"
+    },
+    {
+      "id": "roofing",
+      "name": "Roofing",
+      "category": "Home Services",
+      "pain_points": [
+        "Lead qualification",
+        "Storm chasers competition",
+        "Expensive estimates"
+      ],
+      "description": "Roof repair, replacement, and installation.",
+      "flow": "home-services",
+      "vertical": "home-services"
+    },
+    {
+      "id": "electrician",
+      "name": "Electrician",
+      "category": "Home Services",
+      "pain_points": [
+        "Small job filtering",
+        "Emergency availability",
+        "Complex quoting"
+      ],
+      "description": "Electrical installation, repair, and maintenance.",
+      "flow": "home-services",
+      "vertical": "home-services"
+    },
+    {
+      "id": "landscaping",
+      "name": "Landscaping",
+      "category": "Home Services",
+      "pain_points": [
+        "Seasonal workers",
+        "Route density",
+        "Recurring billing"
+      ],
+      "description": "Lawn care, landscape design, and maintenance.",
+      "flow": "home-services",
+      "vertical": "home-services"
+    },
+    {
+      "id": "pest-control",
+      "name": "Pest Control",
+      "category": "Home Services",
+      "pain_points": [
+        "Customer retention",
+        "Recurring appointment reminders",
+        "Chemical safety queries"
+      ],
+      "description": "Extermination and prevention services.",
+      "flow": "home-services",
+      "vertical": "home-services"
+    },
+    {
+      "id": "auto-repair",
+      "name": "Auto Repair",
+      "category": "Automotive",
+      "pain_points": [
+        "No-shows",
+        "Parts ordering delays",
+        "Phone tag with customers"
+      ],
+      "description": "General automotive repair and maintenance.",
+      "flow": "default",
+      "vertical": "home-services"
+    },
+    {
+      "id": "dentistry",
+      "name": "Dentistry",
+      "category": "Healthcare",
+      "pain_points": [
+        "Cancellations",
+        "Insurance verification",
+        "Recall appointments"
+      ],
+      "description": "General and cosmetic dental practices.",
+      "flow": "healthcare",
+      "vertical": "healthcare"
+    },
+    {
+      "id": "law-firm",
+      "name": "Law Firm",
+      "category": "Professional Services",
+      "pain_points": [
+        "Intake qualification",
+        "Document collection",
+        "Billable hours tracking"
+      ],
+      "description": "Personal injury, family law, and estate planning.",
+      "flow": "legal",
+      "vertical": "legal"
+    },
+    {
+      "id": "real-estate",
+      "name": "Real Estate",
+      "category": "Professional Services",
+      "pain_points": [
+        "Lead nurturing",
+        "24/7 showing requests",
+        "Paperwork coordination"
+      ],
+      "description": "Residential and commercial real estate agencies.",
+      "flow": "real-estate",
+      "vertical": "real-estate"
+    }
+  ]
+}

@@ -353,13 +353,21 @@ export default function regionPlugin() {
                     out = out.split('https://ai20.city').join(cfg.origin);
                 }
 
-                // 3. hreflang cluster (only if not already present and there is a <head>).
-                if (!out.includes('hreflang=') && out.includes('</head>')) {
+                // 3. hreflang cluster. Skipped for /locations/ - the two regions run
+                // different city AND niche sets, so the same path on the other host
+                // usually 404s. Claiming it as an alternate is worse than omitting.
+                const pPath = pagePathFrom(ctx);
+                const regionSpecific = pPath.startsWith('/locations/');
+                if (!regionSpecific && !out.includes('hreflang=') && out.includes('</head>')) {
                     out = out.replace('</head>', `${hreflangCluster(pagePathFrom(ctx))}\n</head>`);
                 }
 
-                // 4. <html lang> to region.
-                out = out.replace(/<html\s+lang="[^"]*"/i, `<html lang="${cfg.htmlLang}"`);
+                // 4. <html lang> to region - but never override a page that has
+                // deliberately declared its own language (bilingual city pages).
+                const declared = /<html\s+lang="([^"]*)"/i.exec(out);
+                if (!declared || declared[1] === 'en') {
+                    out = out.replace(/<html\s+lang="[^"]*"/i, `<html lang="${cfg.htmlLang}"`);
+                }
 
                 return out;
             },
