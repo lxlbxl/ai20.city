@@ -4142,6 +4142,474 @@
           "local_note": "Portugal enforces statutory real estate brokerage licensing (AMI) managed through IMPIC in Lisbon."
         }
       }
+    },
+    "stockholm": {
+      "metro_pop": 2450000,
+      "gbp_presence": false,
+      "niches": {
+        "dental-practices": {
+          "verified": true,
+          "source_note": "SCB Företagsregistret 2023/2024, NACE 86.23, Stockholms län (NUTS-3 SE110); wage: SCB Lönestatistik / Eurostat SES 2023 SSYK 4226 (Receptionister), COUNTRY-LEVEL Sweden, SEK",
+          "business_count": 820,
+          "receptionist_salary": 342000,
+          "currency_code": "SEK",
+          "avg_job_value": null,
+          "peak_season": null,
+          "seasonality_note": null,
+          "licensing": "Dentists in Sweden must be licensed by Socialstyrelsen (National Board of Health and Welfare) and registered with Försäkringskassan.",
+          "local_note": "Stockholm is home to the Karolinska Institutet, governing the primary dental education and clinical research facilities in Sweden."
+        },
+        "medical-clinics": {
+          "verified": true,
+          "source_note": "SCB Företagsregistret 2023/2024, combined sum of NACE 86.21 + 86.22, Stockholms län (NUTS-3 SE110); wage: SCB Lönestatistik / Eurostat SES 2023 SSYK 4226, COUNTRY-LEVEL Sweden, SEK",
+          "business_count": 1950,
+          "receptionist_salary": 342000,
+          "currency_code": "SEK",
+          "avg_job_value": null,
+          "peak_season": null,
+          "seasonality_note": null,
+          "licensing": "Private medical clinics operate under IVO (Inspektionen för vård och omsorg) oversight, with doctors licensed by Socialstyrelsen.",
+          "local_note": "Stockholm represents Sweden's largest private healthcare ecosystem, operating in tandem with Region Stockholm's public care framework."
+        },
+        "law-firm": {
+          "verified": true,
+          "source_note": "SCB Företagsregistret 2023/2024, NACE 69.10, Stockholms län (NUTS-3 SE110); wage: SCB Lönestatistik / Eurostat SES 2023 SSYK 4226, COUNTRY-LEVEL Sweden, SEK",
+          "business_count": 1680,
+          "receptionist_salary": 342000,
+          "currency_code": "SEK",
+          "avg_job_value": null,
+          "peak_season": null,
+          "seasonality_note": "Law firms in Stockholm maintain stable corporate and dispute resolution caseloads throughout the operational year.",
+          "licensing": "Advokater in Sweden must maintain active membership in Sveriges advokatsamfund (Swedish Bar Association).",
+          "local_note": "Stockholm houses the Arbitration Institute of the Stockholm Chamber of Commerce (SCC), a major global venue for commercial arbitration."
+        },
+        "accounting": {
+          "verified": true,
+          "source_note": "SCB Företagsregistret 2023/2024, NACE 69.20, Stockholms län (NUTS-3 SE110); wage: SCB Lönestatistik / Eurostat SES 2023 SSYK 4226, COUNTRY-LEVEL Sweden, SEK",
+          "business_count": 2150,
+          "receptionist_salary": 342000,
+          "currency_code": "SEK",
+          "avg_job_value": null,
+          "peak_season": "March–May",
+          "seasonality_note": "Swedish accounting practices experience peak workload leading up to the May annual corporate tax and financial statement deadlines.",
+          "licensing": "Auditors and accounting consultants are regulated by Revisorsinspektionen and certified through FAR.",
+          "local_note": "Stockholm acts as the primary headquarters for FAR, the national trade association for auditors and advisors in Sweden."
+        },
+        "ecommerce": {
+          "verified": true,
+          "source_note": "SCB Företagsregistret 2023/2024, NACE 47.91, Stockholms län (NUTS-3 SE110); wage: SCB Lönestatistik / Eurostat SES 2023 SSYK 4226, COUNTRY-LEVEL Sweden, SEK",
+          "business_count": 1890,
+          "receptionist_salary": 342000,
+          "currency_code": "SEK",
+          "avg_job_value": null,
+          "peak_season": "November–December",
+          "seasonality_note": "E-commerce merchants in Stockholm face fourth-quarter sales spikes during Black Friday and Christmas shopping periods.",
+          "licensing": "E-commerce trades operate under Swedish Consumer Agency (Konsumentverket) guidelines and E-handel compliance rules.",
+          "local_note": "Stockholm is widely recognized as a Nordic fintech and digital retail hub, anchoring major payment platforms and D2C brands."
+        },
+        "real-estate": {
+          "verified": true,
+          "source_note": "SCB Företagsregistret 2023/2024, NACE 68.31, Stockholms län (NUTS-3 SE110); wage: SCB Lönestatistik / Eurostat SES 2023 SSYK 4226, COUNTRY-LEVEL Sweden, SEK",
+          "business_count": 1120,
+          "receptionist_salary": 342000,
+          "currency_code": "SEK",
+          "avg_job_value": null,
+          "peak_season": "April–June",
+          "seasonality_note": "Stockholm residential property viewings and transactions peak strongly during late spring before the summer holiday lull.",
+          "licensing": "Estate agents must be individually registered with Fastighetsmäklarinspektionen (FMI).",
+          "local_note": "Stockholm property transactions operate in a highly specialized cooperative housing (bostadsrätt) regulatory market."
+        }
+      }
+    },
+    "copenhagen": {
+      "metro_pop": 1360000,
+      "gbp_presence": false,
+      "niches": {
+        "dental-practices": {
+          "verified": true,
+          "source_note": "Danmarks Statistik Erhvervsregistret 2023/2024, NACE 86.23, Byen København (NUTS-3 DK011); wage: Danmarks Statistik Lønstatistik 2023 DISCO-08 4226, COUNTRY-LEVEL Denmark, DKK",
+          "business_count": 410,
+          "receptionist_salary": 324000,
+          "currency_code": "DKK",
+          "avg_job_value": null,
+          "peak_season": null,
+          "seasonality_note": null,
+          "licensing": "Dentists in Denmark must hold authorization from Styrelsen for Patientsikkerhed (Danish Patient Safety Authority).",
+          "local_note": "Copenhagen houses the Faculty of Health and Medical Sciences at the University of Copenhagen, training Denmark's dental practitioners."
+        },
+        "medical-clinics": {
+          "verified": true,
+          "source_note": "Danmarks Statistik Erhvervsregistret 2023/2024, combined sum of NACE 86.21 + 86.22, Byen København (NUTS-3 DK011); wage: Danmarks Statistik Lønstatistik 2023 DISCO-08 4226, COUNTRY-LEVEL Denmark, DKK",
+          "business_count": 980,
+          "receptionist_salary": 324000,
+          "currency_code": "DKK",
+          "avg_job_value": null,
+          "peak_season": null,
+          "seasonality_note": null,
+          "licensing": "Medical practices operate under authorization from Styrelsen for Patientsikkerhed and regional Sygesikring agreements.",
+          "local_note": "Copenhagen anchors the Medicon Valley life sciences cluster, supporting a dense network of specialized private medical clinics."
+        },
+        "law-firm": {
+          "verified": true,
+          "source_note": "Danmarks Statistik Erhvervsregistret 2023/2024, NACE 69.10, Byen København (NUTS-3 DK011); wage: Danmarks Statistik Lønstatistik 2023 DISCO-08 4226, COUNTRY-LEVEL Denmark, DKK",
+          "business_count": 720,
+          "receptionist_salary": 324000,
+          "currency_code": "DKK",
+          "avg_job_value": null,
+          "peak_season": null,
+          "seasonality_note": null,
+          "licensing": "Advokater in Denmark are regulated by Advokatsamfundet (Danish Bar and Law Society).",
+          "local_note": "Copenhagen hosts the Supreme Court of Denmark (Højesteret) and the national headquarters of Advokatsamfundet."
+        },
+        "accounting": {
+          "verified": true,
+          "source_note": "Danmarks Statistik Erhvervsregistret 2023/2024, NACE 69.20, Byen København (NUTS-3 DK011); wage: Danmarks Statistik Lønstatistik 2023 DISCO-08 4226, COUNTRY-LEVEL Denmark, DKK",
+          "business_count": 890,
+          "receptionist_salary": 324000,
+          "currency_code": "DKK",
+          "avg_job_value": null,
+          "peak_season": "March–May",
+          "seasonality_note": "Danish accounting firms experience high operational compression leading up to annual corporate tax filing deadlines in May.",
+          "licensing": "State-authorized public accountants are approved by Erhvervsstyrelsen (Danish Business Authority) and represented by FSR.",
+          "local_note": "Copenhagen hosts Erhvervsstyrelsen, the central Danish corporate registry and accounting oversight agency."
+        },
+        "ecommerce": {
+          "verified": true,
+          "source_note": "Danmarks Statistik Erhvervsregistret 2023/2024, NACE 47.91, Byen København (NUTS-3 DK011); wage: Danmarks Statistik Lønstatistik 2023 DISCO-08 4226, COUNTRY-LEVEL Denmark, DKK",
+          "business_count": 940,
+          "receptionist_salary": 324000,
+          "currency_code": "DKK",
+          "avg_job_value": null,
+          "peak_season": "November–December",
+          "seasonality_note": "Copenhagen e-commerce retailers see annual order volume peaks during Q4 holiday shopping events.",
+          "licensing": "Digital merchants comply with Forbrugerombudsmanden (Danish Consumer Ombudsman) trade standards.",
+          "local_note": "Copenhagen serves as the primary hub for Danish direct-to-consumer design and e-commerce technology scale-ups."
+        },
+        "real-estate": {
+          "verified": true,
+          "source_note": "Danmarks Statistik Erhvervsregistret 2023/2024, NACE 68.31, Byen København (NUTS-3 DK011); wage: Danmarks Statistik Lønstatistik 2023 DISCO-08 4226, COUNTRY-LEVEL Denmark, DKK",
+          "business_count": 480,
+          "receptionist_salary": 324000,
+          "currency_code": "DKK",
+          "avg_job_value": null,
+          "peak_season": "April–August",
+          "seasonality_note": "Copenhagen residential real estate listings and transaction viewings increase significantly during spring and summer.",
+          "licensing": "Estate agents (Ejendomsmæglere) must be registered in the Erhvervsstyrelsen register and certified under Dansk Ejendomsmæglerforening (DE).",
+          "local_note": "Copenhagen features a tightly regulated housing market split between owner-occupied, private rental, and owner-cooperative (andelsbolig) sectors."
+        }
+      }
+    },
+    "oslo": {
+      "metro_pop": 1080000,
+      "gbp_presence": false,
+      "niches": {
+        "dental-practices": {
+          "verified": true,
+          "source_note": "SSB Bedrifter i Virksomhetsregisteret 2023/2024, NACE 86.23, Oslo (NUTS-3 NO081); wage: SSB Lønnsstatistikk 2023 STYRK-08 4226, COUNTRY-LEVEL Norway, NOK",
+          "business_count": 390,
+          "receptionist_salary": 438000,
+          "currency_code": "NOK",
+          "avg_job_value": null,
+          "peak_season": null,
+          "seasonality_note": null,
+          "licensing": "Dentists in Norway must hold authorization from Helsedirektoratet (Norwegian Directorate of Health).",
+          "local_note": "Oslo houses the Faculty of Dentistry at the University of Oslo, acting as the national center for specialist dental research."
+        },
+        "medical-clinics": {
+          "verified": true,
+          "source_note": "SSB Bedrifter i Virksomhetsregisteret 2023/2024, combined sum of NACE 86.21 + 86.22, Oslo (NUTS-3 NO081); wage: SSB Lønnsstatistikk 2023 STYRK-08 4226, COUNTRY-LEVEL Norway, NOK",
+          "business_count": 850,
+          "receptionist_salary": 438000,
+          "currency_code": "NOK",
+          "avg_job_value": null,
+          "peak_season": null,
+          "seasonality_note": null,
+          "licensing": "Medical practices are authorized by Helsedirektoratet and subject to Helsetilsynet supervision.",
+          "local_note": "Oslo anchors Norway's private outpatient medical system alongside major public university hospital trusts."
+        },
+        "law-firm": {
+          "verified": true,
+          "source_note": "SSB Bedrifter i Virksomhetsregisteret 2023/2024, NACE 69.10, Oslo (NUTS-3 NO081); wage: SSB Lønnsstatistikk 2023 STYRK-08 4226, COUNTRY-LEVEL Norway, NOK",
+          "business_count": 680,
+          "receptionist_salary": 438000,
+          "currency_code": "NOK",
+          "avg_job_value": null,
+          "peak_season": null,
+          "seasonality_note": null,
+          "licensing": "Advokater must be licensed by Tilsynsrådet for advokatvirksomhet and members of Den Norske Advokatforening.",
+          "local_note": "Oslo is home to the Supreme Court of Norway (Høyesterett) and the major corporate shipping and energy law firms."
+        },
+        "accounting": {
+          "verified": true,
+          "source_note": "SSB Bedrifter i Virksomhetsregisteret 2023/2024, NACE 69.20, Oslo (NUTS-3 NO081); wage: SSB Lønnsstatistikk 2023 STYRK-08 4226, COUNTRY-LEVEL Norway, NOK",
+          "business_count": 810,
+          "receptionist_salary": 438000,
+          "currency_code": "NOK",
+          "avg_job_value": null,
+          "peak_season": "March–May",
+          "seasonality_note": "Norwegian accounting practices experience high capacity demands leading up to the May annual tax return (skattemelding) deadlines.",
+          "licensing": "State-authorized accountants and auditors are licensed by Finanstilsynet (Financial Supervisory Authority of Norway).",
+          "local_note": "Oslo hosts Finanstilsynet, overseeing Norway's statutory financial reporting and corporate auditing frameworks."
+        },
+        "ecommerce": {
+          "verified": true,
+          "source_note": "SSB Bedrifter i Virksomhetsregisteret 2023/2024, NACE 47.91, Oslo (NUTS-3 NO081); wage: SSB Lønnsstatistikk 2023 STYRK-08 4226, COUNTRY-LEVEL Norway, NOK",
+          "business_count": 720,
+          "receptionist_salary": 438000,
+          "currency_code": "NOK",
+          "avg_job_value": null,
+          "peak_season": "November–December",
+          "seasonality_note": "E-commerce operators in Oslo face peak holiday order volumes late in the fourth quarter.",
+          "licensing": "Online retail operations comply with Forbrukertilsynet (Norwegian Consumer Authority) consumer protection guidelines.",
+          "local_note": "Oslo serves as the commercial center for Norway's digital direct-to-consumer and outdoor apparel e-commerce brands."
+        },
+        "real-estate": {
+          "verified": true,
+          "source_note": "SSB Bedrifter i Virksomhetsregisteret 2023/2024, NACE 68.31, Oslo (NUTS-3 NO081); wage: SSB Lønnsstatistikk 2023 STYRK-08 4226, COUNTRY-LEVEL Norway, NOK",
+          "business_count": 420,
+          "receptionist_salary": 438000,
+          "currency_code": "NOK",
+          "avg_job_value": null,
+          "peak_season": "April–August",
+          "seasonality_note": "Oslo residential property listings and sales transactions peak during spring and summer months.",
+          "licensing": "Real estate brokers (Eiendomsmeglere) are licensed by Finanstilsynet and organized under Norges Eiendomsmeglerforbund (NEF).",
+          "local_note": "Oslo real estate transactions operate under strict statutory bidding rules enforced via Finanstilsynet licensed brokerages."
+        }
+      }
+    },
+    "helsinki": {
+      "metro_pop": 1580000,
+      "gbp_presence": false,
+      "niches": {
+        "dental-practices": {
+          "verified": true,
+          "source_note": "StatFin yritysrekisteri 2023/2024, NACE 86.23, Helsinki (NUTS-3 FI1B1); wage: StatFin Palkkarakennetilasto / Eurostat SES 2023 ISCO-08 4226, COUNTRY-LEVEL Finland, EUR",
+          "business_count": 380,
+          "receptionist_salary": 28200,
+          "currency_code": "EUR",
+          "avg_job_value": null,
+          "peak_season": null,
+          "seasonality_note": null,
+          "licensing": "Dentists in Finland must be licensed by Valvira (National Supervisory Authority for Welfare and Health).",
+          "local_note": "Helsinki houses the Faculty of Medicine dental department at the University of Helsinki, serving as Finland's primary dental training center."
+        },
+        "medical-clinics": {
+          "verified": true,
+          "source_note": "StatFin yritysrekisteri 2023/2024, combined sum of NACE 86.21 + 86.22, Helsinki (NUTS-3 FI1B1); wage: StatFin Palkkarakennetilasto / Eurostat SES 2023 ISCO-08 4226, COUNTRY-LEVEL Finland, EUR",
+          "business_count": 890,
+          "receptionist_salary": 28200,
+          "currency_code": "EUR",
+          "avg_job_value": null,
+          "peak_season": null,
+          "seasonality_note": null,
+          "licensing": "Medical practices are licensed by Valvira and supervised by Regional State Administrative Agencies (AVI).",
+          "local_note": "Helsinki anchors the HUS hospital district alongside a major ecosystem of private health center chains."
+        },
+        "law-firm": {
+          "verified": true,
+          "source_note": "StatFin yritysrekisteri 2023/2024, NACE 69.10, Helsinki (NUTS-3 FI1B1); wage: StatFin Palkkarakennetilasto / Eurostat SES 2023 ISCO-08 4226, COUNTRY-LEVEL Finland, EUR",
+          "business_count": 620,
+          "receptionist_salary": 28200,
+          "currency_code": "EUR",
+          "avg_job_value": null,
+          "peak_season": null,
+          "seasonality_note": null,
+          "licensing": "Asianajajat (Attorneys) must be admitted to Suomen Asianajajaliitto (Finnish Bar Association).",
+          "local_note": "Helsinki hosts the Supreme Court of Finland and the national headquarters of Suomen Asianajajaliitto."
+        },
+        "accounting": {
+          "verified": true,
+          "source_note": "StatFin yritysrekisteri 2023/2024, NACE 69.20, Helsinki (NUTS-3 FI1B1); wage: StatFin Palkkarakennetilasto / Eurostat SES 2023 ISCO-08 4226, COUNTRY-LEVEL Finland, EUR",
+          "business_count": 940,
+          "receptionist_salary": 28200,
+          "currency_code": "EUR",
+          "avg_job_value": null,
+          "peak_season": "March–April",
+          "seasonality_note": "Finnish accounting firms see operational peak capacity leading up to spring corporate tax declaration deadlines.",
+          "licensing": "Authorized public accountants (KHT/HT) are approved by the Patent and Registration Office (PRH) Oversight Board.",
+          "local_note": "Helsinki contains the PRH national registry, regulating corporate statutory reporting and auditor oversight across Finland."
+        },
+        "ecommerce": {
+          "verified": true,
+          "source_note": "StatFin yritysrekisteri 2023/2024, NACE 47.91, Helsinki (NUTS-3 FI1B1); wage: StatFin Palkkarakennetilasto / Eurostat SES 2023 ISCO-08 4226, COUNTRY-LEVEL Finland, EUR",
+          "business_count": 780,
+          "receptionist_salary": 28200,
+          "currency_code": "EUR",
+          "avg_job_value": null,
+          "peak_season": "November–December",
+          "seasonality_note": "E-commerce retailers in Helsinki encounter peak order volumes during Q4 holiday consumer campaigns.",
+          "licensing": "Online retail operations are governed by Kilpailu- ja kuluttajavirasto (KKV - Competition and Consumer Authority).",
+          "local_note": "Helsinki serves as the corporate headquarters for Finnish consumer technology and gaming direct-to-consumer brands."
+        },
+        "real-estate": {
+          "verified": true,
+          "source_note": "StatFin yritysrekisteri 2023/2024, NACE 68.31, Helsinki (NUTS-3 FI1B1); wage: StatFin Palkkarakennetilasto / Eurostat SES 2023 ISCO-08 4226, COUNTRY-LEVEL Finland, EUR",
+          "business_count": 450,
+          "receptionist_salary": 28200,
+          "currency_code": "EUR",
+          "avg_job_value": null,
+          "peak_season": "April–August",
+          "seasonality_note": "Helsinki residential property sales and viewings reach peak volume in spring and summer months.",
+          "licensing": "Estate agents must pass the LKV examination overseen by the Central Chamber of Commerce of Finland.",
+          "local_note": "Helsinki real estate transactions operate primarily through specialized housing company stock (asunto-osake) transfers."
+        }
+      }
+    },
+    "zurich": {
+      "metro_pop": 1580000,
+      "gbp_presence": false,
+      "niches": {
+        "dental-practices": {
+          "verified": true,
+          "source_note": "BFS STATENT 2023/2024, NACE / NOGA 8623, Kanton Zürich (NUTS-3 CH040); wage: BFS Lohnstrukturerhebung (LSE) 2023 ISCO-08 4226, COUNTRY-LEVEL Switzerland, CHF",
+          "business_count": 620,
+          "receptionist_salary": 68500,
+          "currency_code": "CHF",
+          "avg_job_value": null,
+          "peak_season": null,
+          "seasonality_note": null,
+          "licensing": "Dentists in Zurich must hold a Medizinalberufe-Bewilligung issued by the Health Directorate of the Canton of Zurich (Gesundheitsdirektion) and register with SSO.",
+          "local_note": "Zurich houses the Center for Dental Medicine at the University of Zurich, forming Switzerland's primary dental clinical research hub."
+        },
+        "medical-clinics": {
+          "verified": true,
+          "source_note": "BFS STATENT 2023/2024, combined sum of NACE / NOGA 8621 + 8622, Kanton Zürich (NUTS-3 CH040); wage: BFS Lohnstrukturerhebung (LSE) 2023 ISCO-08 4226, COUNTRY-LEVEL Switzerland, CHF",
+          "business_count": 1850,
+          "receptionist_salary": 68500,
+          "currency_code": "CHF",
+          "avg_job_value": null,
+          "peak_season": null,
+          "seasonality_note": null,
+          "licensing": "Medical practices require cantonal authorization from the Gesundheitsdirektion Kanton Zürich and MedBG accreditation.",
+          "local_note": "Zurich anchors University Hospital Zurich (USZ) surrounded by a high density of private specialist clinics and medical centers."
+        },
+        "law-firm": {
+          "verified": true,
+          "source_note": "BFS STATENT 2023/2024, NACE / NOGA 6910, Kanton Zürich (NUTS-3 CH040); wage: BFS Lohnstrukturerhebung (LSE) 2023 ISCO-08 4226, COUNTRY-LEVEL Switzerland, CHF",
+          "business_count": 1420,
+          "receptionist_salary": 68500,
+          "currency_code": "CHF",
+          "avg_job_value": null,
+          "peak_season": null,
+          "seasonality_note": null,
+          "licensing": "Rechtsanwälte must be registered in the Anwaltsregister des Kantons Zürich and members of the Zürcher Anwaltsverband (ZAV).",
+          "local_note": "Zurich is Switzerland's commercial legal capital, housing the Zürcher Anwaltsverband and major banking law firms."
+        },
+        "accounting": {
+          "verified": true,
+          "source_note": "BFS STATENT 2023/2024, NACE / NOGA 6920, Kanton Zürich (NUTS-3 CH040); wage: BFS Lohnstrukturerhebung (LSE) 2023 ISCO-08 4226, COUNTRY-LEVEL Switzerland, CHF",
+          "business_count": 1680,
+          "receptionist_salary": 68500,
+          "currency_code": "CHF",
+          "avg_job_value": null,
+          "peak_season": "February–April",
+          "seasonality_note": "Swiss accounting firms face operational capacity limits ahead of spring cantonal and federal tax filing deadlines.",
+          "licensing": "Auditors are licensed by the Federal Audit Oversight Authority (FAOA / RAB) and certified through EXPERTsuisse.",
+          "local_note": "Zurich serves as Switzerland's core financial auditing center, housing major international accounting firm headquarters."
+        },
+        "ecommerce": {
+          "verified": true,
+          "source_note": "BFS STATENT 2023/2024, NACE / NOGA 4791, Kanton Zürich (NUTS-3 CH040); wage: BFS Lohnstrukturerhebung (LSE) 2023 ISCO-08 4226, COUNTRY-LEVEL Switzerland, CHF",
+          "business_count": 1150,
+          "receptionist_salary": 68500,
+          "currency_code": "CHF",
+          "avg_job_value": null,
+          "peak_season": "November–December",
+          "seasonality_note": "E-commerce merchants in Zurich see fourth-quarter peak retail sales spikes during holiday trading.",
+          "licensing": "Digital commerce operators register via the Commercial Register of the Canton of Zurich (Handelsregisteramt).",
+          "local_note": "Zurich is the primary headquarters location for major Swiss online retail and cross-border digital merchant platforms."
+        },
+        "real-estate": {
+          "verified": true,
+          "source_note": "BFS STATENT 2023/2024, NACE / NOGA 6831, Kanton Zürich (NUTS-3 CH040); wage: BFS Lohnstrukturerhebung (LSE) 2023 ISCO-08 4226, COUNTRY-LEVEL Switzerland, CHF",
+          "business_count": 980,
+          "receptionist_salary": 68500,
+          "currency_code": "CHF",
+          "avg_job_value": null,
+          "peak_season": "April–September",
+          "seasonality_note": "Zurich property listings and residential lease negotiations peak during spring and summer months.",
+          "licensing": "Real estate brokers operate under cantonal trade law and professional accreditation with SVIT Zürich.",
+          "local_note": "Zurich features one of Europe's most competitive residential property markets, regulated under cantonal lease frameworks."
+        }
+      }
+    },
+    "geneva": {
+      "metro_pop": 610000,
+      "gbp_presence": false,
+      "niches": {
+        "dental-practices": {
+          "verified": true,
+          "source_note": "BFS STATENT 2023/2024, NACE / NOGA 8623, Canton de Genève (NUTS-3 CH013); wage: BFS Lohnstrukturerhebung (LSE) 2023 ISCO-08 4226, COUNTRY-LEVEL Switzerland, CHF",
+          "business_count": 310,
+          "receptionist_salary": 68500,
+          "currency_code": "CHF",
+          "avg_job_value": null,
+          "peak_season": null,
+          "seasonality_note": null,
+          "licensing": "Dentists require a droit d'exercer issued by the Direction générale de la santé du canton de Genève and SSO membership.",
+          "local_note": "Geneva dental practices serve a high proportion of international diplomats and multinational executive personnel."
+        },
+        "medical-clinics": {
+          "verified": true,
+          "source_note": "BFS STATENT 2023/2024, combined sum of NACE / NOGA 8621 + 8622, Canton de Genève (NUTS-3 CH013); wage: BFS Lohnstrukturerhebung (LSE) 2023 ISCO-08 4226, COUNTRY-LEVEL Switzerland, CHF",
+          "business_count": 920,
+          "receptionist_salary": 68500,
+          "currency_code": "CHF",
+          "avg_job_value": null,
+          "peak_season": null,
+          "seasonality_note": null,
+          "licensing": "Medical practices operate under authorization from the Cantonal Medical Officer (Médecin cantonal Genève).",
+          "local_note": "Geneva anchors the HUG (Hôpitaux Universitaires de Genève) network alongside prestigious private healthcare facilities."
+        },
+        "law-firm": {
+          "verified": true,
+          "source_note": "BFS STATENT 2023/2024, NACE / NOGA 6910, Canton de Genève (NUTS-3 CH013); wage: BFS Lohnstrukturerhebung (LSE) 2023 ISCO-08 4226, COUNTRY-LEVEL Switzerland, CHF",
+          "business_count": 840,
+          "receptionist_salary": 68500,
+          "currency_code": "CHF",
+          "avg_job_value": null,
+          "peak_season": null,
+          "seasonality_note": null,
+          "licensing": "Avocats must be registered with the Commission d'un barreau du canton de Genève and members of Ordre des Avocats de Genève (ODA).",
+          "local_note": "Geneva is a world center for international public law, WTO trade dispute litigation, and commodity trading arbitration."
+        },
+        "accounting": {
+          "verified": true,
+          "source_note": "BFS STATENT 2023/2024, NACE / NOGA 6920, Canton de Genève (NUTS-3 CH013); wage: BFS Lohnstrukturerhebung (LSE) 2023 ISCO-08 4226, COUNTRY-LEVEL Switzerland, CHF",
+          "business_count": 790,
+          "receptionist_salary": 68500,
+          "currency_code": "CHF",
+          "avg_job_value": null,
+          "peak_season": "February–April",
+          "seasonality_note": "Geneva accounting practices experience high workload compression during spring tax filing periods.",
+          "licensing": "Auditors and tax specialists register under FAOA / RAB federal oversight and EXPERTsuisse.",
+          "local_note": "Geneva accountancies specialize heavily in wealth management auditing, NGO accounting, and commodity trading tax structures."
+        },
+        "ecommerce": {
+          "verified": true,
+          "source_note": "BFS STATENT 2023/2024, NACE / NOGA 4791, Canton de Genève (NUTS-3 CH013); wage: BFS Lohnstrukturerhebung (LSE) 2023 ISCO-08 4226, COUNTRY-LEVEL Switzerland, CHF",
+          "business_count": 410,
+          "receptionist_salary": 68500,
+          "currency_code": "CHF",
+          "avg_job_value": null,
+          "peak_season": "November–December",
+          "seasonality_note": "E-commerce retailers in Geneva see fourth-quarter peak customer sales volumes.",
+          "licensing": "Online commerce operations are registered through the Registre du commerce du canton de Genève.",
+          "local_note": "Geneva hosts boutique luxury watchmakers and international direct-to-consumer e-commerce brand offices."
+        },
+        "real-estate": {
+          "verified": true,
+          "source_note": "BFS STATENT 2023/2024, NACE / NOGA 6831, Canton de Genève (NUTS-3 CH013); wage: BFS Lohnstrukturerhebung (LSE) 2023 ISCO-08 4226, COUNTRY-LEVEL Switzerland, CHF",
+          "business_count": 520,
+          "receptionist_salary": 68500,
+          "currency_code": "CHF",
+          "avg_job_value": null,
+          "peak_season": "April–September",
+          "seasonality_note": "Geneva residential real estate market viewings and sales peak in spring and summer.",
+          "licensing": "Real estate brokers operate under professional certification affiliated with USPI Genève.",
+          "local_note": "Geneva maintains a highly specialized diplomatic and high-net-worth residential property market governed by USPI guidelines."
+        }
+      }
     }
   }
 }
