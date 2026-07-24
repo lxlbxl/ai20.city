@@ -299,6 +299,7 @@ export default function regionPlugin() {
         '%%MARKETS_BLURB%%': cfg.marketsBlurb,
         '%%COVERAGE_LINE%%': cfg.coverageLine,
         '%%OFFICE_LINE%%': cfg.officeLine,
+        '%%OFFICE_LABEL%%': cfg.officeLabel,
         '%%LOCATIONS_SCHEMA%%': locationsSchema(cfg),
         '%%CASE_STUDIES%%': caseStudiesHtml(cfg.caseStudies),
         '%%OFFER_GRID%%': offerGridHtml(cfg),

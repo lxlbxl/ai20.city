@@ -48,3 +48,45 @@
         font-family: var(--font-sans-tech);
     }
 }
+
+@layer components {
+
+    /* Ambient hero background (src/js/hero-bg.js).
+       The canvas is injected as the first child of [data-hero-bg]; these rules
+       keep it behind the content without disturbing the existing Tailwind
+       absolute-positioned decorations already used in the heroes. */
+
+    .hero-bg-canvas {
+        position: absolute;
+        inset: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 0;
+        pointer-events: none;
+        display: block;
+        opacity: 0;
+        transition: opacity 1.2s ease;
+    }
+
+    .hero-bg-canvas.is-ready {
+        opacity: 1;
+    }
+
+    /* Lift normal-flow content above the canvas... */
+    [data-hero-bg] > *:not(.hero-bg-canvas) {
+        position: relative;
+        z-index: 1;
+    }
+
+    /* ...without converting Tailwind's absolutely-positioned decorations. */
+    [data-hero-bg] > .absolute:not(.hero-bg-canvas) {
+        position: absolute;
+        z-index: 1;
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+        .hero-bg-canvas {
+            transition: none;
+        }
+    }
+}
