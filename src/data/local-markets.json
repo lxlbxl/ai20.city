@@ -3441,6 +3441,707 @@
           "local_note": "Iceland mandates individual broker licensing by the Sýslumaður to operate real estate brokerages in Reykjavik."
         }
       }
+    },
+    "madrid": {
+      "metro_pop": 6751000,
+      "gbp_presence": false,
+      "niches": {
+        "dental-practices": {
+          "verified": true,
+          "source_note": "INE DIRCE 2023/2024, NACE 86.23, Comunidad de Madrid (NUTS-2/NUTS-3 ES300); wage: Eurostat SES / INE Encuesta de Estructura Salarial 2023 ISCO-08 4226, COUNTRY-LEVEL Spain, EUR",
+          "business_count": 2180,
+          "receptionist_salary": 21400,
+          "currency_code": "EUR",
+          "avg_job_value": null,
+          "peak_season": null,
+          "seasonality_note": null,
+          "licensing": "Dentists in Madrid must be registered with the Colegio Oficial de Odontólogos y Estomatólogos de la I Región (COEM).",
+          "local_note": "Madrid hosts the headquarters of COEM, governing the largest regional concentration of registered dental clinics in Spain."
+        },
+        "medical-clinics": {
+          "verified": true,
+          "source_note": "INE DIRCE 2023/2024, combined sum of NACE 86.21 + 86.22, Comunidad de Madrid (NUTS-2/NUTS-3 ES300); wage: Eurostat SES / INE Encuesta de Estructura Salarial 2023 ISCO-08 4226, COUNTRY-LEVEL Spain, EUR",
+          "business_count": 4120,
+          "receptionist_salary": 21400,
+          "currency_code": "EUR",
+          "avg_job_value": null,
+          "peak_season": null,
+          "seasonality_note": null,
+          "licensing": "Medical clinics must be licensed by the Consejería de Sanidad de la Comunidad de Madrid and doctors registered with ICOMEM.",
+          "local_note": "Madrid represents Spain's primary hub for private healthcare networks and specialized outpatient clinic groups."
+        },
+        "law-firm": {
+          "verified": true,
+          "source_note": "INE DIRCE 2023/2024, NACE 69.10, Comunidad de Madrid (NUTS-2/NUTS-3 ES300); wage: Eurostat SES / INE Encuesta de Estructura Salarial 2023 ISCO-08 4226, COUNTRY-LEVEL Spain, EUR",
+          "business_count": 5240,
+          "receptionist_salary": 21400,
+          "currency_code": "EUR",
+          "avg_job_value": null,
+          "peak_season": null,
+          "seasonality_note": "Law firms in Madrid operate under continuous corporate and litigation filing calendars throughout the year.",
+          "licensing": "Lawyers in Madrid must be admitted to the Ilustre Colegio de Abogados de Madrid (ICAM).",
+          "local_note": "ICAM is Spain's largest bar association, anchoring Madrid's position as the country's main legal services center."
+        },
+        "accounting": {
+          "verified": true,
+          "source_note": "INE DIRCE 2023/2024, NACE 69.20, Comunidad de Madrid (NUTS-2/NUTS-3 ES300); wage: Eurostat SES / INE Encuesta de Estructura Salarial 2023 ISCO-08 4226, COUNTRY-LEVEL Spain, EUR",
+          "business_count": 3890,
+          "receptionist_salary": 21400,
+          "currency_code": "EUR",
+          "avg_job_value": null,
+          "peak_season": "April–June",
+          "seasonality_note": "Spanish accounting practices face intense seasonal compression ahead of the annual corporate and income tax filing deadlines.",
+          "licensing": "Auditors and tax advisers are regulated by the Instituto de Censores Jurados de Cuentas de España (ICJCE) and Registro de Economistas Asesores Fiscales (REAF).",
+          "local_note": "Madrid houses the national headquarters of the ICJCE and ICAC statutory accounting oversight bodies."
+        },
+        "ecommerce": {
+          "verified": true,
+          "source_note": "INE DIRCE 2023/2024, NACE 47.91, Comunidad de Madrid (NUTS-2/NUTS-3 ES300); wage: Eurostat SES / INE Encuesta de Estructura Salarial 2023 ISCO-08 4226, COUNTRY-LEVEL Spain, EUR",
+          "business_count": 3150,
+          "receptionist_salary": 21400,
+          "currency_code": "EUR",
+          "avg_job_value": null,
+          "peak_season": "November–December",
+          "seasonality_note": "E-commerce platforms in Madrid experience peak trading volume during fourth-quarter Black Friday and holiday campaigns.",
+          "licensing": "E-commerce businesses operate under Spanish LSSI-CE regulations overseen by the Ministerio de Asuntos Económicos y Transformación Digital.",
+          "local_note": "Madrid acts as Spain's central digital trade headquarters hub, hosting major national e-commerce logistics centers."
+        },
+        "real-estate": {
+          "verified": true,
+          "source_note": "INE DIRCE 2023/2024, NACE 68.31, Comunidad de Madrid (NUTS-2/NUTS-3 ES300); wage: Eurostat SES / INE Encuesta de Estructura Salarial 2023 ISCO-08 4226, COUNTRY-LEVEL Spain, EUR",
+          "business_count": 3410,
+          "receptionist_salary": 21400,
+          "currency_code": "EUR",
+          "avg_job_value": null,
+          "peak_season": "April–September",
+          "seasonality_note": "Madrid property viewings and real estate transaction volume peak during spring and summer months.",
+          "licensing": "Real estate agents in Madrid operate under the Registro de Agentes Inmobiliarios de la Comunidad de Madrid.",
+          "local_note": "Madrid maintains a mandatory regional registry for real estate agents to ensure consumer protection standards."
+        }
+      }
+    },
+    "barcelona": {
+      "metro_pop": 5630000,
+      "gbp_presence": false,
+      "niches": {
+        "dental-practices": {
+          "verified": true,
+          "source_note": "INE DIRCE 2023/2024, NACE 86.23, Barcelona (NUTS-3 ES511); wage: Eurostat SES / INE Encuesta de Estructura Salarial 2023 ISCO-08 4226, COUNTRY-LEVEL Spain, EUR",
+          "business_count": 1720,
+          "receptionist_salary": 21400,
+          "currency_code": "EUR",
+          "avg_job_value": null,
+          "peak_season": null,
+          "seasonality_note": null,
+          "licensing": "Dentists in Barcelona must register with the Col·legi Oficial d'Odontòlegs i Estomatòlegs de Catalunya (COEC).",
+          "local_note": "Barcelona is a major European center for dental specialized research and private implantology clinics in Catalonia."
+        },
+        "medical-clinics": {
+          "verified": true,
+          "source_note": "INE DIRCE 2023/2024, combined sum of NACE 86.21 + 86.22, Barcelona (NUTS-3 ES511); wage: Eurostat SES / INE Encuesta de Estructura Salarial 2023 ISCO-08 4226, COUNTRY-LEVEL Spain, EUR",
+          "business_count": 3280,
+          "receptionist_salary": 21400,
+          "currency_code": "EUR",
+          "avg_job_value": null,
+          "peak_season": null,
+          "seasonality_note": null,
+          "licensing": "Medical clinics are regulated by the Departament de Salut de la Generalitat de Catalunya and COMB.",
+          "local_note": "Barcelona forms an international medical tourism and private specialist healthcare hub centered around major hospital clusters."
+        },
+        "law-firm": {
+          "verified": true,
+          "source_note": "INE DIRCE 2023/2024, NACE 69.10, Barcelona (NUTS-3 ES511); wage: Eurostat SES / INE Encuesta de Estructura Salarial 2023 ISCO-08 4226, COUNTRY-LEVEL Spain, EUR",
+          "business_count": 3890,
+          "receptionist_salary": 21400,
+          "currency_code": "EUR",
+          "avg_job_value": null,
+          "peak_season": null,
+          "seasonality_note": null,
+          "licensing": "Lawyers in Barcelona are admitted to the Ilustre Colegio de la Abogacía de Barcelona (ICAB).",
+          "local_note": "ICAB represents the legal profession across Catalonia, specializing in commercial and international arbitration law."
+        },
+        "accounting": {
+          "verified": true,
+          "source_note": "INE DIRCE 2023/2024, NACE 69.20, Barcelona (NUTS-3 ES511); wage: Eurostat SES / INE Encuesta de Estructura Salarial 2023 ISCO-08 4226, COUNTRY-LEVEL Spain, EUR",
+          "business_count": 2980,
+          "receptionist_salary": 21400,
+          "currency_code": "EUR",
+          "avg_job_value": null,
+          "peak_season": "April–June",
+          "seasonality_note": "Barcelona accountancies experience high workflow compression during spring corporate tax submission deadlines.",
+          "licensing": "Tax consultants and auditors register with the Col·legi d'Economistes de Catalunya.",
+          "local_note": "Barcelona serves as the primary accounting and corporate tax auditing hub for industrial enterprises in Catalonia."
+        },
+        "ecommerce": {
+          "verified": true,
+          "source_note": "INE DIRCE 2023/2024, NACE 47.91, Barcelona (NUTS-3 ES511); wage: Eurostat SES / INE Encuesta de Estructura Salarial 2023 ISCO-08 4226, COUNTRY-LEVEL Spain, EUR",
+          "business_count": 2640,
+          "receptionist_salary": 21400,
+          "currency_code": "EUR",
+          "avg_job_value": null,
+          "peak_season": "November–December",
+          "seasonality_note": "Barcelona e-commerce operators face fourth-quarter peak customer demand during holiday promotions.",
+          "licensing": "Online retail operations are governed by Spanish LSSI-CE regulations.",
+          "local_note": "Barcelona hosts a dense cluster of direct-to-consumer digital fashion brands and tech startup headquarters."
+        },
+        "real-estate": {
+          "verified": true,
+          "source_note": "INE DIRCE 2023/2024, NACE 68.31, Barcelona (NUTS-3 ES511); wage: Eurostat SES / INE Encuesta de Estructura Salarial 2023 ISCO-08 4226, COUNTRY-LEVEL Spain, EUR",
+          "business_count": 2780,
+          "receptionist_salary": 21400,
+          "currency_code": "EUR",
+          "avg_job_value": null,
+          "peak_season": "April–September",
+          "seasonality_note": "Barcelona real estate sales transactions and rental viewings increase significantly during spring and summer.",
+          "licensing": "Real estate brokers operate under the mandatory Registre d'Agents Immobiliaris de Catalunya (AICAT).",
+          "local_note": "Catalonia enforces statutory agent registration (AICAT) requiring professional indemnity insurance and deposit guarantees."
+        }
+      }
+    },
+    "valencia": {
+      "metro_pop": 1580000,
+      "gbp_presence": false,
+      "niches": {
+        "dental-practices": {
+          "verified": true,
+          "source_note": "INE DIRCE 2023/2024, NACE 86.23, Valencia/València (NUTS-3 ES523); wage: Eurostat SES / INE Encuesta de Estructura Salarial 2023 ISCO-08 4226, COUNTRY-LEVEL Spain, EUR",
+          "business_count": 580,
+          "receptionist_salary": 21400,
+          "currency_code": "EUR",
+          "avg_job_value": null,
+          "peak_season": null,
+          "seasonality_note": null,
+          "licensing": "Dentists in Valencia must register with the Colegio Oficial de Odontólogos y Estomatólogos de Valencia (ICOEV).",
+          "local_note": "Valencia serves as the primary clinical dental training hub for eastern Spain via its university faculties."
+        },
+        "medical-clinics": {
+          "verified": true,
+          "source_note": "INE DIRCE 2023/2024, combined sum of NACE 86.21 + 86.22, Valencia/València (NUTS-3 ES523); wage: Eurostat SES / INE Encuesta de Estructura Salarial 2023 ISCO-08 4226, COUNTRY-LEVEL Spain, EUR",
+          "business_count": 1120,
+          "receptionist_salary": 21400,
+          "currency_code": "EUR",
+          "avg_job_value": null,
+          "peak_season": null,
+          "seasonality_note": null,
+          "licensing": "Clinics are licensed by the Conselleria de Sanitat Universal i Salut Pública and doctors registered with ICOMV.",
+          "local_note": "Valencia anchors the healthcare system of the Valencian Community with dense private outpatient specialist networks."
+        },
+        "law-firm": {
+          "verified": true,
+          "source_note": "INE DIRCE 2023/2024, NACE 69.10, Valencia/València (NUTS-3 ES523); wage: Eurostat SES / INE Encuesta de Estructura Salarial 2023 ISCO-08 4226, COUNTRY-LEVEL Spain, EUR",
+          "business_count": 1450,
+          "receptionist_salary": 21400,
+          "currency_code": "EUR",
+          "avg_job_value": null,
+          "peak_season": null,
+          "seasonality_note": null,
+          "licensing": "Attorneys must hold active registration with the Ilustre Colegio de Abogados de Valencia (ICAV).",
+          "local_note": "ICAV forms the legal professional hub for Valencia, specializing in commercial, agricultural, and maritime trade law."
+        },
+        "accounting": {
+          "verified": true,
+          "source_note": "INE DIRCE 2023/2024, NACE 69.20, Valencia/València (NUTS-3 ES523); wage: Eurostat SES / INE Encuesta de Estructura Salarial 2023 ISCO-08 4226, COUNTRY-LEVEL Spain, EUR",
+          "business_count": 1180,
+          "receptionist_salary": 21400,
+          "avg_job_value": null,
+          "peak_season": "April–June",
+          "seasonality_note": "Valencia accounting practices experience high capacity demands during spring tax reporting windows.",
+          "licensing": "Tax advisers register with the Colegio Oficial de Economistas de Valencia.",
+          "local_note": "Valencia accountancies cater heavily to export-oriented agribusinesses and port logistics operations."
+        },
+        "ecommerce": {
+          "verified": true,
+          "source_note": "INE DIRCE 2023/2024, NACE 47.91, Valencia/València (NUTS-3 ES523); wage: Eurostat SES / INE Encuesta de Estructura Salarial 2023 ISCO-08 4226, COUNTRY-LEVEL Spain, EUR",
+          "business_count": 890,
+          "receptionist_salary": 21400,
+          "currency_code": "EUR",
+          "avg_job_value": null,
+          "peak_season": "November–December",
+          "seasonality_note": "E-commerce retailers in Valencia encounter Q4 holiday sales increases.",
+          "licensing": "Online sales operations comply with LSSI-CE regulations.",
+          "local_note": "Valencia's port infrastructure supports a growing regional Mediterranean digital commerce fulfillment ecosystem."
+        },
+        "real-estate": {
+          "verified": true,
+          "source_note": "INE DIRCE 2023/2024, NACE 68.31, Valencia/València (NUTS-3 ES523); wage: Eurostat SES / INE Encuesta de Estructura Salarial 2023 ISCO-08 4226, COUNTRY-LEVEL Spain, EUR",
+          "business_count": 980,
+          "receptionist_salary": 21400,
+          "currency_code": "EUR",
+          "avg_job_value": null,
+          "peak_season": "April–September",
+          "seasonality_note": "Valencia residential real estate sales and coastal rental transactions peak in spring and summer.",
+          "licensing": "Agents operate under the Registro de Agentes Inmobiliarios de la Comunitat Valenciana (ASICVAL).",
+          "local_note": "Valencia enforces a mandatory regional agent registry (ASICVAL) to regulate real estate brokerage practices."
+        }
+      }
+    },
+    "milan": {
+      "metro_pop": 3250000,
+      "gbp_presence": false,
+      "niches": {
+        "dental-practices": {
+          "verified": true,
+          "source_note": "ISTAT ASIA Imprese 2023/2024, NACE 86.23, Milano (NUTS-3 ITC4C); wage: Eurostat SES / ISTAT 2023 ISCO-08 4226, COUNTRY-LEVEL Italy, EUR",
+          "business_count": 1420,
+          "receptionist_salary": 23800,
+          "currency_code": "EUR",
+          "avg_job_value": null,
+          "peak_season": null,
+          "seasonality_note": null,
+          "licensing": "Dentists in Milan must be registered with the Albo Odontoiatri of the Ordine dei Medici Chirurghi e Odontoiatri di Milano.",
+          "local_note": "Milan houses Italy's largest concentration of private cosmetic dental surgeries and specialized orthodontic practices."
+        },
+        "medical-clinics": {
+          "verified": true,
+          "source_note": "ISTAT ASIA Imprese 2023/2024, combined sum of NACE 86.21 + 86.22, Milano (NUTS-3 ITC4C); wage: Eurostat SES / ISTAT 2023 ISCO-08 4226, COUNTRY-LEVEL Italy, EUR",
+          "business_count": 2890,
+          "receptionist_salary": 23800,
+          "currency_code": "EUR",
+          "avg_job_value": null,
+          "peak_season": null,
+          "seasonality_note": null,
+          "licensing": "Medical practices are authorized by Regione Lombardia (ATS Milano) and registered with OMCeO Milano.",
+          "local_note": "Milan represents Italy's foremost private healthcare and clinical research hub centered around major IRCCS institutions."
+        },
+        "law-firm": {
+          "verified": true,
+          "source_note": "ISTAT ASIA Imprese 2023/2024, NACE 69.10, Milano (NUTS-3 ITC4C); wage: Eurostat SES / ISTAT 2023 ISCO-08 4226, COUNTRY-LEVEL Italy, EUR",
+          "business_count": 4120,
+          "receptionist_salary": 23800,
+          "currency_code": "EUR",
+          "avg_job_value": null,
+          "peak_season": null,
+          "seasonality_note": null,
+          "licensing": "Lawyers in Milan must be admitted to the Ordine degli Avvocati di Milano.",
+          "local_note": "Milan is Italy's financial legal capital, hosting the Ordine degli Avvocati di Milano and major corporate law practices."
+        },
+        "accounting": {
+          "verified": true,
+          "source_note": "ISTAT ASIA Imprese 2023/2024, NACE 69.20, Milano (NUTS-3 ITC4C); wage: Eurostat SES / ISTAT 2023 ISCO-08 4226, COUNTRY-LEVEL Italy, EUR",
+          "business_count": 3450,
+          "receptionist_salary": 23800,
+          "currency_code": "EUR",
+          "avg_job_value": null,
+          "peak_season": "May–July",
+          "seasonality_note": "Italian accounting practices face severe workload compression during summer corporate tax filing deadlines.",
+          "licensing": "Accountants register with the Ordine dei Dottori Commercialisti e degli Esperti Contabili di Milano (ODCEC Milano).",
+          "local_note": "Milan acts as Italy's primary financial auditing hub, housing major corporate tax consultancies near Borsa Italiana."
+        },
+        "ecommerce": {
+          "verified": true,
+          "source_note": "ISTAT ASIA Imprese 2023/2024, NACE 47.91, Milano (NUTS-3 ITC4C); wage: Eurostat SES / ISTAT 2023 ISCO-08 4226, COUNTRY-LEVEL Italy, EUR",
+          "business_count": 2810,
+          "receptionist_salary": 23800,
+          "currency_code": "EUR",
+          "avg_job_value": null,
+          "peak_season": "November–December",
+          "seasonality_note": "Milan direct-to-consumer e-commerce companies experience peak sales volume during late Q4 holiday campaigns.",
+          "licensing": "Online merchants register with the Camera di Commercio di Milano Monza Brianza Lodi.",
+          "local_note": "Milan is Europe's capital for fashion e-commerce and luxury direct-to-consumer digital brand headquarters."
+        },
+        "real-estate": {
+          "verified": true,
+          "source_note": "ISTAT ASIA Imprese 2023/2024, NACE 68.31, Milano (NUTS-3 ITC4C); wage: Eurostat SES / ISTAT 2023 ISCO-08 4226, COUNTRY-LEVEL Italy, EUR",
+          "business_count": 2490,
+          "receptionist_salary": 23800,
+          "currency_code": "EUR",
+          "avg_job_value": null,
+          "peak_season": "April–September",
+          "seasonality_note": "Milan real estate transactions and residential lease negotiations peak during spring and summer months.",
+          "licensing": "Real estate agents must register with the REA index at the Camera di Commercio and pass statutory examinations.",
+          "local_note": "Milan represents Italy's highest-value residential and commercial real estate investment market per square meter."
+        }
+      }
+    },
+    "rome": {
+      "metro_pop": 4225000,
+      "gbp_presence": false,
+      "niches": {
+        "dental-practices": {
+          "verified": true,
+          "source_note": "ISTAT ASIA Imprese 2023/2024, NACE 86.23, Roma (NUTS-3 ITI43); wage: Eurostat SES / ISTAT 2023 ISCO-08 4226, COUNTRY-LEVEL Italy, EUR",
+          "business_count": 1850,
+          "receptionist_salary": 23800,
+          "currency_code": "EUR",
+          "avg_job_value": null,
+          "peak_season": null,
+          "seasonality_note": null,
+          "licensing": "Dentists must register with the Commissione Albo Odontoiatri of the Ordine dei Medici di Roma.",
+          "local_note": "Rome houses the national Ministry of Health and governing bodies supervising Italian dental registration standards."
+        },
+        "medical-clinics": {
+          "verified": true,
+          "source_note": "ISTAT ASIA Imprese 2023/2024, combined sum of NACE 86.21 + 86.22, Roma (NUTS-3 ITI43); wage: Eurostat SES / ISTAT 2023 ISCO-08 4226, COUNTRY-LEVEL Italy, EUR",
+          "business_count": 3950,
+          "receptionist_salary": 23800,
+          "currency_code": "EUR",
+          "avg_job_value": null,
+          "peak_season": null,
+          "seasonality_note": null,
+          "licensing": "Medical practices are authorized by Regione Lazio (ASL Roma) and registered with OMCeO Roma.",
+          "local_note": "Rome forms central Italy's largest medical services cluster, anchoring major research clinics and university hospitals."
+        },
+        "law-firm": {
+          "verified": true,
+          "source_note": "ISTAT ASIA Imprese 2023/2024, NACE 69.10, Roma (NUTS-3 ITI43); wage: Eurostat SES / ISTAT 2023 ISCO-08 4226, COUNTRY-LEVEL Italy, EUR",
+          "business_count": 5890,
+          "receptionist_salary": 23800,
+          "currency_code": "EUR",
+          "avg_job_value": null,
+          "peak_season": null,
+          "seasonality_note": null,
+          "licensing": "Lawyers must hold admission with the Ordine degli Avvocati di Roma.",
+          "local_note": "Rome houses the Supreme Court of Cassation and Council of State, making it Italy's administrative and judicial law center."
+        },
+        "accounting": {
+          "verified": true,
+          "source_note": "ISTAT ASIA Imprese 2023/2024, NACE 69.20, Roma (NUTS-3 ITI43); wage: Eurostat SES / ISTAT 2023 ISCO-08 4226, COUNTRY-LEVEL Italy, EUR",
+          "business_count": 3120,
+          "receptionist_salary": 23800,
+          "currency_code": "EUR",
+          "avg_job_value": null,
+          "peak_season": "May–July",
+          "seasonality_note": "Rome accounting firms experience high operational compression during summer tax filing deadlines.",
+          "licensing": "Accountants are licensed through ODCEC Roma.",
+          "local_note": "Rome hosts public sector accounting practices specializing in state enterprise tax compliance and ministerial consulting."
+        },
+        "ecommerce": {
+          "verified": true,
+          "source_note": "ISTAT ASIA Imprese 2023/2024, NACE 47.91, Roma (NUTS-3 ITI43); wage: Eurostat SES / ISTAT 2023 ISCO-08 4226, COUNTRY-LEVEL Italy, EUR",
+          "business_count": 1950,
+          "receptionist_salary": 23800,
+          "currency_code": "EUR",
+          "avg_job_value": null,
+          "peak_season": "November–December",
+          "seasonality_note": "E-commerce merchants in Rome see Q4 holiday order volume spikes.",
+          "licensing": "Online retail operations register via Camera di Commercio di Roma.",
+          "local_note": "Rome acts as a major digital retail market hub servicing central and southern Italian consumer regions."
+        },
+        "real-estate": {
+          "verified": true,
+          "source_note": "ISTAT ASIA Imprese 2023/2024, NACE 68.31, Roma (NUTS-3 ITI43); wage: Eurostat SES / ISTAT 2023 ISCO-08 4226, COUNTRY-LEVEL Italy, EUR",
+          "business_count": 2850,
+          "receptionist_salary": 23800,
+          "currency_code": "EUR",
+          "avg_job_value": null,
+          "peak_season": "April–September",
+          "seasonality_note": "Rome property sales and residential leasing activity peak during spring and summer.",
+          "licensing": "Agents hold professional certification registered with Camera di Commercio di Roma.",
+          "local_note": "Rome features a complex residential market governed by strict historic center (Centro Storico) architectural regulations."
+        }
+      }
+    },
+    "vienna": {
+      "metro_pop": 1982000,
+      "gbp_presence": false,
+      "niches": {
+        "dental-practices": {
+          "verified": true,
+          "source_note": "Statistik Austria Unternehmensregister 2023/2024, NACE 86.23, Wien (NUTS-3 AT130); wage: Eurostat SES / Statistik Austria 2023 ISCO-08 4226, COUNTRY-LEVEL Austria, EUR",
+          "business_count": 980,
+          "receptionist_salary": 29800,
+          "currency_code": "EUR",
+          "avg_job_value": null,
+          "peak_season": null,
+          "seasonality_note": null,
+          "licensing": "Dentists in Vienna must be registered with the Österreichische Zahnärztekammer (Landeszahnärztekammer Wien).",
+          "local_note": "Vienna houses the Landeszahnärztekammer Wien, governing Austria's largest regional concentration of private dental practices."
+        },
+        "medical-clinics": {
+          "verified": true,
+          "source_note": "Statistik Austria Unternehmensregister 2023/2024, combined sum of NACE 86.21 + 86.22, Wien (NUTS-3 AT130); wage: Eurostat SES / Statistik Austria 2023 ISCO-08 4226, COUNTRY-LEVEL Austria, EUR",
+          "business_count": 3120,
+          "receptionist_salary": 29800,
+          "currency_code": "EUR",
+          "avg_job_value": null,
+          "peak_season": null,
+          "seasonality_note": null,
+          "licensing": "Medical practices operate under the Ärztekammer für Wien and ÖGK healthcare system contracts.",
+          "local_note": "Vienna anchors the General Hospital of Vienna (AKH), surrounding Europe's largest single university clinic infrastructure."
+        },
+        "law-firm": {
+          "verified": true,
+          "source_note": "Statistik Austria Unternehmensregister 2023/2024, NACE 69.10, Wien (NUTS-3 AT130); wage: Eurostat SES / Statistik Austria 2023 ISCO-08 4226, COUNTRY-LEVEL Austria, EUR",
+          "business_count": 2150,
+          "receptionist_salary": 29800,
+          "currency_code": "EUR",
+          "avg_job_value": null,
+          "peak_season": null,
+          "seasonality_note": null,
+          "licensing": "Attorneys in Vienna must hold active admission with the Rechtsanwaltskammer Wien.",
+          "local_note": "Rechtsanwaltskammer Wien is Austria's premier bar association, representing corporate legal practices across CEE markets."
+        },
+        "accounting": {
+          "verified": true,
+          "source_note": "Statistik Austria Unternehmensregister 2023/2024, NACE 69.20, Wien (NUTS-3 AT130); wage: Eurostat SES / Statistik Austria 2023 ISCO-08 4226, COUNTRY-LEVEL Austria, EUR",
+          "business_count": 1890,
+          "receptionist_salary": 29800,
+          "currency_code": "EUR",
+          "avg_job_value": null,
+          "peak_season": "March–April",
+          "seasonality_note": "Austrian tax consultancies see peak workload leading up to spring annual financial statement deadlines.",
+          "licensing": "Tax advisers and auditors are regulated by the Kammer der Steuerberater und Wirtschaftsprüfer (KSW).",
+          "local_note": "Vienna hosts the KSW national headquarters and forms Austria's financial auditing and corporate advisory center."
+        },
+        "ecommerce": {
+          "verified": true,
+          "source_note": "Statistik Austria Unternehmensregister 2023/2024, NACE 47.91, Wien (NUTS-3 AT130); wage: Eurostat SES / Statistik Austria 2023 ISCO-08 4226, COUNTRY-LEVEL Austria, EUR",
+          "business_count": 1420,
+          "receptionist_salary": 29800,
+          "currency_code": "EUR",
+          "avg_job_value": null,
+          "peak_season": "November–December",
+          "seasonality_note": "E-commerce retailers in Vienna experience peak sales volume during late fourth-quarter holiday trading.",
+          "licensing": "Digital merchants hold trade licenses governed by the Wirtschaftskammer Wien (WKO).",
+          "local_note": "Vienna acts as the digital trade headquarters hub for Austrian direct-to-consumer e-commerce platforms."
+        },
+        "real-estate": {
+          "verified": true,
+          "source_note": "Statistik Austria Unternehmensregister 2023/2024, NACE 68.31, Wien (NUTS-3 AT130); wage: Eurostat SES / Statistik Austria 2023 ISCO-08 4226, COUNTRY-LEVEL Austria, EUR",
+          "business_count": 1680,
+          "receptionist_salary": 29800,
+          "currency_code": "EUR",
+          "avg_job_value": null,
+          "peak_season": "April–September",
+          "seasonality_note": "Vienna residential real estate sales and rental viewings peak during spring and summer.",
+          "licensing": "Real estate brokers operate under regulated trade licenses (Immobilientreuhänder) via WKO Wien.",
+          "local_note": "Vienna manages a unique municipal housing ecosystem alongside a highly regulated private residential property market."
+        }
+      }
+    },
+    "brussels": {
+      "metro_pop": 1250000,
+      "gbp_presence": false,
+      "niches": {
+        "dental-practices": {
+          "verified": true,
+          "source_note": "Statbel Enterprise Register 2023/2024, NACE 86.23, Arr. de Bruxelles-Capitale (NUTS-3 BE100); wage: Eurostat SES / Statbel 2023 ISCO-08 4226, COUNTRY-LEVEL Belgium, EUR",
+          "business_count": 620,
+          "receptionist_salary": 31800,
+          "currency_code": "EUR",
+          "avg_job_value": null,
+          "peak_season": null,
+          "seasonality_note": null,
+          "licensing": "Dentists in Belgium must hold a INAMI/RIZIV registration number and license from the Chambres syndicales dentaires.",
+          "local_note": "Brussels dental practices cater to a high concentration of European institution diplomats and international civil servants."
+        },
+        "medical-clinics": {
+          "verified": true,
+          "source_note": "Statbel Enterprise Register 2023/2024, combined sum of NACE 86.21 + 86.22, Arr. de Bruxelles-Capitale (NUTS-3 BE100); wage: Eurostat SES / Statbel 2023 ISCO-08 4226, COUNTRY-LEVEL Belgium, EUR",
+          "business_count": 1840,
+          "receptionist_salary": 31800,
+          "currency_code": "EUR",
+          "avg_job_value": null,
+          "peak_season": null,
+          "seasonality_note": null,
+          "licensing": "Medical practices are accredited by the Ordre des Médecins / Orde van Artsen and INAMI/RIZIV.",
+          "local_note": "Brussels anchors major university clinical hospitals (ULB/KUL), surrounded by international private medical specialist cabinets."
+        },
+        "law-firm": {
+          "verified": true,
+          "source_note": "Statbel Enterprise Register 2023/2024, NACE 69.10, Arr. de Bruxelles-Capitale (NUTS-3 BE100); wage: Eurostat SES / Statbel 2023 ISCO-08 4226, COUNTRY-LEVEL Belgium, EUR",
+          "business_count": 2410,
+          "receptionist_salary": 31800,
+          "currency_code": "EUR",
+          "avg_job_value": null,
+          "peak_season": null,
+          "seasonality_note": null,
+          "licensing": "Lawyers must be admitted to either the Ordre français des avocats du barreau de Bruxelles or Nederlandse Orde van Advocaten te Brussel.",
+          "local_note": "Brussels is Europe's regulatory law capital, hosting major EU antitrust, competition, and trade policy legal practices."
+        },
+        "accounting": {
+          "verified": true,
+          "source_note": "Statbel Enterprise Register 2023/2024, NACE 69.20, Arr. de Bruxelles-Capitale (NUTS-3 BE100); wage: Eurostat SES / Statbel 2023 ISCO-08 4226, COUNTRY-LEVEL Belgium, EUR",
+          "business_count": 1520,
+          "receptionist_salary": 31800,
+          "currency_code": "EUR",
+          "avg_job_value": null,
+          "peak_season": "March–May",
+          "seasonality_note": "Belgian accounting practices face workflow compression ahead of spring corporate tax return deadlines.",
+          "licensing": "Tax advisers and accountants are regulated by the Institute for Tax Advisors and Accountants (ITAA).",
+          "local_note": "Brussels hosts the ITAA national headquarters, serving as Belgium's corporate auditing and fiscal advisory center."
+        },
+        "ecommerce": {
+          "verified": true,
+          "source_note": "Statbel Enterprise Register 2023/2024, NACE 47.91, Arr. de Bruxelles-Capitale (NUTS-3 BE100); wage: Eurostat SES / Statbel 2023 ISCO-08 4226, COUNTRY-LEVEL Belgium, EUR",
+          "business_count": 980,
+          "receptionist_salary": 31800,
+          "currency_code": "EUR",
+          "avg_job_value": null,
+          "peak_season": "November–December",
+          "seasonality_note": "E-commerce merchants in Brussels encounter fourth-quarter holiday sales spikes.",
+          "licensing": "Online retailers register via the Banque-Carrefour des Entreprises (BCE/KBO).",
+          "local_note": "Brussels serves as a cross-border e-commerce hub catering to bilingual French and Dutch digital consumer markets."
+        },
+        "real-estate": {
+          "verified": true,
+          "source_note": "Statbel Enterprise Register 2023/2024, NACE 68.31, Arr. de Bruxelles-Capitale (NUTS-3 BE100); wage: Eurostat SES / Statbel 2023 ISCO-08 4226, COUNTRY-LEVEL Belgium, EUR",
+          "business_count": 1120,
+          "receptionist_salary": 31800,
+          "currency_code": "EUR",
+          "avg_job_value": null,
+          "peak_season": "April–September",
+          "seasonality_note": "Brussels residential real estate sales and rental viewings peak during spring and summer months.",
+          "licensing": "Real estate agents must hold accreditation from the Institut Professionnel des Agents Immobiliers (IPI/BIV).",
+          "local_note": "Brussels manages an international real estate market heavily influenced by European Union diplomatic posting cycles."
+        }
+      }
+    },
+    "dublin": {
+      "metro_pop": 1450000,
+      "gbp_presence": false,
+      "niches": {
+        "dental-practices": {
+          "verified": true,
+          "source_note": "CSO Business in Ireland 2023/2024, NACE 86.23, Dublin Region (NUTS-3 IE061); wage: Eurostat SES / CSO EHECS 2023 ISCO-08 4226, COUNTRY-LEVEL Ireland, EUR",
+          "business_count": 410,
+          "receptionist_salary": 28500,
+          "currency_code": "EUR",
+          "avg_job_value": null,
+          "peak_season": null,
+          "seasonality_note": null,
+          "licensing": "Dentists in Ireland must be registered with the Dental Council of Ireland.",
+          "local_note": "Dublin houses the Dental Council of Ireland and Dublin Dental University Hospital at Trinity College."
+        },
+        "medical-clinics": {
+          "verified": true,
+          "source_note": "CSO Business in Ireland 2023/2024, combined sum of NACE 86.21 + 86.22, Dublin Region (NUTS-3 IE061); wage: Eurostat SES / CSO EHECS 2023 ISCO-08 4226, COUNTRY-LEVEL Ireland, EUR",
+          "business_count": 890,
+          "receptionist_salary": 28500,
+          "currency_code": "EUR",
+          "avg_job_value": null,
+          "peak_season": null,
+          "seasonality_note": null,
+          "licensing": "Medical practitioners must hold active registration with the Medical Council of Ireland.",
+          "local_note": "Dublin anchors Ireland's primary private hospital network and specialized outpatient consulting rooms."
+        },
+        "law-firm": {
+          "verified": true,
+          "source_note": "CSO Business in Ireland 2023/2024, NACE 69.10, Dublin Region (NUTS-3 IE061); wage: Eurostat SES / CSO EHECS 2023 ISCO-08 4226, COUNTRY-LEVEL Ireland, EUR",
+          "business_count": 1150,
+          "receptionist_salary": 28500,
+          "currency_code": "EUR",
+          "avg_job_value": null,
+          "peak_season": null,
+          "seasonality_note": null,
+          "licensing": "Solicitors in Ireland are regulated by the Law Society of Ireland and Legal Services Regulatory Authority (LSRA).",
+          "local_note": "Dublin's Blackhall Place houses the Law Society of Ireland, serving as the commercial law hub for English-speaking EU practice."
+        },
+        "accounting": {
+          "verified": true,
+          "source_note": "CSO Business in Ireland 2023/2024, NACE 69.20, Dublin Region (NUTS-3 IE061); wage: Eurostat SES / CSO EHECS 2023 ISCO-08 4226, COUNTRY-LEVEL Ireland, EUR",
+          "business_count": 1280,
+          "receptionist_salary": 28500,
+          "currency_code": "EUR",
+          "avg_job_value": null,
+          "peak_season": "October–November",
+          "seasonality_note": "Irish accountancies experience peak workload compression preceding the October/November ROS tax deadline.",
+          "licensing": "Chartered accountants are regulated by Chartered Accountants Ireland or CPA Ireland.",
+          "local_note": "Dublin acts as the EMEA tax headquarters for major global tech corporations and Big Four auditing firms."
+        },
+        "ecommerce": {
+          "verified": true,
+          "source_note": "CSO Business in Ireland 2023/2024, NACE 47.91, Dublin Region (NUTS-3 IE061); wage: Eurostat SES / CSO EHECS 2023 ISCO-08 4226, COUNTRY-LEVEL Ireland, EUR",
+          "business_count": 940,
+          "receptionist_salary": 28500,
+          "currency_code": "EUR",
+          "avg_job_value": null,
+          "peak_season": "November–December",
+          "seasonality_note": "E-commerce retailers in Dublin see Q4 holiday order volume spikes.",
+          "licensing": "Online trading is governed by the Competition and Consumer Protection Commission (CCPC).",
+          "local_note": "Dublin's Silicon Docks host European headquarters for global e-commerce and digital payment processing platforms."
+        },
+        "real-estate": {
+          "verified": true,
+          "source_note": "CSO Business in Ireland 2023/2024, NACE 68.31, Dublin Region (NUTS-3 IE061); wage: Eurostat SES / CSO EHECS 2023 ISCO-08 4226, COUNTRY-LEVEL Ireland, EUR",
+          "business_count": 680,
+          "receptionist_salary": 28500,
+          "currency_code": "EUR",
+          "avg_job_value": null,
+          "peak_season": "April–September",
+          "seasonality_note": "Dublin property sales transactions and residential lettings peak during spring and summer.",
+          "licensing": "Property service providers must hold a licence issued by the Property Services Regulatory Authority (PSRA).",
+          "local_note": "Ireland enforces statutory property agent licensing and client fund protection via the PSRA in Dublin."
+        }
+      }
+    },
+    "lisbon": {
+      "metro_pop": 2870000,
+      "gbp_presence": false,
+      "niches": {
+        "dental-practices": {
+          "verified": true,
+          "source_note": "INE Ficheiro Unidades Estatísticas 2023/2024, NACE 86.23, Grande Lisboa (NUTS-3 PT170); wage: Eurostat SES / INE 2023 ISCO-08 4226, COUNTRY-LEVEL Portugal, EUR",
+          "business_count": 680,
+          "receptionist_salary": 14200,
+          "currency_code": "EUR",
+          "avg_job_value": null,
+          "peak_season": null,
+          "seasonality_note": null,
+          "licensing": "Dentists in Portugal must be registered with the Ordem dos Médicos Dentistas (OMD).",
+          "local_note": "Lisbon houses the national headquarters of the OMD and leading university dental research faculties."
+        },
+        "medical-clinics": {
+          "verified": true,
+          "source_note": "INE Ficheiro Unidades Estatísticas 2023/2024, combined sum of NACE 86.21 + 86.22, Grande Lisboa (NUTS-3 PT170); wage: Eurostat SES / INE 2023 ISCO-08 4226, COUNTRY-LEVEL Portugal, EUR",
+          "business_count": 1450,
+          "receptionist_salary": 14200,
+          "currency_code": "EUR",
+          "avg_job_value": null,
+          "peak_season": null,
+          "seasonality_note": null,
+          "licensing": "Medical clinics must be licensed by the Entidade Reguladora da Saúde (ERS) and doctors registered with the Ordem dos Médicos.",
+          "local_note": "Lisbon represents Portugal's largest private healthcare market, regulated under national ERS health authority standards."
+        },
+        "law-firm": {
+          "verified": true,
+          "source_note": "INE Ficheiro Unidades Estatísticas 2023/2024, NACE 69.10, Grande Lisboa (NUTS-3 PT170); wage: Eurostat SES / INE 2023 ISCO-08 4226, COUNTRY-LEVEL Portugal, EUR",
+          "business_count": 2120,
+          "receptionist_salary": 14200,
+          "currency_code": "EUR",
+          "avg_job_value": null,
+          "peak_season": null,
+          "seasonality_note": null,
+          "licensing": "Lawyers in Portugal must hold active admission with the Ordem dos Advogados.",
+          "local_note": "Lisbon houses the Ordem dos Advogados national headquarters, serving as Portugal's primary corporate legal hub."
+        },
+        "accounting": {
+          "verified": true,
+          "source_note": "INE Ficheiro Unidades Estatísticas 2023/2024, NACE 69.20, Grande Lisboa (NUTS-3 PT170); wage: Eurostat SES / INE 2023 ISCO-08 4226, COUNTRY-LEVEL Portugal, EUR",
+          "business_count": 1680,
+          "receptionist_salary": 14200,
+          "currency_code": "EUR",
+          "avg_job_value": null,
+          "peak_season": "April–May",
+          "seasonality_note": "Portuguese accountancies experience high workflow compression during spring corporate tax submission deadlines.",
+          "licensing": "Certified accountants register with the Ordem dos Contabilistas Certificados (OCC).",
+          "local_note": "Lisbon hosts the OCC national headquarters, acting as Portugal's auditing and tax advisory center."
+        },
+        "ecommerce": {
+          "verified": true,
+          "source_note": "INE Ficheiro Unidades Estatísticas 2023/2024, NACE 47.91, Grande Lisboa (NUTS-3 PT170); wage: Eurostat SES / INE 2023 ISCO-08 4226, COUNTRY-LEVEL Portugal, EUR",
+          "business_count": 1150,
+          "receptionist_salary": 14200,
+          "currency_code": "EUR",
+          "avg_job_value": null,
+          "peak_season": "November–December",
+          "seasonality_note": "E-commerce merchants in Lisbon see fourth-quarter holiday sales spikes.",
+          "licensing": "Online retail compliance is supervised by ASAE (Autoridade de Segurança Alimentar e Económica).",
+          "local_note": "Lisbon is an emerging digital commerce hub hosting international technology startup scale-ups."
+        },
+        "real-estate": {
+          "verified": true,
+          "source_note": "INE Ficheiro Unidades Estatísticas 2023/2024, NACE 68.31, Grande Lisboa (NUTS-3 PT170); wage: Eurostat SES / INE 2023 ISCO-08 4226, COUNTRY-LEVEL Portugal, EUR",
+          "business_count": 1890,
+          "receptionist_salary": 14200,
+          "currency_code": "EUR",
+          "avg_job_value": null,
+          "peak_season": "April–September",
+          "seasonality_note": "Lisbon property market transactions and international buyer viewings peak during spring and summer.",
+          "licensing": "Real estate agencies must hold an AMI licence issued by IMPIC (Instituto dos Mercados Públicos, do Imobiliário e da Construção).",
+          "local_note": "Portugal enforces statutory real estate brokerage licensing (AMI) managed through IMPIC in Lisbon."
+        }
+      }
     }
   }
 }
