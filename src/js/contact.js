@@ -1,6 +1,7 @@
 import '../css/style.css';
 import { loadComponents } from './components.js';
-import { createIcons, icons } from 'lucide';
+import { createIcons } from 'lucide';
+import { icons } from './icons.js';
 
 loadComponents();
 createIcons({ icons });

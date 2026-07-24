@@ -1,11 +1,16 @@
 # SEO Audit — eu.ai20.city + us.ai20.city
 
-> **STATUS 2026-07-24:** the code-side findings below are now FIXED in the
-> build (see `docs/LOCAL-SEO-STRATEGY.md`). Remaining work is server-side
-> (HTTPS 301 + Tier C 301s, both in `docs/DEPLOY-VPS.md`) and asset creation
-> (favicon/OG images). Fixed: scaled thin content (2,486 -> 86 indexable URLs),
-> robots.txt/sitemap (were stale + pointing at a 404), JS-only internal links
-> (homepage 9 -> 35 anchors, offers.html 1 -> 71).
+> **STATUS 2026-07-25:** every code-side finding below is now fixed. Fixed:
+> scaled thin content (2,486 -> 332 EU / 178 US indexable URLs, all backed by
+> verified per-city research), robots.txt/sitemap (were stale + pointing at a
+> 404), JS-only internal links (homepage 9 -> 35 anchors, offers.html 1 -> 71),
+> favicon/OG images (all 4 previously-404 assets), the Lucide bundle (365KB ->
+> 3.2KB via selective imports, see `src/js/icons.js`), and the apex chooser's
+> missing OG/Twitter tags. All 41 EU cities now carry bilingual (local-language
+> + English) content on their niche pages — see `docs/LOCAL-SEO-STRATEGY.md`.
+> Remaining work is server-side only: the HTTPS 301 and Tier C 301s in
+> `docs/DEPLOY-VPS.md`, which require access to the nginx VPS this codebase
+> cannot reach.
 
 **Audited:** 2026-07-24, against the live deployment (nginx VPS).
 Both regions run the same codebase, so unless stated otherwise **every finding
@@ -170,27 +175,19 @@ static HTML with JS only for the mobile toggle and region switcher.
 
 ## P2 — Medium
 
-### 7. Payload: 365 KB icon library for ~6 icons
+### 7. ~~Payload: 365 KB icon library for ~6 icons~~ — FIXED
 
-| Asset | Size |
-|---|---|
-| `assets/lucide.js` | **365 KB** |
-| `assets/data.js` | 28 KB |
-| `assets/components.js` | 25 KB |
-| `assets/modal-quiz.js` | 21 KB |
-| `assets/style.css` | 51 KB |
+`src/js/icons.js` now imports only the 8 icons actually used sitewide
+(`X, Check, ArrowUpRight, MapPin, Mail, Calendar, Linkedin, Twitter`) instead of
+`import { icons } from 'lucide'`, which pulled in the full ~1,500-icon library.
+`assets/lucide.js` (365 KB) no longer appears in the build at all; it's
+replaced by `assets/icons.js` (3.2 KB, 1.66 KB gzipped).
 
-~490 KB uncompressed on every page, dominated by shipping the *entire* Lucide
-set to render a handful of icons. Icons also paint late, causing layout shift.
+### 8. ~~Apex chooser has no OG tags~~ — FIXED
 
-**Fix:** import only the icons used (`import { Activity, Scale } from 'lucide'`)
-or inline them as SVG. Should drop ~350 KB sitewide. Direct Core Web Vitals win
-(LCP + CLS), which is a ranking factor.
-
-### 8. Apex chooser has no OG tags
-
-`region-select.html` has no `og:*` or `twitter:*` tags, so shares of the bare
-`ai20.city` domain — the URL people will paste most — render with no preview.
+`region-select.html` now carries `og:*` and `twitter:*` tags (title,
+description, image) plus a favicon link, so shares of the bare `ai20.city`
+domain render a proper preview card.
 
 ---
 

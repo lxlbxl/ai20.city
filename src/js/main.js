@@ -1,5 +1,6 @@
 import '../css/style.css';
-import { createIcons, icons } from 'lucide';
+import { createIcons } from 'lucide';
+import { icons } from './icons.js';
 import { loadComponents } from './components.js';
 import './modal-quiz.js';
 import { initHeroBackgrounds } from './hero-bg.js';

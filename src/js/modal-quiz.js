@@ -1,7 +1,8 @@
 
 import '../css/style.css';
 import { quizFlows } from './quiz-data.js';
-import { createIcons, icons } from 'lucide';
+import { createIcons } from 'lucide';
+import { icons } from './icons.js';
 
 export class QuizModal {
     constructor() {

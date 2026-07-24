@@ -22,13 +22,20 @@
     "graceful degradation, not a bug. Currently missing: sv, da, fi, no, pl, cs,",
     "et, lt, lv, pt, is (one city each)."
   ],
-
   "de": {
-    "_meta": { "name": "Deutsch", "reviewed": false, "angle": "DSGVO, Terminausfälle, Entlastung des Empfangs" },
+    "_meta": {
+      "name": "Deutsch",
+      "reviewed": false,
+      "angle": "DSGVO, Terminausfälle, Entlastung des Empfangs"
+    },
     "dental-practices": {
       "h1": "KI für Zahnarztpraxen in {city}",
       "lede": "Zahnarztpraxen in {city} verlieren jeden Monat Umsatz durch kurzfristige Absagen und ein Telefon, das klingelt, während Patienten am Tresen warten. Unsere KI-Systeme übernehmen Terminvergabe, Erinnerungen und Rückrufe – DSGVO-konform und in Ihre Praxissoftware integriert.",
-      "pains": ["Terminausfälle und kurzfristige Absagen", "Das Telefon klingelt, während Patienten warten", "Patientendaten DSGVO-konform verarbeiten"],
+      "pains": [
+        "Terminausfälle und kurzfristige Absagen",
+        "Das Telefon klingelt, während Patienten warten",
+        "Patientendaten DSGVO-konform verarbeiten"
+      ],
       "cta_heading": "Pilotprojekt für Praxen in {city}",
       "cta_body": "Wir suchen drei Praxen in {city}, die unsere KI-Systeme zu Vorzugskonditionen einsetzen – im Austausch für eine Fallstudie.",
       "cta_button": "Kostenlose Analyse starten"
@@ -36,7 +43,11 @@
     "medical-clinics": {
       "h1": "KI für Arztpraxen und Kliniken in {city}",
       "lede": "Die Anmeldung ist der Engpass jeder Praxis in {city}. KI übernimmt Ersttriage, Terminvergabe und mehrsprachige Patientenaufnahme, damit sich Ihr Team um die Behandlung kümmern kann statt um das Telefon.",
-      "pains": ["Überlastete Anmeldung zu Stoßzeiten", "Mehrsprachige Patientenaufnahme", "Dokumentation und Datenschutz"],
+      "pains": [
+        "Überlastete Anmeldung zu Stoßzeiten",
+        "Mehrsprachige Patientenaufnahme",
+        "Dokumentation und Datenschutz"
+      ],
       "cta_heading": "Für Praxen und MVZ in {city}",
       "cta_body": "Wir bauen und betreiben das System – Sie behalten die Kontrolle über Ihre Patientendaten.",
       "cta_button": "Kostenlose Analyse starten"
@@ -44,7 +55,11 @@
     "law-firm": {
       "h1": "KI für Kanzleien in {city}",
       "lede": "In Kanzleien in {city} gehen abrechenbare Stunden für Recherche, Ersterfassung und Dokumentenprüfung verloren. Unsere Systeme übernehmen die Vorarbeit – mit klarer Mandantentrennung und Datenhaltung in Europa.",
-      "pains": ["Nicht abrechenbare Recherchestunden", "Mandantenannahme und Erstqualifizierung", "Vertraulichkeit und Datenresidenz"],
+      "pains": [
+        "Nicht abrechenbare Recherchestunden",
+        "Mandantenannahme und Erstqualifizierung",
+        "Vertraulichkeit und Datenresidenz"
+      ],
       "cta_heading": "Für Kanzleien in {city}",
       "cta_body": "Von der Dokumentenanalyse bis zum Mandantenportal – aufgesetzt und betrieben von uns.",
       "cta_button": "Kostenlose Analyse starten"
@@ -52,7 +67,11 @@
     "accounting": {
       "h1": "KI für Steuerberater und Buchhaltung in {city}",
       "lede": "Der Jahresabschluss bringt jede Kanzlei in {city} an die Kapazitätsgrenze. KI übernimmt Belegerfassung, Mandantennachverfolgung und Vorkontierung, damit die Spitzen planbar werden.",
-      "pains": ["Kapazitätsengpass zum Jahresabschluss", "Manuelle Belegerfassung", "Ständiges Nachfassen bei Mandanten"],
+      "pains": [
+        "Kapazitätsengpass zum Jahresabschluss",
+        "Manuelle Belegerfassung",
+        "Ständiges Nachfassen bei Mandanten"
+      ],
       "cta_heading": "Für Kanzleien in {city}",
       "cta_body": "Wir automatisieren die wiederkehrende Arbeit – Sie behalten die fachliche Verantwortung.",
       "cta_button": "Kostenlose Analyse starten"
@@ -60,7 +79,11 @@
     "ecommerce": {
       "h1": "KI für Onlinehändler in {city}",
       "lede": "Onlinehändler in {city} verkaufen längst grenzüberschreitend – und scheitern am mehrsprachigen Support und an Retouren. Unsere KI beantwortet Kundenanfragen rund um die Uhr in über 30 Sprachen.",
-      "pains": ["Mehrsprachiger Kundenservice", "Kaufabbrüche im Warenkorb", "Retouren über Ländergrenzen"],
+      "pains": [
+        "Mehrsprachiger Kundenservice",
+        "Kaufabbrüche im Warenkorb",
+        "Retouren über Ländergrenzen"
+      ],
       "cta_heading": "Für Händler in {city}",
       "cta_body": "Support, Rückgewinnung und Upsell – automatisiert und an Ihren Shop angebunden.",
       "cta_button": "Kostenlose Analyse starten"
@@ -68,19 +91,30 @@
     "real-estate": {
       "h1": "KI für Immobilienmakler in {city}",
       "lede": "Im Maklergeschäft in {city} gewinnt, wer zuerst antwortet. Unsere KI qualifiziert Anfragen in Sekunden, koordiniert Besichtigungen und hält den Kontakt zu Interessenten, die noch nicht kaufreif sind.",
-      "pains": ["Zu langsame Reaktion auf Anfragen", "Koordination von Besichtigungen", "Mehrsprachige Exposés und Anfragen"],
+      "pains": [
+        "Zu langsame Reaktion auf Anfragen",
+        "Koordination von Besichtigungen",
+        "Mehrsprachige Exposés und Anfragen"
+      ],
       "cta_heading": "Für Makler in {city}",
       "cta_body": "Reagieren Sie in unter 60 Sekunden auf jede Anfrage – automatisch, rund um die Uhr.",
       "cta_button": "Kostenlose Analyse starten"
     }
   },
-
   "fr": {
-    "_meta": { "name": "Français", "reviewed": false, "angle": "standard téléphonique, RGPD, réactivité" },
+    "_meta": {
+      "name": "Français",
+      "reviewed": false,
+      "angle": "standard téléphonique, RGPD, réactivité"
+    },
     "dental-practices": {
       "h1": "L'IA pour les cabinets dentaires à {city}",
       "lede": "À {city}, les cabinets dentaires perdent du chiffre d'affaires sur les rendez-vous manqués et les appels sans réponse. Nos systèmes d'IA gèrent la prise de rendez-vous, les rappels et les relances, en conformité avec le RGPD.",
-      "pains": ["Rendez-vous manqués et annulations tardives", "Standard téléphonique saturé", "Traitement des données patients conforme au RGPD"],
+      "pains": [
+        "Rendez-vous manqués et annulations tardives",
+        "Standard téléphonique saturé",
+        "Traitement des données patients conforme au RGPD"
+      ],
       "cta_heading": "Programme pilote à {city}",
       "cta_body": "Nous recherchons trois cabinets à {city} pour déployer notre stack IA à tarif préférentiel, en échange d'une étude de cas.",
       "cta_button": "Lancer l'analyse gratuite"
@@ -88,7 +122,11 @@
     "medical-clinics": {
       "h1": "L'IA pour les cabinets médicaux à {city}",
       "lede": "L'accueil est le goulot d'étranglement de tout cabinet à {city}. L'IA prend en charge le tri des demandes, la prise de rendez-vous et l'accueil multilingue, pour que vos équipes se consacrent aux soins.",
-      "pains": ["Accueil saturé aux heures de pointe", "Accueil multilingue des patients", "Confidentialité des données de santé"],
+      "pains": [
+        "Accueil saturé aux heures de pointe",
+        "Accueil multilingue des patients",
+        "Confidentialité des données de santé"
+      ],
       "cta_heading": "Pour les cabinets à {city}",
       "cta_body": "Nous construisons et exploitons le système ; vous gardez la maîtrise de vos données.",
       "cta_button": "Lancer l'analyse gratuite"
@@ -96,7 +134,11 @@
     "law-firm": {
       "h1": "L'IA pour les cabinets d'avocats à {city}",
       "lede": "Dans les cabinets à {city}, les heures non facturables partent en recherche documentaire et en qualification de dossiers. Nos systèmes absorbent ce travail préparatoire, avec un hébergement des données en Europe.",
-      "pains": ["Heures de recherche non facturables", "Qualification des nouveaux dossiers", "Secret professionnel et hébergement des données"],
+      "pains": [
+        "Heures de recherche non facturables",
+        "Qualification des nouveaux dossiers",
+        "Secret professionnel et hébergement des données"
+      ],
       "cta_heading": "Pour les cabinets à {city}",
       "cta_body": "De l'analyse documentaire au portail client, déployé et exploité par nos soins.",
       "cta_button": "Lancer l'analyse gratuite"
@@ -104,7 +146,11 @@
     "accounting": {
       "h1": "L'IA pour les cabinets d'expertise comptable à {city}",
       "lede": "La période fiscale sature chaque cabinet à {city}. L'IA prend en charge la collecte des pièces, les relances clients et la pré-saisie, pour lisser les pics de charge.",
-      "pains": ["Surcharge en période fiscale", "Collecte manuelle des pièces", "Relances clients incessantes"],
+      "pains": [
+        "Surcharge en période fiscale",
+        "Collecte manuelle des pièces",
+        "Relances clients incessantes"
+      ],
       "cta_heading": "Pour les cabinets à {city}",
       "cta_body": "Nous automatisons le travail répétitif ; vous conservez la responsabilité technique.",
       "cta_button": "Lancer l'analyse gratuite"
@@ -112,7 +158,11 @@
     "ecommerce": {
       "h1": "L'IA pour le e-commerce à {city}",
       "lede": "Les marchands de {city} vendent déjà au-delà des frontières, et butent sur le support multilingue et les retours. Notre IA répond aux clients 24h/24 dans plus de 30 langues.",
-      "pains": ["Support client multilingue", "Paniers abandonnés", "Retours transfrontaliers"],
+      "pains": [
+        "Support client multilingue",
+        "Paniers abandonnés",
+        "Retours transfrontaliers"
+      ],
       "cta_heading": "Pour les marchands à {city}",
       "cta_body": "Support, relance panier et upsell, connectés à votre boutique.",
       "cta_button": "Lancer l'analyse gratuite"
@@ -120,19 +170,30 @@
     "real-estate": {
       "h1": "L'IA pour les agences immobilières à {city}",
       "lede": "À {city}, c'est la première agence qui répond qui décroche le mandat. Notre IA qualifie les demandes en quelques secondes, organise les visites et entretient le lien avec les prospects non mûrs.",
-      "pains": ["Délai de réponse aux demandes", "Coordination des visites", "Annonces et demandes multilingues"],
+      "pains": [
+        "Délai de réponse aux demandes",
+        "Coordination des visites",
+        "Annonces et demandes multilingues"
+      ],
       "cta_heading": "Pour les agences à {city}",
       "cta_body": "Répondez à chaque demande en moins de 60 secondes, automatiquement.",
       "cta_button": "Lancer l'analyse gratuite"
     }
   },
-
   "es": {
-    "_meta": { "name": "Español", "reviewed": false, "angle": "recepción, RGPD, respuesta inmediata" },
+    "_meta": {
+      "name": "Español",
+      "reviewed": false,
+      "angle": "recepción, RGPD, respuesta inmediata"
+    },
     "dental-practices": {
       "h1": "IA para clínicas dentales en {city}",
       "lede": "Las clínicas dentales de {city} pierden ingresos por citas no acudidas y llamadas sin atender. Nuestros sistemas de IA gestionan la agenda, los recordatorios y las devoluciones de llamada, cumpliendo el RGPD.",
-      "pains": ["Citas no acudidas y cancelaciones de última hora", "Recepción desbordada en horas punta", "Tratamiento de datos de pacientes conforme al RGPD"],
+      "pains": [
+        "Citas no acudidas y cancelaciones de última hora",
+        "Recepción desbordada en horas punta",
+        "Tratamiento de datos de pacientes conforme al RGPD"
+      ],
       "cta_heading": "Programa piloto en {city}",
       "cta_body": "Buscamos tres clínicas en {city} para implantar nuestra tecnología en condiciones preferentes a cambio de un caso de éxito.",
       "cta_button": "Solicitar análisis gratuito"
@@ -140,7 +201,11 @@
     "medical-clinics": {
       "h1": "IA para clínicas médicas en {city}",
       "lede": "La recepción es el cuello de botella de cualquier clínica en {city}. La IA se encarga del triaje inicial, la gestión de citas y la admisión multilingüe para que su equipo se dedique a atender.",
-      "pains": ["Recepción saturada en horas punta", "Admisión de pacientes multilingüe", "Confidencialidad de los datos clínicos"],
+      "pains": [
+        "Recepción saturada en horas punta",
+        "Admisión de pacientes multilingüe",
+        "Confidencialidad de los datos clínicos"
+      ],
       "cta_heading": "Para clínicas en {city}",
       "cta_body": "Nosotros construimos y operamos el sistema; usted mantiene el control de sus datos.",
       "cta_button": "Solicitar análisis gratuito"
@@ -148,7 +213,11 @@
     "law-firm": {
       "h1": "IA para despachos de abogados en {city}",
       "lede": "En los despachos de {city} las horas no facturables se van en investigación documental y en captación de clientes. Nuestros sistemas absorben ese trabajo previo, con alojamiento de datos en Europa.",
-      "pains": ["Horas de investigación no facturables", "Captación y cualificación de clientes", "Secreto profesional y residencia del dato"],
+      "pains": [
+        "Horas de investigación no facturables",
+        "Captación y cualificación de clientes",
+        "Secreto profesional y residencia del dato"
+      ],
       "cta_heading": "Para despachos en {city}",
       "cta_body": "Del análisis documental al portal del cliente, implantado y operado por nosotros.",
       "cta_button": "Solicitar análisis gratuito"
@@ -156,7 +225,11 @@
     "accounting": {
       "h1": "IA para asesorías y despachos contables en {city}",
       "lede": "El cierre del ejercicio lleva al límite a cualquier asesoría de {city}. La IA se ocupa de la captura de documentos, el seguimiento de clientes y la precontabilización.",
-      "pains": ["Saturación en el cierre del ejercicio", "Captura manual de documentación", "Perseguir documentos a los clientes"],
+      "pains": [
+        "Saturación en el cierre del ejercicio",
+        "Captura manual de documentación",
+        "Perseguir documentos a los clientes"
+      ],
       "cta_heading": "Para asesorías en {city}",
       "cta_body": "Automatizamos el trabajo repetitivo; usted conserva la responsabilidad técnica.",
       "cta_button": "Solicitar análisis gratuito"
@@ -164,7 +237,11 @@
     "ecommerce": {
       "h1": "IA para e-commerce en {city}",
       "lede": "Los comercios de {city} ya venden fuera de sus fronteras y chocan con el soporte multilingüe y las devoluciones. Nuestra IA atiende a los clientes 24/7 en más de 30 idiomas.",
-      "pains": ["Atención al cliente multilingüe", "Carritos abandonados", "Devoluciones transfronterizas"],
+      "pains": [
+        "Atención al cliente multilingüe",
+        "Carritos abandonados",
+        "Devoluciones transfronterizas"
+      ],
       "cta_heading": "Para comercios en {city}",
       "cta_body": "Soporte, recuperación de carrito y venta cruzada, conectados a su tienda.",
       "cta_button": "Solicitar análisis gratuito"
@@ -172,19 +249,30 @@
     "real-estate": {
       "h1": "IA para inmobiliarias en {city}",
       "lede": "En {city} se lleva el encargo la agencia que responde primero. Nuestra IA cualifica las solicitudes en segundos, coordina las visitas y mantiene el contacto con quien aún no está listo para comprar.",
-      "pains": ["Tiempo de respuesta a las solicitudes", "Coordinación de visitas", "Anuncios y consultas multilingües"],
+      "pains": [
+        "Tiempo de respuesta a las solicitudes",
+        "Coordinación de visitas",
+        "Anuncios y consultas multilingües"
+      ],
       "cta_heading": "Para inmobiliarias en {city}",
       "cta_body": "Responda a cada solicitud en menos de 60 segundos, de forma automática.",
       "cta_button": "Solicitar análisis gratuito"
     }
   },
-
   "it": {
-    "_meta": { "name": "Italiano", "reviewed": false, "angle": "segreteria, GDPR, tempi di risposta" },
+    "_meta": {
+      "name": "Italiano",
+      "reviewed": false,
+      "angle": "segreteria, GDPR, tempi di risposta"
+    },
     "dental-practices": {
       "h1": "IA per studi dentistici a {city}",
       "lede": "Gli studi dentistici di {city} perdono fatturato per appuntamenti mancati e chiamate senza risposta. I nostri sistemi di IA gestiscono agenda, promemoria e richiami, nel rispetto del GDPR.",
-      "pains": ["Appuntamenti mancati e disdette last minute", "Segreteria sovraccarica negli orari di punta", "Trattamento dei dati dei pazienti conforme al GDPR"],
+      "pains": [
+        "Appuntamenti mancati e disdette last minute",
+        "Segreteria sovraccarica negli orari di punta",
+        "Trattamento dei dati dei pazienti conforme al GDPR"
+      ],
       "cta_heading": "Progetto pilota a {city}",
       "cta_body": "Cerchiamo tre studi a {city} disposti a adottare la nostra tecnologia a condizioni agevolate in cambio di un caso studio.",
       "cta_button": "Richiedi l'analisi gratuita"
@@ -192,7 +280,11 @@
     "medical-clinics": {
       "h1": "IA per cliniche e ambulatori a {city}",
       "lede": "L'accettazione è il collo di bottiglia di ogni struttura a {city}. L'IA gestisce il primo filtro, la prenotazione e l'accoglienza multilingue, così il personale può occuparsi dei pazienti.",
-      "pains": ["Accettazione sovraccarica nelle ore di punta", "Accoglienza pazienti multilingue", "Riservatezza dei dati sanitari"],
+      "pains": [
+        "Accettazione sovraccarica nelle ore di punta",
+        "Accoglienza pazienti multilingue",
+        "Riservatezza dei dati sanitari"
+      ],
       "cta_heading": "Per studi e cliniche a {city}",
       "cta_body": "Costruiamo e gestiamo il sistema; il controllo dei dati resta vostro.",
       "cta_button": "Richiedi l'analisi gratuita"
@@ -200,7 +292,11 @@
     "law-firm": {
       "h1": "IA per studi legali a {city}",
       "lede": "Negli studi legali di {city} le ore non fatturabili se ne vanno in ricerca e in gestione dei nuovi incarichi. I nostri sistemi assorbono il lavoro preparatorio, con dati ospitati in Europa.",
-      "pains": ["Ore di ricerca non fatturabili", "Acquisizione e qualifica dei nuovi clienti", "Segreto professionale e residenza dei dati"],
+      "pains": [
+        "Ore di ricerca non fatturabili",
+        "Acquisizione e qualifica dei nuovi clienti",
+        "Segreto professionale e residenza dei dati"
+      ],
       "cta_heading": "Per studi legali a {city}",
       "cta_body": "Dall'analisi documentale al portale clienti, implementato e gestito da noi.",
       "cta_button": "Richiedi l'analisi gratuita"
@@ -208,7 +304,11 @@
     "accounting": {
       "h1": "IA per studi commercialisti a {city}",
       "lede": "La chiusura di bilancio porta al limite ogni studio di {city}. L'IA si occupa della raccolta documenti, dei solleciti ai clienti e della prima registrazione.",
-      "pains": ["Sovraccarico in chiusura di bilancio", "Raccolta manuale dei documenti", "Solleciti continui ai clienti"],
+      "pains": [
+        "Sovraccarico in chiusura di bilancio",
+        "Raccolta manuale dei documenti",
+        "Solleciti continui ai clienti"
+      ],
       "cta_heading": "Per studi a {city}",
       "cta_body": "Automatizziamo il lavoro ripetitivo; la responsabilità tecnica resta vostra.",
       "cta_button": "Richiedi l'analisi gratuita"
@@ -216,7 +316,11 @@
     "ecommerce": {
       "h1": "IA per l'e-commerce a {city}",
       "lede": "I negozi online di {city} vendono già oltre confine e si scontrano con l'assistenza multilingue e i resi. La nostra IA risponde ai clienti 24 ore su 24 in oltre 30 lingue.",
-      "pains": ["Assistenza clienti multilingue", "Carrelli abbandonati", "Resi transfrontalieri"],
+      "pains": [
+        "Assistenza clienti multilingue",
+        "Carrelli abbandonati",
+        "Resi transfrontalieri"
+      ],
       "cta_heading": "Per i negozi di {city}",
       "cta_body": "Assistenza, recupero carrello e upsell, collegati al vostro shop.",
       "cta_button": "Richiedi l'analisi gratuita"
@@ -224,19 +328,30 @@
     "real-estate": {
       "h1": "IA per agenzie immobiliari a {city}",
       "lede": "A {city} l'incarico lo prende l'agenzia che risponde per prima. La nostra IA qualifica le richieste in pochi secondi, organizza le visite e mantiene il contatto con chi non è ancora pronto.",
-      "pains": ["Tempi di risposta alle richieste", "Organizzazione delle visite", "Annunci e richieste multilingue"],
+      "pains": [
+        "Tempi di risposta alle richieste",
+        "Organizzazione delle visite",
+        "Annunci e richieste multilingue"
+      ],
       "cta_heading": "Per agenzie a {city}",
       "cta_body": "Rispondete a ogni richiesta in meno di 60 secondi, in automatico.",
       "cta_button": "Richiedi l'analisi gratuita"
     }
   },
-
   "nl": {
-    "_meta": { "name": "Nederlands", "reviewed": false, "angle": "bereikbaarheid, AVG, snelle opvolging" },
+    "_meta": {
+      "name": "Nederlands",
+      "reviewed": false,
+      "angle": "bereikbaarheid, AVG, snelle opvolging"
+    },
     "dental-practices": {
       "h1": "AI voor tandartspraktijken in {city}",
       "lede": "Tandartspraktijken in {city} lopen omzet mis door niet nagekomen afspraken en een balie die de telefoon niet bijhoudt. Onze AI regelt de agenda, herinneringen en terugbelverzoeken, AVG-proof.",
-      "pains": ["No-shows en last-minute afzeggingen", "Balie overbelast op piekmomenten", "Patiëntgegevens verwerken volgens de AVG"],
+      "pains": [
+        "No-shows en last-minute afzeggingen",
+        "Balie overbelast op piekmomenten",
+        "Patiëntgegevens verwerken volgens de AVG"
+      ],
       "cta_heading": "Pilot voor praktijken in {city}",
       "cta_body": "We zoeken drie praktijken in {city} die onze AI tegen voorkeurstarief willen inzetten in ruil voor een casestudy.",
       "cta_button": "Start de gratis analyse"
@@ -244,7 +359,11 @@
     "medical-clinics": {
       "h1": "AI voor huisartsen- en zorgpraktijken in {city}",
       "lede": "De balie is het knelpunt van elke praktijk in {city}. AI neemt de eerste triage, het inplannen en de meertalige intake over, zodat uw team zich op de zorg kan richten.",
-      "pains": ["Overbelaste balie op piekuren", "Meertalige patiëntintake", "Vertrouwelijkheid van medische gegevens"],
+      "pains": [
+        "Overbelaste balie op piekuren",
+        "Meertalige patiëntintake",
+        "Vertrouwelijkheid van medische gegevens"
+      ],
       "cta_heading": "Voor praktijken in {city}",
       "cta_body": "Wij bouwen en beheren het systeem; u houdt de regie over uw gegevens.",
       "cta_button": "Start de gratis analyse"
@@ -252,7 +371,11 @@
     "law-firm": {
       "h1": "AI voor advocatenkantoren in {city}",
       "lede": "Bij kantoren in {city} verdwijnen niet-declarabele uren in onderzoek en intake. Onze systemen nemen dat voorwerk over, met dataopslag binnen Europa.",
-      "pains": ["Niet-declarabele onderzoeksuren", "Intake en kwalificatie van zaken", "Beroepsgeheim en dataopslag"],
+      "pains": [
+        "Niet-declarabele onderzoeksuren",
+        "Intake en kwalificatie van zaken",
+        "Beroepsgeheim en dataopslag"
+      ],
       "cta_heading": "Voor kantoren in {city}",
       "cta_body": "Van documentanalyse tot cliëntportaal, door ons opgezet en beheerd.",
       "cta_button": "Start de gratis analyse"
@@ -260,7 +383,11 @@
     "accounting": {
       "h1": "AI voor accountantskantoren in {city}",
       "lede": "De jaarafsluiting brengt elk kantoor in {city} aan zijn capaciteitsgrens. AI verzorgt de documentverwerking, het nabellen van klanten en de voorboeking.",
-      "pains": ["Capaciteitspiek bij de jaarafsluiting", "Handmatige documentverwerking", "Continu achter klantstukken aan"],
+      "pains": [
+        "Capaciteitspiek bij de jaarafsluiting",
+        "Handmatige documentverwerking",
+        "Continu achter klantstukken aan"
+      ],
       "cta_heading": "Voor kantoren in {city}",
       "cta_body": "Wij automatiseren het repeterende werk; de vaktechnische verantwoordelijkheid blijft bij u.",
       "cta_button": "Start de gratis analyse"
@@ -268,7 +395,11 @@
     "ecommerce": {
       "h1": "AI voor e-commerce in {city}",
       "lede": "Webshops in {city} verkopen allang over de grens en lopen vast op meertalige support en retouren. Onze AI beantwoordt klantvragen 24/7 in meer dan 30 talen.",
-      "pains": ["Meertalige klantenservice", "Verlaten winkelwagens", "Retouren over de grens"],
+      "pains": [
+        "Meertalige klantenservice",
+        "Verlaten winkelwagens",
+        "Retouren over de grens"
+      ],
       "cta_heading": "Voor webshops in {city}",
       "cta_body": "Support, winkelwagenherstel en upsell, gekoppeld aan uw shop.",
       "cta_button": "Start de gratis analyse"
@@ -276,10 +407,883 @@
     "real-estate": {
       "h1": "AI voor makelaars in {city}",
       "lede": "In {city} gaat de opdracht naar de makelaar die als eerste reageert. Onze AI kwalificeert aanvragen in seconden, plant bezichtigingen in en houdt contact met wie nog niet zover is.",
-      "pains": ["Reactietijd op aanvragen", "Bezichtigingen inplannen", "Meertalige advertenties en aanvragen"],
+      "pains": [
+        "Reactietijd op aanvragen",
+        "Bezichtigingen inplannen",
+        "Meertalige advertenties en aanvragen"
+      ],
       "cta_heading": "Voor makelaars in {city}",
       "cta_body": "Reageer automatisch binnen 60 seconden op elke aanvraag.",
       "cta_button": "Start de gratis analyse"
+    }
+  },
+  "sv": {
+    "_meta": {
+      "name": "Svenska",
+      "reviewed": false,
+      "angle": "GDPR, missade samtal, snabb uppföljning"
+    },
+    "dental-practices": {
+      "h1": "AI för tandläkarmottagningar i {city}",
+      "lede": "Tandläkarmottagningar i {city} tappar intäkter på uteblivna besök och en överbelastad reception. Vår AI hanterar bokningar, påminnelser och återkommande samtal – GDPR-säkert och kopplat till ert journalsystem.",
+      "pains": [
+        "Uteblivna besök och sena avbokningar",
+        "Överbelastad reception vid högtryck",
+        "GDPR-säker hantering av patientdata"
+      ],
+      "cta_heading": "Pilotprojekt för mottagningar i {city}",
+      "cta_body": "Vi söker tre mottagningar i {city} som vill testa vår AI-stack till rabatterat pris mot en case study.",
+      "cta_button": "Starta kostnadsfri analys"
+    },
+    "medical-clinics": {
+      "h1": "AI för vårdcentraler och kliniker i {city}",
+      "lede": "Receptionen är flaskhalsen på varje klinik i {city}. AI tar hand om första triage, bokning och flerspråkigt mottagande så att personalen kan fokusera på vården.",
+      "pains": [
+        "Överbelastad reception vid högtryck",
+        "Flerspråkigt patientmottagande",
+        "Säkerhet kring patientdata"
+      ],
+      "cta_heading": "För mottagningar i {city}",
+      "cta_body": "Vi bygger och driver systemet åt er – ni behåller kontrollen över er data.",
+      "cta_button": "Starta kostnadsfri analys"
+    },
+    "law-firm": {
+      "h1": "AI för advokatbyråer i {city}",
+      "lede": "På byråer i {city} försvinner debiterbar tid på research och första kontakt med klienter. Vårt system tar över förarbetet – med tydlig sekretess och datalagring inom EU.",
+      "pains": [
+        "Icke-debiterbar researchtid",
+        "Första kontakt och kvalificering av klienter",
+        "Sekretess och datalagring"
+      ],
+      "cta_heading": "För byråer i {city}",
+      "cta_body": "Från dokumentgranskning till klientportal – byggt och driftat av oss.",
+      "cta_button": "Starta kostnadsfri analys"
+    },
+    "accounting": {
+      "h1": "AI för redovisningsbyråer i {city}",
+      "lede": "Bokslutstider sätter varje byrå i {city} på prov. AI sköter dokumentinsamling, kunduppföljning och förkontering så att topparna blir hanterbara.",
+      "pains": [
+        "Kapacitetstopp vid bokslut",
+        "Manuell dokumentinsamling",
+        "Ständig uppföljning av kunder"
+      ],
+      "cta_heading": "För byråer i {city}",
+      "cta_body": "Vi automatiserar det repetitiva arbetet – ni behåller det fackmässiga ansvaret.",
+      "cta_button": "Starta kostnadsfri analys"
+    },
+    "ecommerce": {
+      "h1": "AI för e-handlare i {city}",
+      "lede": "E-handlare i {city} säljer redan över gränserna men fastnar i flerspråkig support och returer. Vår AI svarar kunder dygnet runt på över 30 språk.",
+      "pains": [
+        "Flerspråkig kundservice",
+        "Övergivna varukorgar",
+        "Gränsöverskridande returer"
+      ],
+      "cta_heading": "För butiker i {city}",
+      "cta_body": "Support, återhämtning av varukorgar och merförsäljning – kopplat till er butik.",
+      "cta_button": "Starta kostnadsfri analys"
+    },
+    "real-estate": {
+      "h1": "AI för mäklare i {city}",
+      "lede": "I {city} är det mäklaren som svarar först som får uppdraget. Vår AI kvalificerar förfrågningar på sekunder, samordnar visningar och håller kontakten med spekulanter som inte är redo än.",
+      "pains": [
+        "Långsam svarstid på förfrågningar",
+        "Samordning av visningar",
+        "Flerspråkiga annonser och förfrågningar"
+      ],
+      "cta_heading": "För mäklare i {city}",
+      "cta_body": "Svara på varje förfrågan på under 60 sekunder – helt automatiskt.",
+      "cta_button": "Starta kostnadsfri analys"
+    }
+  },
+  "da": {
+    "_meta": {
+      "name": "Dansk",
+      "reviewed": false,
+      "angle": "GDPR, udeblivelser, hurtig respons"
+    },
+    "dental-practices": {
+      "h1": "AI til tandlægeklinikker i {city}",
+      "lede": "Tandlægeklinikker i {city} mister omsætning på udeblivelser og en reception der ikke kan følge med. Vores AI klarer bookinger, påmindelser og genopringninger – GDPR-sikkert og koblet til jeres system.",
+      "pains": [
+        "Udeblivelser og sene afbud",
+        "Overbelastet reception i spidsbelastning",
+        "GDPR-sikker håndtering af patientdata"
+      ],
+      "cta_heading": "Pilotprojekt i {city}",
+      "cta_body": "Vi søger tre klinikker i {city}, der vil afprøve vores AI til favorabel pris mod en case-historie.",
+      "cta_button": "Start gratis analyse"
+    },
+    "medical-clinics": {
+      "h1": "AI til klinikker i {city}",
+      "lede": "Receptionen er flaskehalsen i enhver klinik i {city}. AI klarer første triage, booking og flersproget modtagelse, så personalet kan fokusere på patienterne.",
+      "pains": [
+        "Overbelastet reception i spidsbelastning",
+        "Flersproget patientmodtagelse",
+        "Sikker håndtering af journaldata"
+      ],
+      "cta_heading": "Til klinikker i {city}",
+      "cta_body": "Vi bygger og drifter systemet – I beholder kontrollen med jeres data.",
+      "cta_button": "Start gratis analyse"
+    },
+    "law-firm": {
+      "h1": "AI til advokatkontorer i {city}",
+      "lede": "På kontorer i {city} forsvinder fakturerbare timer på research og første klientkontakt. Vores system overtager forarbejdet – med klar fortrolighed og datalagring i EU.",
+      "pains": [
+        "Ikke-fakturerbare research-timer",
+        "Første klientkontakt og kvalificering",
+        "Fortrolighed og datalagring"
+      ],
+      "cta_heading": "Til kontorer i {city}",
+      "cta_body": "Fra dokumentgennemgang til klientportal – opsat og driftet af os.",
+      "cta_button": "Start gratis analyse"
+    },
+    "accounting": {
+      "h1": "AI til revisionsfirmaer i {city}",
+      "lede": "Årsafslutning sætter ethvert firma i {city} på prøven. AI klarer dokumentindsamling, kundeopfølgning og forkontering, så spidsbelastningen bliver til at styre.",
+      "pains": [
+        "Kapacitetspres ved årsafslutning",
+        "Manuel dokumentindsamling",
+        "Konstant opfølgning på kunder"
+      ],
+      "cta_heading": "Til firmaer i {city}",
+      "cta_body": "Vi automatiserer det gentagne arbejde – I beholder det faglige ansvar.",
+      "cta_button": "Start gratis analyse"
+    },
+    "ecommerce": {
+      "h1": "AI til webshops i {city}",
+      "lede": "Webshops i {city} sælger allerede på tværs af grænser, men strander på flersproget support og returneringer. Vores AI besvarer kunder døgnet rundt på over 30 sprog.",
+      "pains": [
+        "Flersproget kundeservice",
+        "Forladte kurve",
+        "Grænseoverskridende returneringer"
+      ],
+      "cta_heading": "Til webshops i {city}",
+      "cta_body": "Support, kurv-genopretning og mersalg – koblet til jeres shop.",
+      "cta_button": "Start gratis analyse"
+    },
+    "real-estate": {
+      "h1": "AI til ejendomsmæglere i {city}",
+      "lede": "I {city} vinder den mægler, der svarer først. Vores AI kvalificerer henvendelser på sekunder, koordinerer fremvisninger og holder kontakten til emner, der ikke er klar endnu.",
+      "pains": [
+        "Langsom svartid på henvendelser",
+        "Koordinering af fremvisninger",
+        "Flersprogede annoncer og henvendelser"
+      ],
+      "cta_heading": "Til mæglere i {city}",
+      "cta_body": "Svar på hver henvendelse på under 60 sekunder – helt automatisk.",
+      "cta_button": "Start gratis analyse"
+    }
+  },
+  "fi": {
+    "_meta": {
+      "name": "Suomi",
+      "reviewed": false,
+      "angle": "tietosuoja, peruutukset, nopea vastausaika"
+    },
+    "dental-practices": {
+      "h1": "Tekoäly hammaslääkäriasemille {city}ssa",
+      "lede": "Hammaslääkäriasemat {city}ssa menettävät tuloja peruuntuneisiin käynteihin ja ruuhkautuneeseen vastaanottoon. Tekoälymme hoitaa ajanvarauksen, muistutukset ja takaisinsoitot – tietosuoja-asetuksen mukaisesti ja järjestelmäänne kytkettynä.",
+      "pains": [
+        "Peruuntuneet käynnit ja myöhäiset peruutukset",
+        "Ruuhkautunut vastaanotto kiireaikoina",
+        "Potilastietojen tietosuoja"
+      ],
+      "cta_heading": "Pilottihanke {city}ssa",
+      "cta_body": "Etsimme kolme asemaa {city}sta ottamaan tekoälyn käyttöön edulliseen hintaan referenssiä vastaan.",
+      "cta_button": "Aloita maksuton analyysi"
+    },
+    "medical-clinics": {
+      "h1": "Tekoäly klinikoille {city}ssa",
+      "lede": "Vastaanotto on jokaisen klinikan pullonkaula {city}ssa. Tekoäly hoitaa ensitriagen, ajanvarauksen ja monikielisen vastaanoton, jotta henkilökunta voi keskittyä hoitoon.",
+      "pains": [
+        "Ruuhkautunut vastaanotto kiireaikoina",
+        "Monikielinen potilaan vastaanotto",
+        "Potilastietojen tietosuoja"
+      ],
+      "cta_heading": "Klinikoille {city}ssa",
+      "cta_body": "Rakennamme ja ylläpidämme järjestelmän – te säilytätte hallinnan tiedoistanne.",
+      "cta_button": "Aloita maksuton analyysi"
+    },
+    "law-firm": {
+      "h1": "Tekoäly asianajotoimistoille {city}ssa",
+      "lede": "Toimistoissa {city}ssa laskutettavaa aikaa kuluu tutkimukseen ja ensikontaktiin. Järjestelmämme hoitaa esityön – luottamuksellisesti ja tiedot EU:ssa säilytettynä.",
+      "pains": [
+        "Laskuttamaton tutkimusaika",
+        "Asiakkaan ensikontakti ja karsinta",
+        "Salassapito ja tietojen sijainti"
+      ],
+      "cta_heading": "Toimistoille {city}ssa",
+      "cta_body": "Asiakirja-analyysista asiakasportaaliin – meidän rakentamana ja ylläpitämänä.",
+      "cta_button": "Aloita maksuton analyysi"
+    },
+    "accounting": {
+      "h1": "Tekoäly tilitoimistoille {city}ssa",
+      "lede": "Tilinpäätöskausi koettelee jokaista toimistoa {city}ssa. Tekoäly hoitaa aineiston keräämisen, asiakasseurannan ja esikirjaukset, jotta ruuhkahuiput pysyvät hallinnassa.",
+      "pains": [
+        "Kapasiteettiruuhka tilinpäätöksessä",
+        "Manuaalinen aineiston keräys",
+        "Jatkuva asiakasseuranta"
+      ],
+      "cta_heading": "Toimistoille {city}ssa",
+      "cta_body": "Automatisoimme toistuvan työn – ammatillinen vastuu säilyy teillä.",
+      "cta_button": "Aloita maksuton analyysi"
+    },
+    "ecommerce": {
+      "h1": "Tekoäly verkkokaupoille {city}ssa",
+      "lede": "Verkkokaupat {city}ssa myyvät jo rajojen yli, mutta monikielinen tuki ja palautukset kuormittavat. Tekoälymme vastaa asiakkaille ympärivuorokautisesti yli 30 kielellä.",
+      "pains": [
+        "Monikielinen asiakaspalvelu",
+        "Hylätyt ostoskorit",
+        "Rajat ylittävät palautukset"
+      ],
+      "cta_heading": "Verkkokaupoille {city}ssa",
+      "cta_body": "Tuki, ostoskorin palautus ja lisämyynti – kytkettynä kauppaanne.",
+      "cta_button": "Aloita maksuton analyysi"
+    },
+    "real-estate": {
+      "h1": "Tekoäly kiinteistönvälittäjille {city}ssa",
+      "lede": "{city}ssa toimeksiannon saa välittäjä, joka vastaa ensin. Tekoälymme karsii yhteydenotot sekunneissa, koordinoi esittelyt ja pitää yhteyttä vielä epävarmoihin ostajaehdokkaisiin.",
+      "pains": [
+        "Hidas vastausaika yhteydenottoihin",
+        "Esittelyjen koordinointi",
+        "Monikieliset ilmoitukset ja yhteydenotot"
+      ],
+      "cta_heading": "Välittäjille {city}ssa",
+      "cta_body": "Vastaa jokaiseen yhteydenottoon alle 60 sekunnissa – täysin automaattisesti.",
+      "cta_button": "Aloita maksuton analyysi"
+    }
+  },
+  "pl": {
+    "_meta": {
+      "name": "Polski",
+      "reviewed": false,
+      "angle": "RODO, nieodwołane wizyty, szybka reakcja"
+    },
+    "dental-practices": {
+      "h1": "AI dla gabinetów stomatologicznych w {city}",
+      "lede": "Gabinety stomatologiczne w {city} tracą przychody przez nieodwołane wizyty i przeciążoną recepcję. Nasza AI obsługuje rezerwacje, przypomnienia i oddzwanianie – zgodnie z RODO i zintegrowane z waszym systemem.",
+      "pains": [
+        "Nieodwołane wizyty i późne odwołania",
+        "Przeciążona recepcja w godzinach szczytu",
+        "Bezpieczne przetwarzanie danych pacjentów zgodnie z RODO"
+      ],
+      "cta_heading": "Program pilotażowy w {city}",
+      "cta_body": "Szukamy trzech gabinetów w {city}, które wdrożą naszą AI w preferencyjnej cenie w zamian za case study.",
+      "cta_button": "Rozpocznij bezpłatną analizę"
+    },
+    "medical-clinics": {
+      "h1": "AI dla przychodni i klinik w {city}",
+      "lede": "Recepcja to wąskie gardło każdej placówki w {city}. AI przejmuje wstępną segregację, rezerwacje i wielojęzyczne przyjmowanie pacjentów, aby personel mógł skupić się na opiece.",
+      "pains": [
+        "Przeciążona recepcja w godzinach szczytu",
+        "Wielojęzyczne przyjmowanie pacjentów",
+        "Poufność danych medycznych"
+      ],
+      "cta_heading": "Dla placówek w {city}",
+      "cta_body": "Budujemy i utrzymujemy system – wy zachowujecie kontrolę nad danymi.",
+      "cta_button": "Rozpocznij bezpłatną analizę"
+    },
+    "law-firm": {
+      "h1": "AI dla kancelarii prawnych w {city}",
+      "lede": "W kancelariach w {city} godziny rozliczeniowe znikają na research i pierwszy kontakt z klientem. Nasz system przejmuje te prace wstępne – z zachowaniem poufności i przechowywaniem danych w UE.",
+      "pains": [
+        "Nierozliczalne godziny researchu",
+        "Pierwszy kontakt i kwalifikacja klienta",
+        "Poufność i lokalizacja danych"
+      ],
+      "cta_heading": "Dla kancelarii w {city}",
+      "cta_body": "Od analizy dokumentów po portal klienta – wdrożone i utrzymywane przez nas.",
+      "cta_button": "Rozpocznij bezpłatną analizę"
+    },
+    "accounting": {
+      "h1": "AI dla biur rachunkowych w {city}",
+      "lede": "Okres zamknięcia roku wystawia na próbę każde biuro w {city}. AI przejmuje zbieranie dokumentów, kontakt z klientami i wstępną dekretację, dzięki czemu szczyty stają się łatwiejsze do opanowania.",
+      "pains": [
+        "Spiętrzenie prac przy zamknięciu roku",
+        "Ręczne zbieranie dokumentów",
+        "Ciągłe przypominanie klientom"
+      ],
+      "cta_heading": "Dla biur w {city}",
+      "cta_body": "Automatyzujemy prace powtarzalne – odpowiedzialność merytoryczna zostaje po waszej stronie.",
+      "cta_button": "Rozpocznij bezpłatną analizę"
+    },
+    "ecommerce": {
+      "h1": "AI dla e-commerce w {city}",
+      "lede": "Sklepy internetowe w {city} sprzedają już za granicą, ale utykają na wielojęzycznym wsparciu i zwrotach. Nasza AI odpowiada klientom całodobowo w ponad 30 językach.",
+      "pains": [
+        "Wielojęzyczna obsługa klienta",
+        "Porzucone koszyki",
+        "Zwroty transgraniczne"
+      ],
+      "cta_heading": "Dla sklepów w {city}",
+      "cta_body": "Wsparcie, odzyskiwanie koszyków i sprzedaż dodatkowa – połączone z waszym sklepem.",
+      "cta_button": "Rozpocznij bezpłatną analizę"
+    },
+    "real-estate": {
+      "h1": "AI dla biur nieruchomości w {city}",
+      "lede": "W {city} zlecenie zdobywa biuro, które odpowiada pierwsze. Nasza AI kwalifikuje zapytania w kilka sekund, koordynuje oględziny i utrzymuje kontakt z klientami jeszcze niezdecydowanymi.",
+      "pains": [
+        "Wolny czas reakcji na zapytania",
+        "Koordynacja oględzin",
+        "Wielojęzyczne ogłoszenia i zapytania"
+      ],
+      "cta_heading": "Dla biur w {city}",
+      "cta_body": "Odpowiadaj na każde zapytanie w mniej niż 60 sekund – w pełni automatycznie.",
+      "cta_button": "Rozpocznij bezpłatną analizę"
+    }
+  },
+  "et": {
+    "_meta": {
+      "name": "Eesti",
+      "reviewed": false,
+      "angle": "e-riik, andmekaitse, kiire reageerimine"
+    },
+    "dental-practices": {
+      "h1": "Tehisintellekt hambaravikliinikutele {city}s",
+      "lede": "Hambaravikliinikud {city}s kaotavad tulu tulemata jäetud visiitide ja ülekoormatud vastuvõtu tõttu. Meie tehisintellekt haldab broneeringuid, meeldetuletusi ja tagasihelistamisi – andmekaitsenõudeid järgides ja teie süsteemiga ühendatuna.",
+      "pains": [
+        "Tulemata jäetud visiidid ja hilised tühistamised",
+        "Ülekoormatud vastuvõtt tipptundidel",
+        "Patsiendiandmete turvaline töötlemine"
+      ],
+      "cta_heading": "Pilootprojekt {city}s",
+      "cta_body": "Otsime kolme kliinikut {city}s, kes soovivad meie tehisintellekti soodushinnaga kasutusele võtta vastutasuks juhtumiuuringu eest.",
+      "cta_button": "Alusta tasuta analüüsi"
+    },
+    "medical-clinics": {
+      "h1": "Tehisintellekt kliinikutele {city}s",
+      "lede": "Vastuvõtt on iga kliiniku kitsaskoht {city}s. Tehisintellekt võtab üle esmase triaaži, broneerimise ja mitmekeelse vastuvõtu, et personal saaks keskenduda ravile.",
+      "pains": [
+        "Ülekoormatud vastuvõtt tipptundidel",
+        "Mitmekeelne patsientide vastuvõtt",
+        "Patsiendiandmete konfidentsiaalsus"
+      ],
+      "cta_heading": "Kliinikutele {city}s",
+      "cta_body": "Meie ehitame ja haldame süsteemi – teie säilitate kontrolli oma andmete üle.",
+      "cta_button": "Alusta tasuta analüüsi"
+    },
+    "law-firm": {
+      "h1": "Tehisintellekt advokaadibüroodele {city}s",
+      "lede": "Büroodes {city}s kulub arveldatav aeg uurimistööle ja esmasele kliendikontaktile. Meie süsteem võtab selle eeltöö üle – konfidentsiaalselt ja andmed ELis hoituna.",
+      "pains": [
+        "Arveldamata uurimistöötunnid",
+        "Kliendi esmakontakt ja kvalifitseerimine",
+        "Konfidentsiaalsus ja andmete asukoht"
+      ],
+      "cta_heading": "Büroodele {city}s",
+      "cta_body": "Dokumentide analüüsist kliendiportaalini – meie ülesseatud ja hallatud.",
+      "cta_button": "Alusta tasuta analüüsi"
+    },
+    "accounting": {
+      "h1": "Tehisintellekt raamatupidamisbüroodele {city}s",
+      "lede": "Aastaaruande periood paneb iga büroo {city}s proovile. Tehisintellekt võtab üle dokumentide kogumise, kliendijälgimise ja esialgse konteerimise, et tipphetked oleksid hallatavad.",
+      "pains": [
+        "Mahupiirang aastaaruande ajal",
+        "Käsitsi dokumentide kogumine",
+        "Pidev kliendijälgimine"
+      ],
+      "cta_heading": "Büroodele {city}s",
+      "cta_body": "Automatiseerime korduva töö – erialane vastutus jääb teie kanda.",
+      "cta_button": "Alusta tasuta analüüsi"
+    },
+    "ecommerce": {
+      "h1": "Tehisintellekt e-kaubandusele {city}s",
+      "lede": "E-poed {city}s müüvad juba piiriüleselt, kuid takerduvad mitmekeelse toe ja tagastuste taha. Meie tehisintellekt vastab klientidele ööpäevaringselt enam kui 30 keeles.",
+      "pains": [
+        "Mitmekeelne klienditugi",
+        "Hüljatud ostukorvid",
+        "Piiriülesed tagastused"
+      ],
+      "cta_heading": "Poodidele {city}s",
+      "cta_body": "Tugi, ostukorvi taastamine ja lisamüük – ühendatud teie poega.",
+      "cta_button": "Alusta tasuta analüüsi"
+    },
+    "real-estate": {
+      "h1": "Tehisintellekt kinnisvaramaakleritele {city}s",
+      "lede": "{city}s saab tellimuse maakler, kes vastab esimesena. Meie tehisintellekt kvalifitseerib päringud sekunditega, koordineerib vaatamisi ja hoiab kontakti veel otsustamata huvilistega.",
+      "pains": [
+        "Aeglane reageerimisaeg päringutele",
+        "Vaatamiste koordineerimine",
+        "Mitmekeelsed kuulutused ja päringud"
+      ],
+      "cta_heading": "Maakleritele {city}s",
+      "cta_body": "Vasta igale päringule alla 60 sekundi – täielikult automaatselt.",
+      "cta_button": "Alusta tasuta analüüsi"
+    }
+  },
+  "lt": {
+    "_meta": {
+      "name": "Lietuvių",
+      "reviewed": false,
+      "angle": "duomenų apsauga, neatvykimai, greitas atsakymas"
+    },
+    "dental-practices": {
+      "h1": "DI odontologijos klinikoms {city}",
+      "lede": "Odontologijos klinikos {city} praranda pajamas dėl neatvykimų ir perkrautos registratūros. Mūsų DI tvarko rezervacijas, priminimus ir perskambinimus – laikantis duomenų apsaugos reikalavimų ir susieta su jūsų sistema.",
+      "pains": [
+        "Neatvykimai ir vėlyvi atšaukimai",
+        "Perkrauta registratūra piko valandomis",
+        "Saugus pacientų duomenų tvarkymas"
+      ],
+      "cta_heading": "Bandomasis projektas {city}",
+      "cta_body": "Ieškome trijų klinikų {city}, norinčių išbandyti mūsų DI palankia kaina mainais į atvejo studiją.",
+      "cta_button": "Pradėti nemokamą analizę"
+    },
+    "medical-clinics": {
+      "h1": "DI klinikoms {city}",
+      "lede": "Registratūra yra kiekvienos klinikos {city} kliūvinys. DI perima pirminę atranką, rezervaciją ir daugiakalbį priėmimą, kad personalas galėtų susitelkti į pacientus.",
+      "pains": [
+        "Perkrauta registratūra piko valandomis",
+        "Daugiakalbis pacientų priėmimas",
+        "Pacientų duomenų konfidencialumas"
+      ],
+      "cta_heading": "Klinikoms {city}",
+      "cta_body": "Mes sukuriame ir prižiūrime sistemą – jūs išlaikote duomenų kontrolę.",
+      "cta_button": "Pradėti nemokamą analizę"
+    },
+    "law-firm": {
+      "h1": "DI advokatų kontoroms {city}",
+      "lede": "Kontorose {city} apmokamos valandos dingsta tyrimams ir pirmajam kontaktui su klientu. Mūsų sistema perima šį parengiamąjį darbą – konfidencialiai ir duomenis saugant ES.",
+      "pains": [
+        "Neapmokamos tyrimų valandos",
+        "Kliento pirmasis kontaktas ir atranka",
+        "Konfidencialumas ir duomenų vieta"
+      ],
+      "cta_heading": "Kontoroms {city}",
+      "cta_body": "Nuo dokumentų analizės iki kliento portalo – mūsų įdiegta ir prižiūrima.",
+      "cta_button": "Pradėti nemokamą analizę"
+    },
+    "accounting": {
+      "h1": "DI apskaitos įmonėms {city}",
+      "lede": "Metų uždarymo laikotarpis išbando kiekvieną įmonę {city}. DI perima dokumentų rinkimą, klientų sekimo darbus ir pirminį kontavimą, kad piko laikotarpiai būtų valdomi.",
+      "pains": [
+        "Apkrova metų uždarymo metu",
+        "Rankinis dokumentų rinkimas",
+        "Nuolatinis klientų priminimas"
+      ],
+      "cta_heading": "Įmonėms {city}",
+      "cta_body": "Mes automatizuojame pasikartojantį darbą – profesinė atsakomybė lieka jums.",
+      "cta_button": "Pradėti nemokamą analizę"
+    },
+    "ecommerce": {
+      "h1": "DI el. prekybai {city}",
+      "lede": "El. parduotuvės {city} jau prekiauja užsienyje, tačiau susiduria su daugiakalbe pagalba ir grąžinimais. Mūsų DI atsako klientams visą parą daugiau nei 30 kalbų.",
+      "pains": [
+        "Daugiakalbis klientų aptarnavimas",
+        "Palikti krepšeliai",
+        "Tarpvalstybiniai grąžinimai"
+      ],
+      "cta_heading": "Parduotuvėms {city}",
+      "cta_body": "Pagalba, krepšelio atgavimas ir papildomas pardavimas – susieta su jūsų parduotuve.",
+      "cta_button": "Pradėti nemokamą analizę"
+    },
+    "real-estate": {
+      "h1": "DI nekilnojamojo turto agentams {city}",
+      "lede": "{city} užsakymą gauna agentas, kuris atsako pirmas. Mūsų DI kvalifikuoja užklausas per sekundes, koordinuoja apžiūras ir palaiko ryšį su dar neapsisprendusiais klientais.",
+      "pains": [
+        "Lėtas atsakymo laikas į užklausas",
+        "Apžiūrų koordinavimas",
+        "Daugiakalbiai skelbimai ir užklausos"
+      ],
+      "cta_heading": "Agentams {city}",
+      "cta_body": "Atsakykite į kiekvieną užklausą per mažiau nei 60 sekundžių – visiškai automatiškai.",
+      "cta_button": "Pradėti nemokamą analizę"
+    }
+  },
+  "lv": {
+    "_meta": {
+      "name": "Latviešu",
+      "reviewed": false,
+      "angle": "datu aizsardzība, neierodas, ātra atbilde"
+    },
+    "dental-practices": {
+      "h1": "MI zobārstniecības praksēm {city}",
+      "lede": "Zobārstniecības prakses {city} zaudē ienākumus neierašanās un pārslogotas reģistratūras dēļ. Mūsu MI pārvalda rezervācijas, atgādinājumus un atzvanīšanu – ievēro datu aizsardzības prasības un ir savienota ar jūsu sistēmu.",
+      "pains": [
+        "Neierašanās un vēla atcelšana",
+        "Pārslogota reģistratūra noslogotā laikā",
+        "Droša pacientu datu apstrāde"
+      ],
+      "cta_heading": "Izmēģinājuma projekts {city}",
+      "cta_body": "Meklējam trīs prakses {city}, kas vēlas izmēģināt mūsu MI par izdevīgu cenu apmaiņā pret gadījuma izpēti.",
+      "cta_button": "Sākt bezmaksas analīzi"
+    },
+    "medical-clinics": {
+      "h1": "MI klīnikām {city}",
+      "lede": "Reģistratūra ir katras klīnikas {city} šķērslis. MI pārņem sākotnējo šķirošanu, rezervēšanu un daudzvalodu pieņemšanu, lai personāls varētu pievērsties aprūpei.",
+      "pains": [
+        "Pārslogota reģistratūra noslogotā laikā",
+        "Daudzvalodu pacientu pieņemšana",
+        "Pacientu datu konfidencialitāte"
+      ],
+      "cta_heading": "Klīnikām {city}",
+      "cta_body": "Mēs veidojam un uzturam sistēmu – jūs saglabājat kontroli par datiem.",
+      "cta_button": "Sākt bezmaksas analīzi"
+    },
+    "law-firm": {
+      "h1": "MI advokātu birojiem {city}",
+      "lede": "Birojos {city} apmaksājamas stundas pazūd izpētei un pirmajam kontaktam ar klientu. Mūsu sistēma pārņem šo sagatavošanas darbu – konfidenciāli un datus glabājot ES.",
+      "pains": [
+        "Neapmaksājamas izpētes stundas",
+        "Klienta pirmais kontakts un kvalificēšana",
+        "Konfidencialitāte un datu atrašanās vieta"
+      ],
+      "cta_heading": "Birojiem {city}",
+      "cta_body": "No dokumentu analīzes līdz klientu portālam – mūsu izveidota un uzturēts.",
+      "cta_button": "Sākt bezmaksas analīzi"
+    },
+    "accounting": {
+      "h1": "MI grāmatvedības birojiem {city}",
+      "lede": "Gada slēgšanas periods pārbauda katru biroju {city}. MI pārņem dokumentu vākšanu, klientu izsekošanu un sākotnējo kontēšanu, lai slodzes periodi būtu pārvaldāmi.",
+      "pains": [
+        "Kapacitātes slodze gada slēgšanas laikā",
+        "Manuāla dokumentu vākšana",
+        "Pastāvīga klientu atgādināšana"
+      ],
+      "cta_heading": "Birojiem {city}",
+      "cta_body": "Mēs automatizējam atkārtojošos darbu – profesionālā atbildība paliek pie jums.",
+      "cta_button": "Sākt bezmaksas analīzi"
+    },
+    "ecommerce": {
+      "h1": "MI e-komercijai {city}",
+      "lede": "E-veikali {city} jau tirgojas pārrobežu, tačiau saskaras ar daudzvalodu atbalstu un atgriešanu. Mūsu MI atbild klientiem visu diennakti vairāk nekā 30 valodās.",
+      "pains": [
+        "Daudzvalodu klientu apkalpošana",
+        "Pamesti grozini",
+        "Pārrobežu atgriešana"
+      ],
+      "cta_heading": "Veikaliem {city}",
+      "cta_body": "Atbalsts, groza atgūšana un papildu pārdošana – savienota ar jūsu veikalu.",
+      "cta_button": "Sākt bezmaksas analīzi"
+    },
+    "real-estate": {
+      "h1": "MI nekustamā īpašuma aģentiem {city}",
+      "lede": "{city} pasūtījumu iegūst aģents, kas atbild pirmais. Mūsu MI kvalificē pieprasījumus sekundēs, koordinē apskates un uztur kontaktu ar vēl nenoteiktiem interesentiem.",
+      "pains": [
+        "Lēns atbildēšanas laiks uz pieprasījumiem",
+        "Apskašu koordinēšana",
+        "Daudzvalodu sludinājumi un pieprasījumi"
+      ],
+      "cta_heading": "Aģentiem {city}",
+      "cta_body": "Atbildiet uz katru pieprasījumu mazāk nekā 60 sekundēs – pilnībā automātiski.",
+      "cta_button": "Sākt bezmaksas analīzi"
+    }
+  },
+  "cs": {
+    "_meta": {
+      "name": "Čeština",
+      "reviewed": false,
+      "angle": "GDPR, nedostavení se, rychlá reakce"
+    },
+    "dental-practices": {
+      "h1": "AI pro zubní ordinace v {city}",
+      "lede": "Zubní ordinace v {city} přichází o příjmy kvůli nedostavení se pacientů a přeplněné recepci. Naše AI řeší rezervace, připomínky a zpětné volání – v souladu s GDPR a napojená na váš systém.",
+      "pains": [
+        "Nedostavení se a pozdní zrušení",
+        "Přeplněná recepce ve špičce",
+        "Bezpečné zpracování dat pacientů dle GDPR"
+      ],
+      "cta_heading": "Pilotní projekt v {city}",
+      "cta_body": "Hledáme tři ordinace v {city}, které si chtějí vyzkoušet naši AI za zvýhodněnou cenu výměnou za případovou studii.",
+      "cta_button": "Zahájit bezplatnou analýzu"
+    },
+    "medical-clinics": {
+      "h1": "AI pro kliniky v {city}",
+      "lede": "Recepce je úzkým hrdlem každé kliniky v {city}. AI převezme prvotní triáž, rezervace a vícejazyčný příjem, aby se personál mohl věnovat péči.",
+      "pains": [
+        "Přeplněná recepce ve špičce",
+        "Vícejazyčný příjem pacientů",
+        "Důvěrnost zdravotních dat"
+      ],
+      "cta_heading": "Pro kliniky v {city}",
+      "cta_body": "Systém postavíme a budeme provozovat my – vy si zachováte kontrolu nad daty.",
+      "cta_button": "Zahájit bezplatnou analýzu"
+    },
+    "law-firm": {
+      "h1": "AI pro advokátní kanceláře v {city}",
+      "lede": "V kancelářích v {city} mizí fakturovatelné hodiny na research a první kontakt s klientem. Náš systém převezme tuto přípravnou práci – s jasnou důvěrností a daty uloženými v EU.",
+      "pains": [
+        "Nefakturovatelné hodiny researchu",
+        "První kontakt a kvalifikace klienta",
+        "Důvěrnost a umístění dat"
+      ],
+      "cta_heading": "Pro kanceláře v {city}",
+      "cta_body": "Od analýzy dokumentů až po klientský portál – nasazeno a provozováno námi.",
+      "cta_button": "Zahájit bezplatnou analýzu"
+    },
+    "accounting": {
+      "h1": "AI pro účetní kanceláře v {city}",
+      "lede": "Období uzávěrky prověří každou kancelář v {city}. AI převezme sběr dokladů, sledování klientů a předkontaci, aby byly špičky zvládnutelné.",
+      "pains": [
+        "Kapacitní špička při uzávěrce",
+        "Ruční sběr dokladů",
+        "Neustálé upomínání klientů"
+      ],
+      "cta_heading": "Pro kanceláře v {city}",
+      "cta_body": "Automatizujeme opakující se práci – odborná odpovědnost zůstává na vás.",
+      "cta_button": "Zahájit bezplatnou analýzu"
+    },
+    "ecommerce": {
+      "h1": "AI pro e-shopy v {city}",
+      "lede": "E-shopy v {city} už prodávají za hranice, ale narazí na vícejazyčnou podporu a vratky. Naše AI odpovídá zákazníkům nepřetržitě ve více než 30 jazycích.",
+      "pains": [
+        "Vícejazyčná zákaznická podpora",
+        "Opuštěné košíky",
+        "Přeshraniční vratky"
+      ],
+      "cta_heading": "Pro e-shopy v {city}",
+      "cta_body": "Podpora, obnovení košíku a upsell – napojeno na váš e-shop.",
+      "cta_button": "Zahájit bezplatnou analýzu"
+    },
+    "real-estate": {
+      "h1": "AI pro realitní kanceláře v {city}",
+      "lede": "V {city} získá zakázku ta kancelář, která odpoví jako první. Naše AI kvalifikuje poptávky během sekund, koordinuje prohlídky a udržuje kontakt se zájemci, kteří ještě nejsou rozhodnutí.",
+      "pains": [
+        "Pomalá reakce na poptávky",
+        "Koordinace prohlídek",
+        "Vícejazyčné inzeráty a poptávky"
+      ],
+      "cta_heading": "Pro kanceláře v {city}",
+      "cta_body": "Odpovězte na každou poptávku během 60 sekund – zcela automaticky.",
+      "cta_button": "Zahájit bezplatnou analýzu"
+    }
+  },
+  "pt": {
+    "_meta": {
+      "name": "Português",
+      "reviewed": false,
+      "angle": "RGPD, faltas, resposta rápida"
+    },
+    "dental-practices": {
+      "h1": "IA para clínicas dentárias em {city}",
+      "lede": "As clínicas dentárias em {city} perdem receita com faltas e uma receção sobrecarregada. A nossa IA trata marcações, lembretes e chamadas de retorno – em conformidade com o RGPD e ligada ao vosso sistema.",
+      "pains": [
+        "Faltas e cancelamentos tardios",
+        "Receção sobrecarregada nas horas de ponta",
+        "Tratamento seguro de dados de pacientes nos termos do RGPD"
+      ],
+      "cta_heading": "Programa piloto em {city}",
+      "cta_body": "Procuramos três clínicas em {city} para implementar a nossa IA a preço preferencial em troca de um caso de estudo.",
+      "cta_button": "Iniciar análise gratuita"
+    },
+    "medical-clinics": {
+      "h1": "IA para clínicas médicas em {city}",
+      "lede": "A receção é o estrangulamento de qualquer clínica em {city}. A IA assume a triagem inicial, as marcações e a receção multilingue, para que a equipa se possa dedicar aos cuidados.",
+      "pains": [
+        "Receção sobrecarregada nas horas de ponta",
+        "Receção multilingue de pacientes",
+        "Confidencialidade dos dados clínicos"
+      ],
+      "cta_heading": "Para clínicas em {city}",
+      "cta_body": "Nós construímos e operamos o sistema – vocês mantêm o controlo dos vossos dados.",
+      "cta_button": "Iniciar análise gratuita"
+    },
+    "law-firm": {
+      "h1": "IA para escritórios de advogados em {city}",
+      "lede": "Nos escritórios em {city}, as horas faturáveis desaparecem em pesquisa e no primeiro contacto com o cliente. O nosso sistema assume esse trabalho preparatório – com sigilo profissional e dados alojados na UE.",
+      "pains": [
+        "Horas de pesquisa não faturáveis",
+        "Primeiro contacto e qualificação de clientes",
+        "Sigilo profissional e localização dos dados"
+      ],
+      "cta_heading": "Para escritórios em {city}",
+      "cta_body": "Da análise documental ao portal do cliente – implementado e gerido por nós.",
+      "cta_button": "Iniciar análise gratuita"
+    },
+    "accounting": {
+      "h1": "IA para escritórios de contabilidade em {city}",
+      "lede": "O período de fecho de contas coloca à prova qualquer escritório em {city}. A IA trata da recolha de documentos, do acompanhamento de clientes e da pré-contabilização, para que os picos sejam geríveis.",
+      "pains": [
+        "Sobrecarga no fecho de contas",
+        "Recolha manual de documentos",
+        "Acompanhamento constante de clientes"
+      ],
+      "cta_heading": "Para escritórios em {city}",
+      "cta_body": "Automatizamos o trabalho repetitivo – a responsabilidade técnica fica convosco.",
+      "cta_button": "Iniciar análise gratuita"
+    },
+    "ecommerce": {
+      "h1": "IA para comércio eletrónico em {city}",
+      "lede": "As lojas online em {city} já vendem além-fronteiras, mas esbarram no apoio multilingue e nas devoluções. A nossa IA responde aos clientes 24 horas por dia em mais de 30 idiomas.",
+      "pains": [
+        "Apoio ao cliente multilingue",
+        "Carrinhos abandonados",
+        "Devoluções transfronteiriças"
+      ],
+      "cta_heading": "Para lojas em {city}",
+      "cta_body": "Apoio, recuperação de carrinho e upsell – ligados à vossa loja.",
+      "cta_button": "Iniciar análise gratuita"
+    },
+    "real-estate": {
+      "h1": "IA para agências imobiliárias em {city}",
+      "lede": "Em {city}, quem responde primeiro fica com o negócio. A nossa IA qualifica pedidos em segundos, coordena visitas e mantém o contacto com interessados que ainda não estão decididos.",
+      "pains": [
+        "Tempo de resposta lento aos pedidos",
+        "Coordenação de visitas",
+        "Anúncios e pedidos multilingues"
+      ],
+      "cta_heading": "Para agências em {city}",
+      "cta_body": "Responda a cada pedido em menos de 60 segundos – de forma totalmente automática.",
+      "cta_button": "Iniciar análise gratuita"
+    }
+  },
+  "is": {
+    "_meta": {
+      "name": "Íslenska",
+      "reviewed": false,
+      "angle": "persónuvernd, forföll, hröð svör"
+    },
+    "dental-practices": {
+      "h1": "Gervigreind fyrir tannlæknastofur í {city}",
+      "lede": "Tannlæknastofur í {city} tapa tekjum vegna forfalla og yfirfullrar móttöku. Gervigreindin okkar sinnir bókunum, áminningum og endurhringingum – í samræmi við persónuverndarlög og tengd við kerfið ykkar.",
+      "pains": [
+        "Forföll og seinar afbókanir",
+        "Yfirfull móttaka á annatímum",
+        "Örugg meðferð sjúklingagagna"
+      ],
+      "cta_heading": "Tilraunaverkefni í {city}",
+      "cta_body": "Við leitum að þremur stofum í {city} sem vilja prófa gervigreindina okkar á hagstæðu verði gegn tilviksrannsókn.",
+      "cta_button": "Hefja ókeypis greiningu"
+    },
+    "medical-clinics": {
+      "h1": "Gervigreind fyrir læknastofur í {city}",
+      "lede": "Móttakan er flöskuháls á hverri stofu í {city}. Gervigreindin tekur að sér frumflokkun, bókanir og fjöltyngda móttöku svo starfsfólk geti einbeitt sér að umönnun.",
+      "pains": [
+        "Yfirfull móttaka á annatímum",
+        "Fjöltyngd móttaka sjúklinga",
+        "Trúnaður um sjúklingagögn"
+      ],
+      "cta_heading": "Fyrir stofur í {city}",
+      "cta_body": "Við byggjum og rekum kerfið – þið haldið stjórn á gögnum ykkar.",
+      "cta_button": "Hefja ókeypis greiningu"
+    },
+    "law-firm": {
+      "h1": "Gervigreind fyrir lögmannsstofur í {city}",
+      "lede": "Á stofum í {city} tapast rukkanlegir tímar í rannsóknir og fyrstu samskipti við skjólstæðinga. Kerfið okkar tekur að sér þennan undirbúningsvinnu – með trúnaði og gögn geymd innan ESB/EES.",
+      "pains": [
+        "Órukkanlegir rannsóknartímar",
+        "Fyrstu samskipti og forval skjólstæðinga",
+        "Trúnaður og staðsetning gagna"
+      ],
+      "cta_heading": "Fyrir stofur í {city}",
+      "cta_body": "Frá skjalagreiningu til viðskiptavinagáttar – sett upp og rekið af okkur.",
+      "cta_button": "Hefja ókeypis greiningu"
+    },
+    "accounting": {
+      "h1": "Gervigreind fyrir bókhaldsstofur í {city}",
+      "lede": "Uppgjörstímabilið reynir á hverja stofu í {city}. Gervigreindin sinnir gagnaöflun, eftirfylgni við viðskiptavini og forbókun svo annatímar verði viðráðanlegir.",
+      "pains": [
+        "Álag á uppgjörstíma",
+        "Handvirk gagnaöflun",
+        "Stöðug eftirfylgni við viðskiptavini"
+      ],
+      "cta_heading": "Fyrir stofur í {city}",
+      "cta_body": "Við sjálfvirknivæðum endurtekna vinnu – fagleg ábyrgð er ykkar megin.",
+      "cta_button": "Hefja ókeypis greiningu"
+    },
+    "ecommerce": {
+      "h1": "Gervigreind fyrir netverslanir í {city}",
+      "lede": "Netverslanir í {city} selja nú þegar yfir landamæri en festast í fjöltyngdri þjónustu og endursendingum. Gervigreindin okkar svarar viðskiptavinum allan sólarhringinn á yfir 30 tungumálum.",
+      "pains": [
+        "Fjöltyngd þjónusta við viðskiptavini",
+        "Yfirgefnar innkaupakörfur",
+        "Endursendingar yfir landamæri"
+      ],
+      "cta_heading": "Fyrir verslanir í {city}",
+      "cta_body": "Þjónusta, endurheimt innkaupakörfu og aukasala – tengt við verslunina ykkar.",
+      "cta_button": "Hefja ókeypis greiningu"
+    },
+    "real-estate": {
+      "h1": "Gervigreind fyrir fasteignasala í {city}",
+      "lede": "Í {city} fær sá fasteignasali verkefnið sem svarar fyrstur. Gervigreindin okkar forvelur fyrirspurnir á sekúndum, samhæfir skoðanir og heldur sambandi við áhugasama sem eru ekki enn tilbúnir.",
+      "pains": [
+        "Hægur svartími við fyrirspurnum",
+        "Samhæfing skoðana",
+        "Fjöltyngdar auglýsingar og fyrirspurnir"
+      ],
+      "cta_heading": "Fyrir fasteignasala í {city}",
+      "cta_body": "Svarið hverri fyrirspurn á innan við 60 sekúndum – alveg sjálfvirkt.",
+      "cta_button": "Hefja ókeypis greiningu"
+    }
+  },
+  "no": {
+    "_meta": {
+      "name": "Norsk",
+      "reviewed": false,
+      "angle": "personvern, ubesvarte henvendelser, rask respons"
+    },
+    "dental-practices": {
+      "h1": "AI for tannlegeklinikker i {city}",
+      "lede": "Tannlegeklinikker i {city} taper inntekter på uteblivelser og en overbelastet resepsjon. Vår AI håndterer bestillinger, påminnelser og tilbakeringinger – i tråd med personvernregelverket og koblet til systemet deres.",
+      "pains": [
+        "Uteblivelser og sene avbestillinger",
+        "Overbelastet resepsjon i rushtiden",
+        "Sikker håndtering av pasientdata"
+      ],
+      "cta_heading": "Pilotprosjekt i {city}",
+      "cta_body": "Vi søker tre klinikker i {city} som vil prøve vår AI til en gunstig pris mot en case-studie.",
+      "cta_button": "Start gratis analyse"
+    },
+    "medical-clinics": {
+      "h1": "AI for klinikker i {city}",
+      "lede": "Resepsjonen er flaskehalsen på enhver klinikk i {city}. AI tar seg av førstelinjetriage, timebestilling og flerspråklig mottak, slik at personalet kan fokusere på pasientene.",
+      "pains": [
+        "Overbelastet resepsjon i rushtiden",
+        "Flerspråklig pasientmottak",
+        "Konfidensialitet rundt pasientdata"
+      ],
+      "cta_heading": "For klinikker i {city}",
+      "cta_body": "Vi bygger og drifter systemet – dere beholder kontrollen over egne data.",
+      "cta_button": "Start gratis analyse"
+    },
+    "law-firm": {
+      "h1": "AI for advokatfirmaer i {city}",
+      "lede": "På kontorer i {city} forsvinner fakturerbare timer på research og førstekontakt med klient. Vårt system tar over dette forarbeidet – med klar konfidensialitet og datalagring i EU/EØS.",
+      "pains": [
+        "Ikke-fakturerbare researchtimer",
+        "Førstekontakt og kvalifisering av klienter",
+        "Konfidensialitet og datalagring"
+      ],
+      "cta_heading": "For firmaer i {city}",
+      "cta_body": "Fra dokumentanalyse til klientportal – satt opp og driftet av oss.",
+      "cta_button": "Start gratis analyse"
+    },
+    "accounting": {
+      "h1": "AI for regnskapsbyråer i {city}",
+      "lede": "Årsoppgjøret setter ethvert byrå i {city} på prøve. AI tar seg av dokumentinnsamling, kundeoppfølging og forkontering, slik at travle perioder blir håndterbare.",
+      "pains": [
+        "Kapasitetspress ved årsoppgjør",
+        "Manuell dokumentinnsamling",
+        "Konstant oppfølging av kunder"
+      ],
+      "cta_heading": "For byråer i {city}",
+      "cta_body": "Vi automatiserer det repeterende arbeidet – dere beholder det faglige ansvaret.",
+      "cta_button": "Start gratis analyse"
+    },
+    "ecommerce": {
+      "h1": "AI for nettbutikker i {city}",
+      "lede": "Nettbutikker i {city} selger allerede på tvers av grenser, men strander på flerspråklig support og returer. Vår AI svarer kunder døgnet rundt på over 30 språk.",
+      "pains": [
+        "Flerspråklig kundeservice",
+        "Forlatte handlekurver",
+        "Grenseoverskridende returer"
+      ],
+      "cta_heading": "For butikker i {city}",
+      "cta_body": "Support, gjenoppretting av handlekurv og mersalg – koblet til butikken deres.",
+      "cta_button": "Start gratis analyse"
+    },
+    "real-estate": {
+      "h1": "AI for eiendomsmeglere i {city}",
+      "lede": "I {city} vinner den megleren som svarer først. Vår AI kvalifiserer henvendelser på sekunder, koordinerer visninger og holder kontakten med interessenter som ikke er klare ennå.",
+      "pains": [
+        "Treg responstid på henvendelser",
+        "Koordinering av visninger",
+        "Flerspråklige annonser og henvendelser"
+      ],
+      "cta_heading": "For meglere i {city}",
+      "cta_body": "Svar på hver henvendelse på under 60 sekunder – helt automatisk.",
+      "cta_button": "Start gratis analyse"
     }
   }
 }

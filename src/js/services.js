@@ -1,7 +1,8 @@
 import '../css/style.css';
 import { loadComponents } from './components.js';
 import { offers, coreServices } from './data.js';
-import { createIcons, icons } from 'lucide';
+import { createIcons } from 'lucide';
+import { icons } from './icons.js';
 import './modal-quiz.js';
 
 loadComponents();
