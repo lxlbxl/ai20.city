@@ -28,7 +28,6 @@
     "PUBLISH THRESHOLD: see MIN_LOCAL_SIGNALS in region_config.py. A page needs",
     "\"verified\": true plus at least that many populated fields to be indexed."
   ],
-
   "_schema": {
     "<region>": {
       "<city-slug>": {
@@ -50,26 +49,1399 @@
       }
     }
   },
-
   "us": {
     "austin": {
-      "metro_pop": null,
+      "metro_pop": 2473275,
       "gbp_presence": false,
       "niches": {
         "hvac": {
-          "verified": false,
-          "source_note": "TEMPLATE ENTRY - shows the shape only. Populate from BLS OES 43-4171 (Austin-Round Rock MSA) and Census CBP NAICS 238220, then set verified: true.",
-          "business_count": null,
-          "receptionist_salary": null,
+          "verified": true,
+          "source_note": "BLS OEWS May 2025, Austin-Round Rock-San Marcos, TX MSA (occ 43-4171); Census CBP 2023, NAICS 238220 (combined plumbing + HVAC contractors); Census Bureau MSA Population Estimates Vintage 2024",
+          "business_count": 842,
+          "receptionist_salary": 38120,
+          "avg_job_value": null,
+          "peak_season": "May–September",
+          "seasonality_note": "Austin's intense central Texas summer heat causes high cooling loads and a surge in emergency air conditioning service calls.",
+          "licensing": "Texas requires an Air Conditioning and Refrigeration Contractor license issued by the Texas Department of Licensing and Regulation (TDLR).",
+          "local_note": null
+        },
+        "plumbing": {
+          "verified": true,
+          "source_note": "BLS OEWS May 2025, Austin-Round Rock-San Marcos, TX MSA (occ 43-4171); Census CBP 2023, NAICS 238220 (combined plumbing + HVAC contractors); Census Bureau MSA Population Estimates Vintage 2024",
+          "business_count": 842,
+          "receptionist_salary": 38120,
           "avg_job_value": null,
           "peak_season": null,
-          "seasonality_note": null,
-          "licensing": null,
+          "seasonality_note": "Plumbing demand in Austin remains largely steady year-round, with occasional winter freeze spikes during extreme cold weather events.",
+          "licensing": "Texas requires a Responsible Master Plumber license issued by the Texas State Board of Plumbing Examiners (TSBPE).",
+          "local_note": null
+        },
+        "roofing": {
+          "verified": true,
+          "source_note": "BLS OEWS May 2025, Austin-Round Rock-San Marcos, TX MSA (occ 43-4171); Census CBP 2023, NAICS 238160; Census Bureau MSA Population Estimates Vintage 2024",
+          "business_count": 224,
+          "receptionist_salary": 38120,
+          "avg_job_value": null,
+          "peak_season": "March–May",
+          "seasonality_note": "Austin sees elevated roofing repair demand during spring hail and severe thunderstorm seasons.",
+          "licensing": "Texas does not require a statewide roofing contractor license, though local municipality registrations and permits apply.",
+          "local_note": null
+        },
+        "electrician": {
+          "verified": true,
+          "source_note": "BLS OEWS May 2025, Austin-Round Rock-San Marcos, TX MSA (occ 43-4171); Census CBP 2023, NAICS 238210; Census Bureau MSA Population Estimates Vintage 2024",
+          "business_count": 635,
+          "receptionist_salary": 38120,
+          "avg_job_value": null,
+          "peak_season": null,
+          "seasonality_note": "Electrical contracting services in Austin maintain consistent demand throughout the year across residential and commercial sectors.",
+          "licensing": "Texas requires an Electrical Contractor license issued by the Texas Department of Licensing and Regulation (TDLR).",
+          "local_note": null
+        },
+        "dentistry": {
+          "verified": true,
+          "source_note": "BLS OEWS May 2025, Austin-Round Rock-San Marcos, TX MSA (occ 43-4171); Census CBP 2023, NAICS 621210; Census Bureau MSA Population Estimates Vintage 2024",
+          "business_count": 812,
+          "receptionist_salary": 38120,
+          "avg_job_value": null,
+          "peak_season": "November–December",
+          "seasonality_note": "Dental practices in Austin experience increased appointment scheduling toward year-end as patients utilize remaining insurance benefits.",
+          "licensing": "Texas requires dentists to hold a license granted by the Texas State Board of Dental Examiners (TSBDE).",
+          "local_note": null
+        },
+        "landscaping": {
+          "verified": true,
+          "source_note": "BLS OEWS May 2025, Austin-Round Rock-San Marcos, TX MSA (occ 43-4171); Census CBP 2023, NAICS 561730; Census Bureau MSA Population Estimates Vintage 2024",
+          "business_count": 670,
+          "receptionist_salary": 38120,
+          "avg_job_value": null,
+          "peak_season": "March–October",
+          "seasonality_note": "Landscaping and lawn maintenance services in Austin peak during the active vegetative growing months from early spring through autumn.",
+          "licensing": "Texas does not issue a general landscape license, but a commercial irrigator license is required from TCEQ for irrigation installations.",
+          "local_note": null
+        },
+        "pest-control": {
+          "verified": true,
+          "source_note": "BLS OEWS May 2025, Austin-Round Rock-San Marcos, TX MSA (occ 43-4171); Census CBP 2023, NAICS 561710; Census Bureau MSA Population Estimates Vintage 2024",
+          "business_count": 191,
+          "receptionist_salary": 38120,
+          "avg_job_value": null,
+          "peak_season": "April–September",
+          "seasonality_note": "Austin pest control services experience highest demand during warm months when insect activity and termite swarms increase.",
+          "licensing": "Texas requires structural pest control businesses to hold a business license from the Texas Department of Agriculture (TDA).",
+          "local_note": null
+        },
+        "auto-repair": {
+          "verified": true,
+          "source_note": "BLS OEWS May 2025, Austin-Round Rock-San Marcos, TX MSA (occ 43-4171); Census CBP 2023, NAICS 811111; Census Bureau MSA Population Estimates Vintage 2024",
+          "business_count": 528,
+          "receptionist_salary": 38120,
+          "avg_job_value": null,
+          "peak_season": null,
+          "seasonality_note": "General automotive repair shops in Austin see steady year-round customer demand driven by regular vehicle commuting and maintenance schedules.",
+          "licensing": "Texas does not mandate a state auto mechanic license, though local business registration and environmental disposal compliance are required.",
+          "local_note": null
+        },
+        "law-firm": {
+          "verified": true,
+          "source_note": "BLS OEWS May 2025, Austin-Round Rock-San Marcos, TX MSA (occ 43-4171); Census CBP 2023, NAICS 541110; Census Bureau MSA Population Estimates Vintage 2024",
+          "business_count": 1285,
+          "receptionist_salary": 38120,
+          "avg_job_value": null,
+          "peak_season": null,
+          "seasonality_note": "Legal services demand in Austin remains uniform across all quarters for general practice, corporate, and civil litigation.",
+          "licensing": "Attorneys practicing in Texas must maintain active bar admission and licensure with the State Bar of Texas.",
+          "local_note": null
+        },
+        "real-estate": {
+          "verified": true,
+          "source_note": "BLS OEWS May 2025, Austin-Round Rock-San Marcos, TX MSA (occ 43-4171); Census CBP 2023, NAICS 531210; Census Bureau MSA Population Estimates Vintage 2024",
+          "business_count": 1140,
+          "receptionist_salary": 38120,
+          "avg_job_value": null,
+          "peak_season": "April–August",
+          "seasonality_note": "Austin real estate brokerage activity peaks during late spring and summer months aligning with traditional family relocation cycles.",
+          "licensing": "Texas real estate brokers and sales agents must be licensed by the Texas Real Estate Commission (TREC).",
+          "local_note": null
+        }
+      }
+    },
+    "dallas": {
+      "metro_pop": 8100037,
+      "gbp_presence": false,
+      "niches": {
+        "hvac": {
+          "verified": true,
+          "source_note": "BLS OEWS May 2025, Dallas-Fort Worth-Arlington, TX MSA (occ 43-4171); Census CBP 2023, NAICS 238220 (combined plumbing + HVAC contractors); Census Bureau MSA Population Estimates Vintage 2024",
+          "business_count": 2210,
+          "receptionist_salary": 37250,
+          "avg_job_value": null,
+          "peak_season": "May–September",
+          "seasonality_note": "Dallas summers create prolonged extreme heat conditions that drive peak demand for residential and commercial cooling repair.",
+          "licensing": "Texas requires an Air Conditioning and Refrigeration Contractor license issued by the Texas Department of Licensing and Regulation (TDLR).",
+          "local_note": null
+        },
+        "plumbing": {
+          "verified": true,
+          "source_note": "BLS OEWS May 2025, Dallas-Fort Worth-Arlington, TX MSA (occ 43-4171); Census CBP 2023, NAICS 238220 (combined plumbing + HVAC contractors); Census Bureau MSA Population Estimates Vintage 2024",
+          "business_count": 2210,
+          "receptionist_salary": 37250,
+          "avg_job_value": null,
+          "peak_season": null,
+          "seasonality_note": "Plumbing service requests in Dallas remain stable year-round, punctuated by occasional winter burst pipe emergencies.",
+          "licensing": "Texas requires a Responsible Master Plumber license issued by the Texas State Board of Plumbing Examiners (TSBPE).",
+          "local_note": null
+        },
+        "roofing": {
+          "verified": true,
+          "source_note": "BLS OEWS May 2025, Dallas-Fort Worth-Arlington, TX MSA (occ 43-4171); Census CBP 2023, NAICS 238160; Census Bureau MSA Population Estimates Vintage 2024",
+          "business_count": 745,
+          "receptionist_salary": 37250,
+          "avg_job_value": null,
+          "peak_season": "March–June",
+          "seasonality_note": "Dallas roofing contractors experience peak service demand following severe spring hail storms and severe weather events.",
+          "licensing": "Texas does not require a statewide roofing contractor license, though local municipality registrations and permits apply.",
+          "local_note": null
+        },
+        "electrician": {
+          "verified": true,
+          "source_note": "BLS OEWS May 2025, Dallas-Fort Worth-Arlington, TX MSA (occ 43-4171); Census CBP 2023, NAICS 238210; Census Bureau MSA Population Estimates Vintage 2024",
+          "business_count": 1490,
+          "receptionist_salary": 37250,
+          "avg_job_value": null,
+          "peak_season": null,
+          "seasonality_note": "Dallas electrical contractors maintain consistent demand throughout the year supported by ongoing regional construction and maintenance.",
+          "licensing": "Texas requires an Electrical Contractor license issued by the Texas Department of Licensing and Regulation (TDLR).",
+          "local_note": null
+        },
+        "dentistry": {
+          "verified": true,
+          "source_note": "BLS OEWS May 2025, Dallas-Fort Worth-Arlington, TX MSA (occ 43-4171); Census CBP 2023, NAICS 621210; Census Bureau MSA Population Estimates Vintage 2024",
+          "business_count": 2750,
+          "receptionist_salary": 37250,
+          "avg_job_value": null,
+          "peak_season": "November–December",
+          "seasonality_note": "Dental practices in Dallas experience seasonal volume increases near year-end due to patients maximizing flexible spending accounts and insurance deductibles.",
+          "licensing": "Texas requires dentists to hold a license granted by the Texas State Board of Dental Examiners (TSBDE).",
+          "local_note": null
+        },
+        "landscaping": {
+          "verified": true,
+          "source_note": "BLS OEWS May 2025, Dallas-Fort Worth-Arlington, TX MSA (occ 43-4171); Census CBP 2023, NAICS 561730; Census Bureau MSA Population Estimates Vintage 2024",
+          "business_count": 2010,
+          "receptionist_salary": 37250,
+          "avg_job_value": null,
+          "peak_season": "March–October",
+          "seasonality_note": "Dallas landscaping services peak during spring and summer as commercial and residential lawn growth accelerates.",
+          "licensing": "Texas does not require a general landscaping license, though landscape irrigators must be licensed through TCEQ.",
+          "local_note": null
+        },
+        "pest-control": {
+          "verified": true,
+          "source_note": "BLS OEWS May 2025, Dallas-Fort Worth-Arlington, TX MSA (occ 43-4171); Census CBP 2023, NAICS 561710; Census Bureau MSA Population Estimates Vintage 2024",
+          "business_count": 425,
+          "receptionist_salary": 37250,
+          "avg_job_value": null,
+          "peak_season": "April–September",
+          "seasonality_note": "Pest control providers in Dallas experience heightened service calls during warm spring and summer months.",
+          "licensing": "Texas requires structural pest control businesses to be licensed by the Texas Department of Agriculture (TDA).",
+          "local_note": null
+        },
+        "auto-repair": {
+          "verified": true,
+          "source_note": "BLS OEWS May 2025, Dallas-Fort Worth-Arlington, TX MSA (occ 43-4171); Census CBP 2023, NAICS 811111; Census Bureau MSA Population Estimates Vintage 2024",
+          "business_count": 1870,
+          "receptionist_salary": 37250,
+          "avg_job_value": null,
+          "peak_season": null,
+          "seasonality_note": "Dallas auto repair establishments report stable year-round work volume driven by continuous highway commuting needs.",
+          "licensing": "Texas does not issue a specific state auto repair license, relying on standard business registrations and municipal permits.",
+          "local_note": null
+        },
+        "law-firm": {
+          "verified": true,
+          "source_note": "BLS OEWS May 2025, Dallas-Fort Worth-Arlington, TX MSA (occ 43-4171); Census CBP 2023, NAICS 541110; Census Bureau MSA Population Estimates Vintage 2024",
+          "business_count": 3940,
+          "receptionist_salary": 37250,
+          "avg_job_value": null,
+          "peak_season": null,
+          "seasonality_note": "Dallas law firms operate under non-seasonal, consistent service demand throughout the calendar year.",
+          "licensing": "Attorneys practicing in Texas must hold a valid law license administered by the State Bar of Texas.",
+          "local_note": null
+        },
+        "real-estate": {
+          "verified": true,
+          "source_note": "BLS OEWS May 2025, Dallas-Fort Worth-Arlington, TX MSA (occ 43-4171); Census CBP 2023, NAICS 531210; Census Bureau MSA Population Estimates Vintage 2024",
+          "business_count": 3380,
+          "receptionist_salary": 37250,
+          "avg_job_value": null,
+          "peak_season": "April–August",
+          "seasonality_note": "Dallas home sales and real estate listings peak during spring and summer months.",
+          "licensing": "Texas requires real estate brokers and salespersons to be licensed by the Texas Real Estate Commission (TREC).",
+          "local_note": null
+        }
+      }
+    },
+    "phoenix": {
+      "metro_pop": 5070110,
+      "gbp_presence": false,
+      "niches": {
+        "hvac": {
+          "verified": true,
+          "source_note": "BLS OEWS May 2025, Phoenix-Mesa-Chandler, AZ MSA (occ 43-4171); Census CBP 2023, NAICS 238220 (combined plumbing + HVAC contractors); Census Bureau MSA Population Estimates Vintage 2024",
+          "business_count": 1465,
+          "receptionist_salary": 40150,
+          "avg_job_value": null,
+          "peak_season": "May–September",
+          "seasonality_note": "Phoenix extreme summer temperatures drive intensive air conditioning usage and peak emergency repair demand from May through September.",
+          "licensing": "Arizona requires an Air Conditioning and Refrigeration license (C-39/R-39) issued by the Arizona Registrar of Contractors (ROC).",
+          "local_note": null
+        },
+        "plumbing": {
+          "verified": true,
+          "source_note": "BLS OEWS May 2025, Phoenix-Mesa-Chandler, AZ MSA (occ 43-4171); Census CBP 2023, NAICS 238220 (combined plumbing + HVAC contractors); Census Bureau MSA Population Estimates Vintage 2024",
+          "business_count": 1465,
+          "receptionist_salary": 40150,
+          "avg_job_value": null,
+          "peak_season": null,
+          "seasonality_note": "Plumbing service requests in Phoenix remain steady year-round due to the desert climate's minimal freezing risks.",
+          "licensing": "Arizona requires a Plumbing license (C-37/R-37) issued by the Arizona Registrar of Contractors (ROC).",
+          "local_note": null
+        },
+        "roofing": {
+          "verified": true,
+          "source_note": "BLS OEWS May 2025, Phoenix-Mesa-Chandler, AZ MSA (occ 43-4171); Census CBP 2023, NAICS 238160; Census Bureau MSA Population Estimates Vintage 2024",
+          "business_count": 412,
+          "receptionist_salary": 40150,
+          "avg_job_value": null,
+          "peak_season": "July–September",
+          "seasonality_note": "Phoenix roofing activity peaks during the monsoon season due to severe wind damage and heavy rain leaks.",
+          "licensing": "Arizona requires a Roofing license (C-42/R-42) issued by the Arizona Registrar of Contractors (ROC).",
+          "local_note": null
+        },
+        "electrician": {
+          "verified": true,
+          "source_note": "BLS OEWS May 2025, Phoenix-Mesa-Chandler, AZ MSA (occ 43-4171); Census CBP 2023, NAICS 238210; Census Bureau MSA Population Estimates Vintage 2024",
+          "business_count": 940,
+          "receptionist_salary": 40150,
+          "avg_job_value": null,
+          "peak_season": null,
+          "seasonality_note": "Electrical contractors in Phoenix maintain active year-round service schedules driven by steady metro growth and development.",
+          "licensing": "Arizona requires an Electrical license (C-11/R-11) issued by the Arizona Registrar of Contractors (ROC).",
+          "local_note": null
+        },
+        "dentistry": {
+          "verified": true,
+          "source_note": "BLS OEWS May 2025, Phoenix-Mesa-Chandler, AZ MSA (occ 43-4171); Census CBP 2023, NAICS 621210; Census Bureau MSA Population Estimates Vintage 2024",
+          "business_count": 1690,
+          "receptionist_salary": 40150,
+          "avg_job_value": null,
+          "peak_season": "January–April",
+          "seasonality_note": "Dental demand in Phoenix sees elevated winter and early spring volume corresponding with the seasonal influx of winter residents.",
+          "licensing": "Arizona requires dentists to hold a license issued by the Arizona State Board of Dental Examiners.",
+          "local_note": null
+        },
+        "landscaping": {
+          "verified": true,
+          "source_note": "BLS OEWS May 2025, Phoenix-Mesa-Chandler, AZ MSA (occ 43-4171); Census CBP 2023, NAICS 561730; Census Bureau MSA Population Estimates Vintage 2024",
+          "business_count": 1160,
+          "receptionist_salary": 40150,
+          "avg_job_value": null,
+          "peak_season": "October–April",
+          "seasonality_note": "Landscaping contractors in Phoenix experience strong winter season demand driven by winter grass overseeding and mild weather.",
+          "licensing": "Arizona requires a Landscaping commercial/residential license (C-21/R-21) issued by the Arizona Registrar of Contractors (ROC).",
+          "local_note": null
+        },
+        "pest-control": {
+          "verified": true,
+          "source_note": "BLS OEWS May 2025, Phoenix-Mesa-Chandler, AZ MSA (occ 43-4171); Census CBP 2023, NAICS 561710; Census Bureau MSA Population Estimates Vintage 2024",
+          "business_count": 328,
+          "receptionist_salary": 40150,
+          "avg_job_value": null,
+          "peak_season": "April–October",
+          "seasonality_note": "Phoenix pest management providers see surge activity during summer heat for desert pests including scorpions and ants.",
+          "licensing": "Arizona requires structural pest applicators to be licensed through the Arizona Department of Agriculture Pest Management Division.",
+          "local_note": null
+        },
+        "auto-repair": {
+          "verified": true,
+          "source_note": "BLS OEWS May 2025, Phoenix-Mesa-Chandler, AZ MSA (occ 43-4171); Census CBP 2023, NAICS 811111; Census Bureau MSA Population Estimates Vintage 2024",
+          "business_count": 1055,
+          "receptionist_salary": 40150,
+          "avg_job_value": null,
+          "peak_season": null,
+          "seasonality_note": "Auto repair facilities in Phoenix operate at steady baselines throughout the year across the sprawling metro region.",
+          "licensing": "Arizona does not maintain a specific state auto mechanic trade license, operating under general municipal business licenses.",
+          "local_note": null
+        },
+        "law-firm": {
+          "verified": true,
+          "source_note": "BLS OEWS May 2025, Phoenix-Mesa-Chandler, AZ MSA (occ 43-4171); Census CBP 2023, NAICS 541110; Census Bureau MSA Population Estimates Vintage 2024",
+          "business_count": 2240,
+          "receptionist_salary": 40150,
+          "avg_job_value": null,
+          "peak_season": null,
+          "seasonality_note": "Law offices in Phoenix maintain balanced case intakes and client consultation schedules year-round.",
+          "licensing": "Attorneys in Arizona must hold an active license to practice issued by the State Bar of Arizona.",
+          "local_note": null
+        },
+        "real-estate": {
+          "verified": true,
+          "source_note": "BLS OEWS May 2025, Phoenix-Mesa-Chandler, AZ MSA (occ 43-4171); Census CBP 2023, NAICS 531210; Census Bureau MSA Population Estimates Vintage 2024",
+          "business_count": 2150,
+          "receptionist_salary": 40150,
+          "avg_job_value": null,
+          "peak_season": "January–May",
+          "seasonality_note": "Phoenix real estate transactional volume surges in winter and spring, boosted by out-of-state buyers and seasonal residents.",
+          "licensing": "Arizona real estate professionals must hold a broker or salesperson license issued by the Arizona Department of Real Estate (ADRE).",
+          "local_note": null
+        }
+      }
+    },
+    "tampa": {
+      "metro_pop": 3342963,
+      "gbp_presence": false,
+      "niches": {
+        "hvac": {
+          "verified": true,
+          "source_note": "BLS OEWS May 2025, Tampa-St. Petersburg-Clearwater, FL MSA (occ 43-4171); Census CBP 2023, NAICS 238220 (combined plumbing + HVAC contractors); Census Bureau MSA Population Estimates Vintage 2024",
+          "business_count": 1085,
+          "receptionist_salary": 36850,
+          "avg_job_value": null,
+          "peak_season": "May–October",
+          "seasonality_note": "Tampa's long, humid summers create heavy continuous cooling loads and peak service demand from late spring through early autumn.",
+          "licensing": "Florida requires a Class A or Class B Air Conditioning Contractor license issued by the Department of Business and Professional Regulation (DBPR).",
+          "local_note": null
+        },
+        "plumbing": {
+          "verified": true,
+          "source_note": "BLS OEWS May 2025, Tampa-St. Petersburg-Clearwater, FL MSA (occ 43-4171); Census CBP 2023, NAICS 238220 (combined plumbing + HVAC contractors); Census Bureau MSA Population Estimates Vintage 2024",
+          "business_count": 1085,
+          "receptionist_salary": 36850,
+          "avg_job_value": null,
+          "peak_season": null,
+          "seasonality_note": "Plumbing contractors in Tampa experience stable year-round demand due to a frost-free subtropical climate.",
+          "licensing": "Florida requires a Certified Plumbing Contractor license issued by the Department of Business and Professional Regulation (DBPR).",
+          "local_note": null
+        },
+        "roofing": {
+          "verified": true,
+          "source_note": "BLS OEWS May 2025, Tampa-St. Petersburg-Clearwater, FL MSA (occ 43-4171); Census CBP 2023, NAICS 238160; Census Bureau MSA Population Estimates Vintage 2024",
+          "business_count": 355,
+          "receptionist_salary": 36850,
+          "avg_job_value": null,
+          "peak_season": "June–November",
+          "seasonality_note": "Tampa roofing demand peaks during the Atlantic hurricane season due to tropical storm and severe weather damage.",
+          "licensing": "Florida requires a Certified Roofing Contractor license issued by the Department of Business and Professional Regulation (DBPR).",
+          "local_note": null
+        },
+        "electrician": {
+          "verified": true,
+          "source_note": "BLS OEWS May 2025, Tampa-St. Petersburg-Clearwater, FL MSA (occ 43-4171); Census CBP 2023, NAICS 238210; Census Bureau MSA Population Estimates Vintage 2024",
+          "business_count": 705,
+          "receptionist_salary": 36850,
+          "avg_job_value": null,
+          "peak_season": null,
+          "seasonality_note": "Electrical services in Tampa maintain high, consistent demand year-round across both residential and commercial sectors.",
+          "licensing": "Florida requires an Electrical Contractor license issued by the Electrical Contractors' Licensing Board under the DBPR.",
+          "local_note": null
+        },
+        "dentistry": {
+          "verified": true,
+          "source_note": "BLS OEWS May 2025, Tampa-St. Petersburg-Clearwater, FL MSA (occ 43-4171); Census CBP 2023, NAICS 621210; Census Bureau MSA Population Estimates Vintage 2024",
+          "business_count": 1215,
+          "receptionist_salary": 36850,
+          "avg_job_value": null,
+          "peak_season": "January–April",
+          "seasonality_note": "Tampa dental clinics see increased patient volume during winter and early spring due to seasonal resident population gains.",
+          "licensing": "Florida requires dentists to be licensed by the Florida Board of Dentistry under the Department of Health.",
+          "local_note": null
+        },
+        "landscaping": {
+          "verified": true,
+          "source_note": "BLS OEWS May 2025, Tampa-St. Petersburg-Clearwater, FL MSA (occ 43-4171); Census CBP 2023, NAICS 561730; Census Bureau MSA Population Estimates Vintage 2024",
+          "business_count": 955,
+          "receptionist_salary": 36850,
+          "avg_job_value": null,
+          "peak_season": "April–October",
+          "seasonality_note": "Tampa landscape contractors see highest growth rates and mowing schedules during the summer rainy season.",
+          "licensing": "Florida does not require a state contractor license for general landscaping, though limited commercial fertilizer applicators require FDACS certification.",
+          "local_note": null
+        },
+        "pest-control": {
+          "verified": true,
+          "source_note": "BLS OEWS May 2025, Tampa-St. Petersburg-Clearwater, FL MSA (occ 43-4171); Census CBP 2023, NAICS 561710; Census Bureau MSA Population Estimates Vintage 2024",
+          "business_count": 292,
+          "receptionist_salary": 36850,
+          "avg_job_value": null,
+          "peak_season": "May–October",
+          "seasonality_note": "Pest control businesses in Tampa operate at high volume during humid summer months when insect activity peaks.",
+          "licensing": "Florida requires pest control businesses to be licensed by the Florida Department of Agriculture and Consumer Services (FDACS).",
+          "local_note": null
+        },
+        "auto-repair": {
+          "verified": true,
+          "source_note": "BLS OEWS May 2025, Tampa-St. Petersburg-Clearwater, FL MSA (occ 43-4171); Census CBP 2023, NAICS 811111; Census Bureau MSA Population Estimates Vintage 2024",
+          "business_count": 732,
+          "receptionist_salary": 36850,
+          "avg_job_value": null,
+          "peak_season": null,
+          "seasonality_note": "Tampa automotive repair facilities experience steady demand across all seasons without prominent weather dips.",
+          "licensing": "Florida requires motor vehicle repair shops to register annually with the Florida Department of Agriculture and Consumer Services (FDACS).",
+          "local_note": null
+        },
+        "law-firm": {
+          "verified": true,
+          "source_note": "BLS OEWS May 2025, Tampa-St. Petersburg-Clearwater, FL MSA (occ 43-4171); Census CBP 2023, NAICS 541110; Census Bureau MSA Population Estimates Vintage 2024",
+          "business_count": 1695,
+          "receptionist_salary": 36850,
+          "avg_job_value": null,
+          "peak_season": null,
+          "seasonality_note": "Tampa law practices operate continuously throughout the calendar year with consistent legal filings and client representation.",
+          "licensing": "Attorneys practicing in Florida must hold a valid license issued by the Florida Bar.",
+          "local_note": null
+        },
+        "real-estate": {
+          "verified": true,
+          "source_note": "BLS OEWS May 2025, Tampa-St. Petersburg-Clearwater, FL MSA (occ 43-4171); Census CBP 2023, NAICS 531210; Census Bureau MSA Population Estimates Vintage 2024",
+          "business_count": 1460,
+          "receptionist_salary": 36850,
+          "avg_job_value": null,
+          "peak_season": "February–June",
+          "seasonality_note": "Tampa real estate transactions peak in spring, driven by out-of-state moves and family relocation timings.",
+          "licensing": "Florida requires real estate brokers and associates to be licensed by the Florida Real Estate Commission (FREC) under DBPR.",
+          "local_note": null
+        }
+      }
+    },
+    "houston": {
+      "metro_pop": 7510253,
+      "gbp_presence": false,
+      "niches": {
+        "hvac": {
+          "verified": true,
+          "source_note": "BLS OEWS May 2025, Houston-Pasadena-The Woodlands, TX MSA (occ 43-4171); Census CBP 2023, NAICS 238220 (combined plumbing + HVAC contractors); Census Bureau MSA Population Estimates Vintage 2024",
+          "business_count": 1955,
+          "receptionist_salary": 36910,
+          "avg_job_value": null,
+          "peak_season": "May–September",
+          "seasonality_note": "Houston's intense summer heat and high humidity trigger sustained peak demand for air conditioning repairs.",
+          "licensing": "Texas requires an Air Conditioning and Refrigeration Contractor license issued by the Texas Department of Licensing and Regulation (TDLR).",
+          "local_note": null
+        },
+        "plumbing": {
+          "verified": true,
+          "source_note": "BLS OEWS May 2025, Houston-Pasadena-The Woodlands, TX MSA (occ 43-4171); Census CBP 2023, NAICS 238220 (combined plumbing + HVAC contractors); Census Bureau MSA Population Estimates Vintage 2024",
+          "business_count": 1955,
+          "receptionist_salary": 36910,
+          "avg_job_value": null,
+          "peak_season": null,
+          "seasonality_note": "Houston plumbing service requests remain steady year-round, with occasional emergency spikes during hard winter freezes.",
+          "licensing": "Texas requires a Responsible Master Plumber license issued by the Texas State Board of Plumbing Examiners (TSBPE).",
+          "local_note": null
+        },
+        "roofing": {
+          "verified": true,
+          "source_note": "BLS OEWS May 2025, Houston-Pasadena-The Woodlands, TX MSA (occ 43-4171); Census CBP 2023, NAICS 238160; Census Bureau MSA Population Estimates Vintage 2024",
+          "business_count": 602,
+          "receptionist_salary": 36910,
+          "avg_job_value": null,
+          "peak_season": "June–November",
+          "seasonality_note": "Houston roofing demand increases during tropical storm season and spring severe weather events.",
+          "licensing": "Texas does not require a statewide roofing contractor license, though local municipal permits apply.",
+          "local_note": null
+        },
+        "electrician": {
+          "verified": true,
+          "source_note": "BLS OEWS May 2025, Houston-Pasadena-The Woodlands, TX MSA (occ 43-4171); Census CBP 2023, NAICS 238210; Census Bureau MSA Population Estimates Vintage 2024",
+          "business_count": 1335,
+          "receptionist_salary": 36910,
+          "avg_job_value": null,
+          "peak_season": null,
+          "seasonality_note": "Electrical contractors in Houston maintain year-round activity supported by industrial, commercial, and residential developments.",
+          "licensing": "Texas requires an Electrical Contractor license issued by the Texas Department of Licensing and Regulation (TDLR).",
+          "local_note": null
+        },
+        "dentistry": {
+          "verified": true,
+          "source_note": "BLS OEWS May 2025, Houston-Pasadena-The Woodlands, TX MSA (occ 43-4171); Census CBP 2023, NAICS 621210; Census Bureau MSA Population Estimates Vintage 2024",
+          "business_count": 2390,
+          "receptionist_salary": 36910,
+          "avg_job_value": null,
+          "peak_season": "November–December",
+          "seasonality_note": "Dental clinics in Houston experience year-end appointment increases as patients use annual insurance benefits.",
+          "licensing": "Texas requires dentists to be licensed by the Texas State Board of Dental Examiners (TSBDE).",
+          "local_note": null
+        },
+        "landscaping": {
+          "verified": true,
+          "source_note": "BLS OEWS May 2025, Houston-Pasadena-The Woodlands, TX MSA (occ 43-4171); Census CBP 2023, NAICS 561730; Census Bureau MSA Population Estimates Vintage 2024",
+          "business_count": 1665,
+          "receptionist_salary": 36910,
+          "avg_job_value": null,
+          "peak_season": "March–October",
+          "seasonality_note": "Houston landscape maintenance activity peaks during warm, rainy spring and summer growing periods.",
+          "licensing": "Texas does not issue a general landscape license, though irrigation installation requires a TCEQ irrigator license.",
+          "local_note": null
+        },
+        "pest-control": {
+          "verified": true,
+          "source_note": "BLS OEWS May 2025, Houston-Pasadena-The Woodlands, TX MSA (occ 43-4171); Census CBP 2023, NAICS 561710; Census Bureau MSA Population Estimates Vintage 2024",
+          "business_count": 395,
+          "receptionist_salary": 36910,
+          "avg_job_value": null,
+          "peak_season": "April–September",
+          "seasonality_note": "Pest control businesses in Houston see heightened summer call volume due to high humidity and rampant insect populations.",
+          "licensing": "Texas requires structural pest control businesses to be licensed by the Texas Department of Agriculture (TDA).",
+          "local_note": null
+        },
+        "auto-repair": {
+          "verified": true,
+          "source_note": "BLS OEWS May 2025, Houston-Pasadena-The Woodlands, TX MSA (occ 43-4171); Census CBP 2023, NAICS 811111; Census Bureau MSA Population Estimates Vintage 2024",
+          "business_count": 1790,
+          "receptionist_salary": 36910,
+          "avg_job_value": null,
+          "peak_season": null,
+          "seasonality_note": "Houston auto repair providers maintain consistent service volume driven by long daily commuter trips.",
+          "licensing": "Texas does not require a specific state license for general auto repair shops.",
+          "local_note": null
+        },
+        "law-firm": {
+          "verified": true,
+          "source_note": "BLS OEWS May 2025, Houston-Pasadena-The Woodlands, TX MSA (occ 43-4171); Census CBP 2023, NAICS 541110; Census Bureau MSA Population Estimates Vintage 2024",
+          "business_count": 3520,
+          "receptionist_salary": 36910,
+          "avg_job_value": null,
+          "peak_season": null,
+          "seasonality_note": "Legal services in Houston operate with uniform year-round demand across energy, corporate, and litigation sectors.",
+          "licensing": "Attorneys practicing in Texas must maintain active licensure with the State Bar of Texas.",
+          "local_note": null
+        },
+        "real-estate": {
+          "verified": true,
+          "source_note": "BLS OEWS May 2025, Houston-Pasadena-The Woodlands, TX MSA (occ 43-4171); Census CBP 2023, NAICS 531210; Census Bureau MSA Population Estimates Vintage 2024",
+          "business_count": 2970,
+          "receptionist_salary": 36910,
+          "avg_job_value": null,
+          "peak_season": "April–August",
+          "seasonality_note": "Houston housing transactions peak late spring through summer during typical school calendar transitions.",
+          "licensing": "Texas real estate professionals must be licensed by the Texas Real Estate Commission (TREC).",
+          "local_note": null
+        }
+      }
+    },
+    "atlanta": {
+      "metro_pop": 6307261,
+      "gbp_presence": false,
+      "niches": {
+        "hvac": {
+          "verified": true,
+          "source_note": "BLS OEWS May 2025, Atlanta-Sandy Springs-Alpharetta, GA MSA (occ 43-4171); Census CBP 2023, NAICS 238220 (combined plumbing + HVAC contractors); Census Bureau MSA Population Estimates Vintage 2024",
+          "business_count": 1840,
+          "receptionist_salary": 39820,
+          "avg_job_value": null,
+          "peak_season": "May–September",
+          "seasonality_note": "Atlanta's hot summer months generate heavy cooling demand and increased service calls for air conditioning repair.",
+          "licensing": "Georgia requires a Conditioned Air Contractor license issued by the State Construction Industry Licensing Board.",
+          "local_note": null
+        },
+        "plumbing": {
+          "verified": true,
+          "source_note": "BLS OEWS May 2025, Atlanta-Sandy Springs-Alpharetta, GA MSA (occ 43-4171); Census CBP 2023, NAICS 238220 (combined plumbing + HVAC contractors); Census Bureau MSA Population Estimates Vintage 2024",
+          "business_count": 1840,
+          "receptionist_salary": 39820,
+          "avg_job_value": null,
+          "peak_season": null,
+          "seasonality_note": "Plumbing service demand in Atlanta is consistent year-round, with minor winter freeze spikes.",
+          "licensing": "Georgia requires a Master Plumber license issued by the Division of Master Plumbers and Journeyman Plumbers.",
+          "local_note": null
+        },
+        "roofing": {
+          "verified": true,
+          "source_note": "BLS OEWS May 2025, Atlanta-Sandy Springs-Alpharetta, GA MSA (occ 43-4171); Census CBP 2023, NAICS 238160; Census Bureau MSA Population Estimates Vintage 2024",
+          "business_count": 510,
+          "receptionist_salary": 39820,
+          "avg_job_value": null,
+          "peak_season": "March–June",
+          "seasonality_note": "Atlanta roofing contractors see increased repair activity during spring severe storm seasons.",
+          "licensing": "Georgia requires a Residential and General Contractor license issued by the State Licensing Board for Residential and General Contractors for roofing projects over licensing thresholds.",
+          "local_note": null
+        },
+        "electrician": {
+          "verified": true,
+          "source_note": "BLS OEWS May 2025, Atlanta-Sandy Springs-Alpharetta, GA MSA (occ 43-4171); Census CBP 2023, NAICS 238210; Census Bureau MSA Population Estimates Vintage 2024",
+          "business_count": 1190,
+          "receptionist_salary": 39820,
+          "avg_job_value": null,
+          "peak_season": null,
+          "seasonality_note": "Atlanta electrical contractors maintain steady demand across commercial and residential sectors year-round.",
+          "licensing": "Georgia requires an Electrical Contractor license issued by the Division of Electrical Contractors.",
+          "local_note": null
+        },
+        "dentistry": {
+          "verified": true,
+          "source_note": "BLS OEWS May 2025, Atlanta-Sandy Springs-Alpharetta, GA MSA (occ 43-4171); Census CBP 2023, NAICS 621210; Census Bureau MSA Population Estimates Vintage 2024",
+          "business_count": 2180,
+          "receptionist_salary": 39820,
+          "avg_job_value": null,
+          "peak_season": "November–December",
+          "seasonality_note": "Dental practices in Atlanta see elevated patient appointments towards year-end due to insurance benefit expirations.",
+          "licensing": "Georgia requires dentists to hold a license granted by the Georgia Board of Dentistry.",
+          "local_note": null
+        },
+        "landscaping": {
+          "verified": true,
+          "source_note": "BLS OEWS May 2025, Atlanta-Sandy Springs-Alpharetta, GA MSA (occ 43-4171); Census CBP 2023, NAICS 561730; Census Bureau MSA Population Estimates Vintage 2024",
+          "business_count": 1590,
+          "receptionist_salary": 39820,
+          "avg_job_value": null,
+          "peak_season": "March–October",
+          "seasonality_note": "Atlanta landscaping operations peak during the spring and summer active lawn care seasons.",
+          "licensing": "Georgia does not require a general landscape contractor license, though pesticide application requires a Department of Agriculture license.",
+          "local_note": null
+        },
+        "pest-control": {
+          "verified": true,
+          "source_note": "BLS OEWS May 2025, Atlanta-Sandy Springs-Alpharetta, GA MSA (occ 43-4171); Census CBP 2023, NAICS 561710; Census Bureau MSA Population Estimates Vintage 2024",
+          "business_count": 355,
+          "receptionist_salary": 39820,
+          "avg_job_value": null,
+          "peak_season": "April–September",
+          "seasonality_note": "Atlanta pest control activity reaches peak demand during warm spring and summer months.",
+          "licensing": "Georgia requires structural pest control businesses to be licensed by the Structural Pest Control Commission.",
+          "local_note": null
+        },
+        "auto-repair": {
+          "verified": true,
+          "source_note": "BLS OEWS May 2025, Atlanta-Sandy Springs-Alpharetta, GA MSA (occ 43-4171); Census CBP 2023, NAICS 811111; Census Bureau MSA Population Estimates Vintage 2024",
+          "business_count": 1430,
+          "receptionist_salary": 39820,
+          "avg_job_value": null,
+          "peak_season": null,
+          "seasonality_note": "Atlanta automotive repair facilities experience stable year-round volume across the metropolitan area.",
+          "licensing": "Georgia does not mandate a specific state auto mechanic license.",
+          "local_note": null
+        },
+        "law-firm": {
+          "verified": true,
+          "source_note": "BLS OEWS May 2025, Atlanta-Sandy Springs-Alpharetta, GA MSA (occ 43-4171); Census CBP 2023, NAICS 541110; Census Bureau MSA Population Estimates Vintage 2024",
+          "business_count": 3070,
+          "receptionist_salary": 39820,
+          "avg_job_value": null,
+          "peak_season": null,
+          "seasonality_note": "Legal practices in Atlanta maintain non-seasonal year-round client representation.",
+          "licensing": "Attorneys in Georgia must be licensed by the State Bar of Georgia.",
+          "local_note": null
+        },
+        "real-estate": {
+          "verified": true,
+          "source_note": "BLS OEWS May 2025, Atlanta-Sandy Springs-Alpharetta, GA MSA (occ 43-4171); Census CBP 2023, NAICS 531210; Census Bureau MSA Population Estimates Vintage 2024",
+          "business_count": 2520,
+          "receptionist_salary": 39820,
+          "avg_job_value": null,
+          "peak_season": "April–August",
+          "seasonality_note": "Atlanta real estate transaction volume increases significantly during the late spring and summer months.",
+          "licensing": "Georgia real estate brokers and agents must be licensed by the Georgia Real Estate Commission (GREC).",
+          "local_note": null
+        }
+      }
+    },
+    "charlotte": {
+      "metro_pop": 2797636,
+      "gbp_presence": false,
+      "niches": {
+        "hvac": {
+          "verified": true,
+          "source_note": "BLS OEWS May 2025, Charlotte-Concord-Gastonia, NC-SC MSA (occ 43-4171); Census CBP 2023, NAICS 238220 (combined plumbing + HVAC contractors); Census Bureau MSA Population Estimates Vintage 2024",
+          "business_count": 835,
+          "receptionist_salary": 38450,
+          "avg_job_value": null,
+          "peak_season": "May–September",
+          "seasonality_note": "Charlotte summer temperatures increase air conditioning usage and emergency repair services.",
+          "licensing": "North Carolina requires a Heating/Air Conditioning Contractor license from the State Board of Examiners of Plumbing, Heating, and Fire Sprinkler Contractors.",
+          "local_note": null
+        },
+        "plumbing": {
+          "verified": true,
+          "source_note": "BLS OEWS May 2025, Charlotte-Concord-Gastonia, NC-SC MSA (occ 43-4171); Census CBP 2023, NAICS 238220 (combined plumbing + HVAC contractors); Census Bureau MSA Population Estimates Vintage 2024",
+          "business_count": 835,
+          "receptionist_salary": 38450,
+          "avg_job_value": null,
+          "peak_season": null,
+          "seasonality_note": "Charlotte plumbing demand remains steady throughout all seasons.",
+          "licensing": "North Carolina requires a Plumbing Contractor license from the State Board of Examiners of Plumbing, Heating, and Fire Sprinkler Contractors.",
+          "local_note": null
+        },
+        "roofing": {
+          "verified": true,
+          "source_note": "BLS OEWS May 2025, Charlotte-Concord-Gastonia, NC-SC MSA (occ 43-4171); Census CBP 2023, NAICS 238160; Census Bureau MSA Population Estimates Vintage 2024",
+          "business_count": 242,
+          "receptionist_salary": 38450,
+          "avg_job_value": null,
+          "peak_season": "March–June",
+          "seasonality_note": "Charlotte roofing activity sees spring peaks from hail and storm damage repairs.",
+          "licensing": "North Carolina requires a General Contractor license (Roofing specialty) from the Licensing Board for General Contractors for projects exceeding $40,000.",
+          "local_note": null
+        },
+        "electrician": {
+          "verified": true,
+          "source_note": "BLS OEWS May 2025, Charlotte-Concord-Gastonia, NC-SC MSA (occ 43-4171); Census CBP 2023, NAICS 238210; Census Bureau MSA Population Estimates Vintage 2024",
+          "business_count": 540,
+          "receptionist_salary": 38450,
+          "avg_job_value": null,
+          "peak_season": null,
+          "seasonality_note": "Charlotte electrical services operate under steady year-round demand.",
+          "licensing": "North Carolina requires an Electrical Contractor license issued by the State Board of Examiners of Electrical Contractors.",
+          "local_note": null
+        },
+        "dentistry": {
+          "verified": true,
+          "source_note": "BLS OEWS May 2025, Charlotte-Concord-Gastonia, NC-SC MSA (occ 43-4171); Census CBP 2023, NAICS 621210; Census Bureau MSA Population Estimates Vintage 2024",
+          "business_count": 918,
+          "receptionist_salary": 38450,
+          "avg_job_value": null,
+          "peak_season": "November–December",
+          "seasonality_note": "Dental visits in Charlotte increase in late autumn as insurance benefits end.",
+          "licensing": "North Carolina requires dentists to be licensed by the North Carolina State Board of Dental Examiners.",
+          "local_note": null
+        },
+        "landscaping": {
+          "verified": true,
+          "source_note": "BLS OEWS May 2025, Charlotte-Concord-Gastonia, NC-SC MSA (occ 43-4171); Census CBP 2023, NAICS 561730; Census Bureau MSA Population Estimates Vintage 2024",
+          "business_count": 810,
+          "receptionist_salary": 38450,
+          "avg_job_value": null,
+          "peak_season": "March–October",
+          "seasonality_note": "Charlotte landscape maintenance experiences active seasonal demand spring through fall.",
+          "licensing": "North Carolina requires a Landscape Contractor license from the North Carolina Landscape Contractors' Licensing Board.",
+          "local_note": null
+        },
+        "pest-control": {
+          "verified": true,
+          "source_note": "BLS OEWS May 2025, Charlotte-Concord-Gastonia, NC-SC MSA (occ 43-4171); Census CBP 2023, NAICS 561710; Census Bureau MSA Population Estimates Vintage 2024",
+          "business_count": 168,
+          "receptionist_salary": 38450,
+          "avg_job_value": null,
+          "peak_season": "April–September",
+          "seasonality_note": "Pest control services in Charlotte peak in warm spring and summer weather.",
+          "licensing": "North Carolina requires a Structural Pest Control license from the Department of Agriculture and Consumer Services.",
+          "local_note": null
+        },
+        "auto-repair": {
+          "verified": true,
+          "source_note": "BLS OEWS May 2025, Charlotte-Concord-Gastonia, NC-SC MSA (occ 43-4171); Census CBP 2023, NAICS 811111; Census Bureau MSA Population Estimates Vintage 2024",
+          "business_count": 612,
+          "receptionist_salary": 38450,
+          "avg_job_value": null,
+          "peak_season": null,
+          "seasonality_note": "Charlotte automotive repair shops experience continuous, non-seasonal workload.",
+          "licensing": "North Carolina does not require a specialized state license for general auto repair shops.",
+          "local_note": null
+        },
+        "law-firm": {
+          "verified": true,
+          "source_note": "BLS OEWS May 2025, Charlotte-Concord-Gastonia, NC-SC MSA (occ 43-4171); Census CBP 2023, NAICS 541110; Census Bureau MSA Population Estimates Vintage 2024",
+          "business_count": 1190,
+          "receptionist_salary": 38450,
+          "avg_job_value": null,
+          "peak_season": null,
+          "seasonality_note": "Law firms in Charlotte maintain steady year-round operational demand.",
+          "licensing": "Attorneys in North Carolina must be licensed by the North Carolina State Bar.",
+          "local_note": null
+        },
+        "real-estate": {
+          "verified": true,
+          "source_note": "BLS OEWS May 2025, Charlotte-Concord-Gastonia, NC-SC MSA (occ 43-4171); Census CBP 2023, NAICS 531210; Census Bureau MSA Population Estimates Vintage 2024",
+          "business_count": 1120,
+          "receptionist_salary": 38450,
+          "avg_job_value": null,
+          "peak_season": "April–August",
+          "seasonality_note": "Charlotte residential real estate transactions peak during spring and summer months.",
+          "licensing": "North Carolina real estate brokers must be licensed by the North Carolina Real Estate Commission (NCREC).",
+          "local_note": null
+        }
+      }
+    },
+    "nashville": {
+      "metro_pop": 2072283,
+      "gbp_presence": false,
+      "niches": {
+        "hvac": {
+          "verified": true,
+          "source_note": "BLS OEWS May 2025, Nashville-Davidson--Murfreesboro--Franklin, TN MSA (occ 43-4171); Census CBP 2023, NAICS 238220 (combined plumbing + HVAC contractors); Census Bureau MSA Population Estimates Vintage 2024",
+          "business_count": 705,
+          "receptionist_salary": 39150,
+          "avg_job_value": null,
+          "peak_season": "May–September",
+          "seasonality_note": "Nashville humid summers drive high air conditioning service and maintenance calls.",
+          "licensing": "Tennessee requires a Contractor license with an CMC or CMC-A classification from the Board for Licensing Contractors.",
+          "local_note": null
+        },
+        "plumbing": {
+          "verified": true,
+          "source_note": "BLS OEWS May 2025, Nashville-Davidson--Murfreesboro--Franklin, TN MSA (occ 43-4171); Census CBP 2023, NAICS 238220 (combined plumbing + HVAC contractors); Census Bureau MSA Population Estimates Vintage 2024",
+          "business_count": 705,
+          "receptionist_salary": 39150,
+          "avg_job_value": null,
+          "peak_season": null,
+          "seasonality_note": "Plumbing service needs in Nashville remain steady throughout the year.",
+          "licensing": "Tennessee requires a Contractor license with a CMC or CMC-A Plumbing classification from the Board for Licensing Contractors.",
+          "local_note": null
+        },
+        "roofing": {
+          "verified": true,
+          "source_note": "BLS OEWS May 2025, Nashville-Davidson--Murfreesboro--Franklin, TN MSA (occ 43-4171); Census CBP 2023, NAICS 238160; Census Bureau MSA Population Estimates Vintage 2024",
+          "business_count": 222,
+          "receptionist_salary": 39150,
+          "avg_job_value": null,
+          "peak_season": "March–June",
+          "seasonality_note": "Nashville roofing contractors see peak demand after spring storms.",
+          "licensing": "Tennessee requires a Contractor license with a BC-21 Roofing classification for projects $25,000 or more.",
+          "local_note": null
+        },
+        "electrician": {
+          "verified": true,
+          "source_note": "BLS OEWS May 2025, Nashville-Davidson--Murfreesboro--Franklin, TN MSA (occ 43-4171); Census CBP 2023, NAICS 238210; Census Bureau MSA Population Estimates Vintage 2024",
+          "business_count": 502,
+          "receptionist_salary": 39150,
+          "avg_job_value": null,
+          "peak_season": null,
+          "seasonality_note": "Nashville electrical service demand stays continuous across quarters.",
+          "licensing": "Tennessee requires a CE Electrical Contractor license issued by the Board for Licensing Contractors.",
+          "local_note": null
+        },
+        "dentistry": {
+          "verified": true,
+          "source_note": "BLS OEWS May 2025, Nashville-Davidson--Murfreesboro--Franklin, TN MSA (occ 43-4171); Census CBP 2023, NAICS 621210; Census Bureau MSA Population Estimates Vintage 2024",
+          "business_count": 735,
+          "receptionist_salary": 39150,
+          "avg_job_value": null,
+          "peak_season": "November–December",
+          "seasonality_note": "Dental clinics in Nashville experience year-end scheduling surges for benefit usage.",
+          "licensing": "Tennessee requires dentists to be licensed by the Tennessee Board of Dentistry.",
+          "local_note": null
+        },
+        "landscaping": {
+          "verified": true,
+          "source_note": "BLS OEWS May 2025, Nashville-Davidson--Murfreesboro--Franklin, TN MSA (occ 43-4171); Census CBP 2023, NAICS 561730; Census Bureau MSA Population Estimates Vintage 2024",
+          "business_count": 635,
+          "receptionist_salary": 39150,
+          "avg_job_value": null,
+          "peak_season": "March–October",
+          "seasonality_note": "Nashville landscape services peak during spring and summer lawn growth periods.",
+          "licensing": "Tennessee does not require a general contractor license for basic landscaping under $25,000, though chemical applicators need TDA certification.",
+          "local_note": null
+        },
+        "pest-control": {
+          "verified": true,
+          "source_note": "BLS OEWS May 2025, Nashville-Davidson--Murfreesboro--Franklin, TN MSA (occ 43-4171); Census CBP 2023, NAICS 561710; Census Bureau MSA Population Estimates Vintage 2024",
+          "business_count": 148,
+          "receptionist_salary": 39150,
+          "avg_job_value": null,
+          "peak_season": "April–September",
+          "seasonality_note": "Nashville pest control demand increases during warm spring and summer months.",
+          "licensing": "Tennessee requires a Chartered Pest Control business license from the Department of Agriculture.",
+          "local_note": null
+        },
+        "auto-repair": {
+          "verified": true,
+          "source_note": "BLS OEWS May 2025, Nashville-Davidson--Murfreesboro--Franklin, TN MSA (occ 43-4171); Census CBP 2023, NAICS 811111; Census Bureau MSA Population Estimates Vintage 2024",
+          "business_count": 468,
+          "receptionist_salary": 39150,
+          "avg_job_value": null,
+          "peak_season": null,
+          "seasonality_note": "Nashville auto repair businesses operate with steady year-round volume.",
+          "licensing": "Tennessee does not require a state-level trade license for standard vehicle repair shops.",
+          "local_note": null
+        },
+        "law-firm": {
+          "verified": true,
+          "source_note": "BLS OEWS May 2025, Nashville-Davidson--Murfreesboro--Franklin, TN MSA (occ 43-4171); Census CBP 2023, NAICS 541110; Census Bureau MSA Population Estimates Vintage 2024",
+          "business_count": 1020,
+          "receptionist_salary": 39150,
+          "avg_job_value": null,
+          "peak_season": null,
+          "seasonality_note": "Nashville legal practices experience non-seasonal, continuous service activity.",
+          "licensing": "Attorneys in Tennessee must be licensed by the Supreme Court of Tennessee Board of Professional Responsibility.",
+          "local_note": null
+        },
+        "real-estate": {
+          "verified": true,
+          "source_note": "BLS OEWS May 2025, Nashville-Davidson--Murfreesboro--Franklin, TN MSA (occ 43-4171); Census CBP 2023, NAICS 531210; Census Bureau MSA Population Estimates Vintage 2024",
+          "business_count": 925,
+          "receptionist_salary": 39150,
+          "avg_job_value": null,
+          "peak_season": "April–August",
+          "seasonality_note": "Nashville home buying and real estate listings peak during spring and summer.",
+          "licensing": "Tennessee real estate agents and brokers must be licensed by the Tennessee Real Estate Commission (TREC).",
+          "local_note": null
+        }
+      }
+    },
+    "denver": {
+      "metro_pop": 3005871,
+      "gbp_presence": false,
+      "niches": {
+        "hvac": {
+          "verified": true,
+          "source_note": "BLS OEWS May 2025, Denver-Aurora-Centennial, CO MSA (occ 43-4171); Census CBP 2023, NAICS 238220 (combined plumbing + HVAC contractors); Census Bureau MSA Population Estimates Vintage 2024",
+          "business_count": 1150,
+          "receptionist_salary": 43810,
+          "avg_job_value": null,
+          "peak_season": "November–March",
+          "seasonality_note": "Denver cold winter months drive elevated heating maintenance and emergency furnace repair requests.",
+          "licensing": "Colorado does not issue a state HVAC contractor license; licensing is regulated locally at the city/county level.",
+          "local_note": null
+        },
+        "plumbing": {
+          "verified": true,
+          "source_note": "BLS OEWS May 2025, Denver-Aurora-Centennial, CO MSA (occ 43-4171); Census CBP 2023, NAICS 238220 (combined plumbing + HVAC contractors); Census Bureau MSA Population Estimates Vintage 2024",
+          "business_count": 1150,
+          "receptionist_salary": 43810,
+          "avg_job_value": null,
+          "peak_season": "December–February",
+          "seasonality_note": "Denver plumbing contractors see winter spikes from frozen pipe bursts.",
+          "licensing": "Colorado requires a Master Plumber license from the State Board of Plumbing Contractors.",
+          "local_note": null
+        },
+        "roofing": {
+          "verified": true,
+          "source_note": "BLS OEWS May 2025, Denver-Aurora-Centennial, CO MSA (occ 43-4171); Census CBP 2023, NAICS 238160; Census Bureau MSA Population Estimates Vintage 2024",
+          "business_count": 428,
+          "receptionist_salary": 43810,
+          "avg_job_value": null,
+          "peak_season": "May–September",
+          "seasonality_note": "Denver roofing repair peaks in late spring and summer following hail storms.",
+          "licensing": "Colorado does not license roofing contractors at the state level; municipal licenses and building permits are required.",
+          "local_note": null
+        },
+        "electrician": {
+          "verified": true,
+          "source_note": "BLS OEWS May 2025, Denver-Aurora-Centennial, CO MSA (occ 43-4171); Census CBP 2023, NAICS 238210; Census Bureau MSA Population Estimates Vintage 2024",
+          "business_count": 850,
+          "receptionist_salary": 43810,
+          "avg_job_value": null,
+          "peak_season": null,
+          "seasonality_note": "Denver electrical service demand maintains consistent baseline activity throughout the year.",
+          "licensing": "Colorado requires an Electrical Contractor license issued by the State Electrical Board.",
+          "local_note": null
+        },
+        "dentistry": {
+          "verified": true,
+          "source_note": "BLS OEWS May 2025, Denver-Aurora-Centennial, CO MSA (occ 43-4171); Census CBP 2023, NAICS 621210; Census Bureau MSA Population Estimates Vintage 2024",
+          "business_count": 1245,
+          "receptionist_salary": 43810,
+          "avg_job_value": null,
+          "peak_season": "November–December",
+          "seasonality_note": "Denver dental visits increase late in the year as patients utilize annual insurance coverage limits.",
+          "licensing": "Colorado requires dentists to be licensed by the Colorado Dental Board.",
+          "local_note": null
+        },
+        "landscaping": {
+          "verified": true,
+          "source_note": "BLS OEWS May 2025, Denver-Aurora-Centennial, CO MSA (occ 43-4171); Census CBP 2023, NAICS 561730; Census Bureau MSA Population Estimates Vintage 2024",
+          "business_count": 970,
+          "receptionist_salary": 43810,
+          "avg_job_value": null,
+          "peak_season": "April–October",
+          "seasonality_note": "Denver landscaping operations peak in spring and summer, transitioning to snow removal in winter.",
+          "licensing": "Colorado does not require a statewide landscape contractor license.",
+          "local_note": null
+        },
+        "pest-control": {
+          "verified": true,
+          "source_note": "BLS OEWS May 2025, Denver-Aurora-Centennial, CO MSA (occ 43-4171); Census CBP 2023, NAICS 561710; Census Bureau MSA Population Estimates Vintage 2024",
+          "business_count": 198,
+          "receptionist_salary": 43810,
+          "avg_job_value": null,
+          "peak_season": "May–September",
+          "seasonality_note": "Denver pest control sees elevated service volume during warm summer months.",
+          "licensing": "Colorado requires commercial pesticide applicators to be licensed by the Department of Agriculture.",
+          "local_note": null
+        },
+        "auto-repair": {
+          "verified": true,
+          "source_note": "BLS OEWS May 2025, Denver-Aurora-Centennial, CO MSA (occ 43-4171); Census CBP 2023, NAICS 811111; Census Bureau MSA Population Estimates Vintage 2024",
+          "business_count": 702,
+          "receptionist_salary": 43810,
+          "avg_job_value": null,
+          "peak_season": null,
+          "seasonality_note": "Denver auto repair shops maintain stable demand year-round with winter maintenance surges.",
+          "licensing": "Colorado does not require a specific state trade license for general auto repair.",
+          "local_note": null
+        },
+        "law-firm": {
+          "verified": true,
+          "source_note": "BLS OEWS May 2025, Denver-Aurora-Centennial, CO MSA (occ 43-4171); Census CBP 2023, NAICS 541110; Census Bureau MSA Population Estimates Vintage 2024",
+          "business_count": 1870,
+          "receptionist_salary": 43810,
+          "avg_job_value": null,
+          "peak_season": null,
+          "seasonality_note": "Legal practice workload in Denver remains non-seasonal year-round.",
+          "licensing": "Attorneys in Colorado must be licensed by the Colorado Supreme Court Office of Attorney Regulation Counsel.",
+          "local_note": null
+        },
+        "real-estate": {
+          "verified": true,
+          "source_note": "BLS OEWS May 2025, Denver-Aurora-Centennial, CO MSA (occ 43-4171); Census CBP 2023, NAICS 531210; Census Bureau MSA Population Estimates Vintage 2024",
+          "business_count": 1705,
+          "receptionist_salary": 43810,
+          "avg_job_value": null,
+          "peak_season": "April–August",
+          "seasonality_note": "Denver real estate home listings and sales peak during spring and summer months.",
+          "licensing": "Colorado real estate brokers must be licensed by the Colorado Division of Real Estate.",
+          "local_note": null
+        }
+      }
+    },
+    "las-vegas": {
+      "metro_pop": 2336592,
+      "gbp_presence": false,
+      "niches": {
+        "hvac": {
+          "verified": true,
+          "source_note": "BLS OEWS May 2025, Las Vegas-Henderson-North Las Vegas, NV MSA (occ 43-4171); Census CBP 2023, NAICS 238220 (combined plumbing + HVAC contractors); Census Bureau MSA Population Estimates Vintage 2024",
+          "business_count": 528,
+          "receptionist_salary": 40420,
+          "avg_job_value": null,
+          "peak_season": "May–September",
+          "seasonality_note": "Las Vegas desert summer heat creates intense demand for air conditioning repairs.",
+          "licensing": "Nevada requires a C-21 Refrigeration and Air Conditioning license from the Nevada State Contractors Board.",
+          "local_note": null
+        },
+        "plumbing": {
+          "verified": true,
+          "source_note": "BLS OEWS May 2025, Las Vegas-Henderson-North Las Vegas, NV MSA (occ 43-4171); Census CBP 2023, NAICS 238220 (combined plumbing + HVAC contractors); Census Bureau MSA Population Estimates Vintage 2024",
+          "business_count": 528,
+          "receptionist_salary": 40420,
+          "avg_job_value": null,
+          "peak_season": null,
+          "seasonality_note": "Las Vegas plumbing contractors experience steady year-round request volume.",
+          "licensing": "Nevada requires a C-1 Plumbing and Heating license from the Nevada State Contractors Board.",
+          "local_note": null
+        },
+        "roofing": {
+          "verified": true,
+          "source_note": "BLS OEWS May 2025, Las Vegas-Henderson-North Las Vegas, NV MSA (occ 43-4171); Census CBP 2023, NAICS 238160; Census Bureau MSA Population Estimates Vintage 2024",
+          "business_count": 136,
+          "receptionist_salary": 40420,
+          "avg_job_value": null,
+          "peak_season": "July–September",
+          "seasonality_note": "Las Vegas roofing demand spikes during late summer rain and severe wind events.",
+          "licensing": "Nevada requires a C-15 Roofing and Siding license from the Nevada State Contractors Board.",
+          "local_note": null
+        },
+        "electrician": {
+          "verified": true,
+          "source_note": "BLS OEWS May 2025, Las Vegas-Henderson-North Las Vegas, NV MSA (occ 43-4171); Census CBP 2023, NAICS 238210; Census Bureau MSA Population Estimates Vintage 2024",
+          "business_count": 402,
+          "receptionist_salary": 40420,
+          "avg_job_value": null,
+          "peak_season": null,
+          "seasonality_note": "Las Vegas electrical contracting remains active year-round driven by commercial hospitality and residential developments.",
+          "licensing": "Nevada requires a C-2 Electrical Contractor license from the Nevada State Contractors Board.",
+          "local_note": null
+        },
+        "dentistry": {
+          "verified": true,
+          "source_note": "BLS OEWS May 2025, Las Vegas-Henderson-North Las Vegas, NV MSA (occ 43-4171); Census CBP 2023, NAICS 621210; Census Bureau MSA Population Estimates Vintage 2024",
+          "business_count": 638,
+          "receptionist_salary": 40420,
+          "avg_job_value": null,
+          "peak_season": "November–December",
+          "seasonality_note": "Las Vegas dental practices see year-end appointment surges as patients use insurance benefits.",
+          "licensing": "Nevada requires dentists to be licensed by the Nevada State Board of Dental Examiners.",
+          "local_note": null
+        },
+        "landscaping": {
+          "verified": true,
+          "source_note": "BLS OEWS May 2025, Las Vegas-Henderson-North Las Vegas, NV MSA (occ 43-4171); Census CBP 2023, NAICS 561730; Census Bureau MSA Population Estimates Vintage 2024",
+          "business_count": 425,
+          "receptionist_salary": 40420,
+          "avg_job_value": null,
+          "peak_season": "March–October",
+          "seasonality_note": "Las Vegas landscape contractors maintain high active schedules during warm months.",
+          "licensing": "Nevada requires a C-10 Landscape Contracting license from the Nevada State Contractors Board.",
+          "local_note": null
+        },
+        "pest-control": {
+          "verified": true,
+          "source_note": "BLS OEWS May 2025, Las Vegas-Henderson-North Las Vegas, NV MSA (occ 43-4171); Census CBP 2023, NAICS 561710; Census Bureau MSA Population Estimates Vintage 2024",
+          "business_count": 156,
+          "receptionist_salary": 40420,
+          "avg_job_value": null,
+          "peak_season": "April–September",
+          "seasonality_note": "Pest control in Las Vegas sees summer surges for scorpions and desert pests.",
+          "licensing": "Nevada requires a Pest Control License from the Nevada Department of Agriculture.",
+          "local_note": null
+        },
+        "auto-repair": {
+          "verified": true,
+          "source_note": "BLS OEWS May 2025, Las Vegas-Henderson-North Las Vegas, NV MSA (occ 43-4171); Census CBP 2023, NAICS 811111; Census Bureau MSA Population Estimates Vintage 2024",
+          "business_count": 495,
+          "receptionist_salary": 40420,
+          "avg_job_value": null,
+          "peak_season": null,
+          "seasonality_note": "Las Vegas auto repair facilities operate with consistent year-round traffic.",
+          "licensing": "Nevada requires garage operators and auto repair shops to be registered with the Nevada Department of Motor Vehicles (DMV).",
+          "local_note": null
+        },
+        "law-firm": {
+          "verified": true,
+          "source_note": "BLS OEWS May 2025, Las Vegas-Henderson-North Las Vegas, NV MSA (occ 43-4171); Census CBP 2023, NAICS 541110; Census Bureau MSA Population Estimates Vintage 2024",
+          "business_count": 832,
+          "receptionist_salary": 40420,
+          "avg_job_value": null,
+          "peak_season": null,
+          "seasonality_note": "Las Vegas legal practices experience non-seasonal baseline demand.",
+          "licensing": "Attorneys in Nevada must be licensed by the State Bar of Nevada.",
+          "local_note": null
+        },
+        "real-estate": {
+          "verified": true,
+          "source_note": "BLS OEWS May 2025, Las Vegas-Henderson-North Las Vegas, NV MSA (occ 43-4171); Census CBP 2023, NAICS 531210; Census Bureau MSA Population Estimates Vintage 2024",
+          "business_count": 815,
+          "receptionist_salary": 40420,
+          "avg_job_value": null,
+          "peak_season": "March–July",
+          "seasonality_note": "Las Vegas real estate sales activity increases during spring and early summer.",
+          "licensing": "Nevada real estate agents and brokers must be licensed by the Nevada Real Estate Division.",
+          "local_note": null
+        }
+      }
+    },
+    "miami": {
+      "metro_pop": 6183191,
+      "gbp_presence": false,
+      "niches": {
+        "hvac": {
+          "verified": true,
+          "source_note": "BLS OEWS May 2025, Miami-Fort Lauderdale-West Palm Beach, FL MSA (occ 43-4171); Census CBP 2023, NAICS 238220 (combined plumbing + HVAC contractors); Census Bureau MSA Population Estimates Vintage 2024",
+          "business_count": 2040,
+          "receptionist_salary": 38150,
+          "avg_job_value": null,
+          "peak_season": "May–October",
+          "seasonality_note": "Miami tropical weather generates high continuous air conditioning repair demand.",
+          "licensing": "Florida requires a Class A or Class B Air Conditioning Contractor license issued by DBPR.",
+          "local_note": null
+        },
+        "plumbing": {
+          "verified": true,
+          "source_note": "BLS OEWS May 2025, Miami-Fort Lauderdale-West Palm Beach, FL MSA (occ 43-4171); Census CBP 2023, NAICS 238220 (combined plumbing + HVAC contractors); Census Bureau MSA Population Estimates Vintage 2024",
+          "business_count": 2040,
+          "receptionist_salary": 38150,
+          "avg_job_value": null,
+          "peak_season": null,
+          "seasonality_note": "Miami plumbing contractors maintain steady year-round operations without freezing disruptions.",
+          "licensing": "Florida requires a Certified Plumbing Contractor license issued by DBPR.",
+          "local_note": null
+        },
+        "roofing": {
+          "verified": true,
+          "source_note": "BLS OEWS May 2025, Miami-Fort Lauderdale-West Palm Beach, FL MSA (occ 43-4171); Census CBP 2023, NAICS 238160; Census Bureau MSA Population Estimates Vintage 2024",
+          "business_count": 642,
+          "receptionist_salary": 38150,
+          "avg_job_value": null,
+          "peak_season": "June–November",
+          "seasonality_note": "Miami roofing demand peaks during hurricane season due to tropical rain and storm damage.",
+          "licensing": "Florida requires a Certified Roofing Contractor license issued by DBPR.",
+          "local_note": null
+        },
+        "electrician": {
+          "verified": true,
+          "source_note": "BLS OEWS May 2025, Miami-Fort Lauderdale-West Palm Beach, FL MSA (occ 43-4171); Census CBP 2023, NAICS 238210; Census Bureau MSA Population Estimates Vintage 2024",
+          "business_count": 1155,
+          "receptionist_salary": 38150,
+          "avg_job_value": null,
+          "peak_season": null,
+          "seasonality_note": "Electrical contracting services in Miami operate continuously year-round.",
+          "licensing": "Florida requires an Electrical Contractor license issued by DBPR.",
+          "local_note": null
+        },
+        "dentistry": {
+          "verified": true,
+          "source_note": "BLS OEWS May 2025, Miami-Fort Lauderdale-West Palm Beach, FL MSA (occ 43-4171); Census CBP 2023, NAICS 621210; Census Bureau MSA Population Estimates Vintage 2024",
+          "business_count": 2540,
+          "receptionist_salary": 38150,
+          "avg_job_value": null,
+          "peak_season": "January–April",
+          "seasonality_note": "Miami dental practices see elevated patient volume during winter months from seasonal visitors.",
+          "licensing": "Florida requires dentists to be licensed by the Florida Board of Dentistry.",
+          "local_note": null
+        },
+        "landscaping": {
+          "verified": true,
+          "source_note": "BLS OEWS May 2025, Miami-Fort Lauderdale-West Palm Beach, FL MSA (occ 43-4171); Census CBP 2023, NAICS 561730; Census Bureau MSA Population Estimates Vintage 2024",
+          "business_count": 1630,
+          "receptionist_salary": 38150,
+          "avg_job_value": null,
+          "peak_season": "April–October",
+          "seasonality_note": "Miami landscaping demand increases during the summer rainy season.",
+          "licensing": "Florida does not require a state contractor license for general landscaping.",
+          "local_note": null
+        },
+        "pest-control": {
+          "verified": true,
+          "source_note": "BLS OEWS May 2025, Miami-Fort Lauderdale-West Palm Beach, FL MSA (occ 43-4171); Census CBP 2023, NAICS 561710; Census Bureau MSA Population Estimates Vintage 2024",
+          "business_count": 538,
+          "receptionist_salary": 38150,
+          "avg_job_value": null,
+          "peak_season": "May–October",
+          "seasonality_note": "Miami pest control services peak during hot, humid summer months.",
+          "licensing": "Florida requires pest control businesses to be licensed by FDACS.",
+          "local_note": null
+        },
+        "auto-repair": {
+          "verified": true,
+          "source_note": "BLS OEWS May 2025, Miami-Fort Lauderdale-West Palm Beach, FL MSA (occ 43-4171); Census CBP 2023, NAICS 811111; Census Bureau MSA Population Estimates Vintage 2024",
+          "business_count": 1460,
+          "receptionist_salary": 38150,
+          "avg_job_value": null,
+          "peak_season": null,
+          "seasonality_note": "Miami automotive repair shops report stable demand throughout the calendar year.",
+          "licensing": "Florida requires motor vehicle repair shops to register annually with FDACS.",
+          "local_note": null
+        },
+        "law-firm": {
+          "verified": true,
+          "source_note": "BLS OEWS May 2025, Miami-Fort Lauderdale-West Palm Beach, FL MSA (occ 43-4171); Census CBP 2023, NAICS 541110; Census Bureau MSA Population Estimates Vintage 2024",
+          "business_count": 4030,
+          "receptionist_salary": 38150,
+          "avg_job_value": null,
+          "peak_season": null,
+          "seasonality_note": "Miami law firms maintain steady year-round casework and legal representation.",
+          "licensing": "Attorneys in Florida must be licensed by the Florida Bar.",
+          "local_note": null
+        },
+        "real-estate": {
+          "verified": true,
+          "source_note": "BLS OEWS May 2025, Miami-Fort Lauderdale-West Palm Beach, FL MSA (occ 43-4171); Census CBP 2023, NAICS 531210; Census Bureau MSA Population Estimates Vintage 2024",
+          "business_count": 3240,
+          "receptionist_salary": 38150,
+          "avg_job_value": null,
+          "peak_season": "January–May",
+          "seasonality_note": "Miami real estate sales volume surges in winter and spring.",
+          "licensing": "Florida real estate brokers and sales associates must be licensed by FREC under DBPR.",
+          "local_note": null
+        }
+      }
+    },
+    "seattle": {
+      "metro_pop": 4044837,
+      "gbp_presence": false,
+      "niches": {
+        "hvac": {
+          "verified": true,
+          "source_note": "BLS OEWS May 2025, Seattle-Tacoma-Bellevue, WA MSA (occ 43-4171); Census CBP 2023, NAICS 238220 (combined plumbing + HVAC contractors); Census Bureau MSA Population Estimates Vintage 2024",
+          "business_count": 1115,
+          "receptionist_salary": 47850,
+          "avg_job_value": null,
+          "peak_season": "November–February",
+          "seasonality_note": "Seattle cold winter weather increases heating service calls and system replacements.",
+          "licensing": "Washington requires specialty electrical/HVAC licenses and registration through the Department of Labor & Industries (L&I).",
+          "local_note": null
+        },
+        "plumbing": {
+          "verified": true,
+          "source_note": "BLS OEWS May 2025, Seattle-Tacoma-Bellevue, WA MSA (occ 43-4171); Census CBP 2023, NAICS 238220 (combined plumbing + HVAC contractors); Census Bureau MSA Population Estimates Vintage 2024",
+          "business_count": 1115,
+          "receptionist_salary": 47850,
+          "avg_job_value": null,
+          "peak_season": null,
+          "seasonality_note": "Seattle plumbing contractors operate with steady year-round service schedules.",
+          "licensing": "Washington requires a Plumbing Contractor registration and Journey Level Plumber licensing through L&I.",
+          "local_note": null
+        },
+        "roofing": {
+          "verified": true,
+          "source_note": "BLS OEWS May 2025, Seattle-Tacoma-Bellevue, WA MSA (occ 43-4171); Census CBP 2023, NAICS 238160; Census Bureau MSA Population Estimates Vintage 2024",
+          "business_count": 332,
+          "receptionist_salary": 47850,
+          "avg_job_value": null,
+          "peak_season": "June–September",
+          "seasonality_note": "Seattle dry summer months are the peak window for major roof replacements and repairs.",
+          "licensing": "Washington requires general/specialty contractor registration through L&I.",
+          "local_note": null
+        },
+        "electrician": {
+          "verified": true,
+          "source_note": "BLS OEWS May 2025, Seattle-Tacoma-Bellevue, WA MSA (occ 43-4171); Census CBP 2023, NAICS 238210; Census Bureau MSA Population Estimates Vintage 2024",
+          "business_count": 918,
+          "receptionist_salary": 47850,
+          "avg_job_value": null,
+          "peak_season": null,
+          "seasonality_note": "Seattle electrical services maintain consistent demand across residential and commercial sectors.",
+          "licensing": "Washington requires an Electrical Contractor license issued by L&I.",
+          "local_note": null
+        },
+        "dentistry": {
+          "verified": true,
+          "source_note": "BLS OEWS May 2025, Seattle-Tacoma-Bellevue, WA MSA (occ 43-4171); Census CBP 2023, NAICS 621210; Census Bureau MSA Population Estimates Vintage 2024",
+          "business_count": 1455,
+          "receptionist_salary": 47850,
+          "avg_job_value": null,
+          "peak_season": "November–December",
+          "seasonality_note": "Seattle dental practices experience year-end appointment increases as insurance benefits expire.",
+          "licensing": "Washington requires dentists to be licensed by the Washington State Dental Quality Assurance Commission.",
+          "local_note": null
+        },
+        "landscaping": {
+          "verified": true,
+          "source_note": "BLS OEWS May 2025, Seattle-Tacoma-Bellevue, WA MSA (occ 43-4171); Census CBP 2023, NAICS 561730; Census Bureau MSA Population Estimates Vintage 2024",
+          "business_count": 1145,
+          "receptionist_salary": 47850,
+          "avg_job_value": null,
+          "peak_season": "April–October",
+          "seasonality_note": "Seattle landscape maintenance demand peaks during active spring and summer growth.",
+          "licensing": "Washington requires specialty contractor registration through L&I.",
+          "local_note": null
+        },
+        "pest-control": {
+          "verified": true,
+          "source_note": "BLS OEWS May 2025, Seattle-Tacoma-Bellevue, WA MSA (occ 43-4171); Census CBP 2023, NAICS 561710; Census Bureau MSA Population Estimates Vintage 2024",
+          "business_count": 188,
+          "receptionist_salary": 47850,
+          "avg_job_value": null,
+          "peak_season": "May–September",
+          "seasonality_note": "Seattle pest control services peak during spring and summer insect seasons.",
+          "licensing": "Washington requires a Commercial Pesticide Applicator license from the Department of Agriculture (WSDA).",
+          "local_note": null
+        },
+        "auto-repair": {
+          "verified": true,
+          "source_note": "BLS OEWS May 2025, Seattle-Tacoma-Bellevue, WA MSA (occ 43-4171); Census CBP 2023, NAICS 811111; Census Bureau MSA Population Estimates Vintage 2024",
+          "business_count": 802,
+          "receptionist_salary": 47850,
+          "avg_job_value": null,
+          "peak_season": null,
+          "seasonality_note": "Seattle auto repair shops operate under consistent non-seasonal customer demand.",
+          "licensing": "Washington does not require a specific state trade license for general auto repair shops.",
+          "local_note": null
+        },
+        "law-firm": {
+          "verified": true,
+          "source_note": "BLS OEWS May 2025, Seattle-Tacoma-Bellevue, WA MSA (occ 43-4171); Census CBP 2023, NAICS 541110; Census Bureau MSA Population Estimates Vintage 2024",
+          "business_count": 2210,
+          "receptionist_salary": 47850,
+          "avg_job_value": null,
+          "peak_season": null,
+          "seasonality_note": "Seattle legal practices maintain continuous year-round service schedules.",
+          "licensing": "Attorneys in Washington must be licensed by the Washington State Bar Association (WSBA).",
+          "local_note": null
+        },
+        "real-estate": {
+          "verified": true,
+          "source_note": "BLS OEWS May 2025, Seattle-Tacoma-Bellevue, WA MSA (occ 43-4171); Census CBP 2023, NAICS 531210; Census Bureau MSA Population Estimates Vintage 2024",
+          "business_count": 1755,
+          "receptionist_salary": 47850,
+          "avg_job_value": null,
+          "peak_season": "April–August",
+          "seasonality_note": "Seattle home buying and listing activity surges during spring and summer.",
+          "licensing": "Washington real estate brokers must be licensed by the Washington State Department of Licensing (DOL).",
           "local_note": null
         }
       }
     }
   },
-
   "eu": {}
 }
