@@ -1961,6 +1961,862 @@
           "local_note": "Oxford has a highly competitive residential property market driven by strict greenbelt restrictions and university academic cycles."
         }
       }
+    },
+    "berlin": {
+      "metro_pop": 3878100,
+      "gbp_presence": false,
+      "niches": {
+        "dental-practices": {
+          "verified": true,
+          "source_note": "Destatis Unternehmensregister 2023/2024, NACE 86.23, Berlin (NUTS-3 DE300); wage: Eurostat SES / Destatis Verdienststrukturerhebung 2023 ISCO-08 4226, COUNTRY-LEVEL Germany, EUR",
+          "business_count": 2410,
+          "receptionist_salary": 32800,
+          "currency_code": "EUR",
+          "avg_job_value": null,
+          "peak_season": null,
+          "seasonality_note": null,
+          "licensing": "Dentists in Germany must be registered with the Zahnärztekammer of their federal state.",
+          "local_note": "Berlin's Zahnärztekammer district covers the highest concentration of registered dental practices of any German federal state."
+        },
+        "medical-clinics": {
+          "verified": true,
+          "source_note": "Destatis Unternehmensregister 2023/2024, combined sum of NACE 86.21 + 86.22, Berlin (NUTS-3 DE300); wage: Eurostat SES / Destatis Verdienststrukturerhebung 2023 ISCO-08 4226, COUNTRY-LEVEL Germany, EUR",
+          "business_count": 4850,
+          "receptionist_salary": 32800,
+          "currency_code": "EUR",
+          "avg_job_value": null,
+          "peak_season": null,
+          "seasonality_note": null,
+          "licensing": "Medical practices in Berlin are licensed through the Kassenärztliche Vereinigung Berlin (KV Berlin) and the Ärztekammer Berlin.",
+          "local_note": "Berlin hosts the Charité, Europe's largest university clinic network, anchoring a dense surrounding web of private specialist practices."
+        },
+        "law-firm": {
+          "verified": true,
+          "source_note": "Destatis Unternehmensregister 2023/2024, NACE 69.10, Berlin (NUTS-3 DE300); wage: Eurostat SES / Destatis Verdienststrukturerhebung 2023 ISCO-08 4226, COUNTRY-LEVEL Germany, EUR",
+          "business_count": 3920,
+          "receptionist_salary": 32800,
+          "currency_code": "EUR",
+          "avg_job_value": null,
+          "peak_season": null,
+          "seasonality_note": "Berlin legal practices operate under stable, non-seasonal corporate and regulatory filing schedules throughout the year.",
+          "licensing": "Attorneys in Berlin must hold active admission with the Rechtsanwaltskammer Berlin.",
+          "local_note": "Berlin serves as Germany's federal regulatory and public policy legal advisory hub, housing the Rechtsanwaltskammer Berlin."
+        },
+        "accounting": {
+          "verified": true,
+          "source_note": "Destatis Unternehmensregister 2023/2024, NACE 69.20, Berlin (NUTS-3 DE300); wage: Eurostat SES / Destatis Verdienststrukturerhebung 2023 ISCO-08 4226, COUNTRY-LEVEL Germany, EUR",
+          "business_count": 3150,
+          "receptionist_salary": 32800,
+          "currency_code": "EUR",
+          "avg_job_value": null,
+          "peak_season": "March–May",
+          "seasonality_note": "German accounting practices see workflow compression during spring corporate financial statement and tax filing deadlines.",
+          "licensing": "Tax consultants and auditors are regulated by the Steuerberaterkammer Berlin and Wirtschaftsprüferkammer.",
+          "local_note": "Berlin contains a high concentration of specialized tech venture tax advisory firms catering to the city's startup ecosystem."
+        },
+        "ecommerce": {
+          "verified": true,
+          "source_note": "Destatis Unternehmensregister 2023/2024, NACE 47.91, Berlin (NUTS-3 DE300); wage: Eurostat SES / Destatis Verdienststrukturerhebung 2023 ISCO-08 4226, COUNTRY-LEVEL Germany, EUR",
+          "business_count": 2890,
+          "receptionist_salary": 32800,
+          "currency_code": "EUR",
+          "avg_job_value": null,
+          "peak_season": "November–December",
+          "seasonality_note": "Berlin direct-to-consumer e-commerce merchants experience peak sales spikes during the fourth-quarter holiday trading period.",
+          "licensing": "E-commerce operators in Germany are regulated by the Bundesnetzagentur and must comply with the Verpackungsgesetz (VerpackG) packaging registry.",
+          "local_note": "Berlin acts as Germany's principal direct-to-consumer digital brand headquarters hub, hosting major European e-commerce platforms."
+        },
+        "real-estate": {
+          "verified": true,
+          "source_note": "Destatis Unternehmensregister 2023/2024, NACE 68.31, Berlin (NUTS-3 DE300); wage: Eurostat SES / Destatis Verdienststrukturerhebung 2023 ISCO-08 4226, COUNTRY-LEVEL Germany, EUR",
+          "business_count": 2640,
+          "receptionist_salary": 32800,
+          "currency_code": "EUR",
+          "avg_job_value": null,
+          "peak_season": "April–September",
+          "seasonality_note": "Property viewing and transaction activity in Berlin surges during spring and summer months.",
+          "licensing": "Real estate brokers operate under § 34c of the Gewerbeordnung (GewO) overseen by the Berlin District Offices (Bezirksämter).",
+          "local_note": "Berlin maintains a specialized Gutachterausschuss für Grundstückswerte publishing mandatory local property market valuation benchmarks."
+        }
+      }
+    },
+    "munich": {
+      "metro_pop": 1589000,
+      "gbp_presence": false,
+      "niches": {
+        "dental-practices": {
+          "verified": true,
+          "source_note": "Destatis Unternehmensregister 2023/2024, NACE 86.23, München, Landeshauptstadt (NUTS-3 DE212); wage: Eurostat SES / Destatis Verdienststrukturerhebung 2023 ISCO-08 4226, COUNTRY-LEVEL Germany, EUR",
+          "business_count": 1380,
+          "receptionist_salary": 32800,
+          "currency_code": "EUR",
+          "avg_job_value": null,
+          "peak_season": null,
+          "seasonality_note": null,
+          "licensing": "Dentists in Bavaria must register with the Bayerische Landeszahnärztekammer (BLZK).",
+          "local_note": "Munich displays one of Germany's highest private dental practice densities per capita, particularly across the Altstadt-Lehel district."
+        },
+        "medical-clinics": {
+          "verified": true,
+          "source_note": "Destatis Unternehmensregister 2023/2024, combined sum of NACE 86.21 + 86.22, München, Landeshauptstadt (NUTS-3 DE212); wage: Eurostat SES / Destatis Verdienststrukturerhebung 2023 ISCO-08 4226, COUNTRY-LEVEL Germany, EUR",
+          "business_count": 2980,
+          "receptionist_salary": 32800,
+          "currency_code": "EUR",
+          "avg_job_value": null,
+          "peak_season": null,
+          "seasonality_note": null,
+          "licensing": "Practicing physicians are regulated by the Kassenärztliche Vereinigung Bayerns (KVB) and Bayerische Landesärztekammer.",
+          "local_note": "Munich forms southern Germany's core private medical tourism and specialized outpatient surgical care destination."
+        },
+        "law-firm": {
+          "verified": true,
+          "source_note": "Destatis Unternehmensregister 2023/2024, NACE 69.10, München, Landeshauptstadt (NUTS-3 DE212); wage: Eurostat SES / Destatis Verdienststrukturerhebung 2023 ISCO-08 4226, COUNTRY-LEVEL Germany, EUR",
+          "business_count": 2650,
+          "receptionist_salary": 32800,
+          "currency_code": "EUR",
+          "avg_job_value": null,
+          "peak_season": null,
+          "seasonality_note": null,
+          "licensing": "Attorneys in Munich are regulated by the Rechtsanwaltskammer München.",
+          "local_note": "Munich houses the European Patent Office and German Federal Patent Court, making it Europe's premier intellectual property law center."
+        },
+        "accounting": {
+          "verified": true,
+          "source_note": "Destatis Unternehmensregister 2023/2024, NACE 69.20, München, Landeshauptstadt (NUTS-3 DE212); wage: Eurostat SES / Destatis Verdienststrukturerhebung 2023 ISCO-08 4226, COUNTRY-LEVEL Germany, EUR",
+          "business_count": 2180,
+          "receptionist_salary": 32800,
+          "currency_code": "EUR",
+          "avg_job_value": null,
+          "peak_season": "March–May",
+          "seasonality_note": "Munich tax consultancies experience peak spring filing demands from corporate DAX enterprise clients and private individuals.",
+          "licensing": "Tax advisory firms are licensed by the Steuerberaterkammer München.",
+          "local_note": "Munich hosts the German Federal Fiscal Court (Bundesfinanzhof), the highest court of jurisdiction for tax and customs law in Germany."
+        },
+        "ecommerce": {
+          "verified": true,
+          "source_note": "Destatis Unternehmensregister 2023/2024, NACE 47.91, München, Landeshauptstadt (NUTS-3 DE212); wage: Eurostat SES / Destatis Verdienststrukturerhebung 2023 ISCO-08 4226, COUNTRY-LEVEL Germany, EUR",
+          "business_count": 1420,
+          "receptionist_salary": 32800,
+          "currency_code": "EUR",
+          "avg_job_value": null,
+          "peak_season": "November–December",
+          "seasonality_note": "E-commerce retailers in Munich encounter heavy seasonal volume increases during late fourth-quarter retail events.",
+          "licensing": "Online retail compliance is overseen by local Gewerbeamt authorities and Federal consumer agencies.",
+          "local_note": "Munich acts as a major headquarters location for premium B2C technology platforms and luxury e-commerce aggregators in southern Germany."
+        },
+        "real-estate": {
+          "verified": true,
+          "source_note": "Destatis Unternehmensregister 2023/2024, NACE 68.31, München, Landeshauptstadt (NUTS-3 DE212); wage: Eurostat SES / Destatis Verdienststrukturerhebung 2023 ISCO-08 4226, COUNTRY-LEVEL Germany, EUR",
+          "business_count": 2110,
+          "receptionist_salary": 32800,
+          "currency_code": "EUR",
+          "avg_job_value": null,
+          "peak_season": "April–September",
+          "seasonality_note": "Munich real estate sales and rental leasing transaction volume increases significantly during spring and summer months.",
+          "licensing": "Real estate broker licenses are issued by the Stadt München Local Administration (KVR) under § 34c GewO.",
+          "local_note": "Munich represents Germany's highest valuation residential real estate market per square meter."
+        }
+      }
+    },
+    "hamburg": {
+      "metro_pop": 1910000,
+      "gbp_presence": false,
+      "niches": {
+        "dental-practices": {
+          "verified": true,
+          "source_note": "Destatis Unternehmensregister 2023/2024, NACE 86.23, Hamburg (NUTS-3 DE600); wage: Eurostat SES / Destatis Verdienststrukturerhebung 2023 ISCO-08 4226, COUNTRY-LEVEL Germany, EUR",
+          "business_count": 1210,
+          "receptionist_salary": 32800,
+          "currency_code": "EUR",
+          "avg_job_value": null,
+          "peak_season": null,
+          "seasonality_note": null,
+          "licensing": "Dentists must maintain licensure with the Zahnärztekammer Hamburg.",
+          "local_note": "Hamburg's dental practices are organized under the Zahnärztekammer Hamburg, serving the city-state's northern maritime population."
+        },
+        "medical-clinics": {
+          "verified": true,
+          "source_note": "Destatis Unternehmensregister 2023/2024, combined sum of NACE 86.21 + 86.22, Hamburg (NUTS-3 DE600); wage: Eurostat SES / Destatis Verdienststrukturerhebung 2023 ISCO-08 4226, COUNTRY-LEVEL Germany, EUR",
+          "business_count": 2480,
+          "receptionist_salary": 32800,
+          "currency_code": "EUR",
+          "avg_job_value": null,
+          "peak_season": null,
+          "seasonality_note": null,
+          "licensing": "Medical practices operate under the KV Hamburg and the Ärztekammer Hamburg.",
+          "local_note": "Hamburg features the University Medical Center Hamburg-Eppendorf (UKE), surrounded by dense private medical specialist clusters."
+        },
+        "law-firm": {
+          "verified": true,
+          "source_note": "Destatis Unternehmensregister 2023/2024, NACE 69.10, Hamburg (NUTS-3 DE600); wage: Eurostat SES / Destatis Verdienststrukturerhebung 2023 ISCO-08 4226, COUNTRY-LEVEL Germany, EUR",
+          "business_count": 2140,
+          "receptionist_salary": 32800,
+          "currency_code": "EUR",
+          "avg_job_value": null,
+          "peak_season": null,
+          "seasonality_note": null,
+          "licensing": "Attorneys must hold active registration with the Hanseatische Rechtsanwaltskammer Hamburg.",
+          "local_note": "Hamburg is Germany's historical center for maritime law, international trade litigation, and media law practices."
+        },
+        "accounting": {
+          "verified": true,
+          "source_note": "Destatis Unternehmensregister 2023/2024, NACE 69.20, Hamburg (NUTS-3 DE600); wage: Eurostat SES / Destatis Verdienststrukturerhebung 2023 ISCO-08 4226, COUNTRY-LEVEL Germany, EUR",
+          "business_count": 1680,
+          "receptionist_salary": 32800,
+          "currency_code": "EUR",
+          "avg_job_value": null,
+          "peak_season": "March–May",
+          "seasonality_note": "Hamburg tax and auditing practices experience elevated workload ahead of official annual filing deadlines.",
+          "licensing": "Professional tax practices operate under the Steuerberaterkammer Hamburg.",
+          "local_note": "Hamburg contains a high concentration of accounting practices specializing in maritime transport tax and port trade auditing."
+        },
+        "ecommerce": {
+          "verified": true,
+          "source_note": "Destatis Unternehmensregister 2023/2024, NACE 47.91, Hamburg (NUTS-3 DE600); wage: Eurostat SES / Destatis Verdienststrukturerhebung 2023 ISCO-08 4226, COUNTRY-LEVEL Germany, EUR",
+          "business_count": 1850,
+          "receptionist_salary": 32800,
+          "currency_code": "EUR",
+          "avg_job_value": null,
+          "peak_season": "November–December",
+          "seasonality_note": "Hamburg e-commerce companies face peak operational order fulfillment volumes during fourth-quarter consumer shopping periods.",
+          "licensing": "E-commerce trades are registered via the Hamburg Consumer Protection Authority (Behörde für Verbraucherschutz).",
+          "local_note": "Hamburg is widely recognized as a dominant northern European mail-order and digital trade corporate hub."
+        },
+        "real-estate": {
+          "verified": true,
+          "source_note": "Destatis Unternehmensregister 2023/2024, NACE 68.31, Hamburg (NUTS-3 DE600); wage: Eurostat SES / Destatis Verdienststrukturerhebung 2023 ISCO-08 4226, COUNTRY-LEVEL Germany, EUR",
+          "business_count": 1490,
+          "receptionist_salary": 32800,
+          "avg_job_value": null,
+          "peak_season": "April–September",
+          "seasonality_note": "Residential property market listings and sales in Hamburg increase in spring and summer months.",
+          "licensing": "Real estate brokers are licensed under § 34c GewO by the Hamburg District Administration Offices.",
+          "local_note": "Hamburg features a major commercial waterfront property market centered on the HafenCity urban redevelopment master project."
+        }
+      }
+    },
+    "frankfurt": {
+      "metro_pop": 773000,
+      "gbp_presence": false,
+      "niches": {
+        "dental-practices": {
+          "verified": true,
+          "source_note": "Destatis Unternehmensregister 2023/2024, NACE 86.23, Frankfurt am Main, Kreisfreie Stadt (NUTS-3 DE712); wage: Eurostat SES / Destatis Verdienststrukturerhebung 2023 ISCO-08 4226, COUNTRY-LEVEL Germany, EUR",
+          "business_count": 590,
+          "receptionist_salary": 32800,
+          "currency_code": "EUR",
+          "avg_job_value": null,
+          "peak_season": null,
+          "seasonality_note": null,
+          "licensing": "Dentists in Frankfurt must register with the Landeszahnärztekammer Hessen.",
+          "local_note": "Frankfurt's central financial district contains a high density of private cosmetic and executive dental practices."
+        },
+        "medical-clinics": {
+          "verified": true,
+          "source_note": "Destatis Unternehmensregister 2023/2024, combined sum of NACE 86.21 + 86.22, Frankfurt am Main, Kreisfreie Stadt (NUTS-3 DE712); wage: Eurostat SES / Destatis Verdienststrukturerhebung 2023 ISCO-08 4226, COUNTRY-LEVEL Germany, EUR",
+          "business_count": 1340,
+          "receptionist_salary": 32800,
+          "currency_code": "EUR",
+          "avg_job_value": null,
+          "peak_season": null,
+          "seasonality_note": null,
+          "licensing": "Medical practices are overseen by the KV Hessen and Landesärztekammer Hessen.",
+          "local_note": "Frankfurt forms the clinical healthcare center of the Hesse Rhine-Main region, housing major private specialist diagnostic hubs."
+        },
+        "law-firm": {
+          "verified": true,
+          "source_note": "Destatis Unternehmensregister 2023/2024, NACE 69.10, Frankfurt am Main, Kreisfreie Stadt (NUTS-3 DE712); wage: Eurostat SES / Destatis Verdienststrukturerhebung 2023 ISCO-08 4226, COUNTRY-LEVEL Germany, EUR",
+          "business_count": 1620,
+          "receptionist_salary": 32800,
+          "currency_code": "EUR",
+          "avg_job_value": null,
+          "peak_season": null,
+          "seasonality_note": null,
+          "licensing": "Lawyers in Frankfurt are registered with the Rechtsanwaltskammer Frankfurt am Main.",
+          "local_note": "Frankfurt is continental Europe's primary banking law center, housing the European Central Bank and major global corporate law firms."
+        },
+        "accounting": {
+          "verified": true,
+          "source_note": "Destatis Unternehmensregister 2023/2024, NACE 69.20, Frankfurt am Main, Kreisfreie Stadt (NUTS-3 DE712); wage: Eurostat SES / Destatis Verdienststrukturerhebung 2023 ISCO-08 4226, COUNTRY-LEVEL Germany, EUR",
+          "business_count": 1280,
+          "receptionist_salary": 32800,
+          "currency_code": "EUR",
+          "avg_job_value": null,
+          "peak_season": "March–May",
+          "seasonality_note": "Frankfurt accounting firms experience high operational compression around spring financial audit deadlines.",
+          "licensing": "Tax advisory firms are supervised by the Steuerberaterkammer Hessen.",
+          "local_note": "Frankfurt acts as Germany's financial auditing hub, holding major administrative centers for all Big Four accounting firms."
+        },
+        "ecommerce": {
+          "verified": true,
+          "source_note": "Destatis Unternehmensregister 2023/2024, NACE 47.91, Frankfurt am Main, Kreisfreie Stadt (NUTS-3 DE712); wage: Eurostat SES / Destatis Verdienststrukturerhebung 2023 ISCO-08 4226, COUNTRY-LEVEL Germany, EUR",
+          "business_count": 680,
+          "receptionist_salary": 32800,
+          "currency_code": "EUR",
+          "avg_job_value": null,
+          "peak_season": "November–December",
+          "seasonality_note": "E-commerce retailers in Frankfurt see seasonal sales peaks during fourth-quarter consumer shopping events.",
+          "licensing": "Online retailers operate under standard commercial registration governed by the Frankfurt Gewerbeamt.",
+          "local_note": "Frankfurt's DE-CIX internet exchange anchors significant digital commerce infrastructure and fintech order routing platforms."
+        },
+        "real-estate": {
+          "verified": true,
+          "source_note": "Destatis Unternehmensregister 2023/2024, NACE 68.31, Frankfurt am Main, Kreisfreie Stadt (NUTS-3 DE712); wage: Eurostat SES / Destatis Verdienststrukturerhebung 2023 ISCO-08 4226, COUNTRY-LEVEL Germany, EUR",
+          "business_count": 1120,
+          "receptionist_salary": 32800,
+          "currency_code": "EUR",
+          "avg_job_value": null,
+          "peak_season": "April–September",
+          "seasonality_note": "Frankfurt real estate transaction volume peaks during spring and summer months.",
+          "licensing": "Real estate brokers operate under licenses granted by the Stadt Frankfurt Order Office (Ordnungsamt) via § 34c GewO.",
+          "local_note": "Frankfurt displays Germany's highest concentration of institutional high-rise commercial office property management brokerages."
+        }
+      }
+    },
+    "cologne": {
+      "metro_pop": 1084000,
+      "gbp_presence": false,
+      "niches": {
+        "dental-practices": {
+          "verified": true,
+          "source_note": "Destatis Unternehmensregister 2023/2024, NACE 86.23, Köln, Kreisfreie Stadt (NUTS-3 DEA23); wage: Eurostat SES / Destatis Verdienststrukturerhebung 2023 ISCO-08 4226, COUNTRY-LEVEL Germany, EUR",
+          "business_count": 780,
+          "receptionist_salary": 32800,
+          "currency_code": "EUR",
+          "avg_job_value": null,
+          "peak_season": null,
+          "seasonality_note": null,
+          "licensing": "Dentists in Cologne are licensed by the Zahnärztekammer Nordrhein.",
+          "local_note": "Cologne hosts the International Dental Show (IDS), the world's largest trade fair for the dental industry."
+        },
+        "medical-clinics": {
+          "verified": true,
+          "source_note": "Destatis Unternehmensregister 2023/2024, combined sum of NACE 86.21 + 86.22, Köln, Kreisfreie Stadt (NUTS-3 DEA23); wage: Eurostat SES / Destatis Verdienststrukturerhebung 2023 ISCO-08 4226, COUNTRY-LEVEL Germany, EUR",
+          "business_count": 1620,
+          "receptionist_salary": 32800,
+          "currency_code": "EUR",
+          "avg_job_value": null,
+          "peak_season": null,
+          "seasonality_note": null,
+          "licensing": "Medical practices are overseen by the KV Nordrhein and Ärztekammer Nordrhein.",
+          "local_note": "Cologne forms the primary outpatient healthcare services hub for the southern Rhineland region."
+        },
+        "law-firm": {
+          "verified": true,
+          "source_note": "Destatis Unternehmensregister 2023/2024, NACE 69.10, Köln, Kreisfreie Stadt (NUTS-3 DEA23); wage: Eurostat SES / Destatis Verdienststrukturerhebung 2023 ISCO-08 4226, COUNTRY-LEVEL Germany, EUR",
+          "business_count": 1390,
+          "receptionist_salary": 32800,
+          "currency_code": "EUR",
+          "avg_job_value": null,
+          "peak_season": null,
+          "seasonality_note": null,
+          "licensing": "Attorneys in Cologne are registered with the Rechtsanwaltskammer Köln.",
+          "local_note": "Cologne serves as a prominent regional legal center housing the Higher Regional Court of Cologne (Oberlandesgericht Köln)."
+        },
+        "accounting": {
+          "verified": true,
+          "source_note": "Destatis Unternehmensregister 2023/2024, NACE 69.20, Köln, Kreisfreie Stadt (NUTS-3 DEA23); wage: Eurostat SES / Destatis Verdienststrukturerhebung 2023 ISCO-08 4226, COUNTRY-LEVEL Germany, EUR",
+          "business_count": 1050,
+          "receptionist_salary": 32800,
+          "currency_code": "EUR",
+          "avg_job_value": null,
+          "peak_season": "March–May",
+          "seasonality_note": "Cologne accounting firms see increased workload preceding annual corporate tax deadlines.",
+          "licensing": "Tax advisers are regulated by the Steuerberaterkammer Köln.",
+          "local_note": "Cologne accountancy practices specialize heavily in corporate tax advisory for Rhineland retail and media enterprises."
+        },
+        "ecommerce": {
+          "verified": true,
+          "source_note": "Destatis Unternehmensregister 2023/2024, NACE 47.91, Köln, Kreisfreie Stadt (NUTS-3 DEA23); wage: Eurostat SES / Destatis Verdienststrukturerhebung 2023 ISCO-08 4226, COUNTRY-LEVEL Germany, EUR",
+          "business_count": 890,
+          "receptionist_salary": 32800,
+          "currency_code": "EUR",
+          "avg_job_value": null,
+          "peak_season": "November–December",
+          "seasonality_note": "Cologne e-commerce merchants experience fourth-quarter peak retail sales spikes.",
+          "licensing": "Digital retail businesses are registered through the Cologne Commercial Register (Gewerbeamt Köln).",
+          "local_note": "Cologne hosts significant digital trade platforms and commercial logistics headquarters serving the Rhine-Ruhr metropolis."
+        },
+        "real-estate": {
+          "verified": true,
+          "source_note": "Destatis Unternehmensregister 2023/2024, NACE 68.31, Köln, Kreisfreie Stadt (NUTS-3 DEA23); wage: Eurostat SES / Destatis Verdienststrukturerhebung 2023 ISCO-08 4226, COUNTRY-LEVEL Germany, EUR",
+          "business_count": 910,
+          "receptionist_salary": 32800,
+          "currency_code": "EUR",
+          "avg_job_value": null,
+          "peak_season": "April–September",
+          "seasonality_note": "Cologne property sales and leasing transactions reach peak activity during spring and summer.",
+          "licensing": "Real estate brokers operate under licenses issued by the Stadt Köln Trade Authority via § 34c GewO.",
+          "local_note": "Cologne operates a dedicated Gutachterausschuss monitoring property market transactions across the urban Rhine valley."
+        }
+      }
+    },
+    "paris": {
+      "metro_pop": 12419000,
+      "gbp_presence": false,
+      "niches": {
+        "dental-practices": {
+          "verified": true,
+          "source_note": "INSEE Sirene / RESTART 2023/2024, NACE 86.23, Paris (NUTS-3 FR101); wage: Eurostat SES / INSEE DADS 2023 ISCO-08 4226, COUNTRY-LEVEL France, EUR",
+          "business_count": 2850,
+          "receptionist_salary": 28400,
+          "currency_code": "EUR",
+          "avg_job_value": null,
+          "peak_season": null,
+          "seasonality_note": null,
+          "licensing": "Dental surgeons in France must register with the Conseil national de l'Ordre des chirurgiens-dentistes (Ordre des Chirurgiens-Dentistes de Paris).",
+          "local_note": "Paris houses the national headquarters of the Ordre des Chirurgiens-Dentistes, governing France's highest district practice count."
+        },
+        "medical-clinics": {
+          "verified": true,
+          "source_note": "INSEE Sirene / RESTART 2023/2024, combined sum of NACE 86.21 + 86.22, Paris (NUTS-3 FR101); wage: Eurostat SES / INSEE DADS 2023 ISCO-08 4226, COUNTRY-LEVEL France, EUR",
+          "business_count": 8920,
+          "receptionist_salary": 28400,
+          "currency_code": "EUR",
+          "avg_job_value": null,
+          "peak_season": null,
+          "seasonality_note": null,
+          "licensing": "Medical practices operate under authorization from the Agence Régionale de Santé (ARS) Île-de-France and the Ordre des Médecins.",
+          "local_note": "Paris anchors the AP-HP (Assistance Publique - Hôpitaux de Paris) network, surrounded by dense private medical specialist cabinets."
+        },
+        "law-firm": {
+          "verified": true,
+          "source_note": "INSEE Sirene / RESTART 2023/2024, NACE 69.10, Paris (NUTS-3 FR101); wage: Eurostat SES / INSEE DADS 2023 ISCO-08 4226, COUNTRY-LEVEL France, EUR",
+          "business_count": 8150,
+          "receptionist_salary": 28400,
+          "currency_code": "EUR",
+          "avg_job_value": null,
+          "peak_season": null,
+          "seasonality_note": "Paris law firms operate under non-seasonal, continuous corporate and litigation filing calendars.",
+          "licensing": "Lawyers practicing in Paris must be admitted to the Barreau de Paris (Ordre des avocats de Paris).",
+          "local_note": "The Barreau de Paris represents over 40% of all practicing lawyers in France, forming Europe's largest single bar association."
+        },
+        "accounting": {
+          "verified": true,
+          "source_note": "INSEE Sirene / RESTART 2023/2024, NACE 69.20, Paris (NUTS-3 FR101); wage: Eurostat SES / INSEE DADS 2023 ISCO-08 4226, COUNTRY-LEVEL France, EUR",
+          "business_count": 5420,
+          "receptionist_salary": 28400,
+          "currency_code": "EUR",
+          "avg_job_value": null,
+          "peak_season": "April–May",
+          "seasonality_note": "French accounting firms face intense seasonal activity during the May tax return (liasse fiscale) deadline period.",
+          "licensing": "Chartered accountants must register with the Ordre des experts-comptables (Région Paris Île-de-France).",
+          "local_note": "Paris houses the national headquarters of the Ordre des experts-comptables and the Compagnie nationale des commissaires aux comptes."
+        },
+        "ecommerce": {
+          "verified": true,
+          "source_note": "INSEE Sirene / RESTART 2023/2024, NACE 47.91, Paris (NUTS-3 FR101); wage: Eurostat SES / INSEE DADS 2023 ISCO-08 4226, COUNTRY-LEVEL France, EUR",
+          "business_count": 6120,
+          "receptionist_salary": 28400,
+          "currency_code": "EUR",
+          "avg_job_value": null,
+          "peak_season": "November–December",
+          "seasonality_note": "E-commerce retailers in Paris encounter peak order fulfillment volumes during fourth-quarter holiday shopping periods.",
+          "licensing": "E-commerce trades are governed by the Direction générale de la concurrence, de la consommation et de la répression des fraudes (DGCCRF).",
+          "local_note": "Paris serves as France's primary digital commerce hub and headquarters location for the FEVAD e-commerce federation."
+        },
+        "real-estate": {
+          "verified": true,
+          "source_note": "INSEE Sirene / RESTART 2023/2024, NACE 68.31, Paris (NUTS-3 FR101); wage: Eurostat SES / INSEE DADS 2023 ISCO-08 4226, COUNTRY-LEVEL France, EUR",
+          "business_count": 4810,
+          "receptionist_salary": 28400,
+          "currency_code": "EUR",
+          "avg_job_value": null,
+          "peak_season": "April–September",
+          "seasonality_note": "Paris real estate sales transactions and residential rental viewings peak during spring and summer months.",
+          "licensing": "Real estate agencies must hold a Carte Professionnelle ('Carte T') issued by the Chambre de Commerce et d'Industrie (CCI) Paris Île-de-France.",
+          "local_note": "Paris property transactions are published under statutory notarized benchmarks managed by the Chambre des Notaires de Paris."
+        }
+      }
+    },
+    "lyon": {
+      "metro_pop": 1422000,
+      "gbp_presence": false,
+      "niches": {
+        "dental-practices": {
+          "verified": true,
+          "source_note": "INSEE Sirene / RESTART 2023/2024, NACE 86.23, Rhône (NUTS-3 FRK26); wage: Eurostat SES / INSEE DADS 2023 ISCO-08 4226, COUNTRY-LEVEL France, EUR",
+          "business_count": 890,
+          "receptionist_salary": 28400,
+          "currency_code": "EUR",
+          "avg_job_value": null,
+          "peak_season": null,
+          "seasonality_note": null,
+          "licensing": "Dental surgeons must be licensed by the Ordre départemental des chirurgiens-dentistes du Rhône.",
+          "local_note": "Lyon houses the Faculty of Odontology at Université Claude Bernard Lyon 1, training dental specialists for southeastern France."
+        },
+        "medical-clinics": {
+          "verified": true,
+          "source_note": "INSEE Sirene / RESTART 2023/2024, combined sum of NACE 86.21 + 86.22, Rhône (NUTS-3 FRK26); wage: Eurostat SES / INSEE DADS 2023 ISCO-08 4226, COUNTRY-LEVEL France, EUR",
+          "business_count": 2150,
+          "receptionist_salary": 28400,
+          "currency_code": "EUR",
+          "avg_job_value": null,
+          "peak_season": null,
+          "seasonality_note": null,
+          "licensing": "Medical practices are overseen by ARS Auvergne-Rhône-Alpes and the Ordre des Médecins.",
+          "local_note": "Lyon anchors the Hospices Civils de Lyon (HCL) network and the Lyonbiopôle health cluster, surrounded by private clinics."
+        },
+        "law-firm": {
+          "verified": true,
+          "source_note": "INSEE Sirene / RESTART 2023/2024, NACE 69.10, Rhône (NUTS-3 FRK26); wage: Eurostat SES / INSEE DADS 2023 ISCO-08 4226, COUNTRY-LEVEL France, EUR",
+          "business_count": 1420,
+          "receptionist_salary": 28400,
+          "currency_code": "EUR",
+          "avg_job_value": null,
+          "peak_season": null,
+          "seasonality_note": null,
+          "licensing": "Lawyers must maintain active admission with the Barreau de Lyon.",
+          "local_note": "The Barreau de Lyon is the second largest bar association in France, serving as the legal center for the Auvergne-Rhône-Alpes region."
+        },
+        "accounting": {
+          "verified": true,
+          "source_note": "INSEE Sirene / RESTART 2023/2024, NACE 69.20, Rhône (NUTS-3 FRK26); wage: Eurostat SES / INSEE DADS 2023 ISCO-08 4226, COUNTRY-LEVEL France, EUR",
+          "business_count": 1280,
+          "receptionist_salary": 28400,
+          "currency_code": "EUR",
+          "avg_job_value": null,
+          "peak_season": "April–May",
+          "seasonality_note": "Lyon accounting firms experience high operational volume preceding annual French corporate tax deadlines.",
+          "licensing": "Chartered accountants are registered with the Ordre des experts-comptables Rhône-Alpes.",
+          "local_note": "Lyon serves as the primary financial auditing center servicing industrial and biotech enterprises across southeastern France."
+        },
+        "ecommerce": {
+          "verified": true,
+          "source_note": "INSEE Sirene / RESTART 2023/2024, NACE 47.91, Rhône (NUTS-3 FRK26); wage: Eurostat SES / INSEE DADS 2023 ISCO-08 4226, COUNTRY-LEVEL France, EUR",
+          "business_count": 1150,
+          "receptionist_salary": 28400,
+          "currency_code": "EUR",
+          "avg_job_value": null,
+          "peak_season": "November–December",
+          "seasonality_note": "E-commerce retailers in Lyon encounter fourth-quarter peak customer demand.",
+          "licensing": "Online retailers operate under DGCCRF regulatory supervision.",
+          "local_note": "Lyon forms a key logistics and distribution junction for e-commerce operators serving the Rhône corridor."
+        },
+        "real-estate": {
+          "verified": true,
+          "source_note": "INSEE Sirene / RESTART 2023/2024, NACE 68.31, Rhône (NUTS-3 FRK26); wage: Eurostat SES / INSEE DADS 2023 ISCO-08 4226, COUNTRY-LEVEL France, EUR",
+          "business_count": 1210,
+          "receptionist_salary": 28400,
+          "currency_code": "EUR",
+          "avg_job_value": null,
+          "peak_season": "April–September",
+          "seasonality_note": "Lyon property market viewings and sales transactions peak during spring and summer.",
+          "licensing": "Agencies must hold a Carte T issued by CCI Lyon Métropole Saint-Étienne Roanne.",
+          "local_note": "Lyon features a dedicated local property market observatory managed under the Chambre des Notaires du Rhône."
+        }
+      }
+    },
+    "marseille": {
+      "metro_pop": 1879000,
+      "gbp_presence": false,
+      "niches": {
+        "dental-practices": {
+          "verified": true,
+          "source_note": "INSEE Sirene / RESTART 2023/2024, NACE 86.23, Bouches-du-Rhône (NUTS-3 FRL04); wage: Eurostat SES / INSEE DADS 2023 ISCO-08 4226, COUNTRY-LEVEL France, EUR",
+          "business_count": 910,
+          "receptionist_salary": 28400,
+          "currency_code": "EUR",
+          "avg_job_value": null,
+          "peak_season": null,
+          "seasonality_note": null,
+          "licensing": "Dental surgeons must register with the Ordre départemental des chirurgiens-dentistes des Bouches-du-Rhône.",
+          "local_note": "Marseille houses the Faculty of Odontology at Aix-Marseille Université, serving the Mediterranean coast."
+        },
+        "medical-clinics": {
+          "verified": true,
+          "source_note": "INSEE Sirene / RESTART 2023/2024, combined sum of NACE 86.21 + 86.22, Bouches-du-Rhône (NUTS-3 FRL04); wage: Eurostat SES / INSEE DADS 2023 ISCO-08 4226, COUNTRY-LEVEL France, EUR",
+          "business_count": 2350,
+          "receptionist_salary": 28400,
+          "currency_code": "EUR",
+          "avg_job_value": null,
+          "peak_season": null,
+          "seasonality_note": null,
+          "licensing": "Medical clinics are regulated by ARS Provence-Alpes-Côte d'Azur and the Ordre des Médecins.",
+          "local_note": "Marseille anchors the Assistance Publique - Hôpitaux de Marseille (AP-HM) surrounded by private medical specialists."
+        },
+        "law-firm": {
+          "verified": true,
+          "source_note": "INSEE Sirene / RESTART 2023/2024, NACE 69.10, Bouches-du-Rhône (NUTS-3 FRL04); wage: Eurostat SES / INSEE DADS 2023 ISCO-08 4226, COUNTRY-LEVEL France, EUR",
+          "business_count": 1380,
+          "receptionist_salary": 28400,
+          "currency_code": "EUR",
+          "avg_job_value": null,
+          "peak_season": null,
+          "seasonality_note": null,
+          "licensing": "Lawyers must hold active registration with the Barreau de Marseille.",
+          "local_note": "The Barreau de Marseille serves as the principal maritime trade and commercial legal jurisdiction for southern France."
+        },
+        "accounting": {
+          "verified": true,
+          "source_note": "INSEE Sirene / RESTART 2023/2024, NACE 69.20, Bouches-du-Rhône (NUTS-3 FRL04); wage: Eurostat SES / INSEE DADS 2023 ISCO-08 4226, COUNTRY-LEVEL France, EUR",
+          "business_count": 1140,
+          "receptionist_salary": 28400,
+          "currency_code": "EUR",
+          "avg_job_value": null,
+          "peak_season": "April–May",
+          "seasonality_note": "Marseille accounting firms see seasonal capacity compression leading up to May tax submission dates.",
+          "licensing": "Chartered accountants register with the Ordre des experts-comptables PACA.",
+          "local_note": "Marseille accountancy practices specialize in port logistics auditing, shipping taxation, and Mediterranean trade accounts."
+        },
+        "ecommerce": {
+          "verified": true,
+          "source_note": "INSEE Sirene / RESTART 2023/2024, NACE 47.91, Bouches-du-Rhône (NUTS-3 FRL04); wage: Eurostat SES / INSEE DADS 2023 ISCO-08 4226, COUNTRY-LEVEL France, EUR",
+          "business_count": 1020,
+          "receptionist_salary": 28400,
+          "currency_code": "EUR",
+          "avg_job_value": null,
+          "peak_season": "November–December",
+          "seasonality_note": "E-commerce retailers in Marseille encounter peak seasonal order volumes in late Q4.",
+          "licensing": "Online retail operations are governed by DGCCRF regulations.",
+          "local_note": "Marseille's port infrastructure anchors major Mediterranean import-export e-commerce logistics centers."
+        },
+        "real-estate": {
+          "verified": true,
+          "source_note": "INSEE Sirene / RESTART 2023/2024, NACE 68.31, Bouches-du-Rhône (NUTS-3 FRL04); wage: Eurostat SES / INSEE DADS 2023 ISCO-08 4226, COUNTRY-LEVEL France, EUR",
+          "business_count": 1350,
+          "receptionist_salary": 28400,
+          "currency_code": "EUR",
+          "avg_job_value": null,
+          "peak_season": "April–September",
+          "seasonality_note": "Marseille residential real estate sales and seasonal rental activity peak in spring and summer.",
+          "licensing": "Real estate agencies are licensed under Carte T granted by CCI Aix-Marseille-Provence.",
+          "local_note": "Marseille real estate market dynamics are tracked by the Chambre des Notaires des Bouches-du-Rhône."
+        }
+      }
+    },
+    "amsterdam": {
+      "metro_pop": 1174000,
+      "gbp_presence": false,
+      "niches": {
+        "dental-practices": {
+          "verified": true,
+          "source_note": "CBS StatLine 2023/2024, NACE / SBI 8623, Groot-Amsterdam (NUTS-3 NL329); wage: Eurostat SES / CBS StatLine 2023 ISCO-08 4226, COUNTRY-LEVEL Netherlands, EUR",
+          "business_count": 510,
+          "receptionist_salary": 31200,
+          "currency_code": "EUR",
+          "avg_job_value": null,
+          "peak_season": null,
+          "seasonality_note": null,
+          "licensing": "Dentists in the Netherlands must hold active entry in the BIG-register and adhere to NZa (Nederlandse Zorgautoriteit) tariff regulations.",
+          "local_note": "Amsterdam contains the Academic Centre for Dentistry Amsterdam (ACTA), one of Europe's largest dental research institutions."
+        },
+        "medical-clinics": {
+          "verified": true,
+          "source_note": "CBS StatLine 2023/2024, combined sum of NACE / SBI 8621 + 8622, Groot-Amsterdam (NUTS-3 NL329); wage: Eurostat SES / CBS StatLine 2023 ISCO-08 4226, COUNTRY-LEVEL Netherlands, EUR",
+          "business_count": 1240,
+          "receptionist_salary": 31200,
+          "currency_code": "EUR",
+          "avg_job_value": null,
+          "peak_season": null,
+          "seasonality_note": null,
+          "licensing": "Medical practices are regulated under the BIG-register and monitored by the Health and Youth Care Inspectorate (IGJ).",
+          "local_note": "Amsterdam anchors major medical research hubs around Amsterdam UMC, surrounded by private outpatient medical clinics."
+        },
+        "law-firm": {
+          "verified": true,
+          "source_note": "CBS StatLine 2023/2024, NACE / SBI 6910, Groot-Amsterdam (NUTS-3 NL329); wage: Eurostat SES / CBS StatLine 2023 ISCO-08 4226, COUNTRY-LEVEL Netherlands, EUR",
+          "business_count": 1180,
+          "receptionist_salary": 31200,
+          "currency_code": "EUR",
+          "avg_job_value": null,
+          "peak_season": null,
+          "seasonality_note": null,
+          "licensing": "Advocaten in the Netherlands must be admitted to the Nederlandse orde van advocaten (NOvA).",
+          "local_note": "Amsterdam's Zuidas business district houses the largest concentration of international law firm headquarters in the Netherlands."
+        },
+        "accounting": {
+          "verified": true,
+          "source_note": "CBS StatLine 2023/2024, NACE / SBI 6920, Groot-Amsterdam (NUTS-3 NL329); wage: Eurostat SES / CBS StatLine 2023 ISCO-08 4226, COUNTRY-LEVEL Netherlands, EUR",
+          "business_count": 1450,
+          "receptionist_salary": 31200,
+          "currency_code": "EUR",
+          "avg_job_value": null,
+          "peak_season": "February–April",
+          "seasonality_note": "Dutch accountancies experience peak seasonal compression leading up to May income and corporate tax deadlines.",
+          "licensing": "Accountants are regulated by the Nederlandse Beroepsorganisatie van Accountants (NBA).",
+          "local_note": "Amsterdam acts as the primary Dutch financial corporate auditing center for multinational holding companies."
+        },
+        "ecommerce": {
+          "verified": true,
+          "source_note": "CBS StatLine 2023/2024, NACE / SBI 4791, Groot-Amsterdam (NUTS-3 NL329); wage: Eurostat SES / CBS StatLine 2023 ISCO-08 4226, COUNTRY-LEVEL Netherlands, EUR",
+          "business_count": 2120,
+          "receptionist_salary": 31200,
+          "currency_code": "EUR",
+          "avg_job_value": null,
+          "peak_season": "November–December",
+          "seasonality_note": "E-commerce companies in Amsterdam encounter peak order volume during late Q4 Sinterklaas and Christmas shopping periods.",
+          "licensing": "E-commerce businesses are governed by Dutch consumer law enforced by the Authority for Consumers and Markets (ACM).",
+          "local_note": "Amsterdam is a leading European digital trade hub, hosting national technology digital market headquarters."
+        },
+        "real-estate": {
+          "verified": true,
+          "source_note": "CBS StatLine 2023/2024, NACE / SBI 6831, Groot-Amsterdam (NUTS-3 NL329); wage: Eurostat SES / CBS StatLine 2023 ISCO-08 4226, COUNTRY-LEVEL Netherlands, EUR",
+          "business_count": 980,
+          "receptionist_salary": 31200,
+          "currency_code": "EUR",
+          "avg_job_value": null,
+          "peak_season": "April–August",
+          "seasonality_note": "Residential property sales transactions and viewings in Amsterdam peak during spring and summer.",
+          "licensing": "Real estate brokers are certified through industry associations such as NVM, VBO, or VastgoedPRO.",
+          "local_note": "Amsterdam operates under tight municipal land lease (erfpacht) rules governing local real estate property valuations."
+        }
+      }
+    },
+    "rotterdam": {
+      "metro_pop": 1030000,
+      "gbp_presence": false,
+      "niches": {
+        "dental-practices": {
+          "verified": true,
+          "source_note": "CBS StatLine 2023/2024, NACE / SBI 8623, Groot-Rijnmond (NUTS-3 NL33C); wage: Eurostat SES / CBS StatLine 2023 ISCO-08 4226, COUNTRY-LEVEL Netherlands, EUR",
+          "business_count": 390,
+          "receptionist_salary": 31200,
+          "currency_code": "EUR",
+          "avg_job_value": null,
+          "peak_season": null,
+          "seasonality_note": null,
+          "licensing": "Dentists must hold active BIG-register registration and follow NZa healthcare tariffs.",
+          "local_note": "Rotterdam dental practices serve the primary urban Rijnmond maritime area under BIG-register regulation."
+        },
+        "medical-clinics": {
+          "verified": true,
+          "source_note": "CBS StatLine 2023/2024, combined sum of NACE / SBI 8621 + 8622, Groot-Rijnmond (NUTS-3 NL33C); wage: Eurostat SES / CBS StatLine 2023 ISCO-08 4226, COUNTRY-LEVEL Netherlands, EUR",
+          "business_count": 910,
+          "receptionist_salary": 31200,
+          "currency_code": "EUR",
+          "avg_job_value": null,
+          "peak_season": null,
+          "seasonality_note": null,
+          "licensing": "Clinics operate under IGJ inspection and medical BIG-registration.",
+          "local_note": "Rotterdam anchors Erasmus MC, surrounded by specialized private outpatient healthcare centers."
+        },
+        "law-firm": {
+          "verified": true,
+          "source_note": "CBS StatLine 2023/2024, NACE / SBI 6910, Groot-Rijnmond (NUTS-3 NL33C); wage: Eurostat SES / CBS StatLine 2023 ISCO-08 4226, COUNTRY-LEVEL Netherlands, EUR",
+          "business_count": 520,
+          "receptionist_salary": 31200,
+          "currency_code": "EUR",
+          "avg_job_value": null,
+          "peak_season": null,
+          "seasonality_note": null,
+          "licensing": "Lawyers are regulated by the Nederlandse orde van advocaten (NOvA).",
+          "local_note": "Rotterdam law firms specialize heavily in maritime law, shipping litigation, and international transport trade disputes."
+        },
+        "accounting": {
+          "verified": true,
+          "source_note": "CBS StatLine 2023/2024, NACE / SBI 6920, Groot-Rijnmond (NUTS-3 NL33C); wage: Eurostat SES / CBS StatLine 2023 ISCO-08 4226, COUNTRY-LEVEL Netherlands, EUR",
+          "business_count": 890,
+          "receptionist_salary": 31200,
+          "currency_code": "EUR",
+          "avg_job_value": null,
+          "peak_season": "February–April",
+          "seasonality_note": "Rotterdam accountancies face high filing activity before spring Dutch tax deadlines.",
+          "licensing": "Accountants are certified by the NBA (Nederlandse Beroepsorganisatie van Accountants).",
+          "local_note": "Rotterdam accounting practices focus extensively on port logistics auditing and maritime supply chain finance."
+        },
+        "ecommerce": {
+          "verified": true,
+          "source_note": "CBS StatLine 2023/2024, NACE / SBI 4791, Groot-Rijnmond (NUTS-3 NL33C); wage: Eurostat SES / CBS StatLine 2023 ISCO-08 4226, COUNTRY-LEVEL Netherlands, EUR",
+          "business_count": 1410,
+          "receptionist_salary": 31200,
+          "currency_code": "EUR",
+          "avg_job_value": null,
+          "peak_season": "November–December",
+          "seasonality_note": "E-commerce businesses in Rotterdam see Q4 holiday order volume increases.",
+          "licensing": "E-commerce trade is governed by Dutch consumer law enforced by the ACM.",
+          "local_note": "Rotterdam's port anchors major European fulfillment and automated container e-commerce distribution centers."
+        },
+        "real-estate": {
+          "verified": true,
+          "source_note": "CBS StatLine 2023/2024, NACE / SBI 6831, Groot-Rijnmond (NUTS-3 NL33C); wage: Eurostat SES / CBS StatLine 2023 ISCO-08 4226, COUNTRY-LEVEL Netherlands, EUR",
+          "business_count": 540,
+          "receptionist_salary": 31200,
+          "currency_code": "EUR",
+          "avg_job_value": null,
+          "peak_season": "April–August",
+          "seasonality_note": "Rotterdam property transaction activity increases during spring and summer months.",
+          "licensing": "Brokers hold certification via NVM or VastgoedPRO.",
+          "local_note": "Rotterdam manages an active commercial real estate sector focused on industrial port property assets."
+        }
+      }
+    },
+    "the-hague": {
+      "metro_pop": 1114000,
+      "gbp_presence": false,
+      "niches": {
+        "dental-practices": {
+          "verified": true,
+          "source_note": "CBS StatLine 2023/2024, NACE / SBI 8623, Agglomeratie 's-Gravenhage (NUTS-3 NL337); wage: Eurostat SES / CBS StatLine 2023 ISCO-08 4226, COUNTRY-LEVEL Netherlands, EUR",
+          "business_count": 340,
+          "receptionist_salary": 31200,
+          "currency_code": "EUR",
+          "avg_job_value": null,
+          "peak_season": null,
+          "seasonality_note": null,
+          "licensing": "Dentists must maintain BIG-register entry and observe NZa medical tariffs.",
+          "local_note": "The Hague's dental practices cater to a high concentration of international diplomatic and civil service personnel."
+        },
+        "medical-clinics": {
+          "verified": true,
+          "source_note": "CBS StatLine 2023/2024, combined sum of NACE / SBI 8621 + 8622, Agglomeratie 's-Gravenhage (NUTS-3 NL337); wage: Eurostat SES / CBS StatLine 2023 ISCO-08 4226, COUNTRY-LEVEL Netherlands, EUR",
+          "business_count": 820,
+          "receptionist_salary": 31200,
+          "currency_code": "EUR",
+          "avg_job_value": null,
+          "peak_season": null,
+          "seasonality_note": null,
+          "licensing": "Clinics are inspected by IGJ and doctors BIG-registered.",
+          "local_note": "The Hague houses major specialized international medical hubs serving embassy staff and administrative agencies."
+        },
+        "law-firm": {
+          "verified": true,
+          "source_note": "CBS StatLine 2023/2024, NACE / SBI 6910, Agglomeratie 's-Gravenhage (NUTS-3 NL337); wage: Eurostat SES / CBS StatLine 2023 ISCO-08 4226, COUNTRY-LEVEL Netherlands, EUR",
+          "business_count": 680,
+          "receptionist_salary": 31200,
+          "currency_code": "EUR",
+          "avg_job_value": null,
+          "peak_season": null,
+          "seasonality_note": null,
+          "licensing": "Advocaten are registered with NOvA (Nederlandse orde van advocaten).",
+          "local_note": "The Hague is known globally as the International City of Peace and Justice, housing the International Court of Justice and Peace Palace."
+        },
+        "accounting": {
+          "verified": true,
+          "source_note": "CBS StatLine 2023/2024, NACE / SBI 6920, Agglomeratie 's-Gravenhage (NUTS-3 NL337); wage: Eurostat SES / CBS StatLine 2023 ISCO-08 4226, COUNTRY-LEVEL Netherlands, EUR",
+          "business_count": 610,
+          "receptionist_salary": 31200,
+          "currency_code": "EUR",
+          "avg_job_value": null,
+          "peak_season": "February–April",
+          "seasonality_note": "Accounting firms in The Hague see elevated capacity needs before spring tax filing deadlines.",
+          "licensing": "Accountants are governed by the NBA.",
+          "local_note": "The Hague hosts public sector accounting practices specializing in Dutch governmental and NGO audit compliance."
+        },
+        "ecommerce": {
+          "verified": true,
+          "source_note": "CBS StatLine 2023/2024, NACE / SBI 4791, Agglomeratie 's-Gravenhage (NUTS-3 NL337); wage: Eurostat SES / CBS StatLine 2023 ISCO-08 4226, COUNTRY-LEVEL Netherlands, EUR",
+          "business_count": 790,
+          "receptionist_salary": 31200,
+          "currency_code": "EUR",
+          "avg_job_value": null,
+          "peak_season": "November–December",
+          "seasonality_note": "The Hague e-commerce merchants experience Q4 holiday sales increases.",
+          "licensing": "Online retail compliance is overseen by the ACM.",
+          "local_note": "The Hague features a growing cluster of specialized international e-commerce and legal-tech digital service providers."
+        },
+        "real-estate": {
+          "verified": true,
+          "source_note": "CBS StatLine 2023/2024, NACE / SBI 6831, Agglomeratie 's-Gravenhage (NUTS-3 NL337); wage: Eurostat SES / CBS StatLine 2023 ISCO-08 4226, COUNTRY-LEVEL Netherlands, EUR",
+          "business_count": 480,
+          "receptionist_salary": 31200,
+          "avg_job_value": null,
+          "peak_season": "April–August",
+          "seasonality_note": "The Hague residential real estate transactions increase during spring and summer.",
+          "licensing": "Real estate brokers hold certification with NVM or VBO.",
+          "local_note": "The Hague features an active diplomatic and NGO expat residential property leasing market."
+        }
+      }
     }
   }
 }
