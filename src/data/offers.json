@@ -1,0 +1,258 @@
+{
+  "_comment": "Single source of truth for offers + core services. Prices are BASE (EU/EUR). US/USD is derived at render time via region.priceFactor (tiers) and region.valueFactor (value stack), rounded to x,x97 / nearest 100. anchor/roi copy is stored per region. Consumed by src/js/data.js (runtime) and generate_offers.py (build).",
+  "guarantee": "30-Day Implementation Guarantee — if your Done-For-You system isn't live within 30 days, we cover your first month.",
+  "coreServices": [
+    { "id": "fractional-caio", "title": "Fractional Chief AI Officer (fCAIO)", "category": "Strategic Leadership", "description": "Executive AI leadership without the headcount. Strategic governance, board advisory, and technical roadmap for mid-market to enterprise organizations.", "benefits": ["Board-level strategy", "Technical roadmap", "Vendor selection", "Risk & compliance"], "price": { "label": "Monthly Retainer", "eu": "From €3,500/mo", "us": "From $8,000/mo" } },
+    { "id": "ai-strategy", "title": "AI Strategy Consulting", "category": "Consulting", "description": "Project-based consultancy to align AI initiatives with your business objectives, ROI targets, and buy-vs-build decisions.", "benefits": ["Opportunity assessment", "ROI analysis", "Buy-vs-build strategy", "Market positioning"], "price": { "label": "Project Based", "eu": "From €5,000", "us": "From $7,500" } },
+    { "id": "ai-implementation", "title": "AI Implementation (DFY)", "category": "Implementation", "description": "End-to-end execution of AI systems. Done-for-you automation pipelines, RAG systems, and custom internal tools.", "benefits": ["Custom development", "System integration", "Testing & QA", "Deployment management"], "price": { "label": "Project Based", "eu": "Custom Quote", "us": "Custom Quote" } },
+    { "id": "ai-training", "title": "AI Training & Enablement (DWY)", "category": "Training", "description": "Upskill your workforce to use generative AI safely. Done-with-you workshops, prompt libraries, and executive briefings.", "benefits": ["Team workshops", "Prompt libraries", "Policy development", "Skill certification"], "price": { "label": "Per Workshop", "eu": "From €2,500", "us": "From $3,500" } },
+    { "id": "ai-audit", "title": "AI Opportunity Audit (DIY)", "category": "Audit", "description": "A scoped diagnostic of your workflows, data readiness, and highest-ROI automation opportunities — with a prioritized roadmap.", "benefits": ["Gap analysis", "Opportunity map", "Data readiness score", "Actionable roadmap"], "price": { "label": "One-Time Fee", "eu": "€1,997", "us": "$2,500" } },
+    { "id": "custom-ai-solutions", "title": "Custom AI Solutions", "category": "Development", "description": "Bespoke development of proprietary AI models and applications tailored to your unique industry challenges.", "benefits": ["Proprietary models", "IP ownership", "Competitive advantage", "Deep integration"], "price": { "label": "Project Based", "eu": "Custom Quote", "us": "Custom Quote" } },
+    { "id": "process-automation", "title": "AI Process Automation", "category": "Automation", "description": "Replace manual, repetitive tasks with intelligent, self-healing automation agents that run 24/7.", "benefits": ["Cost reduction", "Error elimination", "24/7 operation", "Scalability"], "price": { "label": "Project Based", "eu": "From €3,000", "us": "From $4,500" } },
+    { "id": "analytics-insights", "title": "AI-Powered Analytics & Insights", "category": "Analytics", "description": "Unlock your data with predictive modeling and automated business-intelligence dashboards.", "benefits": ["Predictive modeling", "Real-time dashboards", "Customer insights", "Trend forecasting"], "price": { "label": "Project Based", "eu": "From €4,000", "us": "From $6,000" } }
+  ],
+  "offers": [
+    {
+      "id": "ai-receptionist", "category": "Customer Service", "title": "AI Receptionist & Missed-Call-to-Text",
+      "tagline": "Never miss another job.", "regions": ["us", "eu"], "priority": true, "flow": "ai-receptionist",
+      "description": "A 24/7 AI voice + text agent that answers every call, books appointments, texts back missed calls, and dispatches emergencies — so no lead ever hits voicemail.",
+      "tags": ["Voice AI", "Booking", "Missed-Call Text"], "verticals": ["home-services", "healthcare", "real-estate"],
+      "anchorEu": "Replaces a front-desk / answering service (€35k–45k/yr).", "anchorUs": "Replaces a front desk or answering service ($40k–50k/yr loaded).",
+      "roiEu": "One recovered job/week can cover the system for a year.", "roiUs": "For the trades, one recovered job a week pays for the whole year.",
+      "pains": ["Missed calls go to voicemail and never call back", "Every after-hours emergency call is a lost job", "The owner is answering the phone instead of running the business"],
+      "valueStack": [{ "label": "24/7 AI Call Answering", "value": 4800 }, { "label": "Missed-Call-to-Text Recovery", "value": 3600 }, { "label": "Appointment Booking & Reminders", "value": 3600 }, { "label": "Emergency Dispatch Routing", "value": 2400 }],
+      "pricing": { "diy": { "setup": 997, "monthly": 297 }, "dwy": { "setup": 2497, "monthly": 497 }, "dfy": { "setup": 4997, "monthly": 797 } }
+    },
+    {
+      "id": "ai-exec-assistant", "category": "Administrative & Operations", "title": "AI Executive Assistant",
+      "tagline": "Give your executives their time back.", "regions": ["eu", "us"], "flow": "default",
+      "description": "A complete virtual AI assistant handling email triage, scheduling, document management, and routine follow-ups for busy executives and their teams.",
+      "tags": ["Email", "Scheduling", "Documents"], "verticals": ["legal", "finance", "real-estate"],
+      "anchorEu": "An executive assistant costs €45k–65k/yr.", "anchorUs": "An executive assistant costs $55k–75k/yr loaded.",
+      "roiEu": "Executives lose ~2.5 hrs/day to email. ROI in 3–6 months.", "roiUs": "Execs waste 28% of the workday on email. ROI in 3–6 months.",
+      "pains": ["Drowning in 200+ emails a day", "Double-booked meetings and missed follow-ups", "Paying full-time salary for calendar management"],
+      "valueStack": [{ "label": "AI Email Assistant", "value": 3600 }, { "label": "Smart Calendar Management", "value": 2400 }, { "label": "Document Organization", "value": 1800 }, { "label": "Meeting Notes & Follow-ups", "value": 2400 }],
+      "pricing": { "diy": { "setup": 997, "monthly": 297 }, "dwy": { "setup": 2997, "monthly": 497 }, "dfy": { "setup": 5997, "monthly": 797 } }
+    },
+    {
+      "id": "meeting-intelligence", "category": "Administrative & Operations", "title": "Meeting Intelligence System",
+      "tagline": "Never lose a detail again.", "regions": ["eu", "us"], "flow": "default",
+      "description": "AI meeting recording, transcription, summaries, and action-item extraction that auto-populates your CRM. Every call captured, every follow-up tracked.",
+      "tags": ["Meetings", "Transcription", "CRM"], "verticals": ["legal", "finance"],
+      "anchorEu": "A junior taking notes costs €30k/yr.", "anchorUs": "A junior on notes costs $40k/yr.",
+      "roiEu": "Stop losing deals to dropped follow-ups.", "roiUs": "Stop losing deals to dropped follow-ups.",
+      "pains": ["No one remembers what was agreed", "Action items fall through the cracks", "Paying staff just to take notes"],
+      "valueStack": [{ "label": "Unlimited Meeting Recordings", "value": 1200 }, { "label": "AI Transcription", "value": 2400 }, { "label": "Smart Summary Generation", "value": 1800 }, { "label": "CRM Auto-Population", "value": 1800 }],
+      "pricing": { "diy": { "setup": 497, "monthly": 197 }, "dwy": { "setup": 1497, "monthly": 297 }, "dfy": { "setup": 2997, "monthly": 497 } }
+    },
+    {
+      "id": "doc-processing", "category": "Administrative & Operations", "title": "Document Processing Automation",
+      "tagline": "Kill the data-entry backlog.", "regions": ["eu", "us"], "flow": "default",
+      "description": "AI that reads, categorizes, extracts data from, and processes documents automatically — with compliance checks built in. Ideal for legal, accounting, and logistics.",
+      "tags": ["Documents", "Data Entry", "Compliance"], "verticals": ["legal", "finance"],
+      "anchorEu": "Staff spend 50% of time on data entry.", "anchorUs": "Staff spend 50% of time on data entry.",
+      "roiEu": "One contract error can cost €50k+.", "roiUs": "One contract error can cost $50k+.",
+      "pains": ["Half of staff time lost to data entry", "Human errors in contracts are expensive", "Can't scale without hiring more people"],
+      "valueStack": [{ "label": "AI Document Reader", "value": 4800 }, { "label": "Data Extraction Engine", "value": 6000 }, { "label": "Auto-Categorization", "value": 3600 }, { "label": "Compliance Checking", "value": 4800 }],
+      "pricing": { "diy": { "setup": 1997, "monthly": 397 }, "dwy": { "setup": 4997, "monthly": 697 }, "dfy": { "setup": 9997, "monthly": 1297 } }
+    },
+    {
+      "id": "ai-sdr", "category": "Sales & Marketing", "title": "AI Sales Development Rep (SDR)",
+      "tagline": "A sales rep that never sleeps.", "regions": ["eu", "us"], "priority": true, "flow": "ai-sdr",
+      "description": "An AI system that qualifies leads, runs personalized outreach across email and LinkedIn, follows up relentlessly, and books meetings — 24/7, sub-60-second response.",
+      "tags": ["Sales", "Lead Gen", "CRM"], "verticals": ["ecommerce", "real-estate", "home-services"],
+      "anchorEu": "An SDR costs €55k–75k all-in.", "anchorUs": "An SDR costs $60k–80k loaded — and quits.",
+      "roiEu": "Sub-60-second response vs the 5-hour human average.", "roiUs": "Respond in under 60 seconds vs the 5-hour human average. Available as rev-share.",
+      "pains": ["Leads go cold before anyone replies", "Reps burn out and churn", "Follow-up is inconsistent and stops too early"],
+      "valueStack": [{ "label": "AI Lead Qualification", "value": 7200 }, { "label": "Personalized Email Sequences", "value": 6000 }, { "label": "Smart Follow-up Engine", "value": 4800 }, { "label": "LinkedIn Automation", "value": 3600 }],
+      "pricing": { "diy": { "setup": 2497, "monthly": 697 }, "dwy": { "setup": 5997, "monthly": 1297 }, "dfy": { "setup": 12997, "monthly": 2497 } }
+    },
+    {
+      "id": "content-machine", "category": "Sales & Marketing", "title": "Content Marketing Machine",
+      "tagline": "Your brand voice, at scale.", "regions": ["eu", "us"], "flow": "default",
+      "description": "An AI content system producing blogs, social posts, newsletters, and SEO content at scale — in your voice, optimized to rank.",
+      "tags": ["Content", "SEO", "Social"], "verticals": ["ecommerce", "real-estate"],
+      "anchorEu": "A content writer costs €40k+/yr for mediocre output.", "anchorUs": "A content hire runs $50k+/yr for mediocre output.",
+      "roiEu": "From 1–2 posts/week to a full content engine.", "roiUs": "From 1–2 posts/week to a full content engine.",
+      "pains": ["Content bottleneck: 1–2 posts a week max", "Inconsistent brand voice", "Expensive writers, mediocre output"],
+      "valueStack": [{ "label": "40 Blog Posts / Month", "value": 8000 }, { "label": "60 Social Posts / Month", "value": 3600 }, { "label": "4 Long-Form Guides / Month", "value": 6000 }, { "label": "SEO Optimization Engine", "value": 6000 }],
+      "pricing": { "diy": { "setup": 997, "monthly": 497 }, "dwy": { "setup": 2997, "monthly": 897 }, "dfy": { "setup": 6997, "monthly": 1497 } }
+    },
+    {
+      "id": "reputation-ai", "category": "Sales & Marketing", "title": "Review & Reputation Management AI",
+      "tagline": "Protect your stars 24/7.", "regions": ["eu", "us"], "flow": "default",
+      "description": "AI that monitors reviews across platforms, drafts on-brand responses, and automatically requests reviews from happy customers.",
+      "tags": ["Reviews", "Reputation", "CX"], "verticals": ["home-services", "healthcare", "ecommerce"],
+      "anchorEu": "Ratings drive revenue in every local market.", "anchorUs": "Half a star can swing local revenue double digits.",
+      "roiEu": "3.8 → 4.5 stars can lift revenue meaningfully.", "roiUs": "A restaurant going 3.8 → 4.5 stars lifted revenue ~$12.5k/mo.",
+      "pains": ["Negative reviews sit unanswered", "No system to generate new reviews", "Reputation managed reactively, if at all"],
+      "valueStack": [{ "label": "24/7 Review Monitoring", "value": 2400 }, { "label": "AI Response Generation", "value": 3600 }, { "label": "Automated Review Requests", "value": 2400 }, { "label": "Sentiment Dashboard", "value": 1800 }],
+      "pricing": { "diy": { "setup": 497, "monthly": 297 }, "dwy": { "setup": 1497, "monthly": 497 }, "dfy": { "setup": 2997, "monthly": 797 } }
+    },
+    {
+      "id": "ai-support-agent", "category": "Customer Service", "title": "AI Customer Support Agent",
+      "tagline": "Deflect 80% of tickets.", "regions": ["eu", "us"], "priority": true, "flow": "ai-support-agent",
+      "description": "A 24/7 AI chat + email agent that resolves ~80% of inquiries automatically, in 30+ languages, wired into your knowledge base and tools.",
+      "tags": ["Support", "Chat", "Email"], "verticals": ["ecommerce", "finance"],
+      "anchorEu": "Each support FTE costs ~€35k/yr.", "anchorUs": "Each CSR runs $45k–55k/yr.",
+      "roiEu": "24/7 coverage without the headcount.", "roiUs": "24/7 coverage without the headcount.",
+      "pains": ["Tickets pile up; >24h response times", "Can't afford round-the-clock human coverage", "Inconsistent answers across agents"],
+      "valueStack": [{ "label": "24/7 AI Chat Support", "value": 8400 }, { "label": "Email Support Automation", "value": 6000 }, { "label": "30+ Language Support", "value": 4800 }, { "label": "Knowledge Base Integration", "value": 1800 }],
+      "pricing": { "diy": { "setup": 1997, "monthly": 497 }, "dwy": { "setup": 4997, "monthly": 897 }, "dfy": { "setup": 9997, "monthly": 1497 } }
+    },
+    {
+      "id": "appointment-booking", "category": "Customer Service", "title": "Appointment Booking & Scheduling",
+      "tagline": "Fill the calendar, kill no-shows.", "regions": ["eu", "us"], "flow": "default",
+      "description": "AI-powered booking, reminders, and no-show reduction with payment collection — for healthcare, wellness, and professional services.",
+      "tags": ["Scheduling", "Reminders", "Payments"], "verticals": ["healthcare", "home-services"],
+      "anchorEu": "No-shows cost 15–30% of revenue.", "anchorUs": "No-shows cost 15–30% of revenue.",
+      "roiEu": "Recover after-hours bookings and lost slots.", "roiUs": "Recover after-hours bookings and lost slots.",
+      "pains": ["No-shows quietly destroy the schedule", "Phone tag loses 2 of 3 potential bookings", "No after-hours booking capability"],
+      "valueStack": [{ "label": "24/7 Online Booking", "value": 3600 }, { "label": "AI Phone Booking Assistant", "value": 4800 }, { "label": "No-Show Reduction System", "value": 3600 }, { "label": "Payment Collection", "value": 1800 }],
+      "pricing": { "diy": { "setup": 997, "monthly": 297 }, "dwy": { "setup": 2497, "monthly": 497 }, "dfy": { "setup": 4997, "monthly": 797 } }
+    },
+    {
+      "id": "ai-bookkeeping", "category": "Finance & Accounting", "title": "AI Bookkeeping & Expense Management",
+      "tagline": "Goodbye shoebox of receipts.", "regions": ["eu", "us"], "flow": "default",
+      "description": "Automated expense tracking, receipt capture, smart categorization, and tax-ready reports — books that stay clean all year.",
+      "tags": ["Expenses", "Receipts", "Tax"], "verticals": ["finance", "home-services"],
+      "anchorEu": "A bookkeeper costs €35k+/yr.", "anchorUs": "A bookkeeper costs $50k/yr.",
+      "roiEu": "Stop missing €5k–20k in deductions.", "roiUs": "Stop missing $5k–20k in deductions.",
+      "pains": ["Receipts pile up until tax time", "Missed deductions worth thousands", "Accountant charges to untangle the mess"],
+      "valueStack": [{ "label": "Automated Expense Tracking", "value": 2400 }, { "label": "Receipt Scanning & Storage", "value": 1800 }, { "label": "Smart Categorization", "value": 2400 }, { "label": "Tax-Ready Reports", "value": 3600 }],
+      "pricing": { "diy": { "setup": 497, "monthly": 197 }, "dwy": { "setup": 1497, "monthly": 397 }, "dfy": { "setup": 2997, "monthly": 697 } }
+    },
+    {
+      "id": "invoice-collection", "category": "Finance & Accounting", "title": "AI Invoice & Payment Collection",
+      "tagline": "Get paid faster.", "regions": ["eu", "us"], "flow": "default",
+      "description": "Automated invoicing, smart multi-channel reminders, collections, and cash-flow forecasting that cuts days-sales-outstanding.",
+      "tags": ["Invoicing", "Collections", "AR"], "verticals": ["finance", "home-services"],
+      "anchorEu": "Late payments strangle cash flow.", "anchorUs": "Late payments strangle cash flow. Available on % recovered.",
+      "roiEu": "Cut DSO by ~20 days.", "roiUs": "Cut DSO by ~20 days and recover bad debt.",
+      "pains": ["Cash tied up in aging receivables", "Chasing payments manually", "No forecast of what's actually coming in"],
+      "valueStack": [{ "label": "Automated Invoice Generation", "value": 3600 }, { "label": "Smart Payment Reminders", "value": 2400 }, { "label": "Multi-Channel Collections", "value": 4800 }, { "label": "Cash Flow Forecasting", "value": 3600 }],
+      "pricing": { "diy": { "setup": 997, "monthly": 297 }, "dwy": { "setup": 2497, "monthly": 497 }, "dfy": { "setup": 4997, "monthly": 797 } }
+    },
+    {
+      "id": "ai-recruitment", "category": "HR & Recruitment", "title": "AI Recruitment & Hiring System",
+      "tagline": "Fill roles in days, not weeks.", "regions": ["eu", "us"], "flow": "default",
+      "description": "Automated job posting, AI resume screening, interview scheduling, and applicant tracking — so great candidates never sit in a pile.",
+      "tags": ["Hiring", "Screening", "ATS"], "verticals": ["healthcare", "home-services"],
+      "anchorEu": "Open roles cost revenue every week.", "anchorUs": "Open roles cost revenue every week.",
+      "roiEu": "From 6+ weeks to fill down to days.", "roiUs": "From 6+ weeks to fill down to days.",
+      "pains": ["250+ applications per role, unreviewed", "6+ weeks to fill positions", "Great candidates lost in the pile"],
+      "valueStack": [{ "label": "Multi-Platform Job Posting", "value": 3600 }, { "label": "AI Resume Screening", "value": 6000 }, { "label": "Interview Scheduling", "value": 2400 }, { "label": "Applicant Tracking", "value": 4800 }],
+      "pricing": { "diy": { "setup": 1997, "monthly": 497 }, "dwy": { "setup": 4997, "monthly": 897 }, "dfy": { "setup": 9997, "monthly": 1697 } }
+    },
+    {
+      "id": "onboarding-automation", "category": "HR & Recruitment", "title": "Employee Onboarding Automation",
+      "tagline": "New hires productive on day one.", "regions": ["eu", "us"], "flow": "default",
+      "description": "Automated paperwork, training modules, and compliance tracking that turn a chaotic first week into a repeatable system.",
+      "tags": ["Onboarding", "Training", "Compliance"], "verticals": ["healthcare", "finance"],
+      "anchorEu": "Poor onboarding drives early attrition.", "anchorUs": "Poor onboarding drives early attrition.",
+      "roiEu": "Consistent onboarding at any scale.", "roiUs": "Consistent onboarding at any scale.",
+      "pains": ["Paperwork chaos for every new hire", "Inconsistent training and ramp", "Compliance gaps no one tracks"],
+      "valueStack": [{ "label": "Digital Paperwork System", "value": 2400 }, { "label": "Training Module Automation", "value": 3600 }, { "label": "Compliance Tracking", "value": 2400 }],
+      "pricing": { "diy": { "setup": 997, "monthly": 297 }, "dwy": { "setup": 2497, "monthly": 497 }, "dfy": { "setup": 4997, "monthly": 797 } }
+    },
+    {
+      "id": "medical-practice-ai", "category": "Healthcare", "title": "Medical Practice Management AI",
+      "tagline": "Run the front office on autopilot.", "regions": ["eu", "us"], "priority": true, "flow": "healthcare",
+      "description": "Complete practice automation: patient intake, insurance verification, appointment management, and billing/claims — HIPAA-aware end to end.",
+      "tags": ["Patient Intake", "Insurance", "Billing"], "verticals": ["healthcare"],
+      "anchorEu": "Front-office + billing staff cost €70k+/yr.", "anchorUs": "Front office + biller costs $90k+/yr.",
+      "roiEu": "Cut denials and no-show losses.", "roiUs": "Insurance denials cost $5k–15k/mo; no-shows cost $50k–150k/yr.",
+      "pains": ["Insurance denials pile up every month", "20–30% no-show rate", "Front office overwhelmed and error-prone"],
+      "valueStack": [{ "label": "Patient Intake Automation", "value": 4800 }, { "label": "Insurance Verification", "value": 6000 }, { "label": "Appointment Management", "value": 4800 }, { "label": "Billing & Claims Automation", "value": 7200 }],
+      "pricing": { "diy": { "setup": 2997, "monthly": 697 }, "dwy": { "setup": 7997, "monthly": 1297 }, "dfy": { "setup": 14997, "monthly": 2497 } }
+    },
+    {
+      "id": "patient-followup", "category": "Healthcare", "title": "Post-Care Patient Follow-Up System",
+      "tagline": "Catch complications before the ER.", "regions": ["eu", "us"], "flow": "healthcare",
+      "description": "AI-automated post-visit check-ins, medication-adherence reminders, red-flag alerts, and review generation for surgeons, physios, and dentists.",
+      "tags": ["Follow-up", "Reminders", "Reviews"], "verticals": ["healthcare"],
+      "anchorEu": "Complications missed until emergency.", "anchorUs": "Complications missed until it's an ER visit.",
+      "roiEu": "Better outcomes and more 5-star reviews.", "roiUs": "Better outcomes and more 5-star reviews.",
+      "pains": ["Post-op issues caught too late", "Patients forget post-care instructions", "Zero feedback on recovery outcomes"],
+      "valueStack": [{ "label": "Automated Check-in SMS/Email", "value": 3600 }, { "label": "Medication Reminders", "value": 2400 }, { "label": "Red-Flag Alert System", "value": 4800 }, { "label": "Review Generation", "value": 3600 }],
+      "pricing": { "diy": { "setup": 997, "monthly": 397 }, "dwy": { "setup": 2997, "monthly": 597 }, "dfy": { "setup": 5997, "monthly": 997 } }
+    },
+    {
+      "id": "legal-research-ai", "category": "Legal Automation", "title": "Legal Research & Case Analysis AI",
+      "tagline": "An AI paralegal that never bills you.", "regions": ["eu", "us"], "priority": true, "flow": "legal",
+      "description": "An AI 'paralegal' that scans case law, summarizes precedents, checks citations, and drafts research memos — cutting research time by ~80%.",
+      "tags": ["Research", "Case Law", "Memos"], "verticals": ["legal"],
+      "anchorEu": "Associates bill €200–300/hr on research.", "anchorUs": "Associates bill $200–300/hr but lose 50% to non-billable research.",
+      "roiEu": "Take on 2x more cases with the same team.", "roiUs": "Cut research 80%; take on 2x more cases.",
+      "pains": ["Associates buried in non-billable research", "Slow turnaround on memos", "Citation checking eats hours"],
+      "valueStack": [{ "label": "Case Law Database Search", "value": 7200 }, { "label": "Automated Memo Drafting", "value": 8400 }, { "label": "Precedent Analysis Engine", "value": 6000 }, { "label": "Citation Checking", "value": 2400 }],
+      "pricing": { "diy": { "setup": 2497, "monthly": 597 }, "dwy": { "setup": 5997, "monthly": 997 }, "dfy": { "setup": 12997, "monthly": 1997 } }
+    },
+    {
+      "id": "contract-review", "category": "Legal Automation", "title": "Contract Review & Drafting Automation",
+      "tagline": "Close deals, not review queues.", "regions": ["eu", "us"], "flow": "legal",
+      "description": "AI that reads contracts, flags risky clauses, compares against your playbook, and auto-drafts standard agreements with e-signature.",
+      "tags": ["Contracts", "Risk", "Drafting"], "verticals": ["legal", "real-estate"],
+      "anchorEu": "Deals stall for weeks in legal review.", "anchorUs": "Deals stall for weeks in legal review.",
+      "roiEu": "Ship NDAs and MSAs in minutes.", "roiUs": "Ship NDAs and MSAs in minutes.",
+      "pains": ["Deals stalled waiting on legal", "Dangerous indemnity clauses slip through", "Endless repetitive NDA/MSA drafting"],
+      "valueStack": [{ "label": "Risk Flagging System", "value": 9600 }, { "label": "Clause Comparison Engine", "value": 4800 }, { "label": "Auto-Drafting Wizard", "value": 3600 }, { "label": "E-Signature Integration", "value": 1200 }],
+      "pricing": { "diy": { "setup": 1997, "monthly": 497 }, "dwy": { "setup": 4997, "monthly": 897 }, "dfy": { "setup": 9997, "monthly": 1497 } }
+    },
+    {
+      "id": "dynamic-pricing", "category": "E-commerce & Retail", "title": "Dynamic Pricing & Inventory Optimization",
+      "tagline": "Right price, right stock, always.", "regions": ["eu", "us"], "flow": "ecommerce",
+      "description": "AI that adjusts prices to demand and competitors, forecasts demand, and automates reordering — protecting margin and killing dead stock.",
+      "tags": ["Pricing", "Inventory", "Forecasting"], "verticals": ["ecommerce"],
+      "anchorEu": "Stockouts and overstock quietly bleed margin.", "anchorUs": "Stockouts cost retailers ~$1T globally each year.",
+      "roiEu": "Dynamic pricing lifts revenue ~25%.", "roiUs": "Dynamic pricing lifts revenue ~25% on average.",
+      "pains": ["Leaving margin on the table with static prices", "Dead stock ties up cash", "Stockouts on your best sellers"],
+      "valueStack": [{ "label": "Real-Time Competitor Tracking", "value": 4800 }, { "label": "Demand Forecasting Engine", "value": 6000 }, { "label": "Automated Reordering", "value": 2400 }, { "label": "Dead Stock Alerts", "value": 3600 }],
+      "pricing": { "diy": { "setup": 1497, "monthly": 397 }, "dwy": { "setup": 3997, "monthly": 797 }, "dfy": { "setup": 7997, "monthly": 1297 } }
+    },
+    {
+      "id": "product-recommendations", "category": "E-commerce & Retail", "title": "Personalized Recommendation Engine",
+      "tagline": "Lift AOV on autopilot.", "regions": ["eu", "us"], "flow": "ecommerce",
+      "description": "AI that analyzes customer behavior to power on-site recommendations, cart-abandonment recovery, and post-purchase upsell flows.",
+      "tags": ["Upsell", "Personalization", "LTV"], "verticals": ["ecommerce"],
+      "anchorEu": "Generic storefronts leave revenue unclaimed.", "anchorUs": "Generic storefronts leave revenue unclaimed.",
+      "roiEu": "A 15% AOV lift on €50k/mo = €90k/yr.", "roiUs": "A 15% AOV lift on $50k/mo = $90k/yr new revenue.",
+      "pains": ["No personalization = lower AOV", "Abandoned carts never recovered", "No post-purchase upsell system"],
+      "valueStack": [{ "label": "On-Site 'You May Also Like' AI", "value": 3600 }, { "label": "Cart Abandonment Recovery", "value": 6000 }, { "label": "Post-Purchase Upsell Flows", "value": 4800 }, { "label": "Customer LTV Prediction", "value": 2400 }],
+      "pricing": { "diy": { "setup": 997, "monthly": 297 }, "dwy": { "setup": 2497, "monthly": 597 }, "dfy": { "setup": 5997, "monthly": 997 } }
+    },
+    {
+      "id": "predictive-maintenance", "category": "Manufacturing & Logistics", "title": "Predictive Maintenance & Quality Control",
+      "tagline": "Predict failure before it stops the line.", "regions": ["eu", "us"], "flow": "default",
+      "description": "AI that reads sensor data to predict machinery failure and uses vision to catch defects before they ship — protecting uptime and quality.",
+      "tags": ["IoT", "Maintenance", "Quality"], "verticals": ["finance"],
+      "anchorEu": "Unplanned downtime costs manufacturers billions.", "anchorUs": "An hour of line stoppage can cost $10k–100k.",
+      "roiEu": "Fuel and downtime savings dwarf the fee.", "roiUs": "Downtime savings dwarf the subscription.",
+      "pains": ["Unplanned downtime kills output", "Defects caught after they ship", "Reactive, calendar-based maintenance"],
+      "valueStack": [{ "label": "IoT Sensor Integration", "value": 12000 }, { "label": "Failure Prediction Algorithms", "value": 24000 }, { "label": "Visual Defect Detection", "value": 18000 }, { "label": "Maintenance Scheduling", "value": 6000 }],
+      "pricing": { "diy": { "setup": 4997, "monthly": 997 }, "dwy": { "setup": 14997, "monthly": 2497 }, "dfy": { "setup": 29997, "monthly": 4997 } }
+    },
+    {
+      "id": "route-optimization", "category": "Manufacturing & Logistics", "title": "Supply Chain & Route Optimization",
+      "tagline": "Cut fuel, hit every window.", "regions": ["eu", "us"], "flow": "default",
+      "description": "AI that plans dynamic delivery routes, tracks fleet performance, and optimizes supplier selection — turning fuel spend into margin.",
+      "tags": ["Logistics", "Fleet", "Routes"], "verticals": ["home-services"],
+      "anchorEu": "Fuel and idle time erode fleet margin.", "anchorUs": "A 10-truck fleet on $50k/mo fuel can save 20%.",
+      "roiEu": "Route savings pay for the system many times over.", "roiUs": "~$120k/yr fuel savings on a 10-truck fleet — ~300% ROI.",
+      "pains": ["Inefficient routes waste fuel and hours", "No visibility into driver performance", "Missed delivery windows"],
+      "valueStack": [{ "label": "Dynamic Route Planning", "value": 8400 }, { "label": "Fuel Consumption Analysis", "value": 6000 }, { "label": "Driver Performance Tracking", "value": 3600 }, { "label": "Predictive Delivery Times", "value": 4800 }],
+      "pricing": { "diy": { "setup": 2497, "monthly": 597 }, "dwy": { "setup": 5997, "monthly": 1297 }, "dfy": { "setup": 12997, "monthly": 2497 } }
+    },
+    {
+      "id": "project-management-ai", "category": "Professional Services", "title": "Project Management & Resource AI",
+      "tagline": "Kill scope creep and burnout.", "regions": ["eu", "us"], "flow": "default",
+      "description": "AI that predicts timelines, allocates resources by capacity, flags scope creep, and auto-generates client status reports.",
+      "tags": ["Projects", "Resources", "Reports"], "verticals": ["finance"],
+      "anchorEu": "Overruns and burnout kill agency margin.", "anchorUs": "Overruns and burnout kill agency margin.",
+      "roiEu": "Protect profitability on every project.", "roiUs": "Protect profitability on every project.",
+      "pains": ["Projects run over budget on scope creep", "Staff burnout from bad capacity planning", "Constant 'where are we?' client emails"],
+      "valueStack": [{ "label": "Scope Creep Detection", "value": 6000 }, { "label": "Smart Resource Allocation", "value": 4800 }, { "label": "Auto-Generated Status Reports", "value": 3600 }, { "label": "Profitability-Per-Project Tracker", "value": 4800 }],
+      "pricing": { "diy": { "setup": 1497, "monthly": 397 }, "dwy": { "setup": 3997, "monthly": 797 }, "dfy": { "setup": 7997, "monthly": 1497 } }
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "default": "eu",
+  "regions": {
+    "eu": {
+      "key": "eu",
+      "label": "Europe",
+      "shortLabel": "EU",
+      "host": "eu.ai20.city",
+      "origin": "https://eu.ai20.city",
+      "htmlLang": "en",
+      "locale": "en_GB",
+      "hreflang": "en-gb",
+      "currency": "€",
+      "currencyCode": "EUR",
+      "priceFactor": 1.0,
+      "valueFactor": 1.0,
+      "title": "Fractional CAIO & AI Strategy Europe | ai20",
+      "metaDescription": "Enterprise-grade AI implementation and strategy for European businesses. Fractional Chief AI Officers bridging Silicon Valley velocity with EU compliance.",
+      "keywords": "Fractional CAIO, AI Strategy Europe, Enterprise AI Implementation, AI Governance, AI Compliance Europe, Artificial Intelligence Consulting",
+      "hero": {
+        "eyebrowLeft": "Based in Berlin",
+        "eyebrowMid": "Operating Pan-Europe",
+        "tagline": "Intelligence, Institutionalized.",
+        "subhead": "We provide Fractional Chief AI Officers and enterprise-grade implementation for the European market. Bridging Silicon Valley velocity with European compliance.",
+        "marquee": ["Governance.", "Strategy.", "Implementation.", "Compliance."]
+      },
+      "footerBlurb": "Architecting the future of European enterprise through applied artificial intelligence and strategic governance.",
+      "about": {
+        "headlineTop": "Bridging Silicon Valley",
+        "headlineAccent": "with European Compliance.",
+        "intro": "We are a collective of tech veterans, enterprise strategists, and regulatory experts united by a single mission: to make cutting-edge AI accessible, compliant, and profitable for European businesses.",
+        "storyA": "ai20 was born from a fundamental observation: while Silicon Valley raced ahead with AI innovation, European enterprises were left navigating a complex web of regulation, legacy systems, and talent scarcity.",
+        "storyB": "We bridge this gap. Our team combines deep technical expertise with an intimate understanding of European business culture and regulatory frameworks like GDPR, the EU AI Act, and sector-specific compliance requirements."
+      },
+      "madeIn": "Made in Berlin.",
+      "focusQuote": "Navigating the EU AI Act: A strategic roadmap for 2026.",
+      "complianceLine": "GDPR & EU AI Act aligned by design.",
+      "complianceBadges": ["GDPR", "EU AI Act", "ISO 27001"],
+      "geo": {
+        "region": "DE-BE",
+        "placename": "Berlin",
+        "lat": "52.5200",
+        "lng": "13.4050",
+        "streetAddress": "Torstraße 1",
+        "addressLocality": "Berlin",
+        "postalCode": "10119",
+        "addressCountry": "DE",
+        "telephone": "+49 30 12345678"
+      },
+      "citiesKey": "eu",
+      "auditPrice": "€1,997",
+      "officeLine": "Berlin, Germany",
+      "marketsHeadline": "European Markets.",
+      "coverageLine": "Pan-European Coverage",
+      "marketsBlurb": "Local AI implementation teams in 40+ European cities. Localized compliance and on-site strategy.",
+      "marketsLabel": "European Cities Served",
+      "caseStudiesIntro": "How we help leading European enterprises institutionalize AI, reduce costs, and unlock new revenue streams. The scenarios below are illustrative models built from our delivery benchmarks — named client stories are published as engagements complete.",
+      "caseStudies": [
+        { "vertical": "Healthcare", "metric": "42% Reduction in Admin Time", "body": "A private medical group automated patient intake and scheduling, freeing clinicians to focus on care." },
+        { "vertical": "Legal", "metric": "€320K Saved Annually", "body": "A mid-sized law firm deployed AI-powered contract review, cutting due-diligence timelines by 60%." },
+        { "vertical": "E-commerce", "metric": "3.2x ROAS Improvement", "body": "An online retailer implemented AI-driven product recommendations and personalized marketing at scale." },
+        { "vertical": "Finance", "metric": "DSO Cut by 22 Days", "body": "A B2B services firm automated invoicing and multi-channel collections, releasing trapped working capital." },
+        { "vertical": "Real Estate", "metric": "4x Faster Lead Response", "body": "An agency network deployed AI lead qualification and showing scheduling across its portfolio." },
+        { "vertical": "Professional Services", "metric": "60% Less Non-Billable Time", "body": "A consultancy automated meeting capture, status reporting, and scope-creep detection." }
+      ],
+      "verticals": [
+        { "slug": "healthcare", "label": "Healthcare", "icon": "activity" },
+        { "slug": "legal", "label": "Legal", "icon": "scale" },
+        { "slug": "finance", "label": "Finance", "icon": "landmark" },
+        { "slug": "ecommerce", "label": "E-commerce", "icon": "shopping-cart" },
+        { "slug": "real-estate", "label": "Real Estate", "icon": "building" }
+      ]
+    },
+    "us": {
+      "key": "us",
+      "label": "United States",
+      "shortLabel": "US",
+      "host": "us.ai20.city",
+      "origin": "https://us.ai20.city",
+      "htmlLang": "en",
+      "locale": "en_US",
+      "hreflang": "en-us",
+      "currency": "$",
+      "currencyCode": "USD",
+      "priceFactor": 1.35,
+      "valueFactor": 1.35,
+      "title": "AI Automation Agency & Fractional CAIO | ai20 US",
+      "metaDescription": "ai20 builds and runs your AI workforce — done for you, live in 30 days, compliant for your industry. AI receptionists, SDRs, and automation for American business.",
+      "keywords": "AI automation agency, AI receptionist, fractional CAIO US, AI SDR, done for you AI, HIPAA AI, AI for home services, business automation USA",
+      "hero": {
+        "eyebrowLeft": "Built in the USA",
+        "eyebrowMid": "Operating Nationwide",
+        "tagline": "Your AI Workforce, Institutionalized.",
+        "subhead": "ai20 builds and runs your AI workforce — done for you, live in 30 days, and compliant for your industry. Revenue and hours saved, not software you have to manage.",
+        "marquee": ["Revenue.", "Speed.", "Done-For-You.", "30 Days."]
+      },
+      "footerBlurb": "Building and running the AI workforce for American business — measured in revenue earned and hours saved.",
+      "about": {
+        "headlineTop": "We build the AI workforce",
+        "headlineAccent": "American business runs on.",
+        "intro": "We are a team of operators, engineers, and AI builders united by a single mission: to make cutting-edge AI accessible, done-for-you, and profitable for American businesses — measured in revenue and hours saved.",
+        "storyA": "ai20 was born from a simple observation: AI moves fast, but most American businesses have no one whose job is to actually deploy it. Owners are drowning in manual work while the tools to fix it sit unused.",
+        "storyB": "We close that gap. Our team pairs deep technical expertise with real operating experience — building and running AI systems that go live in 30 days, compliant for regulated industries (HIPAA, SOC 2, TCPA, CCPA)."
+      },
+      "madeIn": "Built in the USA.",
+      "focusQuote": "The 30-Day AI Implementation Guarantee: live, or your first month is on us.",
+      "complianceLine": "HIPAA, SOC 2, SEC/FINRA, TCPA & CCPA aware by design.",
+      "complianceBadges": ["HIPAA", "SOC 2", "TCPA", "CCPA"],
+      "geo": {
+        "region": "US-TX",
+        "placename": "Austin",
+        "lat": "30.2672",
+        "lng": "-97.7431",
+        "streetAddress": "600 Congress Ave",
+        "addressLocality": "Austin",
+        "postalCode": "78701",
+        "addressCountry": "US",
+        "telephone": "+1 512 555 0120"
+      },
+      "citiesKey": "us",
+      "auditPrice": "$2,500",
+      "officeLine": "Austin, Texas",
+      "marketsHeadline": "US Markets.",
+      "coverageLine": "Nationwide Coverage",
+      "marketsBlurb": "Local AI implementation teams across 40+ US metros. On-the-ground strategy, deployed in 30 days.",
+      "marketsLabel": "US Metros Served",
+      "caseStudiesIntro": "How we help American businesses turn AI into booked jobs, recovered revenue, and hours back. The scenarios below are illustrative models built from our delivery benchmarks — named client stories are published as engagements complete.",
+      "caseStudies": [
+        { "vertical": "Home Services", "metric": "38% More Booked Jobs", "body": "An HVAC contractor put an AI receptionist on every missed call, recovering after-hours emergencies that used to hit voicemail." },
+        { "vertical": "Healthcare & Dental", "metric": "$180K Recovered Annually", "body": "A multi-site dental group automated intake, insurance verification, and no-show recovery across its practices." },
+        { "vertical": "Legal", "metric": "60% Faster Contract Turnaround", "body": "A mid-sized firm deployed AI contract review and clause risk flagging, unblocking deals stuck in legal." },
+        { "vertical": "Finance", "metric": "DSO Cut by 24 Days", "body": "An accounting practice automated invoicing and multi-channel collections, releasing trapped working capital." },
+        { "vertical": "Real Estate", "metric": "Sub-60-Second Lead Response", "body": "A brokerage replaced manual follow-up with AI speed-to-lead and showing scheduling across every listing." },
+        { "vertical": "E-commerce", "metric": "15% AOV Lift", "body": "A Shopify brand deployed AI recommendations, cart-abandonment recovery, and post-purchase upsell flows." }
+      ],
+      "verticals": [
+        { "slug": "home-services", "label": "Home Services", "icon": "wrench" },
+        { "slug": "healthcare", "label": "Healthcare & Dental", "icon": "activity" },
+        { "slug": "legal", "label": "Legal", "icon": "scale" },
+        { "slug": "finance", "label": "Finance", "icon": "landmark" },
+        { "slug": "real-estate", "label": "Real Estate", "icon": "building" },
+        { "slug": "ecommerce", "label": "E-commerce", "icon": "shopping-cart" }
+      ]
+    }
+  }
+}

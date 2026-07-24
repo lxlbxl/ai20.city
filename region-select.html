@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ai20 — Choose Your Region</title>
+  <meta name="description"
+    content="ai20 provides Fractional Chief AI Officers and done-for-you AI implementation. Choose your region: United States or Europe.">
+  <link rel="canonical" href="https://ai20.city/">
+  <meta name="robots" content="index,follow">
+
+  <!-- hreflang for the neutral apex -->
+  <link rel="alternate" hreflang="en-us" href="https://us.ai20.city/">
+  <link rel="alternate" hreflang="en-gb" href="https://eu.ai20.city/">
+  <link rel="alternate" hreflang="x-default" href="https://ai20.city/">
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&family=Space+Grotesk:wght@300;400;500;700&display=swap');
+
+    :root {
+      --alabaster: #f4f1ea;
+      --obsidian: #050505;
+      --orange: #ff3300;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      background: var(--alabaster);
+      color: var(--obsidian);
+      font-family: 'Space Grotesk', sans-serif;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      overflow-x: hidden;
+    }
+
+    .wrap { max-width: 1200px; margin: 0 auto; width: 100%; padding: 0 1.5rem; flex: 1; display: flex; flex-direction: column; }
+
+    header { padding: 2rem 0; display: flex; align-items: center; gap: 0.75rem; }
+    .logo-mark { width: 0.75rem; height: 0.75rem; background: var(--orange); transform: rotate(45deg); }
+    .logo-text { font-family: 'Cormorant Garamond', serif; font-style: italic; font-size: 1.75rem; font-weight: 500; }
+
+    main { flex: 1; display: flex; flex-direction: column; justify-content: center; padding: 3rem 0 5rem; }
+
+    .eyebrow { font-size: 0.7rem; letter-spacing: 0.25em; text-transform: uppercase; color: var(--orange); margin-bottom: 1.5rem; }
+    h1 {
+      font-family: 'Cormorant Garamond', serif;
+      font-weight: 400;
+      font-size: clamp(2.5rem, 7vw, 5rem);
+      line-height: 0.95;
+      letter-spacing: -0.02em;
+      margin-bottom: 1rem;
+    }
+    h1 em { font-style: italic; }
+    .lede { max-width: 34rem; font-size: 0.95rem; line-height: 1.6; opacity: 0.7; margin-bottom: 3.5rem; }
+
+    .cards { display: grid; grid-template-columns: 1fr; gap: 1.25rem; }
+    @media (min-width: 720px) { .cards { grid-template-columns: 1fr 1fr; } }
+
+    .card {
+      position: relative;
+      border: 1px solid rgba(5, 5, 5, 0.12);
+      background: transparent;
+      padding: 2.5rem;
+      text-align: left;
+      cursor: pointer;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      min-height: 260px;
+      color: var(--obsidian);
+      text-decoration: none;
+      transition: background 0.4s, color 0.4s, transform 0.4s;
+    }
+    .card:hover { background: var(--obsidian); color: var(--alabaster); transform: translateY(-4px); }
+    .card .tag {
+      font-size: 0.65rem; letter-spacing: 0.2em; text-transform: uppercase;
+      border: 1px solid currentColor; border-radius: 999px; padding: 0.3rem 0.8rem; width: fit-content; opacity: 0.7;
+    }
+    .card h2 { font-family: 'Cormorant Garamond', serif; font-style: italic; font-size: 2.5rem; font-weight: 400; margin: 1.5rem 0 0.5rem; }
+    .card p { font-size: 0.85rem; line-height: 1.5; opacity: 0.65; max-width: 22rem; }
+    .card .go { margin-top: 1.75rem; font-size: 0.7rem; letter-spacing: 0.2em; text-transform: uppercase; display: flex; align-items: center; gap: 0.5rem; }
+    .card .go span.arrow { color: var(--orange); transition: transform 0.3s; }
+    .card:hover .go span.arrow { transform: translateX(4px); }
+
+    .card.suggested::before {
+      content: 'Suggested for you';
+      position: absolute; top: -0.7rem; left: 2.5rem;
+      background: var(--orange); color: #fff;
+      font-size: 0.6rem; letter-spacing: 0.15em; text-transform: uppercase;
+      padding: 0.25rem 0.7rem;
+    }
+
+    footer { padding: 2rem 0; border-top: 1px solid rgba(5, 5, 5, 0.1); font-size: 0.65rem; letter-spacing: 0.15em; text-transform: uppercase; opacity: 0.4; display: flex; justify-content: space-between; flex-wrap: wrap; gap: 0.5rem; }
+  </style>
+</head>
+
+<body>
+  <div class="wrap">
+    <header>
+      <div class="logo-mark"></div>
+      <div class="logo-text">ai20.</div>
+    </header>
+
+    <main>
+      <p class="eyebrow">Intelligence, Institutionalized</p>
+      <h1>One firm.<br><em>Two markets.</em></h1>
+      <p class="lede">
+        ai20 builds and runs the AI workforce for ambitious businesses — Fractional Chief AI Officers and
+        done-for-you implementation. Pricing, compliance, and offers are tailored to your market. Choose yours.
+      </p>
+
+      <div class="cards" id="cards">
+        <a class="card" data-region="us" href="https://us.ai20.city/">
+          <span class="tag">United States · USD</span>
+          <div>
+            <h2>United States</h2>
+            <p>Revenue, speed, and done-for-you automation — live in 30 days, compliant for regulated industries (HIPAA, SOC&nbsp;2, TCPA).</p>
+          </div>
+          <div class="go">Enter US site <span class="arrow">→</span></div>
+        </a>
+
+        <a class="card" data-region="eu" href="https://eu.ai20.city/">
+          <span class="tag">Europe · EUR</span>
+          <div>
+            <h2>Europe</h2>
+            <p>Enterprise-grade AI implementation bridging Silicon Valley velocity with European compliance (GDPR, EU&nbsp;AI&nbsp;Act).</p>
+          </div>
+          <div class="go">Enter EU site <span class="arrow">→</span></div>
+        </a>
+      </div>
+    </main>
+
+    <footer>
+      <span>© 2026 ai20.</span>
+      <span>Choose once — we'll remember your region.</span>
+    </footer>
+  </div>
+
+  <script>
+    (function () {
+      var HOSTS = { us: 'https://us.ai20.city/', eu: 'https://eu.ai20.city/' };
+      var COOKIE = 'ai20_region';
+
+      function getCookie(name) {
+        var m = document.cookie.match(new RegExp('(?:^|; )' + name + '=([^;]+)'));
+        return m ? m[1] : null;
+      }
+      function setRegion(key) {
+        var domain = /ai20\.city$/.test(location.hostname) ? '; domain=.ai20.city' : '';
+        document.cookie = COOKIE + '=' + key + '; path=/' + domain + '; max-age=31536000; SameSite=Lax';
+      }
+
+      // 1. Honor a previous choice (unless ?stay is present, e.g. from the switcher).
+      var params = new URLSearchParams(location.search);
+      var saved = getCookie(COOKIE);
+      if (saved && HOSTS[saved] && !params.has('stay')) {
+        location.replace(HOSTS[saved]);
+        return;
+      }
+
+      // 2. Soft geo suggestion. Prefer an edge-set hint cookie; fall back to timezone.
+      var suggested = getCookie('ai20_geo');
+      if (!suggested) {
+        try {
+          var tz = Intl.DateTimeFormat().resolvedOptions().timeZone || '';
+          if (/^America\//.test(tz)) suggested = 'us';
+          else if (/^(Europe|Atlantic\/(Canary|Madeira|Reykjavik)|Africa\/(Ceuta))/.test(tz)) suggested = 'eu';
+        } catch (e) { /* ignore */ }
+      }
+      if (suggested && HOSTS[suggested]) {
+        var el = document.querySelector('.card[data-region="' + suggested + '"]');
+        if (el) el.classList.add('suggested');
+      }
+
+      // 3. Remember the click, then let the anchor navigate.
+      document.getElementById('cards').addEventListener('click', function (e) {
+        var card = e.target.closest('.card[data-region]');
+        if (card) setRegion(card.getAttribute('data-region'));
+      });
+    })();
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Primary Meta Tags -->
+  <title>%%TITLE%%</title>
+  <meta name="title" content="%%TITLE%%">
+  <meta name="description" content="%%META_DESC%%">
+  <meta name="keywords" content="%%KEYWORDS%%">
+  <meta name="author" content="ai20">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://ai20.city/">
+  <meta property="og:locale" content="%%LOCALE%%">
+  <meta property="og:title" content="%%TITLE%%">
+  <meta property="og:description" content="%%META_DESC%%">
+  <meta property="og:image" content="https://ai20.city/assets/og-image.jpg">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://ai20.city/">
+  <meta property="twitter:title" content="%%TITLE%%">
+  <meta property="twitter:description" content="%%META_DESC%%">
+  <meta property="twitter:image" content="https://ai20.city/assets/og-image.jpg">
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://ai20.city/">
+
+  <!-- Geo Tags -->
+  <meta name="geo.region" content="%%GEO_REGION%%">
+  <meta name="geo.placename" content="%%GEO_PLACENAME%%">
+  <meta name="geo.position" content="%%GEO_LAT%%;%%GEO_LNG%%">
+  <meta name="ICBM" content="%%GEO_LAT%%, %%GEO_LNG%%">
+
+  <!-- Schema.org JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "ai20",
+    "image": "https://ai20.city/assets/logo.png",
+    "@id": "https://ai20.city/#organization",
+    "url": "https://ai20.city",
+    "telephone": "%%GEO_TEL%%",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "%%GEO_STREET%%",
+      "addressLocality": "%%GEO_LOCALITY%%",
+      "postalCode": "%%GEO_POSTAL%%",
+      "addressCountry": "%%GEO_COUNTRY%%"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": %%GEO_LAT%%,
+      "longitude": %%GEO_LNG%%
+    },
+    "openingHoursSpecification": {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+      "opens": "09:00",
+      "closes": "18:00"
+    },
+    "sameAs": [
+      "https://www.linkedin.com/company/ai20",
+      "https://twitter.com/ai20_city"
+    ],
+    "priceRange": "%%PRICE_RANGE%%",
+    "description": "%%META_DESC%%"
+  }
+  </script>
+</head>
+
+<body class="bg-alabaster text-obsidian overflow-x-hidden relative min-h-screen">
+
+  <!-- Header Injection -->
+  <div id="header-placeholder"></div>
+
+  <!-- Hero Section -->
+  <main>
+    <section class="min-h-screen flex flex-col justify-center px-6 md:px-12 pt-32 pb-20 relative overflow-hidden"
+      id="hero">
+      <div
+        class="absolute -top-20 -left-10 md:-left-20 w-40 h-40 md:w-64 md:h-64 border border-[#ff3300]/20 rounded-full blur-3xl">
+      </div>
+
+      <h1
+        class="font-serif-display text-[15vw] md:text-[11rem] leading-[0.8] tracking-tighter text-[#050505] mix-blend-darken">
+        ai<span
+          class="text-[#ff3300] text-[1.5rem] md:text-[2rem] align-top font-sans-tech font-bold tracking-normal ml-2">20</span>
+      </h1>
+
+      <div class="flex flex-col md:flex-row justify-between items-end mt-12 md:mt-4 border-t border-[#050505] pt-8">
+        <p class="font-serif-display text-2xl md:text-4xl italic max-w-xl">
+          %%HERO_TAGLINE%%
+        </p>
+        <div
+          class="flex flex-col items-end gap-2 mt-8 md:mt-0 font-sans-tech text-xs tracking-widest uppercase text-right opacity-60">
+          <span>%%HERO_EYEBROW_LEFT%%</span>
+          <span>%%HERO_EYEBROW_MID%%</span>
+          <span>Est. 2026</span>
+        </div>
+      </div>
+
+      <div class="mt-24 max-w-2xl">
+        <p class="font-sans-tech text-sm md:text-base leading-relaxed mb-8">
+          %%HERO_SUBHEAD%%
+        </p>
+        <div class="flex flex-wrap gap-4">
+          <a href="/quiz.html"
+            class="inline-block px-8 py-3 bg-[#050505] text-[#f4f1ea] font-sans-tech text-xs uppercase tracking-[0.2em] hover:bg-[#ff3300] transition-colors duration-300">
+            Start Assessment
+          </a>
+          <a href="/offers.html"
+            class="inline-block px-8 py-3 border border-[#050505] font-sans-tech text-xs uppercase tracking-[0.2em] hover:bg-[#050505] hover:text-[#f4f1ea] transition-colors duration-300">
+            Browse Offers
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Marquee Section -->
+    <section class="py-12 border-y border-[#050505] overflow-hidden bg-[#050505] text-[#f4f1ea]">
+      <div class="flex whitespace-nowrap animate-marquee">
+        %%MARQUEE%%
+      </div>
+    </section>
+
+    <!-- Industries Section -->
+    <section class="py-32 px-6 md:px-12 bg-[#f4f1ea]">
+      <div class="max-w-[1400px] mx-auto">
+        <h2 class="font-serif-display text-4xl md:text-5xl italic mb-16 text-center">Vertical Expertise.</h2>
+        <div class="grid grid-cols-2 md:grid-cols-6 gap-4">
+          %%VERTICALS%%
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-32 px-6 md:px-12 flex flex-col items-center justify-center text-center bg-[#f4f1ea]">
+      <h2 class="font-serif-display text-5xl md:text-7xl italic mb-8">Ready to Institutionalize?</h2>
+      <p class="font-sans-tech text-sm max-w-md mb-12 opacity-70">
+        Take our 2-minute AI Readiness Assessment to discern your organization's current standing and immediate
+        opportunities.
+      </p>
+      <a href="/quiz.html"
+        class="px-10 py-4 border border-[#050505] text-xs uppercase tracking-[0.2em] hover:bg-[#ff3300] hover:text-white hover:border-[#ff3300] transition-all duration-300">
+        Begin Assessment
+      </a>
+    </section>
+
+  </main>
+
+  <!-- Footer Injection -->
+  <div id="footer-placeholder"></div>
+
+  <script type="module" src="/src/js/main.js"></script>
+  <style>
+    @keyframes marquee {
+      0% {
+        transform: translateX(0);
+      }
+
+      100% {
+        transform: translateX(-50%);
+      }
+    }
+
+    .animate-marquee {
+      animation: marquee 20s linear infinite;
+    }
+  </style>
+</body>
+
+</html>

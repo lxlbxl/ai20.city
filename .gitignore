@@ -1,0 +1,25 @@
+.tmp/
+.env
+__pycache__/
+*.pyc
+credentials.json
+token.json
+
+node_modules/
+
+# Generated at deploy time (region-specific) — see DEPLOYMENT.md
+locations/
+services/
+sitemap.xml
+public/sitemap.xml
+dist/
+
+# Build archives (never commit — they bloat git history permanently)
+*.zip
+
+# Local agent tooling/skills — not part of the website source
+.agent/
+
+# Runtime database — contains credentials + lead PII. Recreated by backend/migrate.php
+backend/database.sqlite
+*.sqlite
