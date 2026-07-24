@@ -117,6 +117,31 @@ server {
 
 Then `sudo nginx -t && sudo systemctl reload nginx`.
 
+### Required: 301 the retired city x niche x offer URLs
+
+2,050 thin pages (`/locations/<city>/<niche>/<offer>.html`) were removed. They
+are indexed, so redirect them to their parent niche page rather than letting
+them 404. Add inside **both** regional server blocks, before `location /`:
+
+```nginx
+    # Retired Tier C pages -> their niche parent
+    location ~ ^/locations/([^/]+)/([^/]+)/(?!index\.html$)[^/]+\.html$ {
+        return 301 /locations/$1/$2/;
+    }
+```
+
+### Also required: HTTPS redirect (from the SEO audit)
+
+HTTP currently serves 200, duplicating the whole site:
+
+```nginx
+server {
+    listen 80;
+    server_name ai20.city www.ai20.city eu.ai20.city us.ai20.city;
+    return 301 https://$host$request_uri;
+}
+```
+
 ## Step 4 — SSL (mandatory, not optional)
 
 The apex already sends:

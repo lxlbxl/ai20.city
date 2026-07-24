@@ -1,0 +1,75 @@
+{
+  "_readme": [
+    "Local market data for city x niche pages (Tier B: /locations/<city>/<niche>/).",
+    "",
+    "WHY THIS EXISTS: without genuinely city-specific facts, every city page is the",
+    "same page with a find-and-replace, which is what Google's scaled-content-abuse",
+    "policy targets. A page is only allowed to be indexed once it carries real,",
+    "sourced local data.",
+    "",
+    "HOW IT WORKS: this file is SPARSE. Only cities/niches you have actually",
+    "researched appear here. Anything missing, or with \"verified\": false, is",
+    "generated as noindex and excluded from the sitemap. Fill the data, flip",
+    "\"verified\": true, rebuild, and the page becomes indexable. That is the phased",
+    "rollout - start with ~20 pages, measure, then scale.",
+    "",
+    "NEVER invent these numbers. They are published as fact and are checkable.",
+    "",
+    "SOURCES (all free):",
+    "  receptionist_salary  US: BLS OES, 'Receptionists and Information Clerks'",
+    "                           (43-4171) by metropolitan area -> annual mean wage.",
+    "                       EU: Eurostat earnings statistics / national stats office.",
+    "  business_count       US: Census County Business Patterns, establishments by",
+    "                           NAICS code by metro (e.g. HVAC = NAICS 238220).",
+    "                       EU: Eurostat Structural Business Statistics.",
+    "  licensing            State/national licensing board for that trade.",
+    "  peak_season          NOAA / national climate data + trade seasonality.",
+    "",
+    "PUBLISH THRESHOLD: see MIN_LOCAL_SIGNALS in region_config.py. A page needs",
+    "\"verified\": true plus at least that many populated fields to be indexed."
+  ],
+
+  "_schema": {
+    "<region>": {
+      "<city-slug>": {
+        "metro_pop": "int | null - metro population",
+        "gbp_presence": "bool - true only where a real Google Business Profile / operation exists",
+        "niches": {
+          "<niche-id>": {
+            "verified": "bool - MUST be true for the page to be indexed",
+            "source_note": "string - where the figures came from, for your own audit trail",
+            "business_count": "int | null - establishments in this trade in the metro",
+            "receptionist_salary": "int | null - local annual loaded cost of the role AI replaces",
+            "avg_job_value": "int | null - typical job ticket for this trade locally",
+            "peak_season": "string | null - e.g. 'May-September'",
+            "seasonality_note": "string | null - one sentence on local demand pattern",
+            "licensing": "string | null - local licensing requirement for this trade",
+            "local_note": "string | null - any other genuinely local detail"
+          }
+        }
+      }
+    }
+  },
+
+  "us": {
+    "austin": {
+      "metro_pop": null,
+      "gbp_presence": false,
+      "niches": {
+        "hvac": {
+          "verified": false,
+          "source_note": "TEMPLATE ENTRY - shows the shape only. Populate from BLS OES 43-4171 (Austin-Round Rock MSA) and Census CBP NAICS 238220, then set verified: true.",
+          "business_count": null,
+          "receptionist_salary": null,
+          "avg_job_value": null,
+          "peak_season": null,
+          "seasonality_note": null,
+          "licensing": null,
+          "local_note": null
+        }
+      }
+    }
+  },
+
+  "eu": {}
+}

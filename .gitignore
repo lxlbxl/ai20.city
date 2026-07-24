@@ -12,6 +12,7 @@ locations/
 services/
 sitemap.xml
 public/sitemap.xml
+public/robots.txt
 dist/
 
 # Build archives (never commit — they bloat git history permanently)

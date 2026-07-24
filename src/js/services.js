@@ -16,6 +16,8 @@ const filters = document.getElementById('service-filters');
 
 function renderCoreServices() {
     if (!coreGrid) return;
+    // Server-rendered for crawlers - leave it alone.
+    if (coreGrid.dataset.ssr === 'true') return;
     coreGrid.innerHTML = '';
 
     coreServices.forEach(service => {
@@ -57,6 +59,14 @@ function renderCoreServices() {
 
 function renderServices(filterCategory = 'All') {
     if (!grid) return;
+    // The unfiltered grid is server-rendered for crawlers; only take over the
+    // DOM once the visitor actually filters.
+    if (filterCategory === 'All' && grid.dataset.ssr === 'true' && !grid.dataset.hydrated) {
+        grid.dataset.hydrated = 'true';
+        attachQuoteHandlers();
+        return;
+    }
+    grid.dataset.hydrated = 'true';
     grid.innerHTML = '';
 
     const filtered = filterCategory === 'All'
@@ -123,7 +133,10 @@ function renderServices(filterCategory = 'All') {
         grid.appendChild(card);
     });
 
-    // Attach click handlers to quote buttons
+    attachQuoteHandlers();
+}
+
+function attachQuoteHandlers() {
     document.querySelectorAll('.request-quote-btn').forEach(btn => {
         btn.addEventListener('click', () => {
             const offerId = btn.dataset.offerId;

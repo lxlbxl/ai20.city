@@ -400,6 +400,103 @@ CORE_SERVICES = [
     for s in rc.CORE_SERVICES
 ]
 
+
+# Local offer teasers map onto real offers in offers.json, so the local pages
+# link to a genuine (region-priced) offer page instead of a thin duplicate.
+LOCAL_OFFER_MAP = {
+    "ai-receptionist": "ai-receptionist",
+    "lead-reactivation": "ai-sdr",
+    "review-management": "reputation-ai",
+    "missed-call-text-back": "ai-receptionist",
+    "smart-quoting": "appointment-booking",
+}
+_OFFERS_BY_ID = {o["id"]: o for o in rc.OFFERS}
+
+
+def local_offer_target(local_id):
+    return LOCAL_OFFER_MAP.get(local_id, "ai-receptionist")
+
+
+def local_offer_price(local_id):
+    offer = _OFFERS_BY_ID.get(local_offer_target(local_id))
+    if not offer:
+        return ""
+    return f"From {rc.fmt_price(offer['pricing']['dfy']['monthly'])}/mo"
+
+
+
+def local_market_section(city, niche, data):
+    """Render the genuinely-local part of a city x niche page.
+
+    Only emits blocks for fields that are actually populated, so an
+    unresearched city produces no fabricated claims.
+    """
+    if not data:
+        return ""
+
+    blocks = []
+    cityname = city["city"]
+
+    count = data.get("business_count")
+    if count:
+        blocks.append(
+            f'<div class="p-6 border border-[#050505]/10 bg-white">'
+            f'<span class="block font-serif-display text-4xl italic text-[#ff3300]">{count:,}</span>'
+            f'<p class="text-xs uppercase tracking-widest opacity-60 mt-1">{niche["name"]} businesses in {cityname}</p></div>'
+        )
+
+    salary = data.get("receptionist_salary")
+    if salary:
+        blocks.append(
+            f'<div class="p-6 border border-[#050505]/10 bg-white">'
+            f'<span class="block font-serif-display text-4xl italic text-[#ff3300]">{rc.REGION_CFG["currency"]}{salary:,}</span>'
+            f'<p class="text-xs uppercase tracking-widest opacity-60 mt-1">Local cost of the role AI replaces</p></div>'
+        )
+
+    ticket = data.get("avg_job_value")
+    if ticket:
+        blocks.append(
+            f'<div class="p-6 border border-[#050505]/10 bg-white">'
+            f'<span class="block font-serif-display text-4xl italic text-[#ff3300]">{rc.REGION_CFG["currency"]}{ticket:,}</span>'
+            f'<p class="text-xs uppercase tracking-widest opacity-60 mt-1">Typical job value - one recovered call</p></div>'
+        )
+
+    prose = []
+    if data.get("seasonality_note"):
+        prose.append(data["seasonality_note"])
+    if data.get("peak_season"):
+        prose.append(f'Peak demand runs {data["peak_season"]}.')
+    if data.get("licensing"):
+        prose.append(data["licensing"])
+    if data.get("local_note"):
+        prose.append(data["local_note"])
+
+    if not blocks and not prose:
+        return ""
+
+    stats_html = (
+        f'<div class="grid sm:grid-cols-3 gap-4 mb-8">{"".join(blocks)}</div>' if blocks else ""
+    )
+    prose_html = (
+        f'<p class="text-lg opacity-75 leading-relaxed max-w-3xl">{" ".join(prose)}</p>' if prose else ""
+    )
+    source = data.get("source_note")
+    source_html = (
+        f'<p class="text-[10px] uppercase tracking-widest opacity-40 mt-6">Source: {source}</p>'
+        if source and data.get("verified")
+        else ""
+    )
+
+    return f"""
+            <section class="mb-24">
+                <h2 class="font-serif-display text-4xl italic mb-8">The {niche['name']} market in {cityname}</h2>
+                {stats_html}
+                {prose_html}
+                {source_html}
+            </section>
+    """
+
+
 # --- GENERATORS ---
 
 def ensure_dir(path):
@@ -648,6 +745,12 @@ def generate_local_pages(city):
         ensure_dir(niche_dir)
         
         root_path = "../../../"
+
+        local_data = rc.local_market(city["slug"], niche_slug)
+        indexable = rc.is_indexable(city["slug"], niche_slug)
+        # Pages without verified local data must not be indexed - this is what
+        # phases the rollout as research lands.
+        head_extra = "" if indexable else '<meta name="robots" content="noindex,follow">'
         
         # 1. Generate Niche Page (locations/{city}/{niche}/index.html)
         
@@ -680,6 +783,8 @@ def generate_local_pages(city):
                 ''' for title in niche['pain_points']])}
             </div>
 
+            {local_market_section(city, niche, local_data)}
+
             <!-- Offers Grid -->
             <h2 class="font-serif-display text-4xl italic mb-12 text-center">Recommended AI Solutions</h2>
             <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-24">
@@ -689,8 +794,8 @@ def generate_local_pages(city):
                     <p class="text-xs uppercase tracking-widest opacity-50 mb-4">{offer['tagline']}</p>
                     <p class="text-sm opacity-70 mb-6 flex-grow">{offer['description']}</p>
                     <div class="mt-auto border-t border-[#050505]/10 pt-6">
-                        <span class="block text-xs font-bold text-[#ff3300] mb-2">{offer['price']}</span>
-                        <a href="{offer['id']}.html" class="block w-full text-center py-3 bg-[#050505] text-[#f4f1ea] text-[10px] uppercase tracking-widest hover:bg-[#ff3300] transition-colors">
+                        <span class="block text-xs font-bold text-[#ff3300] mb-2">{local_offer_price(offer['id'])}</span>
+                        <a href="{root_path}services/{local_offer_target(offer['id'])}.html" class="block w-full text-center py-3 bg-[#050505] text-[#f4f1ea] text-[10px] uppercase tracking-widest hover:bg-[#ff3300] transition-colors">
                             View Offer
                         </a>
                     </div>
@@ -717,84 +822,12 @@ def generate_local_pages(city):
             title=f"AI for {niche['name']} in {city['city']} | ai20 Local",
             description=f"Automate your {niche['name']} business in {city['city']} with AI. {niche['description']}",
             root_path=root_path,
-            schema=""
+            schema=head_extra
         ) + NAV_TEMPLATE.format(root_path=root_path) + niche_content + FOOTER_TEMPLATE.format(root_path=root_path)
 
         with open(f"{niche_dir}/index.html", "w", encoding="utf-8") as f:
             f.write(full_html)
             
-        # 2. Generate Offer Pages (locations/{city}/{niche}/{offer}.html)
-        for offer in LOCAL_OFFERS:
-            offer_slug = offer['id']
-            offer_root_path = "../../../" # locations/city/niche/offer.html
-            
-            offer_content = f"""
-            <main class="max-w-[1400px] mx-auto px-6 md:px-12 py-20">
-                <div class="mb-16">
-                     <nav class="flex gap-2 text-[10px] uppercase tracking-widest opacity-60 mb-8 font-sans-tech">
-                        <a href="{offer_root_path}locations.html" class="hover:text-[#ff3300]">Locations</a>
-                        <span>/</span>
-                        <a href="{offer_root_path}locations/{city['slug']}.html" class="hover:text-[#ff3300]">{city['city']}</a>
-                        <span>/</span>
-                        <a href="./index.html" class="hover:text-[#ff3300]">{niche['name']}</a>
-                    </nav>
-                
-                    <div class="grid lg:grid-cols-2 gap-16 items-center">
-                        <div>
-                            <span class="text-[#ff3300] font-sans-tech text-xs uppercase tracking-widest mb-4 block">
-                                {offer['tagline']}
-                            </span>
-                            <h1 class="font-serif-display text-5xl md:text-7xl italic mb-8">
-                                {offer['title']}<br/>
-                                <span class="text-3xl md:text-5xl not-italic opacity-80 block mt-2">for {niche['name']} in {city['city']}</span>
-                            </h1>
-                            <p class="text-xl opacity-70 leading-relaxed mb-8">
-                                {offer['description']} Specifically tuned for the {niche['name']} industry vocabulary and requirements.
-                            </p>
-                            <div class="flex flex-col sm:flex-row gap-4">
-                                <button onclick="window.AI20Quiz.open({{ 'city': '{city['city']}', 'niche': '{niche['name']}', 'offer': '{offer['title']}', 'source': 'local_offer_page' }})" class="px-8 py-4 bg-[#ff3300] text-white text-xs uppercase tracking-widest hover:bg-[#050505] transition-colors">
-                                    Start Free Trial
-                                </button>
-                                <a href="#demo" class="px-8 py-4 border border-[#050505]/20 text-xs uppercase tracking-widest hover:bg-[#050505] hover:text-white transition-colors text-center">
-                                    View Demo
-                                </a>
-                            </div>
-                        </div>
-                        <div class="bg-[#f4f1ea] p-12 border border-[#050505]/10 relative overflow-hidden group hover:shadow-2xl transition-all duration-500">
-                            <div class="absolute top-0 right-0 bg-[#050505] text-white text-[10px] uppercase tracking-widest px-4 py-2">
-                                Proven Results
-                            </div>
-                            <h3 class="font-serif-display text-3xl italic mb-8">Why {niche['name']} Pros Love This</h3>
-                            <ul class="space-y-6">
-                                {''.join([f'<li class="flex items-center gap-4"><i data-lucide="check-circle" class="text-[#ff3300]"></i> {benefit}</li>' for benefit in offer['benefits']])}
-                            </ul>
-                            <div class="mt-12 pt-8 border-t border-[#050505]/10">
-                                <div class="flex justify-between items-end">
-                                    <div>
-                                        <p class="text-[10px] uppercase tracking-widest opacity-50 mb-1">ROI Calculation</p>
-                                        <p class="font-bold text-lg">{offer['price_anchor']}</p>
-                                    </div>
-                                    <div class="text-right">
-                                        <p class="text-[10px] uppercase tracking-widest opacity-50 mb-1">Your Investment</p>
-                                        <p class="font-serif-display text-2xl text-[#ff3300]">{offer['price']}</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </main>
-            """
-            
-            full_html = HEAD_TEMPLATE.format(
-                title=f"{offer['title']} for {niche['name']} in {city['city']} | ai20",
-                description=f"{offer['title']} designed specifically for {niche['name']} businesses in {city['city']}. {offer['tagline']}",
-                root_path=offer_root_path,
-                schema=""
-            ) + NAV_TEMPLATE.format(root_path=offer_root_path) + offer_content + FOOTER_TEMPLATE.format(root_path=offer_root_path)
-
-            with open(f"{niche_dir}/{offer_slug}.html", "w", encoding="utf-8") as f:
-                f.write(full_html)
 
 def generate_locations():
     ensure_dir("locations")

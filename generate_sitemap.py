@@ -19,6 +19,16 @@ def generate_sitemap():
             if file in ("region-select.html", "admin.html"):
                 continue
             if file.endswith(".html"):
+                full = os.path.join(root, file)
+                # Never advertise a noindex page in the sitemap (city x niche
+                # pages are noindex until they carry verified local data).
+                try:
+                    with open(full, "r", encoding="utf-8", errors="ignore") as fh:
+                        head = fh.read(4000)
+                    if "noindex" in head:
+                        continue
+                except OSError:
+                    pass
                 path = os.path.join(root, file)
                 # Normalize path separators
                 path = path.replace("\\", "/")
@@ -49,10 +59,34 @@ def generate_sitemap():
     
     sitemap_content += '</urlset>'
     
-    with open("sitemap.xml", "w") as f:
-        f.write(sitemap_content)
-    
-    print(f"Generated sitemap.xml with {len(urls)} URLs.")
+    # Vite copies public/ into dist/, so the sitemap must live there or a stale
+    # copy silently wins. public/ is what actually ships.
+    os.makedirs("public", exist_ok=True)
+    for target in ("public/sitemap.xml", "sitemap.xml"):
+        with open(target, "w", encoding="utf-8") as f:
+            f.write(sitemap_content)
+
+    generate_robots()
+
+    print(f"Generated sitemap.xml with {len(urls)} URLs (region: {rc.REGION}).")
+
+
+def generate_robots():
+    """Per-region robots.txt pointing at THIS region's own sitemap."""
+    lines = [
+        "User-agent: *",
+        "Allow: /",
+        "",
+        "Disallow: /admin.html",
+        "",
+        f"Sitemap: {BASE_URL}/sitemap.xml",
+        "",
+    ]
+    os.makedirs("public", exist_ok=True)
+    with open("public/robots.txt", "w", encoding="utf-8") as f:
+        f.write(chr(10).join(lines))
+    print(f"Generated public/robots.txt -> {BASE_URL}/sitemap.xml")
+
 
 if __name__ == "__main__":
     generate_sitemap()

@@ -21,6 +21,7 @@ def _load(name):
 REGIONS_DATA = _load("regions.json")
 CITIES_DATA = _load("cities.json")
 OFFERS_DATA = _load("offers.json")
+LOCAL_MARKETS = _load("local-markets.json")
 
 REGION = os.environ.get("REGION", REGIONS_DATA.get("default", "eu")).lower()
 if REGION not in REGIONS_DATA["regions"]:
@@ -97,3 +98,48 @@ def hreflang_block(path="/"):
         )
     lines.append(f'<link rel="alternate" hreflang="x-default" href="https://ai20.city{path}">')
     return "\n".join(lines)
+
+
+# --- Local market data (Tier B city x niche pages) ---------------------------
+# A city x niche page may only be indexed once it carries genuinely local,
+# sourced facts. Everything else is generated noindex and kept out of the
+# sitemap, which is what phases the rollout. See src/data/local-markets.json.
+
+# Populated fields required (in addition to verified: true) before a page is
+# considered substantive enough to index.
+MIN_LOCAL_SIGNALS = 3
+
+_LOCAL_FIELDS = (
+    "business_count",
+    "receptionist_salary",
+    "avg_job_value",
+    "peak_season",
+    "seasonality_note",
+    "licensing",
+    "local_note",
+)
+
+
+def local_market(city_slug, niche_id):
+    """Return the local data dict for a city x niche, or {} if unresearched."""
+    region = LOCAL_MARKETS.get(REGION) or {}
+    city = region.get(city_slug) or {}
+    return (city.get("niches") or {}).get(niche_id) or {}
+
+
+def local_signal_count(data):
+    """How many genuinely local fields are populated."""
+    return sum(1 for f in _LOCAL_FIELDS if data.get(f) not in (None, "", []))
+
+
+def is_indexable(city_slug, niche_id):
+    """True when the page has verified local data worth indexing."""
+    data = local_market(city_slug, niche_id)
+    if not data.get("verified"):
+        return False
+    return local_signal_count(data) >= MIN_LOCAL_SIGNALS
+
+
+def city_meta(city_slug):
+    region = LOCAL_MARKETS.get(REGION) or {}
+    return region.get(city_slug) or {}
