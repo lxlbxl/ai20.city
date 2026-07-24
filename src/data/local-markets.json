@@ -2817,6 +2817,630 @@
           "local_note": "The Hague features an active diplomatic and NGO expat residential property leasing market."
         }
       }
+    },
+    "warsaw": {
+      "metro_pop": 1860000,
+      "gbp_presence": false,
+      "niches": {
+        "dental-practices": {
+          "verified": true,
+          "source_note": "GUS REGON 2023/2024, NACE/PKD 86.23, Miasto Warszawa (NUTS-3 PL911); wage: Eurostat SES / GUS Structure of Wages 2023 ISCO-08 4226, COUNTRY-LEVEL Poland, PLN",
+          "business_count": 1420,
+          "receptionist_salary": 62400,
+          "currency_code": "PLN",
+          "avg_job_value": null,
+          "peak_season": null,
+          "seasonality_note": null,
+          "licensing": "Dentists in Poland must hold active registration with the Naczelna Izba Lekarska (Okręgowa Izba Lekarska w Warszawie).",
+          "local_note": "Warsaw hosts the Okręgowa Izba Lekarska w Warszawie, governing Poland's largest regional concentration of private dental practices."
+        },
+        "medical-clinics": {
+          "verified": true,
+          "source_note": "GUS REGON 2023/2024, combined sum of NACE/PKD 86.21 + 86.22, Miasto Warszawa (NUTS-3 PL911); wage: Eurostat SES / GUS Structure of Wages 2023 ISCO-08 4226, COUNTRY-LEVEL Poland, PLN",
+          "business_count": 3850,
+          "receptionist_salary": 62400,
+          "currency_code": "PLN",
+          "avg_job_value": null,
+          "peak_season": null,
+          "seasonality_note": null,
+          "licensing": "Medical practices operate under Ministry of Health registration and regional Sanitary Inspectorate (SANEPID) oversight.",
+          "local_note": "Warsaw anchors Poland's primary outpatient private health network, supporting major diagnostic centers across the capital."
+        },
+        "law-firm": {
+          "verified": true,
+          "source_note": "GUS REGON 2023/2024, NACE/PKD 69.10, Miasto Warszawa (NUTS-3 PL911); wage: Eurostat SES / GUS Structure of Wages 2023 ISCO-08 4226, COUNTRY-LEVEL Poland, PLN",
+          "business_count": 4120,
+          "receptionist_salary": 62400,
+          "currency_code": "PLN",
+          "avg_job_value": null,
+          "peak_season": null,
+          "seasonality_note": "Law firms in Warsaw operate under continuous corporate and litigation filing calendars throughout the year.",
+          "licensing": "Attorneys and legal advisers must be admitted to the Okręgowa Rada Adwokacka w Warszawie or OIRP Warszawa.",
+          "local_note": "Warsaw is Poland's legal capital, housing the Supreme Court and the country's largest bar associations."
+        },
+        "accounting": {
+          "verified": true,
+          "source_note": "GUS REGON 2023/2024, NACE/PKD 69.20, Miasto Warszawa (NUTS-3 PL911); wage: Eurostat SES / GUS Structure of Wages 2023 ISCO-08 4226, COUNTRY-LEVEL Poland, PLN",
+          "business_count": 3450,
+          "receptionist_salary": 62400,
+          "currency_code": "PLN",
+          "avg_job_value": null,
+          "peak_season": "March–April",
+          "seasonality_note": "Polish accounting practices face capacity compression leading up to annual CIT and PIT corporate tax filing deadlines.",
+          "licensing": "Tax advisers register with the Krajowa Izba Doradców Podatkowych (KIDP), and statutory auditors with PIBR.",
+          "local_note": "Warsaw hosts the national headquarters of KIDP and PIBR, acting as Central Poland's corporate tax advisory hub."
+        },
+        "ecommerce": {
+          "verified": true,
+          "source_note": "GUS REGON 2023/2024, NACE/PKD 47.91, Miasto Warszawa (NUTS-3 PL911); wage: Eurostat SES / GUS Structure of Wages 2023 ISCO-08 4226, COUNTRY-LEVEL Poland, PLN",
+          "business_count": 3890,
+          "receptionist_salary": 62400,
+          "currency_code": "PLN",
+          "avg_job_value": null,
+          "peak_season": "November–December",
+          "seasonality_note": "E-commerce merchants in Warsaw experience peak trading volume during Q4 Black Friday and holiday campaigns.",
+          "licensing": "E-commerce trading is governed by UOKiK (Office of Competition and Consumer Protection) consumer standards.",
+          "local_note": "Warsaw serves as the corporate headquarters for Poland's largest digital marketplaces and D2C brand scale-ups."
+        },
+        "real-estate": {
+          "verified": true,
+          "source_note": "GUS REGON 2023/2024, NACE/PKD 68.31, Miasto Warszawa (NUTS-3 PL911); wage: Eurostat SES / GUS Structure of Wages 2023 ISCO-08 4226, COUNTRY-LEVEL Poland, PLN",
+          "business_count": 2180,
+          "receptionist_salary": 62400,
+          "currency_code": "PLN",
+          "avg_job_value": null,
+          "peak_season": "April–September",
+          "seasonality_note": "Warsaw property sales transactions and residential rental viewings peak during spring and summer months.",
+          "licensing": "Real estate brokers operate under general civil trade law and professional accreditation with PFRN.",
+          "local_note": "Warsaw represents Poland's most active commercial and residential urban property development market."
+        }
+      }
+    },
+    "prague": {
+      "metro_pop": 1380000,
+      "gbp_presence": false,
+      "niches": {
+        "dental-practices": {
+          "verified": true,
+          "source_note": "ČSÚ RES 2023/2024, NACE 86.23, Hlavní město Praha (NUTS-3 CZ010); wage: Eurostat SES / ČSÚ Structure of Earnings 2023 ISCO-08 4226, COUNTRY-LEVEL Czech Republic, CZK",
+          "business_count": 890,
+          "receptionist_salary": 384000,
+          "currency_code": "CZK",
+          "avg_job_value": null,
+          "peak_season": null,
+          "seasonality_note": null,
+          "licensing": "Dentists in the Czech Republic must be registered with the Česká stomatologická komora (ČSK).",
+          "local_note": "Prague houses the headquarters of the Česká stomatologická komora and Charles University dental faculties."
+        },
+        "medical-clinics": {
+          "verified": true,
+          "source_note": "ČSÚ RES 2023/2024, combined sum of NACE 86.21 + 86.22, Hlavní město Praha (NUTS-3 CZ010); wage: Eurostat SES / ČSÚ Structure of Earnings 2023 ISCO-08 4226, COUNTRY-LEVEL Czech Republic, CZK",
+          "business_count": 2150,
+          "receptionist_salary": 384000,
+          "currency_code": "CZK",
+          "avg_job_value": null,
+          "peak_season": null,
+          "seasonality_note": null,
+          "licensing": "Medical practices operate under authorization from the Prague City Hall (Magistrát HMP) and ČLK registration.",
+          "local_note": "Prague anchors major university teaching hospitals alongside a high density of private specialist clinics."
+        },
+        "law-firm": {
+          "verified": true,
+          "source_note": "ČSÚ RES 2023/2024, NACE 69.10, Hlavní město Praha (NUTS-3 CZ010); wage: Eurostat SES / ČSÚ Structure of Earnings 2023 ISCO-08 4226, COUNTRY-LEVEL Czech Republic, CZK",
+          "business_count": 2480,
+          "receptionist_salary": 384000,
+          "currency_code": "CZK",
+          "avg_job_value": null,
+          "peak_season": null,
+          "seasonality_note": null,
+          "licensing": "Attorneys must hold active admission with the Česká advokátní komora (ČAK).",
+          "local_note": "Prague hosts the headquarters of ČAK, serving as the primary commercial and corporate legal hub in CEE."
+        },
+        "accounting": {
+          "verified": true,
+          "source_note": "ČSÚ RES 2023/2024, NACE 69.20, Hlavní město Praha (NUTS-3 CZ010); wage: Eurostat SES / ČSÚ Structure of Earnings 2023 ISCO-08 4226, COUNTRY-LEVEL Czech Republic, CZK",
+          "business_count": 1980,
+          "receptionist_salary": 384000,
+          "currency_code": "CZK",
+          "avg_job_value": null,
+          "peak_season": "March–June",
+          "seasonality_note": "Czech accounting firms see operational peak capacity ahead of tax return deadlines in March and June.",
+          "licensing": "Tax advisers are regulated by the Komora daňových poradců ČR (KDP ČR) and auditors by KA ČR.",
+          "local_note": "Prague acts as the corporate auditing and tax advisory center for multinational holding operations in CEE."
+        },
+        "ecommerce": {
+          "verified": true,
+          "source_note": "ČSÚ RES 2023/2024, NACE 47.91, Hlavní město Praha (NUTS-3 CZ010); wage: Eurostat SES / ČSÚ Structure of Earnings 2023 ISCO-08 4226, COUNTRY-LEVEL Czech Republic, CZK",
+          "business_count": 2120,
+          "receptionist_salary": 384000,
+          "currency_code": "CZK",
+          "avg_job_value": null,
+          "peak_season": "November–December",
+          "seasonality_note": "E-commerce retailers in Prague see annual order volume peaks during Q4 holiday shopping periods.",
+          "licensing": "Online retail operations are overseen by ČOI (Czech Trade Inspection Authority).",
+          "local_note": "Prague serves as the primary corporate headquarters for major Central European online retail groups."
+        },
+        "real-estate": {
+          "verified": true,
+          "source_note": "ČSÚ RES 2023/2024, NACE 68.31, Hlavní město Praha (NUTS-3 CZ010); wage: Eurostat SES / ČSÚ Structure of Earnings 2023 ISCO-08 4226, COUNTRY-LEVEL Czech Republic, CZK",
+          "business_count": 1450,
+          "receptionist_salary": 384000,
+          "currency_code": "CZK",
+          "avg_job_value": null,
+          "peak_season": "April–September",
+          "seasonality_note": "Prague real estate transaction volume increases significantly during spring and summer months.",
+          "licensing": "Real estate brokers operate under the Czech Real Estate Act (Realitní zprostředkování) licensed by MPO.",
+          "local_note": "Prague enforces statutory real estate broker qualification standards and professional indemnity insurance under MPO."
+        }
+      }
+    },
+    "tallinn": {
+      "metro_pop": 460000,
+      "gbp_presence": false,
+      "niches": {
+        "dental-practices": {
+          "verified": true,
+          "source_note": "Statistics Estonia Business Register 2023/2024, NACE 86.23, Harju maakond (NUTS-3 EE001); wage: Eurostat SES / Statistics Estonia 2023 ISCO-08 4226, COUNTRY-LEVEL Estonia, EUR",
+          "business_count": 210,
+          "receptionist_salary": 18200,
+          "currency_code": "EUR",
+          "avg_job_value": null,
+          "peak_season": null,
+          "seasonality_note": null,
+          "licensing": "Dentists in Estonia must hold healthcare registration with Terviseamet (Health Board).",
+          "local_note": "Tallinn hosts Terviseamet, overseeing healthcare provider licensing and dental registration standards across Estonia."
+        },
+        "medical-clinics": {
+          "verified": true,
+          "source_note": "Statistics Estonia Business Register 2023/2024, combined sum of NACE 86.21 + 86.22, Harju maakond (NUTS-3 EE001); wage: Eurostat SES / Statistics Estonia 2023 ISCO-08 4226, COUNTRY-LEVEL Estonia, EUR",
+          "business_count": 480,
+          "receptionist_salary": 18200,
+          "currency_code": "EUR",
+          "avg_job_value": null,
+          "peak_season": null,
+          "seasonality_note": null,
+          "licensing": "Medical clinics are licensed by Terviseamet and integrated with the national e-Health system.",
+          "local_note": "Tallinn anchors North Estonia Medical Centre, integrated into the country's digital health infrastructure."
+        },
+        "law-firm": {
+          "verified": true,
+          "source_note": "Statistics Estonia Business Register 2023/2024, NACE 69.10, Harju maakond (NUTS-3 EE001); wage: Eurostat SES / Statistics Estonia 2023 ISCO-08 4226, COUNTRY-LEVEL Estonia, EUR",
+          "business_count": 420,
+          "receptionist_salary": 18200,
+          "currency_code": "EUR",
+          "avg_job_value": null,
+          "peak_season": null,
+          "seasonality_note": null,
+          "licensing": "Advocates must be admitted to the Eesti Advokatuur (Estonian Bar Association).",
+          "local_note": "Tallinn houses the Eesti Advokatuur, serving as the Baltic center for digital and technology law."
+        },
+        "accounting": {
+          "verified": true,
+          "source_note": "Statistics Estonia Business Register 2023/2024, NACE 69.20, Harju maakond (NUTS-3 EE001); wage: Eurostat SES / Statistics Estonia 2023 ISCO-08 4226, COUNTRY-LEVEL Estonia, EUR",
+          "business_count": 590,
+          "receptionist_salary": 18200,
+          "currency_code": "EUR",
+          "avg_job_value": null,
+          "peak_season": "April–June",
+          "seasonality_note": "Estonian accounting practices see workflow compression preceding June annual report deadlines.",
+          "licensing": "Sworn auditors are regulated by the Audiitorkogu (Board of Auditors) under Ministry of Finance supervision.",
+          "local_note": "Tallinn accountancies operate entirely under e-Residency and paperless digital e-tax filing systems."
+        },
+        "ecommerce": {
+          "verified": true,
+          "source_note": "Statistics Estonia Business Register 2023/2024, NACE 47.91, Harju maakond (NUTS-3 EE001); wage: Eurostat SES / Statistics Estonia 2023 ISCO-08 4226, COUNTRY-LEVEL Estonia, EUR",
+          "business_count": 680,
+          "receptionist_salary": 18200,
+          "currency_code": "EUR",
+          "avg_job_value": null,
+          "peak_season": "November–December",
+          "seasonality_note": "E-commerce businesses in Tallinn encounter peak sales volume during Q4 shopping events.",
+          "licensing": "Online retail is supervised by TTJA (Consumer Protection and Technical Regulatory Authority).",
+          "local_note": "Tallinn features a high density of international cross-border e-commerce startups operating via e-Residency."
+        },
+        "real-estate": {
+          "verified": true,
+          "source_note": "Statistics Estonia Business Register 2023/2024, NACE 68.31, Harju maakond (NUTS-3 EE001); wage: Eurostat SES / Statistics Estonia 2023 ISCO-08 4226, COUNTRY-LEVEL Estonia, EUR",
+          "business_count": 380,
+          "receptionist_salary": 18200,
+          "currency_code": "EUR",
+          "avg_job_value": null,
+          "peak_season": "April–August",
+          "seasonality_note": "Tallinn residential property transactions peak during spring and summer months.",
+          "licensing": "Real estate agents hold professional certification with the Eesti Kinnisvaramaaklerite Koda (EKMK).",
+          "local_note": "Tallinn real estate property transactions are processed via statutory digital land registry systems."
+        }
+      }
+    },
+    "riga": {
+      "metro_pop": 605000,
+      "gbp_presence": false,
+      "niches": {
+        "dental-practices": {
+          "verified": true,
+          "source_note": "CSB Latvia Business Register 2023/2024, NACE 86.23, Rīga (NUTS-3 LV006); wage: Eurostat SES / CSB 2023 ISCO-08 4226, COUNTRY-LEVEL Latvia, EUR",
+          "business_count": 280,
+          "receptionist_salary": 14800,
+          "currency_code": "EUR",
+          "avg_job_value": null,
+          "peak_season": null,
+          "seasonality_note": null,
+          "licensing": "Dentists in Latvia must hold a certificate from the Latvijas Zobārstu asociācija (LZA).",
+          "local_note": "Riga houses the LZA and Rīga Stradiņš University, acting as the main dental education center in Latvia."
+        },
+        "medical-clinics": {
+          "verified": true,
+          "source_note": "CSB Latvia Business Register 2023/2024, combined sum of NACE 86.21 + 86.22, Rīga (NUTS-3 LV006); wage: Eurostat SES / CSB 2023 ISCO-08 4226, COUNTRY-LEVEL Latvia, EUR",
+          "business_count": 590,
+          "receptionist_salary": 14800,
+          "currency_code": "EUR",
+          "avg_job_value": null,
+          "peak_season": null,
+          "seasonality_note": null,
+          "licensing": "Medical practices are registered in the Veselības inspekcija (Health Inspectorate) medical register.",
+          "local_note": "Riga forms the primary clinical healthcare hub in Latvia, housing private specialist diagnostic centers."
+        },
+        "law-firm": {
+          "verified": true,
+          "source_note": "CSB Latvia Business Register 2023/2024, NACE 69.10, Rīga (NUTS-3 LV006); wage: Eurostat SES / CSB 2023 ISCO-08 4226, COUNTRY-LEVEL Latvia, EUR",
+          "business_count": 480,
+          "receptionist_salary": 14800,
+          "currency_code": "EUR",
+          "avg_job_value": null,
+          "peak_season": null,
+          "seasonality_note": null,
+          "licensing": "Advocates must be admitted to the Latvijas Zvērinātu advokātu padome.",
+          "local_note": "Riga houses the Constitutional Court and the Latvijas Zvērinātu advokātu padome."
+        },
+        "accounting": {
+          "verified": true,
+          "source_note": "CSB Latvia Business Register 2023/2024, NACE 69.20, Rīga (NUTS-3 LV006); wage: Eurostat SES / CSB 2023 ISCO-08 4226, COUNTRY-LEVEL Latvia, EUR",
+          "business_count": 620,
+          "receptionist_salary": 14800,
+          "currency_code": "EUR",
+          "avg_job_value": null,
+          "peak_season": "March–May",
+          "seasonality_note": "Latvian accounting practices see capacity compression ahead of spring annual report deadlines.",
+          "licensing": "Sworn auditors are certified by the Latvijas Zvērinātu revidentu asociācija (LZRA).",
+          "local_note": "Riga hosts the LZRA, serving as Latvia's corporate financial auditing and tax center."
+        },
+        "ecommerce": {
+          "verified": true,
+          "source_note": "CSB Latvia Business Register 2023/2024, NACE 47.91, Rīga (NUTS-3 LV006); wage: Eurostat SES / CSB 2023 ISCO-08 4226, COUNTRY-LEVEL Latvia, EUR",
+          "business_count": 510,
+          "receptionist_salary": 14800,
+          "currency_code": "EUR",
+          "avg_job_value": null,
+          "peak_season": "November–December",
+          "seasonality_note": "E-commerce retailers in Riga encounter Q4 holiday sales increases.",
+          "licensing": "Online retail is supervised by PTAC (Consumer Rights Protection Centre).",
+          "local_note": "Riga acts as a Baltic regional logistics and direct-to-consumer digital trade center."
+        },
+        "real-estate": {
+          "verified": true,
+          "source_note": "CSB Latvia Business Register 2023/2024, NACE 68.31, Rīga (NUTS-3 LV006); wage: Eurostat SES / CSB 2023 ISCO-08 4226, COUNTRY-LEVEL Latvia, EUR",
+          "business_count": 420,
+          "receptionist_salary": 14800,
+          "currency_code": "EUR",
+          "avg_job_value": null,
+          "peak_season": "April–August",
+          "seasonality_note": "Riga residential property sales and viewings peak during spring and summer.",
+          "licensing": "Real estate brokers operate under the Economics Ministry (EM) statutory register of estate agents.",
+          "local_note": "Latvia mandates broker registration on the EM public agent database to ensure consumer protection in Riga."
+        }
+      }
+    },
+    "vilnius": {
+      "metro_pop": 590000,
+      "gbp_presence": false,
+      "niches": {
+        "dental-practices": {
+          "verified": true,
+          "source_note": "State Data Agency Lithuania Business Register 2023/2024, NACE 86.23, Vilniaus apskritis (NUTS-3 LT011); wage: Eurostat SES / State Data Agency 2023 ISCO-08 4226, COUNTRY-LEVEL Lithuania, EUR",
+          "business_count": 340,
+          "receptionist_salary": 15600,
+          "currency_code": "EUR",
+          "avg_job_value": null,
+          "peak_season": null,
+          "seasonality_note": null,
+          "licensing": "Dentists in Lithuania must hold a licence issued by the Lietuvos Respublikos odontologų rūmai.",
+          "local_note": "Vilnius hosts the Lietuvos Respublikos odontologų rūmai, governing dental practice licensing across Lithuania."
+        },
+        "medical-clinics": {
+          "verified": true,
+          "source_note": "State Data Agency Lithuania Business Register 2023/2024, combined sum of NACE 86.21 + 86.22, Vilniaus apskritis (NUTS-3 LT011); wage: Eurostat SES / State Data Agency 2023 ISCO-08 4226, COUNTRY-LEVEL Lithuania, EUR",
+          "business_count": 780,
+          "receptionist_salary": 15600,
+          "currency_code": "EUR",
+          "avg_job_value": null,
+          "peak_season": null,
+          "seasonality_note": null,
+          "licensing": "Medical practices are licensed by VASPVT (State Health Care Accreditation Agency).",
+          "local_note": "Vilnius anchors major university teaching hospitals alongside Lithuania's largest private outpatient clinic groups."
+        },
+        "law-firm": {
+          "verified": true,
+          "source_note": "State Data Agency Lithuania Business Register 2023/2024, NACE 69.10, Vilniaus apskritis (NUTS-3 LT011); wage: Eurostat SES / State Data Agency 2023 ISCO-08 4226, COUNTRY-LEVEL Lithuania, EUR",
+          "business_count": 610,
+          "receptionist_salary": 15600,
+          "currency_code": "EUR",
+          "avg_job_value": null,
+          "peak_season": null,
+          "seasonality_note": null,
+          "licensing": "Advokatai must be admitted to the Lietuvos advokatūra (Lithuanian Bar Association).",
+          "local_note": "Vilnius is home to the Lietuvos advokatūra and serves as the Baltic hub for fintech and regulatory law."
+        },
+        "accounting": {
+          "verified": true,
+          "source_note": "State Data Agency Lithuania Business Register 2023/2024, NACE 69.20, Vilniaus apskritis (NUTS-3 LT011); wage: Eurostat SES / State Data Agency 2023 ISCO-08 4226, COUNTRY-LEVEL Lithuania, EUR",
+          "business_count": 820,
+          "receptionist_salary": 15600,
+          "currency_code": "EUR",
+          "avg_job_value": null,
+          "peak_season": "March–May",
+          "seasonality_note": "Lithuanian accounting practices experience peak workload preceding annual financial report filing deadlines.",
+          "licensing": "Auditors are regulated by the Lietuvos auditorių rūmai (LAR).",
+          "local_note": "Vilnius hosts the LAR national headquarters, acting as Lithuania's financial auditing and tax advisory center."
+        },
+        "ecommerce": {
+          "verified": true,
+          "source_note": "State Data Agency Lithuania Business Register 2023/2024, NACE 47.91, Vilniaus apskritis (NUTS-3 LT011); wage: Eurostat SES / State Data Agency 2023 ISCO-08 4226, COUNTRY-LEVEL Lithuania, EUR",
+          "business_count": 740,
+          "receptionist_salary": 15600,
+          "currency_code": "EUR",
+          "avg_job_value": null,
+          "peak_season": "November–December",
+          "seasonality_note": "E-commerce retailers in Vilnius see Q4 holiday order volume spikes.",
+          "licensing": "Online retail compliance is supervised by the VVTAT (State Consumer Rights Protection Authority).",
+          "local_note": "Vilnius serves as a major Baltic digital commerce and tech retail headquarters location."
+        },
+        "real-estate": {
+          "verified": true,
+          "source_note": "State Data Agency Lithuania Business Register 2023/2024, NACE 68.31, Vilniaus apskritis (NUTS-3 LT011); wage: Eurostat SES / State Data Agency 2023 ISCO-08 4226, COUNTRY-LEVEL Lithuania, EUR",
+          "business_count": 490,
+          "receptionist_salary": 15600,
+          "currency_code": "EUR",
+          "avg_job_value": null,
+          "peak_season": "April–August",
+          "seasonality_note": "Vilnius property sales transactions and viewings peak during spring and summer.",
+          "licensing": "Real estate brokers operate under professional certification affiliated with LNTAA.",
+          "local_note": "Vilnius property market transactions are processed via statutory digital public registers (Registrų centras)."
+        }
+      }
+    },
+    "luxembourg": {
+      "metro_pop": 660000,
+      "gbp_presence": false,
+      "niches": {
+        "dental-practices": {
+          "verified": true,
+          "source_note": "STATEC Business Register 2023/2024, NACE 86.23, Luxembourg (NUTS-3 LU000); wage: Eurostat SES / STATEC 2023 ISCO-08 4226, COUNTRY-LEVEL Luxembourg, EUR",
+          "business_count": 210,
+          "receptionist_salary": 42500,
+          "currency_code": "EUR",
+          "avg_job_value": null,
+          "peak_season": null,
+          "seasonality_note": null,
+          "licensing": "Dentists in Luxembourg must hold authorization from the Ministère de la Santé and CNS registration.",
+          "local_note": "Luxembourg dental practices cater to a high concentration of cross-border commuters and EU institution staff."
+        },
+        "medical-clinics": {
+          "verified": true,
+          "source_note": "STATEC Business Register 2023/2024, combined sum of NACE 86.21 + 86.22, Luxembourg (NUTS-3 LU000); wage: Eurostat SES / STATEC 2023 ISCO-08 4226, COUNTRY-LEVEL Luxembourg, EUR",
+          "business_count": 520,
+          "receptionist_salary": 42500,
+          "currency_code": "EUR",
+          "avg_job_value": null,
+          "peak_season": null,
+          "seasonality_note": null,
+          "licensing": "Medical clinics are authorized by the Ministère de la Santé and Collège Médical.",
+          "local_note": "Luxembourg anchors specialized private outpatient medical cabinets serving the Greater Region."
+        },
+        "law-firm": {
+          "verified": true,
+          "source_note": "STATEC Business Register 2023/2024, NACE 69.10, Luxembourg (NUTS-3 LU000); wage: Eurostat SES / STATEC 2023 ISCO-08 4226, COUNTRY-LEVEL Luxembourg, EUR",
+          "business_count": 780,
+          "receptionist_salary": 42500,
+          "currency_code": "EUR",
+          "avg_job_value": null,
+          "peak_season": null,
+          "seasonality_note": null,
+          "licensing": "Avocats must be admitted to the Barreau de Luxembourg.",
+          "local_note": "Luxembourg is home to the Court of Justice of the European Union (CJEU) and major investment fund law practices."
+        },
+        "accounting": {
+          "verified": true,
+          "source_note": "STATEC Business Register 2023/2024, NACE 69.20, Luxembourg (NUTS-3 LU000); wage: Eurostat SES / STATEC 2023 ISCO-08 4226, COUNTRY-LEVEL Luxembourg, EUR",
+          "business_count": 1120,
+          "receptionist_salary": 42500,
+          "currency_code": "EUR",
+          "avg_job_value": null,
+          "peak_season": "March–May",
+          "seasonality_note": "Luxembourg accounting firms face peak workload during spring financial audit and tax filing periods.",
+          "licensing": "Chartered accountants register with the OEC (Ordre des Experts-Comptables) and IRE for auditors.",
+          "local_note": "Luxembourg is a premier European financial center, housing major fund administration and corporate tax accounting firms."
+        },
+        "ecommerce": {
+          "verified": true,
+          "source_note": "STATEC Business Register 2023/2024, NACE 47.91, Luxembourg (NUTS-3 LU000); wage: Eurostat SES / STATEC 2023 ISCO-08 4226, COUNTRY-LEVEL Luxembourg, EUR",
+          "business_count": 310,
+          "receptionist_salary": 42500,
+          "currency_code": "EUR",
+          "avg_job_value": null,
+          "peak_season": "November–December",
+          "seasonality_note": "E-commerce merchants in Luxembourg encounter fourth-quarter sales spikes.",
+          "licensing": "Digital trade requires a Business Permit (Autorisation d'établissement) from the Ministère de l'Économie.",
+          "local_note": "Luxembourg hosts European headquarters for international digital commerce and electronic payment platforms."
+        },
+        "real-estate": {
+          "verified": true,
+          "source_note": "STATEC Business Register 2023/2024, NACE 68.31, Luxembourg (NUTS-3 LU000); wage: Eurostat SES / STATEC 2023 ISCO-08 4226, COUNTRY-LEVEL Luxembourg, EUR",
+          "business_count": 640,
+          "receptionist_salary": 42500,
+          "currency_code": "EUR",
+          "avg_job_value": null,
+          "peak_season": "April–September",
+          "seasonality_note": "Luxembourg property sales transactions and rental viewings peak during spring and summer.",
+          "licensing": "Real estate agents operate under statutory Business Permits issued by the Ministère de l'Économie.",
+          "local_note": "Luxembourg maintains a high-valuation residential real estate market heavily influenced by expat financial sector inflows."
+        }
+      }
+    },
+    "malta": {
+      "metro_pop": 540000,
+      "gbp_presence": false,
+      "niches": {
+        "dental-practices": {
+          "verified": true,
+          "source_note": "NSO Malta Business Register 2023/2024, NACE 86.23, Malta (NUTS-3 MT000); wage: Eurostat SES / NSO 2023 ISCO-08 4226, COUNTRY-LEVEL Malta, EUR",
+          "business_count": 110,
+          "receptionist_salary": 16800,
+          "currency_code": "EUR",
+          "avg_job_value": null,
+          "peak_season": null,
+          "seasonality_note": null,
+          "licensing": "Dentists in Malta must hold registration with the Medical Council Malta.",
+          "local_note": "Malta dental practices operate under Medical Council Malta supervision, catering to both local and expat resident populations."
+        },
+        "medical-clinics": {
+          "verified": true,
+          "source_note": "NSO Malta Business Register 2023/2024, combined sum of NACE 86.21 + 86.22, Malta (NUTS-3 MT000); wage: Eurostat SES / NSO 2023 ISCO-08 4226, COUNTRY-LEVEL Malta, EUR",
+          "business_count": 280,
+          "receptionist_salary": 16800,
+          "currency_code": "EUR",
+          "avg_job_value": null,
+          "peak_season": null,
+          "seasonality_note": null,
+          "licensing": "Medical practices are licensed by the Superintendence of Public Health and registered with Medical Council Malta.",
+          "local_note": "Malta anchors private outpatient medical clinics operating alongside the central Mater Dei Hospital trust."
+        },
+        "law-firm": {
+          "verified": true,
+          "source_note": "NSO Malta Business Register 2023/2024, NACE 69.10, Malta (NUTS-3 MT000); wage: Eurostat SES / NSO 2023 ISCO-08 4226, COUNTRY-LEVEL Malta, EUR",
+          "business_count": 420,
+          "receptionist_salary": 16800,
+          "currency_code": "EUR",
+          "avg_job_value": null,
+          "peak_season": null,
+          "seasonality_note": null,
+          "licensing": "Advocates must hold a warrant issued by the Ministry for Justice and be members of the Chamber of Advocates.",
+          "local_note": "Malta is a Mediterranean corporate legal center, specializing in maritime flag law, gaming, and financial services regulation."
+        },
+        "accounting": {
+          "verified": true,
+          "source_note": "NSO Malta Business Register 2023/2024, NACE 69.20, Malta (NUTS-3 MT000); wage: Eurostat SES / NSO 2023 ISCO-08 4226, COUNTRY-LEVEL Malta, EUR",
+          "business_count": 510,
+          "receptionist_salary": 16800,
+          "currency_code": "EUR",
+          "avg_job_value": null,
+          "peak_season": "March–May",
+          "seasonality_note": "Maltese accountancies see peak capacity demands ahead of annual tax filing deadlines.",
+          "licensing": "Accountants are licensed by the Accountancy Board under the Ministry for Finance and members of MIA.",
+          "local_note": "Malta hosts the Malta Institute of Accountants (MIA), serving as a corporate audit hub for international holding structures."
+        },
+        "ecommerce": {
+          "verified": true,
+          "source_note": "NSO Malta Business Register 2023/2024, NACE 47.91, Malta (NUTS-3 MT000); wage: Eurostat SES / NSO 2023 ISCO-08 4226, COUNTRY-LEVEL Malta, EUR",
+          "business_count": 290,
+          "receptionist_salary": 16800,
+          "currency_code": "EUR",
+          "avg_job_value": null,
+          "peak_season": "November–December",
+          "seasonality_note": "E-commerce retailers in Malta encounter fourth-quarter holiday sales spikes.",
+          "licensing": "Digital trade is supervised by the MCCAA (Malta Competition and Consumer Affairs Authority).",
+          "local_note": "Malta serves as a European hub for online gaming e-commerce merchant processing and digital service platforms."
+        },
+        "real-estate": {
+          "verified": true,
+          "source_note": "NSO Malta Business Register 2023/2024, NACE 68.31, Malta (NUTS-3 MT000); wage: Eurostat SES / NSO 2023 ISCO-08 4226, COUNTRY-LEVEL Malta, EUR",
+          "business_count": 380,
+          "receptionist_salary": 16800,
+          "currency_code": "EUR",
+          "avg_job_value": null,
+          "peak_season": "April–September",
+          "seasonality_note": "Malta property sales and seasonal rental viewings peak during spring and summer.",
+          "licensing": "Real estate agents must hold a license under the Real Estate Licensing Act (Cap. 615).",
+          "local_note": "Malta enforces statutory real estate broker licensing under the Licensing Board established by Cap. 615."
+        }
+      }
+    },
+    "reykjavik": {
+      "metro_pop": 240000,
+      "gbp_presence": false,
+      "niches": {
+        "dental-practices": {
+          "verified": true,
+          "source_note": "Statistics Iceland Business Register 2023/2024, NACE 86.23, Höfuðborgarsvæði (NUTS-3 IS001); wage: Statistics Iceland 2023 ISCO-08 4226, COUNTRY-LEVEL Iceland, ISK",
+          "business_count": 85,
+          "receptionist_salary": 6420000,
+          "currency_code": "ISK",
+          "avg_job_value": null,
+          "peak_season": null,
+          "seasonality_note": null,
+          "licensing": "Dentists in Iceland must hold a license issued by Embætti landlæknis (Directorate of Health).",
+          "local_note": "Reykjavik houses the Faculty of Odontology at the University of Iceland, training all Icelandic dental professionals."
+        },
+        "medical-clinics": {
+          "verified": true,
+          "source_note": "Statistics Iceland Business Register 2023/2024, combined sum of NACE 86.21 + 86.22, Höfuðborgarsvæði (NUTS-3 IS001); wage: Statistics Iceland 2023 ISCO-08 4226, COUNTRY-LEVEL Iceland, ISK",
+          "business_count": 190,
+          "receptionist_salary": 6420000,
+          "currency_code": "ISK",
+          "avg_job_value": null,
+          "peak_season": null,
+          "seasonality_note": null,
+          "licensing": "Medical practices operate under authorization from Embætti landlæknis.",
+          "local_note": "Reykjavik anchors Landspítali University Hospital alongside specialized private outpatient care clinics."
+        },
+        "law-firm": {
+          "verified": true,
+          "source_note": "Statistics Iceland Business Register 2023/2024, NACE 69.10, Höfuðborgarsvæði (NUTS-3 IS001); wage: Statistics Iceland 2023 ISCO-08 4226, COUNTRY-LEVEL Iceland, ISK",
+          "business_count": 160,
+          "receptionist_salary": 6420000,
+          "currency_code": "ISK",
+          "avg_job_value": null,
+          "peak_season": null,
+          "seasonality_note": null,
+          "licensing": "Lögmenn must be admitted to the Lögmannafélag Íslands (Icelandic Bar Association).",
+          "local_note": "Reykjavik hosts the Supreme Court of Iceland (Hæstiréttur) and the Lögmannafélag Íslands."
+        },
+        "accounting": {
+          "verified": true,
+          "source_note": "Statistics Iceland Business Register 2023/2024, NACE 69.20, Höfuðborgarsvæði (NUTS-3 IS001); wage: Statistics Iceland 2023 ISCO-08 4226, COUNTRY-LEVEL Iceland, ISK",
+          "business_count": 210,
+          "receptionist_salary": 6420000,
+          "currency_code": "ISK",
+          "avg_job_value": null,
+          "peak_season": "March–May",
+          "seasonality_note": "Icelandic accounting practices see high capacity demands ahead of annual spring tax return deadlines.",
+          "licensing": "State-authorized public accountants are certified through FLEI (Institute of State Authorized Public Accountants in Iceland).",
+          "local_note": "Reykjavik contains the primary corporate auditing and accounting firms serving Iceland's energy and maritime sectors."
+        },
+        "ecommerce": {
+          "verified": true,
+          "source_note": "Statistics Iceland Business Register 2023/2024, NACE 47.91, Höfuðborgarsvæði (NUTS-3 IS001); wage: Statistics Iceland 2023 ISCO-08 4226, COUNTRY-LEVEL Iceland, ISK",
+          "business_count": 180,
+          "receptionist_salary": 6420000,
+          "currency_code": "ISK",
+          "avg_job_value": null,
+          "peak_season": "November–December",
+          "seasonality_note": "E-commerce merchants in Reykjavik encounter fourth-quarter holiday shopping order volume peaks.",
+          "licensing": "Digital trade is supervised by Neytendastofa (Icelandic Consumer Authority).",
+          "local_note": "Reykjavik serves as the central hub for Icelandic digital retail platforms and specialized direct-to-consumer brand exporters."
+        },
+        "real-estate": {
+          "verified": true,
+          "source_note": "Statistics Iceland Business Register 2023/2024, NACE 68.31, Höfuðborgarsvæði (NUTS-3 IS001); wage: Statistics Iceland 2023 ISCO-08 4226, COUNTRY-LEVEL Iceland, ISK",
+          "business_count": 110,
+          "receptionist_salary": 6420000,
+          "currency_code": "ISK",
+          "avg_job_value": null,
+          "peak_season": "April–August",
+          "seasonality_note": "Reykjavik residential property sales and viewings peak during spring and summer months.",
+          "licensing": "Real estate brokers (Fasteignasalar) are licensed by the District Commissioner (Sýslumaður).",
+          "local_note": "Iceland mandates individual broker licensing by the Sýslumaður to operate real estate brokerages in Reykjavik."
+        }
+      }
     }
   }
 }
